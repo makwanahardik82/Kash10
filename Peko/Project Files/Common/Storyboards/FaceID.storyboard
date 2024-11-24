@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+        <array key="TimesNewRoman.ttf">
+            <string>.SFUI-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--FaceID View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="FaceIDViewController" id="Y6W-OH-hqX" customClass="FaceIDViewController" customModule="Kash10" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_header_bg" translatesAutoresizingMaskIntoConstraints="NO" id="qgz-8A-oYF">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="357"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="357" id="LmK-hS-UVI"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kash10_logo" translatesAutoresizingMaskIntoConstraints="NO" id="MHe-qH-NZf">
+                                <rect key="frame" x="132" y="410.66666666666669" width="129" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="5ge-q5-dZx"/>
+                                    <constraint firstAttribute="width" constant="129" id="8i0-cF-kBe"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome back Kashif" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13c-TL-bkU" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                <rect key="frame" x="20" y="476.66666666666669" width="353" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="i53-vS-2Lp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
+                                <color key="textColor" name="BlackThemeColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Welcome back Kashif"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZe-yC-Xvs" customClass="PekoButton" customModule="Kash10" customModuleProvider="target">
+                                <rect key="frame" x="20" y="521.66666666666663" width="353" height="52"/>
+                                <color key="backgroundColor" name="RedButtonColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="QZQ-GB-MKM"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="icon_face_id">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonStyleName" value="Submit_V2"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="faceIDButtonClick:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="GI9-ll-j28"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiw-6R-svF" customClass="PekoButton" customModule="Kash10" customModuleProvider="target">
+                                <rect key="frame" x="96.666666666666686" y="588.66666666666663" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7ET-RT-SGh"/>
+                                    <constraint firstAttribute="width" constant="200" id="WwV-13-doT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Login with password">
+                                    <color key="titleColor" name="RedButtonColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonStyleName" value="Medium"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Login with password"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginWithPasswordButtonClick:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="dki-dX-jVB"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G4w-lJ-atd">
+                                <rect key="frame" x="20" y="648.66666666666663" width="353" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPv-JZ-hbK">
+                                        <rect key="frame" x="0.0" y="8" width="353" height="1"/>
+                                        <color key="backgroundColor" red="0.81176470590000005" green="0.87450980389999999" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="IIf-AG-iI0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't you have an account?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FnI-Qc-kc6" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                        <rect key="frame" x="76.666666666666686" y="0.0" width="200" height="17"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="Wnz-pu-oBm"/>
+                                            <constraint firstAttribute="height" constant="17" id="ums-B0-Fso"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" red="0.16078431369999999" green="0.28627450980000002" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDB-jp-2lo" customClass="PekoButton" customModule="Kash10" customModuleProvider="target">
+                                        <rect key="frame" x="126.66666666666666" y="27" width="100" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="imn-fI-eU1"/>
+                                            <constraint firstAttribute="height" constant="30" id="zsF-9P-Z7e"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="18"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title=" Sign up">
+                                            <color key="titleColor" name="RedButtonColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="18"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="buttonStyleName" value="Plain"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="createAccountButtonClick:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ogD-nt-AKm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="kPv-JZ-hbK" firstAttribute="centerY" secondItem="FnI-Qc-kc6" secondAttribute="centerY" id="F8b-1C-ZBu"/>
+                                    <constraint firstAttribute="trailing" secondItem="kPv-JZ-hbK" secondAttribute="trailing" id="Gwb-5h-IJn"/>
+                                    <constraint firstItem="kPv-JZ-hbK" firstAttribute="leading" secondItem="G4w-lJ-atd" secondAttribute="leading" id="MtE-SL-Ubj"/>
+                                    <constraint firstItem="RDB-jp-2lo" firstAttribute="top" secondItem="FnI-Qc-kc6" secondAttribute="bottom" constant="10" id="Tu2-Rq-zp3"/>
+                                    <constraint firstItem="FnI-Qc-kc6" firstAttribute="top" secondItem="G4w-lJ-atd" secondAttribute="top" id="Ybw-87-pMW"/>
+                                    <constraint firstItem="RDB-jp-2lo" firstAttribute="centerX" secondItem="G4w-lJ-atd" secondAttribute="centerX" id="h1E-54-OVS"/>
+                                    <constraint firstAttribute="height" constant="60" id="mrR-mX-xlo"/>
+                                    <constraint firstItem="FnI-Qc-kc6" firstAttribute="centerX" secondItem="G4w-lJ-atd" secondAttribute="centerX" id="zuS-6a-POE"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3E-F9-vLQ" customClass="PekoButton" customModule="Kash10" customModuleProvider="target">
+                                <rect key="frame" x="126.66666666666669" y="758" width="140" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="du8-ns-RMO"/>
+                                    <constraint firstAttribute="width" constant="140" id="fW6-jS-Ily"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                <color key="tintColor" red="0.76862745098039209" green="0.76862745098039209" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Help &amp; Support" image="questionmark.circle" catalog="system">
+                                    <color key="titleColor" red="0.76862745098039209" green="0.76862745098039209" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="RedButtonColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Help &amp; Support"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="helpAndSupportButtonClick:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="RRF-7Y-JaE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="13c-TL-bkU" firstAttribute="top" secondItem="MHe-qH-NZf" secondAttribute="bottom" constant="35" id="89j-tc-MjD"/>
+                            <constraint firstItem="K3E-F9-vLQ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="9r2-fR-Coz"/>
+                            <constraint firstItem="13c-TL-bkU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Afj-L4-0Sv"/>
+                            <constraint firstItem="MHe-qH-NZf" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="CkP-bU-dDR"/>
+                            <constraint firstAttribute="trailing" secondItem="G4w-lJ-atd" secondAttribute="trailing" constant="20" id="FDX-4L-8Tp"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="13c-TL-bkU" secondAttribute="trailing" constant="20" id="MB5-c7-OXh"/>
+                            <constraint firstItem="qgz-8A-oYF" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="UeD-L0-e0o"/>
+                            <constraint firstItem="G4w-lJ-atd" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="btd-fD-8Qy"/>
+                            <constraint firstItem="hiw-6R-svF" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="dQO-yj-YMd"/>
+                            <constraint firstItem="G4w-lJ-atd" firstAttribute="top" secondItem="hiw-6R-svF" secondAttribute="bottom" constant="30" id="fxW-7s-9Wk"/>
+                            <constraint firstItem="eZe-yC-Xvs" firstAttribute="top" secondItem="13c-TL-bkU" secondAttribute="bottom" constant="20" id="g72-3m-9sI"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="K3E-F9-vLQ" secondAttribute="bottom" constant="20" id="gPg-6Z-x5Z"/>
+                            <constraint firstItem="qgz-8A-oYF" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="lEQ-aU-LIX"/>
+                            <constraint firstItem="eZe-yC-Xvs" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="lHW-La-o1s"/>
+                            <constraint firstItem="qgz-8A-oYF" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="mYC-R0-e7o"/>
+                            <constraint firstItem="MHe-qH-NZf" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="qer-oL-WBm"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="eZe-yC-Xvs" secondAttribute="trailing" constant="20" id="r8q-Te-j3W"/>
+                            <constraint firstItem="hiw-6R-svF" firstAttribute="top" secondItem="eZe-yC-Xvs" secondAttribute="bottom" constant="15" id="t1Z-Lr-uwo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="firstNameLabel" destination="13c-TL-bkU" id="dzy-LY-P4J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="-23"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="13c-TL-bkU">
+            <size key="intrinsicContentSize" width="193" height="23.333333333333332"/>
+        </designable>
+        <designable name="FnI-Qc-kc6">
+            <size key="intrinsicContentSize" width="176" height="16.333333333333332"/>
+        </designable>
+        <designable name="K3E-F9-vLQ">
+            <size key="intrinsicContentSize" width="116.66666666666667" height="19"/>
+        </designable>
+        <designable name="RDB-jp-2lo">
+            <size key="intrinsicContentSize" width="61" height="32"/>
+        </designable>
+        <designable name="eZe-yC-Xvs">
+            <size key="intrinsicContentSize" width="107" height="24"/>
+        </designable>
+        <designable name="hiw-6R-svF">
+            <size key="intrinsicContentSize" width="130" height="29"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="Kash10_logo" width="512" height="119"/>
+        <image name="icon_face_id" width="107" height="24"/>
+        <image name="login_header_bg" width="512" height="466"/>
+        <image name="questionmark.circle" catalog="system" width="128" height="123"/>
+        <namedColor name="BlackThemeColor">
+            <color red="0.086000002920627594" green="0.086000002920627594" blue="0.086000002920627594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="RedButtonColor">
+            <color red="0.30196078431372547" green="0.71764705882352942" blue="0.050980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

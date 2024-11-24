@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AirlineTicketDetailsTableViewCell" id="KGk-i7-Jjw" customClass="AirlineTicketDetailsTableViewCell" customModule="Peko" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="441"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="441"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O4R-TX-NI6">
+                        <rect key="frame" x="0.0" y="15" width="393" height="411"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="JyV-Ea-cux">
+                                <rect key="frame" x="20" y="30" width="353" height="45"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Departure: DUBAI-COCHIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndj-bK-mzj" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="19"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
+                                        <color key="textColor" name="BlackThemeColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Departure: DUBAI-COCHIN"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 passengers - Economy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C9E-T8-w4g" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28.333333333333329" width="353" height="16.666666666666671"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" red="0.56078431370000004" green="0.56078431370000004" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="4 passengers - Economy"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="yol-Bf-wvF"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KuI-vz-Z5r">
+                                <rect key="frame" x="20" y="105" width="353" height="34"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Emirates-Logo 1.png" translatesAutoresizingMaskIntoConstraints="NO" id="qtR-EQ-a0u">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="S9e-bj-AVO"/>
+                                            <constraint firstAttribute="height" constant="34" id="k4J-L1-ui8"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fly Emirates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PaJ-pa-RoJ" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="70" y="0.0" width="283" height="34"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Fly Emirates"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="PaJ-pa-RoJ" firstAttribute="top" secondItem="KuI-vz-Z5r" secondAttribute="top" id="2ej-e2-HxC"/>
+                                    <constraint firstItem="PaJ-pa-RoJ" firstAttribute="leading" secondItem="qtR-EQ-a0u" secondAttribute="trailing" constant="10" id="7Dq-FH-Roj"/>
+                                    <constraint firstItem="qtR-EQ-a0u" firstAttribute="leading" secondItem="KuI-vz-Z5r" secondAttribute="leading" id="TV2-j6-2uN"/>
+                                    <constraint firstAttribute="height" constant="34" id="f00-gm-rNZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="PaJ-pa-RoJ" secondAttribute="bottom" id="oYn-T9-WGF"/>
+                                    <constraint firstAttribute="trailing" secondItem="PaJ-pa-RoJ" secondAttribute="trailing" id="qbe-oH-lhS"/>
+                                    <constraint firstItem="qtR-EQ-a0u" firstAttribute="top" secondItem="KuI-vz-Z5r" secondAttribute="top" id="tPo-Jd-tSE"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SD3-Zx-JDT">
+                                <rect key="frame" x="0.0" y="159" width="393" height="142"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="pRD-5A-pbE">
+                                        <rect key="frame" x="20" y="0.0" width="116" height="142"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thu 6 Feb" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYT-oQ-RUr" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="116" height="16.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                <color key="textColor" red="0.5607843137254902" green="0.5607843137254902" blue="0.5607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Thu 6 Feb"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05.40 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="snJ-3f-IHl" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="25.666666666666657" width="116" height="23.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="20"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="05.40 PM"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dubai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLE-fz-sC6" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="58.333333333333343" width="116" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="mLE-fz-sC6" secondAttribute="height" multiplier="29:4" id="Z1e-XM-Wmn"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                <color key="textColor" name="BlackThemeColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Dubai"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dubai International Airport" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zet-g9-HYF" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="83.333333333333314" width="116" height="33"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                <color key="textColor" red="0.56078431370000004" green="0.56078431370000004" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Thu 6 Feb"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terminal 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VmD-lp-Ivh" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="125.33333333333333" width="116" height="16.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Terminal 2"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DNp-ck-M3y">
+                                        <rect key="frame" x="136" y="0.0" width="121" height="142"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_airport_point" translatesAutoresizingMaskIntoConstraints="NO" id="sSC-fC-Hx1">
+                                                <rect key="frame" x="0.0" y="61" width="121" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="AOU-dx-RAo"/>
+                                                    <constraint firstAttribute="width" constant="121" id="uRF-E5-n3p"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="sSC-fC-Hx1" firstAttribute="leading" secondItem="DNp-ck-M3y" secondAttribute="leading" id="3lI-pV-cg0"/>
+                                            <constraint firstAttribute="trailing" secondItem="sSC-fC-Hx1" secondAttribute="trailing" id="LQq-Qv-gMC"/>
+                                            <constraint firstAttribute="width" constant="121" id="bs4-wu-97c"/>
+                                            <constraint firstItem="sSC-fC-Hx1" firstAttribute="centerY" secondItem="DNp-ck-M3y" secondAttribute="centerY" id="xTy-fH-oGf"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="KpL-Q0-cT6">
+                                        <rect key="frame" x="257" y="0.0" width="116" height="142"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thu 6 Feb" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Flu-h7-Yu9" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="116" height="16.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                <color key="textColor" red="0.56078431370000004" green="0.56078431370000004" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Thu 6 Feb"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05.40 PM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBR-WM-TmE" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="25.666666666666657" width="116" height="23.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="20"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="05.40 PM"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dubai" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueW-LJ-NmN" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="57.999999999999993" width="116" height="16.666666666666664"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                <color key="textColor" name="BlackThemeColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Dubai"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dubai International Airport" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGt-Mo-3XF" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="83.666666666666686" width="116" height="33"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                <color key="textColor" red="0.56078431370000004" green="0.56078431370000004" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Thu 6 Feb"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terminal 2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFi-dx-cvN" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="125.33333333333333" width="116" height="16.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Terminal 2"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="DNp-ck-M3y" firstAttribute="top" secondItem="SD3-Zx-JDT" secondAttribute="top" id="0ZH-fR-bwV"/>
+                                    <constraint firstAttribute="trailing" secondItem="KpL-Q0-cT6" secondAttribute="trailing" constant="20" id="8Aw-A2-b4A"/>
+                                    <constraint firstAttribute="bottom" secondItem="pRD-5A-pbE" secondAttribute="bottom" id="CpC-oQ-Zhw"/>
+                                    <constraint firstItem="pRD-5A-pbE" firstAttribute="leading" secondItem="SD3-Zx-JDT" secondAttribute="leading" constant="20" id="EQu-gg-92s"/>
+                                    <constraint firstAttribute="bottom" secondItem="KpL-Q0-cT6" secondAttribute="bottom" id="Gfc-k1-VSy"/>
+                                    <constraint firstAttribute="height" constant="142" id="Go3-aR-ajL"/>
+                                    <constraint firstAttribute="bottom" secondItem="DNp-ck-M3y" secondAttribute="bottom" id="Lxe-v4-ljR"/>
+                                    <constraint firstItem="KpL-Q0-cT6" firstAttribute="top" secondItem="SD3-Zx-JDT" secondAttribute="top" id="STk-ht-iua"/>
+                                    <constraint firstItem="KpL-Q0-cT6" firstAttribute="leading" secondItem="DNp-ck-M3y" secondAttribute="trailing" id="Zlj-l0-BYN"/>
+                                    <constraint firstItem="DNp-ck-M3y" firstAttribute="leading" secondItem="pRD-5A-pbE" secondAttribute="trailing" id="eJF-9a-Lsw"/>
+                                    <constraint firstItem="DNp-ck-M3y" firstAttribute="centerX" secondItem="SD3-Zx-JDT" secondAttribute="centerX" id="yON-9M-aLb"/>
+                                    <constraint firstItem="pRD-5A-pbE" firstAttribute="top" secondItem="SD3-Zx-JDT" secondAttribute="top" id="zTY-VJ-6tL"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iod-VC-T4T">
+                                <rect key="frame" x="0.0" y="321" width="393" height="60"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mw6-Gt-AyP">
+                                        <rect key="frame" x="20" y="5" width="353" height="50"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZGS-Qp-MoF">
+                                                <rect key="frame" x="0.0" y="0.0" width="353" height="20"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_airline_bag" translatesAutoresizingMaskIntoConstraints="NO" id="cKF-Bp-9gW">
+                                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="20" id="BTN-j9-cBu"/>
+                                                            <constraint firstAttribute="height" constant="20" id="hhd-ma-FJy"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check-in : 15 Kgs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJU-df-nV2" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="25" y="0.0" width="328" height="20"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Check-in : 15 Kgs"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="9W8-Iw-spV"/>
+                                                    <constraint firstAttribute="trailing" secondItem="XJU-df-nV2" secondAttribute="trailing" id="9Zd-Ms-40b"/>
+                                                    <constraint firstItem="XJU-df-nV2" firstAttribute="leading" secondItem="ZGS-Qp-MoF" secondAttribute="leading" constant="25" id="CCd-MT-HWV"/>
+                                                    <constraint firstItem="cKF-Bp-9gW" firstAttribute="leading" secondItem="ZGS-Qp-MoF" secondAttribute="leading" id="IVk-v8-uDl"/>
+                                                    <constraint firstAttribute="bottom" secondItem="XJU-df-nV2" secondAttribute="bottom" id="MIO-gk-kJX"/>
+                                                    <constraint firstItem="XJU-df-nV2" firstAttribute="top" secondItem="ZGS-Qp-MoF" secondAttribute="top" id="WKA-Gj-wte"/>
+                                                    <constraint firstAttribute="bottom" secondItem="cKF-Bp-9gW" secondAttribute="bottom" id="aKU-Kw-Tqk"/>
+                                                    <constraint firstItem="cKF-Bp-9gW" firstAttribute="top" secondItem="ZGS-Qp-MoF" secondAttribute="top" id="jBP-PT-QIx"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O1a-4T-hsf">
+                                                <rect key="frame" x="0.0" y="30" width="353" height="20"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_airline_seat" translatesAutoresizingMaskIntoConstraints="NO" id="ZwS-hK-Se9">
+                                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="4rV-BX-Qkk"/>
+                                                            <constraint firstAttribute="width" constant="20" id="D6b-z3-c5r"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cabin : 7 Kgs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qz-0i-roV" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="25" y="0.0" width="328" height="20"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Cabin : 7 Kgs"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="8qz-0i-roV" secondAttribute="bottom" id="1tr-sd-dgA"/>
+                                                    <constraint firstItem="ZwS-hK-Se9" firstAttribute="top" secondItem="O1a-4T-hsf" secondAttribute="top" id="53t-30-tLn"/>
+                                                    <constraint firstAttribute="trailing" secondItem="8qz-0i-roV" secondAttribute="trailing" id="Ch8-03-irr"/>
+                                                    <constraint firstItem="ZwS-hK-Se9" firstAttribute="leading" secondItem="O1a-4T-hsf" secondAttribute="leading" id="Pbw-cW-lgh"/>
+                                                    <constraint firstAttribute="height" constant="20" id="RMX-7M-NI4"/>
+                                                    <constraint firstItem="8qz-0i-roV" firstAttribute="leading" secondItem="O1a-4T-hsf" secondAttribute="leading" constant="25" id="aI6-60-X0q"/>
+                                                    <constraint firstItem="8qz-0i-roV" firstAttribute="top" secondItem="O1a-4T-hsf" secondAttribute="top" id="ifR-oR-e6U"/>
+                                                    <constraint firstAttribute="bottom" secondItem="ZwS-hK-Se9" secondAttribute="bottom" id="lVF-Lp-RfL"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="mw6-Gt-AyP" firstAttribute="leading" secondItem="iod-VC-T4T" secondAttribute="leading" constant="20" id="HNr-dJ-36h"/>
+                                    <constraint firstAttribute="height" constant="60" id="VhL-AS-X4l"/>
+                                    <constraint firstAttribute="trailing" secondItem="mw6-Gt-AyP" secondAttribute="trailing" constant="20" id="dFn-FJ-MMT"/>
+                                    <constraint firstItem="mw6-Gt-AyP" firstAttribute="centerY" secondItem="iod-VC-T4T" secondAttribute="centerY" id="zjA-ua-aVm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="iod-VC-T4T" secondAttribute="bottom" constant="30" id="2qQ-kT-PGy"/>
+                            <constraint firstAttribute="trailing" secondItem="SD3-Zx-JDT" secondAttribute="trailing" id="AyL-7Y-KnK"/>
+                            <constraint firstAttribute="trailing" secondItem="KuI-vz-Z5r" secondAttribute="trailing" constant="20" id="C73-EW-djQ"/>
+                            <constraint firstItem="SD3-Zx-JDT" firstAttribute="top" secondItem="KuI-vz-Z5r" secondAttribute="bottom" constant="20" id="NHA-aQ-9uA"/>
+                            <constraint firstItem="SD3-Zx-JDT" firstAttribute="leading" secondItem="O4R-TX-NI6" secondAttribute="leading" id="NXs-kR-yt7"/>
+                            <constraint firstItem="KuI-vz-Z5r" firstAttribute="top" secondItem="JyV-Ea-cux" secondAttribute="bottom" constant="30" id="TXn-ho-Bsz"/>
+                            <constraint firstItem="iod-VC-T4T" firstAttribute="leading" secondItem="O4R-TX-NI6" secondAttribute="leading" id="YuC-3a-IYg"/>
+                            <constraint firstItem="JyV-Ea-cux" firstAttribute="leading" secondItem="O4R-TX-NI6" secondAttribute="leading" constant="20" id="bSS-va-aWW"/>
+                            <constraint firstAttribute="trailing" secondItem="JyV-Ea-cux" secondAttribute="trailing" constant="20" id="c97-JW-lAY"/>
+                            <constraint firstItem="iod-VC-T4T" firstAttribute="top" secondItem="SD3-Zx-JDT" secondAttribute="bottom" constant="20" id="cve-Fo-Zs2"/>
+                            <constraint firstItem="KuI-vz-Z5r" firstAttribute="leading" secondItem="O4R-TX-NI6" secondAttribute="leading" constant="20" id="f4Q-t4-Jc0"/>
+                            <constraint firstItem="JyV-Ea-cux" firstAttribute="top" secondItem="O4R-TX-NI6" secondAttribute="top" constant="30" id="hRs-Ht-9AH"/>
+                            <constraint firstAttribute="trailing" secondItem="iod-VC-T4T" secondAttribute="trailing" id="yAm-ul-83F"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="O4R-TX-NI6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="Ff6-Lz-BxT"/>
+                    <constraint firstAttribute="bottom" secondItem="O4R-TX-NI6" secondAttribute="bottom" constant="15" id="MhM-ll-cbL"/>
+                    <constraint firstAttribute="trailing" secondItem="O4R-TX-NI6" secondAttribute="trailing" id="pR6-zX-dK8"/>
+                    <constraint firstItem="O4R-TX-NI6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="soI-cR-7ZO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cabinLabel" destination="8qz-0i-roV" id="B62-Jr-GIR"/>
+                <outlet property="checkInBaggageLabel" destination="XJU-df-nV2" id="GmW-U8-RmM"/>
+                <outlet property="departureLabel" destination="ndj-bK-mzj" id="kbu-HB-lkD"/>
+                <outlet property="destinationAirportCityLabel" destination="ueW-LJ-NmN" id="bfb-38-ZEU"/>
+                <outlet property="destinationAirportLabel" destination="vGt-Mo-3XF" id="DF7-VK-hd6"/>
+                <outlet property="destinationAirportTerminalLabel" destination="oFi-dx-cvN" id="zQ3-VT-H0E"/>
+                <outlet property="flightLogoImgView" destination="qtR-EQ-a0u" id="U6P-Q4-kaM"/>
+                <outlet property="flightNameLabel" destination="PaJ-pa-RoJ" id="xRj-HF-pNF"/>
+                <outlet property="passengerlabel" destination="C9E-T8-w4g" id="Bbb-gN-OPM"/>
+                <outlet property="reachDateLabel" destination="Flu-h7-Yu9" id="2gf-y8-kcS"/>
+                <outlet property="reachTimeLabel" destination="SBR-WM-TmE" id="pz7-e5-IW4"/>
+                <outlet property="sourceAirportCityLabel" destination="mLE-fz-sC6" id="6ef-H0-mHv"/>
+                <outlet property="sourceAirportNameLabel" destination="zet-g9-HYF" id="3UA-Fq-Zeq"/>
+                <outlet property="sourceAirportTerminalLabel" destination="VmD-lp-Ivh" id="ouk-3E-JCN"/>
+                <outlet property="takeOffDateLabel" destination="LYT-oQ-RUr" id="VmM-jd-TBe"/>
+                <outlet property="takeOffTimeLabel" destination="snJ-3f-IHl" id="FrP-ed-SkI"/>
+            </connections>
+            <point key="canvasLocation" x="-176.33587786259542" y="-1.0563380281690142"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="8qz-0i-roV">
+            <size key="intrinsicContentSize" width="81.333333333333329" height="16.666666666666668"/>
+        </designable>
+        <designable name="C9E-T8-w4g">
+            <size key="intrinsicContentSize" width="152.33333333333334" height="16.666666666666668"/>
+        </designable>
+        <designable name="Flu-h7-Yu9">
+            <size key="intrinsicContentSize" width="61.666666666666664" height="16.666666666666668"/>
+        </designable>
+        <designable name="LYT-oQ-RUr">
+            <size key="intrinsicContentSize" width="61.666666666666664" height="16.666666666666668"/>
+        </designable>
+        <designable name="PaJ-pa-RoJ">
+            <size key="intrinsicContentSize" width="88.666666666666671" height="19"/>
+        </designable>
+        <designable name="SBR-WM-TmE">
+            <size key="intrinsicContentSize" width="87.333333333333329" height="23.666666666666668"/>
+        </designable>
+        <designable name="VmD-lp-Ivh">
+            <size key="intrinsicContentSize" width="66.666666666666671" height="16.666666666666668"/>
+        </designable>
+        <designable name="XJU-df-nV2">
+            <size key="intrinsicContentSize" width="107" height="16.666666666666668"/>
+        </designable>
+        <designable name="mLE-fz-sC6">
+            <size key="intrinsicContentSize" width="36" height="16.666666666666668"/>
+        </designable>
+        <designable name="ndj-bK-mzj">
+            <size key="intrinsicContentSize" width="192.33333333333334" height="19"/>
+        </designable>
+        <designable name="oFi-dx-cvN">
+            <size key="intrinsicContentSize" width="66.666666666666671" height="16.666666666666668"/>
+        </designable>
+        <designable name="snJ-3f-IHl">
+            <size key="intrinsicContentSize" width="87.333333333333329" height="23.666666666666668"/>
+        </designable>
+        <designable name="ueW-LJ-NmN">
+            <size key="intrinsicContentSize" width="36" height="16.666666666666668"/>
+        </designable>
+        <designable name="vGt-Mo-3XF">
+            <size key="intrinsicContentSize" width="164" height="16.666666666666668"/>
+        </designable>
+        <designable name="zet-g9-HYF">
+            <size key="intrinsicContentSize" width="164" height="16.666666666666668"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="Emirates-Logo 1.png" width="512" height="295"/>
+        <image name="icon_airline_bag" width="20" height="20"/>
+        <image name="icon_airline_seat" width="20" height="20"/>
+        <image name="icon_airport_point" width="512" height="85"/>
+        <namedColor name="BlackThemeColor">
+            <color red="0.086000002920627594" green="0.086000002920627594" blue="0.086000002920627594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

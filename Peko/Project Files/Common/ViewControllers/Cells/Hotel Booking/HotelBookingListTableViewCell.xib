@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HotelBookingListTableViewCell" rowHeight="280" id="KGk-i7-Jjw" customClass="HotelBookingListTableViewCell" customModule="Peko" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="292"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="292"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uRE-d8-k8g">
+                        <rect key="frame" x="10" y="5" width="373" height="282"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screenshot 2023-05-30 at 1.52 1.png" translatesAutoresizingMaskIntoConstraints="NO" id="zbg-tp-xEr">
+                                <rect key="frame" x="15" y="15" width="343" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="2D4-Yr-0cA"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oib-MA-Dpx">
+                                <rect key="frame" x="15" y="155" width="343" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taj Exotica Resort &amp; Spa, The Palm " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dV-KY-r0d" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="191.66666666666666" height="40"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="12"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AED 800" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZcD-8f-1ut" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="296.66666666666669" y="0.0" width="46.333333333333314" height="40"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="12"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="ZcD-8f-1ut" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8dV-KY-r0d" secondAttribute="trailing" constant="10" id="4PD-f8-5R3"/>
+                                    <constraint firstAttribute="height" constant="40" id="Kfo-tL-I6o"/>
+                                    <constraint firstItem="ZcD-8f-1ut" firstAttribute="top" secondItem="Oib-MA-Dpx" secondAttribute="top" id="aDc-w0-Bre"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZcD-8f-1ut" secondAttribute="bottom" id="gZH-ut-JWS"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZcD-8f-1ut" secondAttribute="trailing" id="hMb-ka-ynJ"/>
+                                    <constraint firstItem="8dV-KY-r0d" firstAttribute="top" secondItem="Oib-MA-Dpx" secondAttribute="top" id="j21-Xr-toY"/>
+                                    <constraint firstAttribute="bottom" secondItem="8dV-KY-r0d" secondAttribute="bottom" id="tR2-Mu-P1k"/>
+                                    <constraint firstItem="8dV-KY-r0d" firstAttribute="leading" secondItem="Oib-MA-Dpx" secondAttribute="leading" id="xak-Y7-6V9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bBy-ou-oFQ">
+                                <rect key="frame" x="15" y="195" width="343" height="22"/>
+                                <subviews>
+                                    <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="98x-zR-zBa" customClass="SwiftyStarRatingView" customModule="SwiftyStarRatingView">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="22"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="tintColor" red="0.94901960784313721" green="0.59999999999999998" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="Ri8-kq-IXe"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Of-cR-wXW">
+                                        <rect key="frame" x="80" y="0.0" width="110.66666666666669" height="22"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_location_pin_blue" translatesAutoresizingMaskIntoConstraints="NO" id="u3A-rI-i6n">
+                                                <rect key="frame" x="0.0" y="5.6666666666666572" width="11" height="11"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="11" id="Lfd-bB-oJA"/>
+                                                    <constraint firstAttribute="height" constant="11" id="UdZ-kU-wAB"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bolgatty Island, Kochi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XsS-up-WIf" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="15" y="0.0" width="95.666666666666671" height="22"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
+                                                <color key="textColor" red="0.0" green="0.40000000000000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Bolgatty Island, Kochi"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="XsS-up-WIf" secondAttribute="trailing" id="03L-Ez-fui"/>
+                                            <constraint firstItem="XsS-up-WIf" firstAttribute="top" secondItem="3Of-cR-wXW" secondAttribute="top" id="Dro-TV-9TA"/>
+                                            <constraint firstItem="u3A-rI-i6n" firstAttribute="leading" secondItem="3Of-cR-wXW" secondAttribute="leading" id="aID-pJ-tym"/>
+                                            <constraint firstItem="u3A-rI-i6n" firstAttribute="centerY" secondItem="3Of-cR-wXW" secondAttribute="centerY" id="ej3-6O-pBz"/>
+                                            <constraint firstItem="XsS-up-WIf" firstAttribute="leading" secondItem="u3A-rI-i6n" secondAttribute="trailing" constant="4" id="lmL-i2-Zxh"/>
+                                            <constraint firstAttribute="bottom" secondItem="XsS-up-WIf" secondAttribute="bottom" id="zkK-5R-gLc"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="98x-zR-zBa" secondAttribute="bottom" id="4Nw-ic-kGK"/>
+                                    <constraint firstItem="3Of-cR-wXW" firstAttribute="top" secondItem="bBy-ou-oFQ" secondAttribute="top" id="7cV-MA-tnQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="3Of-cR-wXW" secondAttribute="bottom" id="91n-op-Da3"/>
+                                    <constraint firstAttribute="height" constant="22" id="Ncc-oG-W1E"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3Of-cR-wXW" secondAttribute="trailing" constant="15" id="QDj-1e-s3U"/>
+                                    <constraint firstItem="98x-zR-zBa" firstAttribute="leading" secondItem="bBy-ou-oFQ" secondAttribute="leading" id="cJd-5s-GAX"/>
+                                    <constraint firstItem="98x-zR-zBa" firstAttribute="top" secondItem="bBy-ou-oFQ" secondAttribute="top" id="eM3-80-gea"/>
+                                    <constraint firstItem="3Of-cR-wXW" firstAttribute="leading" secondItem="98x-zR-zBa" secondAttribute="trailing" constant="10" id="pkq-IX-vOb"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PbQ-cK-UVE">
+                                <rect key="frame" x="15" y="222" width="343" height="20"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free Cancellation till 4 hrs before check in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbS-Dy-GYQ" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="20"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
+                                        <color key="textColor" name="Border_039800"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Free Cancellation till 4 hrs before check in"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="bbS-Dy-GYQ" firstAttribute="leading" secondItem="PbQ-cK-UVE" secondAttribute="leading" id="FU5-5e-t8j"/>
+                                    <constraint firstItem="bbS-Dy-GYQ" firstAttribute="top" secondItem="PbQ-cK-UVE" secondAttribute="top" id="GhT-Ph-t7B"/>
+                                    <constraint firstAttribute="height" constant="20" id="L9W-Iy-aIK"/>
+                                    <constraint firstAttribute="bottom" secondItem="bbS-Dy-GYQ" secondAttribute="bottom" id="h6w-Ta-CF4"/>
+                                    <constraint firstAttribute="trailing" secondItem="bbS-Dy-GYQ" secondAttribute="trailing" id="yTS-Gl-KHx"/>
+                                </constraints>
+                            </view>
+                            <stackView hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" distribution="equalSpacing" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="7gn-q7-JZQ">
+                                <rect key="frame" x="15" y="247" width="199" height="0.0"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OP4-BH-uzq">
+                                        <rect key="frame" x="0.0" y="0.0" width="69" height="0.0"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_free_breakfast" translatesAutoresizingMaskIntoConstraints="NO" id="Yhk-Au-PGh">
+                                                <rect key="frame" x="0.0" y="-7" width="14" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="14" id="K4a-sI-J3W"/>
+                                                    <constraint firstAttribute="height" constant="14" id="hl0-Gu-y1H"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free Breakfast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bge-EE-xH0" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="17" y="0.0" width="52" height="0.0"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="8"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="8"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="bge-EE-xH0" firstAttribute="leading" secondItem="Yhk-Au-PGh" secondAttribute="trailing" constant="3" id="KLs-4g-0y8"/>
+                                            <constraint firstAttribute="bottom" secondItem="bge-EE-xH0" secondAttribute="bottom" id="T8t-ax-VEn"/>
+                                            <constraint firstItem="Yhk-Au-PGh" firstAttribute="leading" secondItem="OP4-BH-uzq" secondAttribute="leading" id="YLz-5H-J6v"/>
+                                            <constraint firstAttribute="trailing" secondItem="bge-EE-xH0" secondAttribute="trailing" id="ZCG-X2-sLJ"/>
+                                            <constraint firstItem="Yhk-Au-PGh" firstAttribute="centerY" secondItem="OP4-BH-uzq" secondAttribute="centerY" id="ZUt-jm-j3i"/>
+                                            <constraint firstItem="bge-EE-xH0" firstAttribute="top" secondItem="OP4-BH-uzq" secondAttribute="top" id="ojo-NK-Sda"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mXy-15-OvX">
+                                        <rect key="frame" x="71" y="0.0" width="50" height="0.0"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_free_wifi" translatesAutoresizingMaskIntoConstraints="NO" id="EFT-TN-g7H">
+                                                <rect key="frame" x="0.0" y="-7" width="14" height="14"/>
+                                                <color key="tintColor" name="121212"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="14" id="9b5-7S-gN1"/>
+                                                    <constraint firstAttribute="height" constant="14" id="xFR-3O-5aN"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free Wifi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPD-63-Nrj" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="17" y="0.0" width="33" height="0.0"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="8"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="8"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="EFT-TN-g7H" firstAttribute="centerY" secondItem="mXy-15-OvX" secondAttribute="centerY" id="9jb-Tz-ozV"/>
+                                            <constraint firstAttribute="bottom" secondItem="CPD-63-Nrj" secondAttribute="bottom" id="GDo-Xb-5wd"/>
+                                            <constraint firstAttribute="trailing" secondItem="CPD-63-Nrj" secondAttribute="trailing" id="LAU-St-eGk"/>
+                                            <constraint firstItem="CPD-63-Nrj" firstAttribute="leading" secondItem="EFT-TN-g7H" secondAttribute="trailing" constant="3" id="TeT-pC-Dt5"/>
+                                            <constraint firstItem="CPD-63-Nrj" firstAttribute="top" secondItem="mXy-15-OvX" secondAttribute="top" id="bEN-Mv-UeR"/>
+                                            <constraint firstItem="EFT-TN-g7H" firstAttribute="leading" secondItem="mXy-15-OvX" secondAttribute="leading" id="kxb-ZK-Uq2"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M1T-WS-x7Z">
+                                        <rect key="frame" x="123" y="0.0" width="76" height="0.0"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_swimming-pool" translatesAutoresizingMaskIntoConstraints="NO" id="ndj-P2-QGv">
+                                                <rect key="frame" x="0.0" y="-7" width="14" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="14" id="cfQ-2Y-1mz"/>
+                                                    <constraint firstAttribute="height" constant="14" id="oRR-G0-Cxj"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swimming pool" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Kq-Pv-4qP" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="17" y="0.0" width="59" height="0.0"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="8"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="8"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="3Kq-Pv-4qP" firstAttribute="leading" secondItem="ndj-P2-QGv" secondAttribute="trailing" constant="3" id="6pV-l6-ETb"/>
+                                            <constraint firstItem="3Kq-Pv-4qP" firstAttribute="top" secondItem="M1T-WS-x7Z" secondAttribute="top" id="ADh-l8-rs3"/>
+                                            <constraint firstAttribute="trailing" secondItem="3Kq-Pv-4qP" secondAttribute="trailing" id="Pad-nx-7Fa"/>
+                                            <constraint firstItem="ndj-P2-QGv" firstAttribute="leading" secondItem="M1T-WS-x7Z" secondAttribute="leading" id="dKa-ze-sRe"/>
+                                            <constraint firstAttribute="bottom" secondItem="3Kq-Pv-4qP" secondAttribute="bottom" id="l2D-B2-1Hg"/>
+                                            <constraint firstItem="ndj-P2-QGv" firstAttribute="centerY" secondItem="M1T-WS-x7Z" secondAttribute="centerY" id="yrl-Lc-Wsd"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="rw3-u5-ize"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bBy-ou-oFQ" secondAttribute="trailing" constant="15" id="2hH-CA-t8H"/>
+                            <constraint firstItem="7gn-q7-JZQ" firstAttribute="leading" secondItem="uRE-d8-k8g" secondAttribute="leading" constant="15" id="9P4-oo-VgR"/>
+                            <constraint firstAttribute="bottom" secondItem="7gn-q7-JZQ" secondAttribute="bottom" constant="15" id="Dvf-Mb-Aax"/>
+                            <constraint firstItem="zbg-tp-xEr" firstAttribute="leading" secondItem="uRE-d8-k8g" secondAttribute="leading" constant="15" id="ECw-UO-ccK"/>
+                            <constraint firstItem="bBy-ou-oFQ" firstAttribute="leading" secondItem="uRE-d8-k8g" secondAttribute="leading" constant="15" id="FrP-jC-odN"/>
+                            <constraint firstAttribute="trailing" secondItem="PbQ-cK-UVE" secondAttribute="trailing" constant="15" id="HbF-Qq-djv"/>
+                            <constraint firstAttribute="trailing" secondItem="Oib-MA-Dpx" secondAttribute="trailing" constant="15" id="W3i-JR-fVw"/>
+                            <constraint firstItem="PbQ-cK-UVE" firstAttribute="top" secondItem="bBy-ou-oFQ" secondAttribute="bottom" constant="5" id="csK-eB-iYj"/>
+                            <constraint firstItem="bBy-ou-oFQ" firstAttribute="top" secondItem="Oib-MA-Dpx" secondAttribute="bottom" id="e8u-l4-5lo"/>
+                            <constraint firstAttribute="trailing" secondItem="zbg-tp-xEr" secondAttribute="trailing" constant="15" id="hDt-I4-vRx"/>
+                            <constraint firstItem="zbg-tp-xEr" firstAttribute="top" secondItem="uRE-d8-k8g" secondAttribute="top" constant="15" id="iVj-GH-Z8A"/>
+                            <constraint firstItem="Oib-MA-Dpx" firstAttribute="top" secondItem="zbg-tp-xEr" secondAttribute="bottom" id="lBY-RS-DTB"/>
+                            <constraint firstItem="PbQ-cK-UVE" firstAttribute="leading" secondItem="uRE-d8-k8g" secondAttribute="leading" constant="15" id="mAf-lW-YeL"/>
+                            <constraint firstItem="7gn-q7-JZQ" firstAttribute="top" secondItem="PbQ-cK-UVE" secondAttribute="bottom" constant="5" id="tRh-A8-jHl"/>
+                            <constraint firstItem="Oib-MA-Dpx" firstAttribute="leading" secondItem="uRE-d8-k8g" secondAttribute="leading" constant="15" id="tWi-rR-gfB"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uRE-d8-k8g" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Sh0-pG-rVp"/>
+                    <constraint firstItem="uRE-d8-k8g" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="UoY-QP-MZU"/>
+                    <constraint firstAttribute="bottom" secondItem="uRE-d8-k8g" secondAttribute="bottom" constant="5" id="k0U-Jj-Vk0"/>
+                    <constraint firstAttribute="trailing" secondItem="uRE-d8-k8g" secondAttribute="trailing" constant="10" id="lec-EJ-Kfg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="cancelationDetailLabel" destination="bbS-Dy-GYQ" id="2eu-Nf-kLr"/>
+                <outlet property="locationLabel" destination="XsS-up-WIf" id="MH0-S6-JpR"/>
+                <outlet property="nameLabel" destination="8dV-KY-r0d" id="n73-QL-AqJ"/>
+                <outlet property="photoImgView" destination="zbg-tp-xEr" id="e5Q-kI-neQ"/>
+                <outlet property="priceLabel" destination="ZcD-8f-1ut" id="nT8-fi-Qyp"/>
+                <outlet property="ratingView" destination="98x-zR-zBa" id="zMP-s0-M6Q"/>
+            </connections>
+            <point key="canvasLocation" x="70" y="-20"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="3Kq-Pv-4qP">
+            <size key="intrinsicContentSize" width="55.333333333333336" height="9.6666666666666661"/>
+        </designable>
+        <designable name="8dV-KY-r0d">
+            <size key="intrinsicContentSize" width="191.66666666666666" height="14.333333333333334"/>
+        </designable>
+        <designable name="CPD-63-Nrj">
+            <size key="intrinsicContentSize" width="31" height="9.6666666666666661"/>
+        </designable>
+        <designable name="XsS-up-WIf">
+            <size key="intrinsicContentSize" width="95.666666666666671" height="12"/>
+        </designable>
+        <designable name="ZcD-8f-1ut">
+            <size key="intrinsicContentSize" width="46.333333333333336" height="14.333333333333334"/>
+        </designable>
+        <designable name="bbS-Dy-GYQ">
+            <size key="intrinsicContentSize" width="185" height="12"/>
+        </designable>
+        <designable name="bge-EE-xH0">
+            <size key="intrinsicContentSize" width="51.666666666666664" height="9.6666666666666661"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="Screenshot 2023-05-30 at 1.52 1.png" width="512" height="451"/>
+        <image name="icon_free_breakfast" width="45" height="45"/>
+        <image name="icon_free_wifi" width="44" height="43"/>
+        <image name="icon_location_pin_blue" width="512" height="512"/>
+        <image name="icon_swimming-pool" width="26" height="26"/>
+        <namedColor name="121212">
+            <color red="0.071000002324581146" green="0.071000002324581146" blue="0.071000002324581146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Border_039800">
+            <color red="0.012000000104308128" green="0.59600001573562622" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

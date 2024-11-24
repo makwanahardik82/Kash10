@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+        <array key="Inter-SemiBold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--BeneficiaryOTP View Controller-->
+        <scene sceneID="IH4-MB-Ysk">
+            <objects>
+                <viewController storyboardIdentifier="BeneficiaryOTPViewController" hidesBottomBarWhenPushed="YES" id="L69-7c-IF8" customClass="BeneficiaryOTPViewController" customModule="Peko" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KrN-OF-fND">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A2M-TV-Xyw">
+                                <rect key="frame" x="0.0" y="109" width="393" height="289"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="otp_banner" translatesAutoresizingMaskIntoConstraints="NO" id="Czj-VH-ss3">
+                                        <rect key="frame" x="107" y="60" width="179" height="179"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Czj-VH-ss3" secondAttribute="height" multiplier="1:1" id="b7m-bZ-M0C"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Czj-VH-ss3" secondAttribute="trailing" constant="20" id="8ru-xt-gRS"/>
+                                    <constraint firstItem="Czj-VH-ss3" firstAttribute="top" secondItem="A2M-TV-Xyw" secondAttribute="top" constant="60" id="91R-6X-Vev"/>
+                                    <constraint firstItem="Czj-VH-ss3" firstAttribute="centerX" secondItem="A2M-TV-Xyw" secondAttribute="centerX" id="Ie9-Nh-AUA"/>
+                                    <constraint firstItem="Czj-VH-ss3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="A2M-TV-Xyw" secondAttribute="leading" constant="20" id="hhV-ta-FIe"/>
+                                    <constraint firstAttribute="bottom" secondItem="Czj-VH-ss3" secondAttribute="bottom" constant="50" id="ixE-WB-7pp"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="maq-D7-D2j">
+                                <rect key="frame" x="0.0" y="398" width="393" height="390"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter OTP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLu-er-MUa">
+                                        <rect key="frame" x="20" y="0.0" width="353" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="y0m-19-gDT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="20"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6Cv-NJ-vY1">
+                                        <rect key="frame" x="30" y="40" width="333" height="220"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kHx-87-1aV">
+                                                <rect key="frame" x="0.0" y="0.0" width="333" height="100"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OTP has been sent on your phone number " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCR-bw-nbK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="333" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="atA-ar-gyH"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="13"/>
+                                                        <color key="textColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4AQ-IH-Y7u" customClass="OTPFieldView" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="30" width="333" height="50"/>
+                                                        <color key="backgroundColor" systemColor="tintColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="PM0-ci-c9d"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resending in 1.29 sec" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gG1-Ex-Zg2">
+                                                        <rect key="frame" x="190.33333333333334" y="85" width="122.66666666666666" height="15"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="15" id="cRZ-6G-Ihi"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                                                        <color key="textColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="bCR-bw-nbK" firstAttribute="top" secondItem="kHx-87-1aV" secondAttribute="top" id="7Pf-Hz-1Oc"/>
+                                                    <constraint firstAttribute="trailing" secondItem="bCR-bw-nbK" secondAttribute="trailing" id="DbM-IS-Yqo"/>
+                                                    <constraint firstAttribute="height" constant="100" id="IHR-Rg-lEp"/>
+                                                    <constraint firstAttribute="trailing" secondItem="gG1-Ex-Zg2" secondAttribute="trailing" constant="20" id="Mko-Ja-bqG"/>
+                                                    <constraint firstItem="bCR-bw-nbK" firstAttribute="leading" secondItem="kHx-87-1aV" secondAttribute="leading" id="XnJ-4o-dmm"/>
+                                                    <constraint firstItem="gG1-Ex-Zg2" firstAttribute="top" secondItem="4AQ-IH-Y7u" secondAttribute="bottom" constant="5" id="ZCR-A0-ZCv"/>
+                                                    <constraint firstItem="4AQ-IH-Y7u" firstAttribute="leading" secondItem="kHx-87-1aV" secondAttribute="leading" id="eww-pW-QUn"/>
+                                                    <constraint firstAttribute="trailing" secondItem="4AQ-IH-Y7u" secondAttribute="trailing" id="lmQ-JI-X2h"/>
+                                                    <constraint firstItem="4AQ-IH-Y7u" firstAttribute="top" secondItem="bCR-bw-nbK" secondAttribute="bottom" constant="10" id="wbB-Y8-nmJ"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i5S-Ox-PQ0">
+                                                <rect key="frame" x="0.0" y="120" width="333" height="100"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OTP has been sent on your phone number " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izi-Md-EIm">
+                                                        <rect key="frame" x="0.0" y="0.0" width="333" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="VKS-hP-18O"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="13"/>
+                                                        <color key="textColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gqm-Tf-9lG" customClass="OTPFieldView" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="30" width="333" height="50"/>
+                                                        <color key="backgroundColor" systemColor="tintColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="do0-zq-iq5"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resending in 1.29 sec" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0f-4L-PHF">
+                                                        <rect key="frame" x="195.33333333333334" y="85" width="122.66666666666666" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="4CD-IC-Uvm"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                                                        <color key="textColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="2F2-Lg-jqW"/>
+                                                    <constraint firstAttribute="trailing" secondItem="gqm-Tf-9lG" secondAttribute="trailing" id="7Nw-Yf-fzR"/>
+                                                    <constraint firstItem="izi-Md-EIm" firstAttribute="leading" secondItem="i5S-Ox-PQ0" secondAttribute="leading" id="Kxb-tR-Vzg"/>
+                                                    <constraint firstAttribute="trailing" secondItem="izi-Md-EIm" secondAttribute="trailing" id="MSm-TF-MzV"/>
+                                                    <constraint firstItem="gqm-Tf-9lG" firstAttribute="top" secondItem="izi-Md-EIm" secondAttribute="bottom" constant="10" id="a0J-QN-w7g"/>
+                                                    <constraint firstItem="izi-Md-EIm" firstAttribute="top" secondItem="i5S-Ox-PQ0" secondAttribute="top" id="bqo-nx-O5z"/>
+                                                    <constraint firstItem="gqm-Tf-9lG" firstAttribute="leading" secondItem="i5S-Ox-PQ0" secondAttribute="leading" id="gXf-MZ-Onu"/>
+                                                    <constraint firstAttribute="trailing" secondItem="I0f-4L-PHF" secondAttribute="trailing" constant="15" id="jkh-4S-mcP"/>
+                                                    <constraint firstItem="I0f-4L-PHF" firstAttribute="top" secondItem="gqm-Tf-9lG" secondAttribute="bottom" constant="5" id="qSo-an-xrx"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCf-Up-olW">
+                                        <rect key="frame" x="30" y="280" width="333" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Khx-i0-dFM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="18"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Submit">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="submitButtonClick:" destination="L69-7c-IF8" eventType="touchUpInside" id="cUK-yI-5uF"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgc-ET-nJK">
+                                        <rect key="frame" x="96.666666666666686" y="345" width="200" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="ZKs-Nl-mmL"/>
+                                            <constraint firstAttribute="height" constant="30" id="mmx-Vg-ptP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Resend OTP">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="resendButtonClick:" destination="L69-7c-IF8" eventType="touchUpInside" id="PP4-gr-1oy"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="pgc-ET-nJK" secondAttribute="bottom" constant="15" id="G3Z-AJ-lgQ"/>
+                                    <constraint firstItem="6Cv-NJ-vY1" firstAttribute="leading" secondItem="maq-D7-D2j" secondAttribute="leading" constant="30" id="GGR-0e-tQc"/>
+                                    <constraint firstAttribute="height" constant="390" id="GRT-dX-d92"/>
+                                    <constraint firstAttribute="trailing" secondItem="jLu-er-MUa" secondAttribute="trailing" constant="20" id="Qsg-3U-GWY"/>
+                                    <constraint firstAttribute="trailing" secondItem="CCf-Up-olW" secondAttribute="trailing" constant="30" id="fdk-27-tEB"/>
+                                    <constraint firstItem="CCf-Up-olW" firstAttribute="leading" secondItem="maq-D7-D2j" secondAttribute="leading" constant="30" id="g17-wN-lWU"/>
+                                    <constraint firstItem="CCf-Up-olW" firstAttribute="top" secondItem="6Cv-NJ-vY1" secondAttribute="bottom" constant="20" id="ilx-bo-eW0"/>
+                                    <constraint firstItem="6Cv-NJ-vY1" firstAttribute="top" secondItem="jLu-er-MUa" secondAttribute="bottom" constant="10" id="l1t-9I-Z8f"/>
+                                    <constraint firstItem="pgc-ET-nJK" firstAttribute="centerX" secondItem="maq-D7-D2j" secondAttribute="centerX" id="oua-lE-w8X"/>
+                                    <constraint firstItem="pgc-ET-nJK" firstAttribute="top" secondItem="CCf-Up-olW" secondAttribute="bottom" constant="15" id="sgB-Ff-Rv7"/>
+                                    <constraint firstAttribute="trailing" secondItem="6Cv-NJ-vY1" secondAttribute="trailing" constant="30" id="vpa-Qe-ebB"/>
+                                    <constraint firstItem="jLu-er-MUa" firstAttribute="leading" secondItem="maq-D7-D2j" secondAttribute="leading" constant="20" id="wqF-EK-Plo"/>
+                                    <constraint firstItem="jLu-er-MUa" firstAttribute="top" secondItem="maq-D7-D2j" secondAttribute="top" id="wrB-df-YaM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yzy-ya-f4e"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="maq-D7-D2j" firstAttribute="trailing" secondItem="yzy-ya-f4e" secondAttribute="trailing" id="0aN-Tx-CbT"/>
+                            <constraint firstItem="maq-D7-D2j" firstAttribute="leading" secondItem="yzy-ya-f4e" secondAttribute="leading" id="42C-QP-Acb"/>
+                            <constraint firstItem="A2M-TV-Xyw" firstAttribute="top" secondItem="yzy-ya-f4e" secondAttribute="top" constant="50" id="42O-T5-ly0"/>
+                            <constraint firstItem="A2M-TV-Xyw" firstAttribute="leading" secondItem="yzy-ya-f4e" secondAttribute="leading" id="8uS-R8-IZY"/>
+                            <constraint firstItem="yzy-ya-f4e" firstAttribute="bottom" secondItem="maq-D7-D2j" secondAttribute="bottom" constant="30" id="SHF-bN-I9d"/>
+                            <constraint firstItem="yzy-ya-f4e" firstAttribute="trailing" secondItem="A2M-TV-Xyw" secondAttribute="trailing" id="nfH-sC-zeW"/>
+                            <constraint firstItem="maq-D7-D2j" firstAttribute="top" secondItem="A2M-TV-Xyw" secondAttribute="bottom" id="vo4-BV-evJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailOtpTitleLabel" destination="izi-Md-EIm" id="ipu-X8-Z7a"/>
+                        <outlet property="emailOtpView" destination="gqm-Tf-9lG" id="qEQ-jy-QbC"/>
+                        <outlet property="emailTimerLabel" destination="I0f-4L-PHF" id="kGz-qW-L78"/>
+                        <outlet property="phoneOtpContainerView" destination="kHx-87-1aV" id="yYd-M7-dwz"/>
+                        <outlet property="phoneOtpTitleLabel" destination="bCR-bw-nbK" id="bNM-OR-bYv"/>
+                        <outlet property="phoneOtpView" destination="4AQ-IH-Y7u" id="3ax-h7-3HD"/>
+                        <outlet property="phoneTimerLabel" destination="gG1-Ex-Zg2" id="pyo-nB-bhz"/>
+                        <outlet property="resendOTPButton" destination="pgc-ET-nJK" id="6if-Dd-f4Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sWe-dZ-Jk0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1541" y="-3"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="otp_banner" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

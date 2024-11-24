@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="NotificationViewController" id="Y6W-OH-hqX" customClass="NotificationViewController" customModule="Peko" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cIQ-FE-5SO">
+                                <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notifications" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Na-8S-HLR" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Notifications"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="18"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="6Na-8S-HLR" firstAttribute="leading" secondItem="cIQ-FE-5SO" secondAttribute="leading" id="1mW-h7-yqU"/>
+                                    <constraint firstAttribute="bottom" secondItem="6Na-8S-HLR" secondAttribute="bottom" id="PFk-t5-A3A"/>
+                                    <constraint firstAttribute="trailing" secondItem="6Na-8S-HLR" secondAttribute="trailing" id="Z6b-jC-Qhu"/>
+                                    <constraint firstAttribute="height" constant="44" id="d1Q-CI-6am"/>
+                                    <constraint firstItem="6Na-8S-HLR" firstAttribute="top" secondItem="cIQ-FE-5SO" secondAttribute="top" id="kzI-Vm-fRD"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fhF-kp-lnC">
+                                <rect key="frame" x="0.0" y="111" width="390" height="70"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xl0-Jo-u4w">
+                                        <rect key="frame" x="20" y="7" width="350" height="56"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_search_gray" translatesAutoresizingMaskIntoConstraints="NO" id="neL-V7-fIX">
+                                                <rect key="frame" x="301" y="0.0" width="44" height="56"/>
+                                                <color key="tintColor" red="0.65098039220000004" green="0.65098039220000004" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="44" id="Q9J-Mj-lBN"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search Notification " minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jXR-CN-u5F" customClass="PekoTextField" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="10" y="0.0" width="291" height="56"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="6u1-6w-iKB"/>
+                                            <constraint firstAttribute="bottom" secondItem="neL-V7-fIX" secondAttribute="bottom" id="8bu-OO-Sji"/>
+                                            <constraint firstAttribute="bottom" secondItem="jXR-CN-u5F" secondAttribute="bottom" id="HVv-mv-TOP"/>
+                                            <constraint firstItem="jXR-CN-u5F" firstAttribute="leading" secondItem="xl0-Jo-u4w" secondAttribute="leading" constant="10" id="I3M-m7-Hc3"/>
+                                            <constraint firstAttribute="trailing" secondItem="neL-V7-fIX" secondAttribute="trailing" constant="5" id="U2C-cj-5bf"/>
+                                            <constraint firstItem="jXR-CN-u5F" firstAttribute="top" secondItem="xl0-Jo-u4w" secondAttribute="top" id="VQG-7h-VDb"/>
+                                            <constraint firstItem="neL-V7-fIX" firstAttribute="leading" secondItem="jXR-CN-u5F" secondAttribute="trailing" id="fmU-Fz-8Xb"/>
+                                            <constraint firstItem="neL-V7-fIX" firstAttribute="top" secondItem="xl0-Jo-u4w" secondAttribute="top" id="uX9-bM-ZdV"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="xl0-Jo-u4w" secondAttribute="trailing" constant="20" id="6he-36-vvk"/>
+                                    <constraint firstAttribute="height" constant="70" id="AnH-ra-wOK"/>
+                                    <constraint firstItem="xl0-Jo-u4w" firstAttribute="centerY" secondItem="fhF-kp-lnC" secondAttribute="centerY" id="MzB-zP-62h"/>
+                                    <constraint firstItem="xl0-Jo-u4w" firstAttribute="leading" secondItem="fhF-kp-lnC" secondAttribute="leading" constant="20" id="Vrl-7f-5bj"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZAy-Dq-48D">
+                                <rect key="frame" x="0.0" y="191" width="390" height="619"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <inset key="scrollIndicatorInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="20"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1bs-hU-eBK">
+                                <rect key="frame" x="20" y="362" width="350" height="120"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_no_data" translatesAutoresizingMaskIntoConstraints="NO" id="4sh-kA-uKo">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="75" id="Ohn-st-VDx"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Notification" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTU-18-7Nv" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="75" width="350" height="45"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="14"/>
+                                        <color key="textColor" red="0.40000000000000002" green="0.4392156862745098" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="No Notification"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="bTU-18-7Nv" firstAttribute="leading" secondItem="1bs-hU-eBK" secondAttribute="leading" id="AoT-gA-q7r"/>
+                                    <constraint firstAttribute="trailing" secondItem="4sh-kA-uKo" secondAttribute="trailing" id="K4b-m3-ciO"/>
+                                    <constraint firstItem="4sh-kA-uKo" firstAttribute="top" secondItem="1bs-hU-eBK" secondAttribute="top" id="Xh1-OP-w0Y"/>
+                                    <constraint firstItem="bTU-18-7Nv" firstAttribute="top" secondItem="4sh-kA-uKo" secondAttribute="bottom" id="Xup-FP-gQH"/>
+                                    <constraint firstAttribute="height" constant="120" id="dDf-NY-SDk"/>
+                                    <constraint firstItem="4sh-kA-uKo" firstAttribute="leading" secondItem="1bs-hU-eBK" secondAttribute="leading" id="f6W-pB-iP2"/>
+                                    <constraint firstAttribute="trailing" secondItem="bTU-18-7Nv" secondAttribute="trailing" id="hse-hb-p9O"/>
+                                    <constraint firstAttribute="bottom" secondItem="bTU-18-7Nv" secondAttribute="bottom" id="qHD-wE-0kZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="BackgroundThemeColor"/>
+                        <constraints>
+                            <constraint firstItem="ZAy-Dq-48D" firstAttribute="top" secondItem="fhF-kp-lnC" secondAttribute="bottom" constant="10" id="9e1-vI-Wse"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1bs-hU-eBK" secondAttribute="trailing" constant="20" id="Q3L-oH-tCy"/>
+                            <constraint firstItem="fhF-kp-lnC" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="Zd4-yQ-zR9"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ZAy-Dq-48D" secondAttribute="trailing" id="dRU-UL-6Dg"/>
+                            <constraint firstItem="1bs-hU-eBK" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="fze-VH-UJQ"/>
+                            <constraint firstItem="cIQ-FE-5SO" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="hI7-hb-fBf"/>
+                            <constraint firstItem="fhF-kp-lnC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="p2Q-Tr-JRS"/>
+                            <constraint firstItem="1bs-hU-eBK" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="qmT-wJ-97Y"/>
+                            <constraint firstItem="cIQ-FE-5SO" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="s8m-i4-8Tj"/>
+                            <constraint firstItem="1bs-hU-eBK" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="uHe-bQ-W3u"/>
+                            <constraint firstItem="fhF-kp-lnC" firstAttribute="top" secondItem="cIQ-FE-5SO" secondAttribute="bottom" constant="20" id="umJ-Qb-h8C"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="ZAy-Dq-48D" secondAttribute="bottom" id="vzF-EM-nY2"/>
+                            <constraint firstItem="ZAy-Dq-48D" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="wk1-5j-VgO"/>
+                            <constraint firstItem="cIQ-FE-5SO" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="zi7-3d-feE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="noDataView" destination="1bs-hU-eBK" id="v0u-ZF-5CM"/>
+                        <outlet property="notificationTableView" destination="ZAy-Dq-48D" id="BBe-Sy-YR9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="66" y="-23"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="6Na-8S-HLR">
+            <size key="intrinsicContentSize" width="103.66666666666667" height="21.333333333333332"/>
+        </designable>
+        <designable name="bTU-18-7Nv">
+            <size key="intrinsicContentSize" width="104" height="14"/>
+        </designable>
+        <designable name="jXR-CN-u5F">
+            <size key="intrinsicContentSize" width="122.33333333333333" height="18.333333333333332"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="icon_no_data" width="513" height="409"/>
+        <image name="icon_search_gray" width="24" height="24"/>
+        <namedColor name="BackgroundThemeColor">
+            <color red="0.96100002527236938" green="0.96899998188018799" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

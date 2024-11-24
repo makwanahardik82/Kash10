@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AirlineAddTableViewCell" id="KGk-i7-Jjw" customClass="AirlineAddTableViewCell" customModule="Peko" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="139"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="139"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="slN-e6-W76">
+                        <rect key="frame" x="0.0" y="10" width="390" height="78"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="AE0-ey-frr">
+                                <rect key="frame" x="15" y="0.0" width="360" height="70"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cd6-Zn-rva">
+                                        <rect key="frame" x="0.0" y="0.0" width="360" height="70"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Seats" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Sk-aa-FmE" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="5" y="25" width="224" height="45"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                                                <color key="textColor" name="BlackThemeColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Passengers"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RwE-E8-sRq" customClass="PekoButton" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="239" y="25" width="116" height="45"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="116" id="eRY-pL-uyP"/>
+                                                    <constraint firstAttribute="height" constant="45" id="rDc-cv-8Yd"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Select">
+                                                    <color key="titleColor" name="RedButtonColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="RedButtonColor"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Add Passenger"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="4Sk-aa-FmE" secondAttribute="bottom" id="0Mg-v0-7r3"/>
+                                            <constraint firstAttribute="height" constant="60" id="CO2-HG-rMG"/>
+                                            <constraint firstItem="4Sk-aa-FmE" firstAttribute="top" secondItem="cd6-Zn-rva" secondAttribute="top" constant="25" id="K6A-ve-Bgf"/>
+                                            <constraint firstItem="RwE-E8-sRq" firstAttribute="leading" secondItem="4Sk-aa-FmE" secondAttribute="trailing" constant="10" id="VQB-yu-MKf"/>
+                                            <constraint firstItem="4Sk-aa-FmE" firstAttribute="leading" secondItem="cd6-Zn-rva" secondAttribute="leading" constant="5" id="WBU-VD-IBI"/>
+                                            <constraint firstAttribute="bottom" secondItem="RwE-E8-sRq" secondAttribute="bottom" id="lHy-lr-4F0"/>
+                                            <constraint firstAttribute="trailing" secondItem="RwE-E8-sRq" secondAttribute="trailing" constant="5" id="ouN-0Y-s9A"/>
+                                        </constraints>
+                                    </view>
+                                    <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ZEH-lt-lsV">
+                                        <rect key="frame" x="0.0" y="0.0" width="360" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="QDX-vT-5Cd"/>
+                                        </constraints>
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Aoz-RN-dRb">
+                                            <size key="itemSize" width="128" height="25"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells/>
+                                    </collectionView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="AE0-ey-frr" firstAttribute="top" secondItem="slN-e6-W76" secondAttribute="top" id="6dD-zr-5Pw"/>
+                            <constraint firstItem="AE0-ey-frr" firstAttribute="leading" secondItem="slN-e6-W76" secondAttribute="leading" constant="15" id="BAs-tu-WPW"/>
+                            <constraint firstAttribute="bottom" secondItem="AE0-ey-frr" secondAttribute="bottom" constant="8" id="h2i-RQ-M71"/>
+                            <constraint firstAttribute="trailing" secondItem="AE0-ey-frr" secondAttribute="trailing" constant="15" id="roe-oc-PO9"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="slN-e6-W76" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="EQ3-xt-Qtx"/>
+                    <constraint firstAttribute="trailing" secondItem="slN-e6-W76" secondAttribute="trailing" id="IrH-za-Pcn"/>
+                    <constraint firstItem="slN-e6-W76" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="fCm-CB-0E3"/>
+                    <constraint firstAttribute="bottom" secondItem="slN-e6-W76" secondAttribute="bottom" id="yoF-DW-bI4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="selectButton" destination="RwE-E8-sRq" id="NtP-Dq-8wO"/>
+                <outlet property="tagCollectionView" destination="ZEH-lt-lsV" id="zb7-QL-OzN"/>
+                <outlet property="titleLabel" destination="4Sk-aa-FmE" id="4U3-sO-KEO"/>
+            </connections>
+            <point key="canvasLocation" x="127" y="-40"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="4Sk-aa-FmE">
+            <size key="intrinsicContentSize" width="90" height="18.666666666666668"/>
+        </designable>
+        <designable name="RwE-E8-sRq">
+            <size key="intrinsicContentSize" width="51" height="34"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="BlackThemeColor">
+            <color red="0.086000002920627594" green="0.086000002920627594" blue="0.086000002920627594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="RedButtonColor">
+            <color red="1" green="0.31000000238418579" blue="0.31000000238418579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

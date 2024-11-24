@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+        <array key="Inter-SemiBold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PekoConnectTableViewCell" id="KGk-i7-Jjw" customClass="PekoConnectTableViewCell" customModule="Peko" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FL1-2x-zmP">
+                        <rect key="frame" x="20" y="10" width="350" height="95"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ETY-2D-1Ji">
+                                <rect key="frame" x="13" y="23.666666666666664" width="48" height="47.999999999999993"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vrd-RP-QvE">
+                                        <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745289999996" green="0.97647058959999999" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="vrd-RP-QvE" firstAttribute="top" secondItem="ETY-2D-1Ji" secondAttribute="top" id="2xi-jb-G7O"/>
+                                    <constraint firstAttribute="height" constant="48" id="89C-Bq-fEB"/>
+                                    <constraint firstItem="vrd-RP-QvE" firstAttribute="leading" secondItem="ETY-2D-1Ji" secondAttribute="leading" id="CfC-IC-qLS"/>
+                                    <constraint firstAttribute="bottom" secondItem="vrd-RP-QvE" secondAttribute="bottom" id="H9v-5W-rMd"/>
+                                    <constraint firstAttribute="trailing" secondItem="vrd-RP-QvE" secondAttribute="trailing" id="xeY-a2-OZ6"/>
+                                    <constraint firstAttribute="width" constant="48" id="zv8-4Q-Zc4"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Gdi-zo-9a8">
+                                <rect key="frame" x="72" y="27.666666666666668" width="179" height="39.666666666666657"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Express Group" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBr-RE-Ec0" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="179" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="TXu-eR-O4D"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="16"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discounts on services" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOF-6P-EhM" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="25.000000000000004" width="179" height="14.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                                        <color key="textColor" red="0.59215686274509804" green="0.59215686274509804" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </stackView>
+                            <button opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQw-Tp-GMv">
+                                <rect key="frame" x="262" y="30" width="75" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="2U8-vd-UGg"/>
+                                    <constraint firstAttribute="height" constant="35" id="MtN-zU-RXm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="12"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Connect">
+                                    <color key="titleColor" name="RedButtonColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="RedButtonColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Gdi-zo-9a8" firstAttribute="centerY" secondItem="FL1-2x-zmP" secondAttribute="centerY" id="ET8-Xh-H0j"/>
+                            <constraint firstItem="ETY-2D-1Ji" firstAttribute="leading" secondItem="FL1-2x-zmP" secondAttribute="leading" constant="13" id="Ixs-4J-Ukf"/>
+                            <constraint firstAttribute="trailing" secondItem="QQw-Tp-GMv" secondAttribute="trailing" constant="13" id="JeH-90-bEj"/>
+                            <constraint firstItem="QQw-Tp-GMv" firstAttribute="leading" secondItem="Gdi-zo-9a8" secondAttribute="trailing" constant="11" id="UEL-3D-mrh"/>
+                            <constraint firstItem="ETY-2D-1Ji" firstAttribute="centerY" secondItem="FL1-2x-zmP" secondAttribute="centerY" id="YIg-ri-hYc"/>
+                            <constraint firstItem="QQw-Tp-GMv" firstAttribute="centerY" secondItem="FL1-2x-zmP" secondAttribute="centerY" id="f4P-IU-Cuz"/>
+                            <constraint firstItem="Gdi-zo-9a8" firstAttribute="leading" secondItem="ETY-2D-1Ji" secondAttribute="trailing" constant="11" id="otG-aT-8tT"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="11"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FL1-2x-zmP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="akn-FY-qjw"/>
+                    <constraint firstAttribute="trailing" secondItem="FL1-2x-zmP" secondAttribute="trailing" constant="20" id="eFa-Bb-Q8R"/>
+                    <constraint firstAttribute="bottom" secondItem="FL1-2x-zmP" secondAttribute="bottom" constant="10" id="jxt-A5-bQ4"/>
+                    <constraint firstItem="FL1-2x-zmP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="w9X-tx-LYy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="detailLabel" destination="ZOF-6P-EhM" id="jNF-QT-iZy"/>
+                <outlet property="logoImgView" destination="vrd-RP-QvE" id="rGU-lg-afi"/>
+                <outlet property="nameLabel" destination="jBr-RE-Ec0" id="uQJ-vW-EdX"/>
+                <outlet property="view_1" destination="FL1-2x-zmP" id="gAm-Qf-1mF"/>
+            </connections>
+            <point key="canvasLocation" x="120.61068702290076" y="-44.366197183098592"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="ZOF-6P-EhM">
+            <size key="intrinsicContentSize" width="124.66666666666667" height="14.666666666666666"/>
+        </designable>
+        <designable name="jBr-RE-Ec0">
+            <size key="intrinsicContentSize" width="113.33333333333333" height="19.666666666666668"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="RedButtonColor">
+            <color red="1" green="0.31000000238418579" blue="0.31000000238418579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

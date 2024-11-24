@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BillBeneficiaryTableViewCell" id="KGk-i7-Jjw" customClass="BillBeneficiaryTableViewCell" customModule="Peko" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qkt-Ak-foT">
+                        <rect key="frame" x="20" y="8" width="350" height="84"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vry-oJ-bEf">
+                                <rect key="frame" x="13" y="18.666666666666671" width="47" height="47"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9S0-ut-r5k">
+                                        <rect key="frame" x="0.0" y="0.0" width="47" height="47"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="9S0-ut-r5k" secondAttribute="bottom" id="0m8-Ah-6g8"/>
+                                    <constraint firstItem="9S0-ut-r5k" firstAttribute="top" secondItem="Vry-oJ-bEf" secondAttribute="top" id="6hE-av-WXh"/>
+                                    <constraint firstAttribute="height" constant="47" id="C3k-w2-vtm"/>
+                                    <constraint firstItem="9S0-ut-r5k" firstAttribute="leading" secondItem="Vry-oJ-bEf" secondAttribute="leading" id="DmF-Xb-pRe"/>
+                                    <constraint firstAttribute="width" constant="47" id="IWR-FF-c8q"/>
+                                    <constraint firstAttribute="trailing" secondItem="9S0-ut-r5k" secondAttribute="trailing" id="NeX-yA-4DO"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="jTf-AX-xXq">
+                                <rect key="frame" x="70" y="21.333333333333332" width="182" height="41.666666666666671"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe (Default)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Muo-Sk-Buk" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="182" height="19"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Du Prepaid"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+971 581 161 718" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rr7-SH-Ofd" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="25" width="182" height="16.666666666666671"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" red="0.40000000000000002" green="0.43921568630000002" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="+971 581 161 718"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKC-QJ-CHP" customClass="PekoButton" customModule="Peko" customModuleProvider="target">
+                                <rect key="frame" x="262" y="24.666666666666664" width="75" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="c0j-2v-Iph"/>
+                                    <constraint firstAttribute="width" constant="75" id="poc-Gn-kTe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="12"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Pay Now">
+                                    <color key="titleColor" name="RedButtonColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="RedButtonColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Pay Now"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BKC-QJ-CHP" firstAttribute="centerY" secondItem="qkt-Ak-foT" secondAttribute="centerY" id="2Zu-hO-IKO"/>
+                            <constraint firstItem="Vry-oJ-bEf" firstAttribute="centerY" secondItem="qkt-Ak-foT" secondAttribute="centerY" id="Egx-GO-oK4"/>
+                            <constraint firstItem="BKC-QJ-CHP" firstAttribute="leading" secondItem="jTf-AX-xXq" secondAttribute="trailing" constant="10" id="KhL-wx-Pgr"/>
+                            <constraint firstItem="jTf-AX-xXq" firstAttribute="centerY" secondItem="qkt-Ak-foT" secondAttribute="centerY" id="OHt-4p-5d0"/>
+                            <constraint firstItem="jTf-AX-xXq" firstAttribute="leading" secondItem="Vry-oJ-bEf" secondAttribute="trailing" constant="10" id="ats-6I-4rR"/>
+                            <constraint firstAttribute="trailing" secondItem="BKC-QJ-CHP" secondAttribute="trailing" constant="13" id="dtc-lg-xXJ"/>
+                            <constraint firstItem="Vry-oJ-bEf" firstAttribute="leading" secondItem="qkt-Ak-foT" secondAttribute="leading" constant="13" id="szS-Yk-YxX"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="qkt-Ak-foT" secondAttribute="trailing" constant="20" id="B9Q-1F-eI9"/>
+                    <constraint firstAttribute="bottom" secondItem="qkt-Ak-foT" secondAttribute="bottom" constant="8" id="XoW-ya-Xie"/>
+                    <constraint firstItem="qkt-Ak-foT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Y6g-t1-qbC"/>
+                    <constraint firstItem="qkt-Ak-foT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="xPw-Fe-s3Z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="detailLabel" destination="Rr7-SH-Ofd" id="Wkn-uT-iIf"/>
+                <outlet property="logoImgView" destination="9S0-ut-r5k" id="EEF-jr-ttn"/>
+                <outlet property="payNowButton" destination="BKC-QJ-CHP" id="xpg-1L-HXV"/>
+                <outlet property="titleLabel" destination="Muo-Sk-Buk" id="uqX-1d-PdQ"/>
+            </connections>
+            <point key="canvasLocation" x="38" y="-1"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="BKC-QJ-CHP">
+            <size key="intrinsicContentSize" width="51" height="27"/>
+        </designable>
+        <designable name="Muo-Sk-Buk">
+            <size key="intrinsicContentSize" width="135" height="19"/>
+        </designable>
+        <designable name="Rr7-SH-Ofd">
+            <size key="intrinsicContentSize" width="114" height="16.666666666666668"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="RedButtonColor">
+            <color red="1" green="0.31000000238418579" blue="0.31000000238418579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

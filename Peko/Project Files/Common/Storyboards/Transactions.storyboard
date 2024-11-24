@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Transactions View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="TransactionsViewController" id="Y6W-OH-hqX" customClass="TransactionsViewController" customModule="Kash10" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y3r-kP-toV">
+                                <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transactions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52u-Ai-NEa" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Transactions"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="18"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="6lf-qD-j8W"/>
+                                    <constraint firstItem="52u-Ai-NEa" firstAttribute="leading" secondItem="Y3r-kP-toV" secondAttribute="leading" id="PX5-aN-xgD"/>
+                                    <constraint firstAttribute="trailing" secondItem="52u-Ai-NEa" secondAttribute="trailing" id="QNZ-OT-Bok"/>
+                                    <constraint firstAttribute="bottom" secondItem="52u-Ai-NEa" secondAttribute="bottom" id="X2G-AZ-HHt"/>
+                                    <constraint firstItem="52u-Ai-NEa" firstAttribute="top" secondItem="Y3r-kP-toV" secondAttribute="top" id="ymp-KF-TqW"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HWR-pZ-WMN">
+                                <rect key="frame" x="0.0" y="107" width="390" height="70"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1A0-fc-hu9">
+                                        <rect key="frame" x="112" y="7" width="258" height="56"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_search_gray" translatesAutoresizingMaskIntoConstraints="NO" id="efH-OS-NJH">
+                                                <rect key="frame" x="209" y="0.0" width="44" height="56"/>
+                                                <color key="tintColor" red="0.65098039220000004" green="0.65098039220000004" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="44" id="SKG-kI-OUI"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search Transaction " minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OwA-Oe-hwx" customClass="PekoTextField" customModule="Kash10" customModuleProvider="target">
+                                                <rect key="frame" x="10" y="0.0" width="199" height="56"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="0K5-Mo-PRa"/>
+                                            <constraint firstItem="efH-OS-NJH" firstAttribute="leading" secondItem="OwA-Oe-hwx" secondAttribute="trailing" id="6dj-xR-WDd"/>
+                                            <constraint firstItem="OwA-Oe-hwx" firstAttribute="top" secondItem="1A0-fc-hu9" secondAttribute="top" id="N1J-2R-nhW"/>
+                                            <constraint firstAttribute="bottom" secondItem="OwA-Oe-hwx" secondAttribute="bottom" id="Uah-Ob-JZ7"/>
+                                            <constraint firstItem="OwA-Oe-hwx" firstAttribute="leading" secondItem="1A0-fc-hu9" secondAttribute="leading" constant="10" id="ewh-3Q-YUw"/>
+                                            <constraint firstItem="efH-OS-NJH" firstAttribute="top" secondItem="1A0-fc-hu9" secondAttribute="top" id="qml-a5-Epj"/>
+                                            <constraint firstAttribute="trailing" secondItem="efH-OS-NJH" secondAttribute="trailing" constant="5" id="vHI-nE-84Z"/>
+                                            <constraint firstAttribute="bottom" secondItem="efH-OS-NJH" secondAttribute="bottom" id="vLL-UC-SQU"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r5F-1i-KPy">
+                                        <rect key="frame" x="20" y="7" width="82" height="56"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSC-ab-CsU">
+                                                <rect key="frame" x="0.0" y="0.0" width="82" height="56"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                <inset key="titleEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="-8" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Sort" image="icon_filter_gray">
+                                                    <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="RSC-ab-CsU" firstAttribute="leading" secondItem="r5F-1i-KPy" secondAttribute="leading" id="6GP-fg-OHd"/>
+                                            <constraint firstAttribute="height" constant="56" id="D9I-NR-xAE"/>
+                                            <constraint firstItem="RSC-ab-CsU" firstAttribute="top" secondItem="r5F-1i-KPy" secondAttribute="top" id="Hr4-6e-4p1"/>
+                                            <constraint firstAttribute="trailing" secondItem="RSC-ab-CsU" secondAttribute="trailing" id="brG-N7-kMU"/>
+                                            <constraint firstAttribute="width" constant="82" id="tfi-cT-cAd"/>
+                                            <constraint firstAttribute="bottom" secondItem="RSC-ab-CsU" secondAttribute="bottom" id="yM7-Mt-Byc"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="1A0-fc-hu9" firstAttribute="leading" secondItem="r5F-1i-KPy" secondAttribute="trailing" constant="10" id="6xK-6w-weX"/>
+                                    <constraint firstAttribute="trailing" secondItem="1A0-fc-hu9" secondAttribute="trailing" constant="20" id="ebI-qj-Bok"/>
+                                    <constraint firstItem="r5F-1i-KPy" firstAttribute="leading" secondItem="HWR-pZ-WMN" secondAttribute="leading" constant="20" id="fZW-d8-3xz"/>
+                                    <constraint firstAttribute="height" constant="70" id="mVA-g2-Dgq"/>
+                                    <constraint firstItem="r5F-1i-KPy" firstAttribute="centerY" secondItem="HWR-pZ-WMN" secondAttribute="centerY" id="oTv-sZ-NeZ"/>
+                                    <constraint firstItem="1A0-fc-hu9" firstAttribute="centerY" secondItem="HWR-pZ-WMN" secondAttribute="centerY" id="pt2-81-Vbv"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="nF0-iT-B9a">
+                                <rect key="frame" x="0.0" y="185" width="390" height="625"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="BackgroundThemeColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Y3r-kP-toV" secondAttribute="trailing" id="5Vt-DV-eHE"/>
+                            <constraint firstItem="Y3r-kP-toV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="7ab-lF-gD7"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="nF0-iT-B9a" secondAttribute="trailing" id="KHz-aU-0fq"/>
+                            <constraint firstItem="HWR-pZ-WMN" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="60" id="PnG-Cf-yzN"/>
+                            <constraint firstItem="HWR-pZ-WMN" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="REx-kX-EW3"/>
+                            <constraint firstItem="Y3r-kP-toV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="SHo-Tk-KQy"/>
+                            <constraint firstItem="nF0-iT-B9a" firstAttribute="top" secondItem="HWR-pZ-WMN" secondAttribute="bottom" constant="8" id="ZvN-uV-jEL"/>
+                            <constraint firstItem="nF0-iT-B9a" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="imx-nf-LWe"/>
+                            <constraint firstAttribute="trailing" secondItem="HWR-pZ-WMN" secondAttribute="trailing" id="ljK-AO-adA"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="nF0-iT-B9a" secondAttribute="bottom" id="wq6-U2-omZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="transactionTableView" destination="nF0-iT-B9a" id="hMH-av-RmR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="80" y="-17.061611374407583"/>
+        </scene>
+        <!--Transaction Detail View Controller-->
+        <scene sceneID="9cF-fj-tpx">
+            <objects>
+                <viewController storyboardIdentifier="TransactionDetailViewController" id="Ndp-o0-W1s" customClass="TransactionDetailViewController" customModule="Kash10" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6kF-K9-gNh">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="88l-bo-T5g">
+                                <rect key="frame" x="10" y="765" width="370" height="559"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1A8-PO-fsy">
+                                        <rect key="frame" x="24" y="20" width="322" height="34"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZi-zf-20U">
+                                                <rect key="frame" x="288" y="0.0" width="34" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="34" id="BcT-fB-jxY"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" backgroundImage="icon_close_rounded_red"/>
+                                                <connections>
+                                                    <action selector="cancelButtonClick:" destination="Ndp-o0-W1s" eventType="touchUpInside" id="97Z-qK-VEe"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="IZi-zf-20U" secondAttribute="trailing" id="H7P-81-tv0"/>
+                                            <constraint firstItem="IZi-zf-20U" firstAttribute="top" secondItem="1A8-PO-fsy" secondAttribute="top" id="QgG-DE-2fY"/>
+                                            <constraint firstAttribute="bottom" secondItem="IZi-zf-20U" secondAttribute="bottom" id="bM9-aa-RWi"/>
+                                            <constraint firstAttribute="height" constant="34" id="v60-iT-D9A"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Tr-rR-AH0">
+                                        <rect key="frame" x="24" y="79" width="322" height="50"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="RMP-0D-hfF">
+                                                <rect key="frame" x="0.0" y="0.0" width="112.33333333333333" height="50"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Payment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQS-SY-KCd" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="112.33333333333333" height="15.333333333333334"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" red="0.27843137254901962" green="0.27843137254901962" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Total Payment"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AED 8,999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eae-CD-GQG" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="24.333333333333371" width="112.33333333333333" height="25.666666666666671"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="24"/>
+                                                        <color key="textColor" name="121212"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="AED 8,999"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="24"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="4W9-tN-Yly">
+                                                <rect key="frame" x="244.33333333333329" y="11.333333333333371" width="77.666666666666657" height="38.666666666666664"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cashback Earned" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3B-sX-TLK" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="77.666666666666671" height="12"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
+                                                        <color key="textColor" name="Border_039800"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Cashback Earned"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="11"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+ AED 09" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wta-rf-HmD" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="21" width="77.666666666666671" height="17.666666666666671"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                        <color key="textColor" name="Border_039800"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="AED 8,999"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="RMP-0D-hfF" firstAttribute="leading" secondItem="1Tr-rR-AH0" secondAttribute="leading" id="94S-c6-Sgo"/>
+                                            <constraint firstAttribute="bottom" secondItem="RMP-0D-hfF" secondAttribute="bottom" id="LTc-zS-rgT"/>
+                                            <constraint firstAttribute="height" constant="50" id="OAX-f4-7hG"/>
+                                            <constraint firstAttribute="bottom" secondItem="4W9-tN-Yly" secondAttribute="bottom" id="QPp-9o-PMq"/>
+                                            <constraint firstAttribute="trailing" secondItem="4W9-tN-Yly" secondAttribute="trailing" id="SNf-rG-p5E"/>
+                                            <constraint firstItem="RMP-0D-hfF" firstAttribute="top" secondItem="1Tr-rR-AH0" secondAttribute="top" id="TOe-bN-Ckj"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="CNf-Af-eR9">
+                                        <rect key="frame" x="24" y="154" width="322" height="260"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fwM-cS-jjB">
+                                                <rect key="frame" x="0.0" y="0.0" width="322" height="20"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transaction ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSh-8A-rbA" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="161" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="GHF-GQ-vyo"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" name="BlackThemeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Transaction ID"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transaction ID" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEd-1O-fFC" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="161" y="0.0" width="161" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="H0A-iw-zBj"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" name="BlackThemeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="D123456789ABC"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="Mxf-yC-dPY"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="6Ll-2U-Un9">
+                                                <rect key="frame" x="0.0" y="40" width="322" height="20"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLL-Jb-w2B" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="161" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="TXR-Dq-LOE"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" name="BlackThemeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Date"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transaction ID" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bd2-oe-IdU" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="161" y="0.0" width="161" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="eP6-VX-PmC"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" name="BlackThemeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="D123456789ABC"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="nHr-MM-A6m"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8O4-2W-7wT">
+                                                <rect key="frame" x="0.0" y="80" width="322" height="20"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNE-T2-WTg" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="161" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="Gta-0g-IIB"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" name="BlackThemeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Time"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transaction ID" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMU-Pe-39b" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="161" y="0.0" width="161" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="CYi-H2-kgS"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" name="BlackThemeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="D123456789ABC"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="NKd-il-k63"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="JZY-nz-KdL">
+                                                <rect key="frame" x="0.0" y="120" width="322" height="20"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cq9-yM-y2v" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="161" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="n1K-wR-PVT"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" name="BlackThemeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Service"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transaction ID" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuw-qP-GwT" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="161" y="0.0" width="161" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="NVT-Gk-EJq"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" name="BlackThemeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="D123456789ABC"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="ewd-Pf-h2i"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cee-wT-yDb">
+                                                <rect key="frame" x="0.0" y="160" width="322" height="20"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service Provider" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89b-LP-zhD" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="161" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="y8R-Bj-OYB"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" name="BlackThemeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Service Provider"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transaction ID" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpE-Wl-Y7I" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="161" y="0.0" width="161" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="xeF-8U-hix"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" name="BlackThemeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="D123456789ABC"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="Ria-fQ-ENc"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="HSH-yt-UeV">
+                                                <rect key="frame" x="0.0" y="200" width="322" height="20"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUm-Vv-B7y" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="161" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="xdo-tt-7YQ"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" name="BlackThemeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Payment Mode"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transaction ID" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="daj-i0-Sa6" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="161" y="0.0" width="161" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="RmN-8N-nbB"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" name="BlackThemeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="D123456789ABC"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="Skn-dE-Qwu"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cIQ-S5-dQU">
+                                                <rect key="frame" x="0.0" y="240" width="322" height="20"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WhD-UI-bOf" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="161" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="Vdv-Or-X3o"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" name="BlackThemeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Status"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transaction ID" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8W-Bv-DeF" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
+                                                        <rect key="frame" x="161" y="0.0" width="161" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="F9w-0c-6Dj"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                        <color key="textColor" name="BlackThemeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="D123456789ABC"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="DIk-Mh-BiY"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hsG-SM-vSW">
+                                        <rect key="frame" x="0.0" y="439" width="370" height="100"/>
+                                        <subviews>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Cj-b5-t3b" customClass="PekoButton" customModule="Kash10" customModuleProvider="target">
+                                                <rect key="frame" x="24" y="0.0" width="322" height="45"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="45" id="uSV-Y8-KRZ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                <color key="tintColor" name="RedButtonColor"/>
+                                                <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Get PDF Receipt" image="icon_download_1">
+                                                    <color key="titleColor" name="RedButtonColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="RedButtonColor"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Get PDF Receipt"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="downloadInvoiceButtonClick:" destination="Ndp-o0-W1s" eventType="touchUpInside" id="PGn-68-qf4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKJ-1U-cxe" customClass="PekoButton" customModule="Kash10" customModuleProvider="target">
+                                                <rect key="frame" x="125" y="70" width="120" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="9yg-VO-PTm"/>
+                                                    <constraint firstAttribute="width" constant="120" id="Af5-VY-nse"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                <color key="tintColor" name="BlackThemeColor"/>
+                                                <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Need help?" image="questionmark.circle" catalog="system">
+                                                    <color key="titleColor" name="BlackThemeColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="RedButtonColor"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Need help?"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="supportButtonClick:" destination="Ndp-o0-W1s" eventType="touchUpInside" id="lFs-b0-m1a"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="7Cj-b5-t3b" firstAttribute="top" secondItem="hsG-SM-vSW" secondAttribute="top" id="0q8-Vy-8YT"/>
+                                            <constraint firstAttribute="trailing" secondItem="7Cj-b5-t3b" secondAttribute="trailing" constant="24" id="GGA-Kx-foL"/>
+                                            <constraint firstItem="7Cj-b5-t3b" firstAttribute="leading" secondItem="hsG-SM-vSW" secondAttribute="leading" constant="24" id="PaY-9y-7wF"/>
+                                            <constraint firstItem="bKJ-1U-cxe" firstAttribute="centerX" secondItem="hsG-SM-vSW" secondAttribute="centerX" id="SiJ-HK-NwY"/>
+                                            <constraint firstAttribute="bottom" secondItem="bKJ-1U-cxe" secondAttribute="bottom" id="Xzj-Iv-lfJ"/>
+                                            <constraint firstAttribute="height" constant="100" id="eHU-bx-7p1"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="1A8-PO-fsy" firstAttribute="leading" secondItem="88l-bo-T5g" secondAttribute="leading" constant="24" id="4rc-Za-eGp"/>
+                                    <constraint firstAttribute="trailing" secondItem="CNf-Af-eR9" secondAttribute="trailing" constant="24" id="6Wr-wq-Tbm"/>
+                                    <constraint firstItem="CNf-Af-eR9" firstAttribute="leading" secondItem="88l-bo-T5g" secondAttribute="leading" constant="24" id="EZt-xy-d9u"/>
+                                    <constraint firstItem="1Tr-rR-AH0" firstAttribute="top" secondItem="1A8-PO-fsy" secondAttribute="bottom" constant="25" id="UB2-k0-Sgt"/>
+                                    <constraint firstItem="1A8-PO-fsy" firstAttribute="top" secondItem="88l-bo-T5g" secondAttribute="top" constant="20" id="VhE-SZ-JuN"/>
+                                    <constraint firstItem="1Tr-rR-AH0" firstAttribute="leading" secondItem="88l-bo-T5g" secondAttribute="leading" constant="24" id="VrL-Zu-vzu"/>
+                                    <constraint firstAttribute="bottom" secondItem="hsG-SM-vSW" secondAttribute="bottom" constant="20" id="Znk-gQ-0UU"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Tr-rR-AH0" secondAttribute="trailing" constant="24" id="ci7-0y-ToC"/>
+                                    <constraint firstItem="hsG-SM-vSW" firstAttribute="leading" secondItem="88l-bo-T5g" secondAttribute="leading" id="clx-s7-5P2"/>
+                                    <constraint firstAttribute="trailing" secondItem="hsG-SM-vSW" secondAttribute="trailing" id="cme-ab-7wh"/>
+                                    <constraint firstAttribute="trailing" secondItem="1A8-PO-fsy" secondAttribute="trailing" constant="24" id="lKW-cq-veo"/>
+                                    <constraint firstItem="hsG-SM-vSW" firstAttribute="top" secondItem="CNf-Af-eR9" secondAttribute="bottom" constant="25" id="xcR-3V-vNi"/>
+                                    <constraint firstItem="CNf-Af-eR9" firstAttribute="top" secondItem="1Tr-rR-AH0" secondAttribute="bottom" constant="25" id="yqs-X3-tLD"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pah-Ao-3hu"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pah-Ao-3hu" firstAttribute="bottom" secondItem="88l-bo-T5g" secondAttribute="bottom" constant="-514" id="Rap-BW-Ug7"/>
+                            <constraint firstItem="88l-bo-T5g" firstAttribute="leading" secondItem="pah-Ao-3hu" secondAttribute="leading" constant="10" id="Se7-79-h7D"/>
+                            <constraint firstItem="pah-Ao-3hu" firstAttribute="trailing" secondItem="88l-bo-T5g" secondAttribute="trailing" constant="10" id="k3k-UM-9SZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomConstraint" destination="Rap-BW-Ug7" id="6EG-vL-L8j"/>
+                        <outlet property="cashbackStackView" destination="4W9-tN-Yly" id="Ku0-dv-kEa"/>
+                        <outlet property="dateLabel" destination="bd2-oe-IdU" id="P6K-ea-Xdh"/>
+                        <outlet property="paymentModeLabel" destination="daj-i0-Sa6" id="VCJ-ZE-FiI"/>
+                        <outlet property="serviceLabel" destination="fuw-qP-GwT" id="m2S-ck-MGw"/>
+                        <outlet property="servicePorviderLabel" destination="MpE-Wl-Y7I" id="D4a-io-gkZ"/>
+                        <outlet property="statusLabel" destination="Y8W-Bv-DeF" id="lNK-rq-jIp"/>
+                        <outlet property="timeLabel" destination="QMU-Pe-39b" id="djL-nS-qyj"/>
+                        <outlet property="totalCashbackLabel" destination="Wta-rf-HmD" id="NDl-Fj-lGC"/>
+                        <outlet property="totalPaymentLabel" destination="Eae-CD-GQG" id="MDb-85-MJN"/>
+                        <outlet property="transactionIdLabel" destination="nEd-1O-fFC" id="CVC-SD-yFn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dtC-u8-TBd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="788" y="-17"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="52u-Ai-NEa">
+            <size key="intrinsicContentSize" width="105" height="21.333333333333332"/>
+        </designable>
+        <designable name="7Cj-b5-t3b">
+            <size key="intrinsicContentSize" width="138.33333333333334" height="22.333333333333332"/>
+        </designable>
+        <designable name="89b-LP-zhD">
+            <size key="intrinsicContentSize" width="102.33333333333333" height="16.666666666666668"/>
+        </designable>
+        <designable name="A3B-sX-TLK">
+            <size key="intrinsicContentSize" width="77.666666666666671" height="12"/>
+        </designable>
+        <designable name="Cq9-yM-y2v">
+            <size key="intrinsicContentSize" width="46.666666666666664" height="16.666666666666668"/>
+        </designable>
+        <designable name="Eae-CD-GQG">
+            <size key="intrinsicContentSize" width="112.33333333333333" height="28.333333333333332"/>
+        </designable>
+        <designable name="GLL-Jb-w2B">
+            <size key="intrinsicContentSize" width="29" height="16.666666666666668"/>
+        </designable>
+        <designable name="MpE-Wl-Y7I">
+            <size key="intrinsicContentSize" width="90" height="16.666666666666668"/>
+        </designable>
+        <designable name="OSh-8A-rbA">
+            <size key="intrinsicContentSize" width="91" height="16.666666666666668"/>
+        </designable>
+        <designable name="OwA-Oe-hwx">
+            <size key="intrinsicContentSize" width="123.33333333333333" height="18.333333333333332"/>
+        </designable>
+        <designable name="QMU-Pe-39b">
+            <size key="intrinsicContentSize" width="90" height="16.666666666666668"/>
+        </designable>
+        <designable name="WhD-UI-bOf">
+            <size key="intrinsicContentSize" width="40.666666666666664" height="16.666666666666668"/>
+        </designable>
+        <designable name="Wta-rf-HmD">
+            <size key="intrinsicContentSize" width="61.333333333333336" height="17.666666666666668"/>
+        </designable>
+        <designable name="Y8W-Bv-DeF">
+            <size key="intrinsicContentSize" width="90" height="16.666666666666668"/>
+        </designable>
+        <designable name="bKJ-1U-cxe">
+            <size key="intrinsicContentSize" width="89.666666666666671" height="19.333333333333332"/>
+        </designable>
+        <designable name="bd2-oe-IdU">
+            <size key="intrinsicContentSize" width="90" height="16.666666666666668"/>
+        </designable>
+        <designable name="daj-i0-Sa6">
+            <size key="intrinsicContentSize" width="90" height="16.666666666666668"/>
+        </designable>
+        <designable name="fuw-qP-GwT">
+            <size key="intrinsicContentSize" width="90" height="16.666666666666668"/>
+        </designable>
+        <designable name="iQS-SY-KCd">
+            <size key="intrinsicContentSize" width="89.666666666666671" height="16.666666666666668"/>
+        </designable>
+        <designable name="mNE-T2-WTg">
+            <size key="intrinsicContentSize" width="32" height="16.666666666666668"/>
+        </designable>
+        <designable name="nEd-1O-fFC">
+            <size key="intrinsicContentSize" width="90" height="16.666666666666668"/>
+        </designable>
+        <designable name="sUm-Vv-B7y">
+            <size key="intrinsicContentSize" width="94.666666666666671" height="16.666666666666668"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="icon_close_rounded_red" width="136" height="136"/>
+        <image name="icon_download_1" width="22.333333969116211" height="22.333333969116211"/>
+        <image name="icon_filter_gray" width="20" height="20"/>
+        <image name="icon_search_gray" width="24" height="24"/>
+        <image name="questionmark.circle" catalog="system" width="128" height="123"/>
+        <namedColor name="121212">
+            <color red="0.071000002324581146" green="0.071000002324581146" blue="0.071000002324581146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BackgroundThemeColor">
+            <color red="0.96100002527236938" green="0.96899998188018799" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BlackThemeColor">
+            <color red="0.086000002920627594" green="0.086000002920627594" blue="0.086000002920627594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Border_039800">
+            <color red="0.012000000104308128" green="0.59600001573562622" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="RedButtonColor">
+            <color red="0.30199998617172241" green="0.71799999475479126" blue="0.050999999046325684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

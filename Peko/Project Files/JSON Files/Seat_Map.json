@@ -1,0 +1,44 @@
+{
+    "success": true,
+    "data": {
+        "totalCo2Usage": "1715.5335",
+        "groupedByCategory": [
+            {
+                "category": "Energy and Utilities",
+                "totalCo2Usage": 11.75716
+            },
+            {
+                "category": "Fleet Management",
+                "totalCo2Usage": 0.009262399999999999
+            },
+            {
+                "category": "Employee Driving Habits",
+                "totalCo2Usage": 0.026735599999999998
+            },
+            {
+                "category": "Electricity",
+                "totalCo2Usage": 0.020114210999999996
+            },
+            {
+                "category": "Business Travel",
+                "totalCo2Usage": 0.01266145
+            },
+            {
+                "category": "Logistics",
+                "totalCo2Usage": 0.028935499999999996
+            },
+            {
+                "category": "Waste Management",
+                "totalCo2Usage": 1703.6768000000002
+            },
+            {
+                "category": "Online Presence",
+                "totalCo2Usage": 0.00017263200000000004
+            },
+            {
+                "category": "Remote Work",
+                "totalCo2Usage": 0.00170375
+            }
+        ]
+    }
+}

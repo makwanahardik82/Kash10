@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Light.ttf">
+            <string>Inter-Light</string>
+        </array>
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+        <array key="Inter-SemiBold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Peko Connect Dashboard View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="PekoConnectDashboardViewController" id="Y6W-OH-hqX" customClass="PekoConnectDashboardViewController" customModule="Peko" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="QIG-Sd-kc3">
+                                <rect key="frame" x="0.0" y="119" width="393" height="699"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QIG-Sd-kc3" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="UiP-7r-Hwv"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="QIG-Sd-kc3" secondAttribute="bottom" id="g1l-O4-zEN"/>
+                            <constraint firstItem="QIG-Sd-kc3" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="60" id="jf8-hO-arO"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="QIG-Sd-kc3" secondAttribute="trailing" id="puC-9G-9pY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="connectTableView" destination="QIG-Sd-kc3" id="X1E-aK-SOO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="-23"/>
+        </scene>
+        <!--Peko Connect Contact View Controller-->
+        <scene sceneID="ilG-FF-WJQ">
+            <objects>
+                <viewController storyboardIdentifier="PekoConnectContactViewController" id="t5U-hk-acu" customClass="PekoConnectContactViewController" customModule="Peko" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pks-Tv-GOc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="1552"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9EU-ZG-9tn">
+                                <rect key="frame" x="0.0" y="119" width="393" height="1399"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fd-qB-S3J">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1279"/>
+                                        <subviews>
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vXb-FW-VIL">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="95"/>
+                                                <subviews>
+                                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BtU-cS-D9n">
+                                                        <rect key="frame" x="13" y="23.666666666666657" width="48" height="48"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tcC-ui-3rd">
+                                                                <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.96862745289999996" green="0.97647058959999999" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="tcC-ui-3rd" secondAttribute="bottom" id="8bF-Oc-yAa"/>
+                                                            <constraint firstItem="tcC-ui-3rd" firstAttribute="top" secondItem="BtU-cS-D9n" secondAttribute="top" id="F9c-dZ-3V1"/>
+                                                            <constraint firstAttribute="height" constant="48" id="U7y-T8-CHj"/>
+                                                            <constraint firstItem="tcC-ui-3rd" firstAttribute="leading" secondItem="BtU-cS-D9n" secondAttribute="leading" id="V1g-E8-Hew"/>
+                                                            <constraint firstAttribute="width" constant="48" id="hKu-LL-PZm"/>
+                                                            <constraint firstAttribute="trailing" secondItem="tcC-ui-3rd" secondAttribute="trailing" id="mIK-dN-M3c"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="24"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Express Group" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhO-43-yXz" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="71" y="10" width="312" height="75"/>
+                                                        <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="16"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="16"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="hhO-43-yXz" secondAttribute="bottom" constant="10" id="3ez-iO-qB9"/>
+                                                    <constraint firstItem="hhO-43-yXz" firstAttribute="leading" secondItem="BtU-cS-D9n" secondAttribute="trailing" constant="10" id="4Xg-Xp-alZ"/>
+                                                    <constraint firstItem="BtU-cS-D9n" firstAttribute="leading" secondItem="vXb-FW-VIL" secondAttribute="leading" constant="13" id="Zo2-Kv-J9X"/>
+                                                    <constraint firstAttribute="height" constant="95" id="cWx-Yv-mDs"/>
+                                                    <constraint firstAttribute="trailing" secondItem="hhO-43-yXz" secondAttribute="trailing" constant="10" id="rIz-eG-Wof"/>
+                                                    <constraint firstItem="hhO-43-yXz" firstAttribute="top" secondItem="vXb-FW-VIL" secondAttribute="top" constant="10" id="t8Y-QT-QtF"/>
+                                                    <constraint firstItem="BtU-cS-D9n" firstAttribute="centerY" secondItem="vXb-FW-VIL" secondAttribute="centerY" id="udF-td-bTX"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="11"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="XUW-44-J16">
+                                                <rect key="frame" x="20" y="95" width="353" height="402"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lxe-8H-r5H">
+                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="117.33333333333333"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="About Express" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gve-UK-wLO" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="353" height="20"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="6qA-v4-NEs"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="14"/>
+                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                        <real key="value" value="14"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Egb-yU-Ibh" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="29.999999999999993" width="353" height="87.333333333333314"/>
+                                                                <string key="text">Express Group is amongst UAE’s leading business consultancies, which provide a wide range of business solutions for individuals and corporations looking to establish themselves in the UAE. Express group professionals have a vision to provide world-class business advisory services in private and academic sectors.</string>
+                                                                <fontDescription key="fontDescription" name="Inter-Light" family="Inter" pointSize="12"/>
+                                                                <color key="textColor" red="0.45490196078431372" green="0.42745098039215684" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                        <real key="value" value="14"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="Egb-yU-Ibh" firstAttribute="top" secondItem="Gve-UK-wLO" secondAttribute="bottom" constant="10" id="59W-wa-Bi4"/>
+                                                            <constraint firstAttribute="bottom" secondItem="Egb-yU-Ibh" secondAttribute="bottom" id="6jo-hg-Ml9"/>
+                                                            <constraint firstAttribute="trailing" secondItem="Egb-yU-Ibh" secondAttribute="trailing" id="MrQ-JI-1WO"/>
+                                                            <constraint firstItem="Gve-UK-wLO" firstAttribute="top" secondItem="Lxe-8H-r5H" secondAttribute="top" id="S6L-2H-duf"/>
+                                                            <constraint firstAttribute="trailing" secondItem="Gve-UK-wLO" secondAttribute="trailing" id="UKa-aU-pjw"/>
+                                                            <constraint firstItem="Egb-yU-Ibh" firstAttribute="leading" secondItem="Lxe-8H-r5H" secondAttribute="leading" id="aH1-QL-4ng"/>
+                                                            <constraint firstItem="Gve-UK-wLO" firstAttribute="leading" secondItem="Lxe-8H-r5H" secondAttribute="leading" id="saz-6O-QMb"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2lk-W0-0X7">
+                                                        <rect key="frame" x="0.0" y="142.33333333333331" width="353" height="117.33333333333331"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Location" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oat-aK-tGo" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="353" height="20"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="cHt-AV-7By"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="14"/>
+                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                        <real key="value" value="14"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Location"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VQ-Te-S9u" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="29.999999999999993" width="353" height="87.333333333333314"/>
+                                                                <string key="text">Express Group is amongst UAE’s leading business consultancies, which provide a wide range of business solutions for individuals and corporations looking to establish themselves in the UAE. Express group professionals have a vision to provide world-class business advisory services in private and academic sectors.</string>
+                                                                <fontDescription key="fontDescription" name="Inter-Light" family="Inter" pointSize="12"/>
+                                                                <color key="textColor" red="0.4549019608" green="0.42745098040000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                        <real key="value" value="14"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="oat-aK-tGo" secondAttribute="trailing" id="4fi-Cq-J2P"/>
+                                                            <constraint firstItem="oat-aK-tGo" firstAttribute="top" secondItem="2lk-W0-0X7" secondAttribute="top" id="6yZ-Ie-yTT"/>
+                                                            <constraint firstItem="7VQ-Te-S9u" firstAttribute="leading" secondItem="2lk-W0-0X7" secondAttribute="leading" id="eKw-Sw-pmZ"/>
+                                                            <constraint firstItem="oat-aK-tGo" firstAttribute="leading" secondItem="2lk-W0-0X7" secondAttribute="leading" id="ghW-Sf-Roc"/>
+                                                            <constraint firstAttribute="bottom" secondItem="7VQ-Te-S9u" secondAttribute="bottom" id="oYR-mi-k47"/>
+                                                            <constraint firstItem="7VQ-Te-S9u" firstAttribute="top" secondItem="oat-aK-tGo" secondAttribute="bottom" constant="10" id="qIz-PM-dQa"/>
+                                                            <constraint firstAttribute="trailing" secondItem="7VQ-Te-S9u" secondAttribute="trailing" id="rRQ-xT-uKh"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YbK-X4-gO3">
+                                                        <rect key="frame" x="0.0" y="284.66666666666669" width="353" height="117.33333333333331"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Offerings" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olw-gX-PwP" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="353" height="20"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="Pae-uE-DHC"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="14"/>
+                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                        <real key="value" value="14"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPV-A1-cqY" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="29.999999999999936" width="353" height="87.333333333333314"/>
+                                                                <string key="text">Express Group is amongst UAE’s leading business consultancies, which provide a wide range of business solutions for individuals and corporations looking to establish themselves in the UAE. Express group professionals have a vision to provide world-class business advisory services in private and academic sectors.</string>
+                                                                <fontDescription key="fontDescription" name="Inter-Light" family="Inter" pointSize="12"/>
+                                                                <color key="textColor" red="0.45490196078431372" green="0.42745098039215684" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                        <real key="value" value="14"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="olw-gX-PwP" firstAttribute="top" secondItem="YbK-X4-gO3" secondAttribute="top" id="4UT-YX-gqD"/>
+                                                            <constraint firstItem="olw-gX-PwP" firstAttribute="leading" secondItem="YbK-X4-gO3" secondAttribute="leading" id="8VS-eY-vXA"/>
+                                                            <constraint firstItem="QPV-A1-cqY" firstAttribute="top" secondItem="olw-gX-PwP" secondAttribute="bottom" constant="10" id="MS0-Bg-TRt"/>
+                                                            <constraint firstAttribute="trailing" secondItem="QPV-A1-cqY" secondAttribute="trailing" id="S8n-0K-8qh"/>
+                                                            <constraint firstAttribute="trailing" secondItem="olw-gX-PwP" secondAttribute="trailing" id="TgO-P7-lI2"/>
+                                                            <constraint firstItem="QPV-A1-cqY" firstAttribute="leading" secondItem="YbK-X4-gO3" secondAttribute="leading" id="bhb-cQ-rWL"/>
+                                                            <constraint firstAttribute="bottom" secondItem="QPV-A1-cqY" secondAttribute="bottom" id="hQP-Pg-QL8"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V33-Ba-hOd">
+                                                <rect key="frame" x="0.0" y="512" width="393" height="150"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Services" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JK-oc-H1c" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="20" y="0.0" width="353" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="6ob-tj-Hd2"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="14"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="GyY-bM-8nw">
+                                                        <rect key="frame" x="0.0" y="35" width="393" height="100"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hmx-M0-CmC">
+                                                            <size key="itemSize" width="128" height="128"/>
+                                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                        </collectionViewFlowLayout>
+                                                        <cells>
+                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ServiceTagCollectionViewCell" id="BAR-ub-DwX">
+                                                                <rect key="frame" x="0.0" y="0.0" width="85" height="36"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="hrN-dI-bOo">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="85" height="36"/>
+                                                                    <autoresizingMask key="autoresizingMask"/>
+                                                                    <subviews>
+                                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mHL-D2-HWW">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="85" height="36"/>
+                                                                            <subviews>
+                                                                                <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wifi Setup" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHm-IQ-R1j" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                                                    <rect key="frame" x="11" y="0.0" width="63" height="36"/>
+                                                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                                                    <color key="textColor" name="RedButtonColor"/>
+                                                                                    <nil key="highlightedColor"/>
+                                                                                    <userDefinedRuntimeAttributes>
+                                                                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                            <real key="value" value="14"/>
+                                                                                        </userDefinedRuntimeAttribute>
+                                                                                        <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                                                    </userDefinedRuntimeAttributes>
+                                                                                </label>
+                                                                            </subviews>
+                                                                            <color key="backgroundColor" red="1" green="0.96470588235294119" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="trailing" secondItem="uHm-IQ-R1j" secondAttribute="trailing" constant="11" id="VKp-fg-E8i"/>
+                                                                                <constraint firstItem="uHm-IQ-R1j" firstAttribute="top" secondItem="mHL-D2-HWW" secondAttribute="top" id="aLg-no-MC5"/>
+                                                                                <constraint firstItem="uHm-IQ-R1j" firstAttribute="leading" secondItem="mHL-D2-HWW" secondAttribute="leading" constant="11" id="bZP-95-pe2"/>
+                                                                                <constraint firstAttribute="bottom" secondItem="uHm-IQ-R1j" secondAttribute="bottom" id="gcw-Wr-4pc"/>
+                                                                                <constraint firstAttribute="height" constant="36" id="i2A-2M-lYz"/>
+                                                                            </constraints>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                    <real key="value" value="18"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                        </view>
+                                                                    </subviews>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="trailing" secondItem="mHL-D2-HWW" secondAttribute="trailing" id="3Nl-eb-cmD"/>
+                                                                        <constraint firstItem="mHL-D2-HWW" firstAttribute="leading" secondItem="hrN-dI-bOo" secondAttribute="leading" id="Sdu-PA-JjB"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="mHL-D2-HWW" secondAttribute="bottom" id="jkS-6q-V17"/>
+                                                                        <constraint firstItem="mHL-D2-HWW" firstAttribute="top" secondItem="hrN-dI-bOo" secondAttribute="top" id="z2a-mU-lVN"/>
+                                                                    </constraints>
+                                                                </collectionViewCellContentView>
+                                                            </collectionViewCell>
+                                                        </cells>
+                                                    </collectionView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="6JK-oc-H1c" firstAttribute="top" secondItem="V33-Ba-hOd" secondAttribute="top" id="Avk-W0-fwe"/>
+                                                    <constraint firstItem="GyY-bM-8nw" firstAttribute="top" secondItem="6JK-oc-H1c" secondAttribute="bottom" constant="15" id="BcI-el-vzz"/>
+                                                    <constraint firstItem="GyY-bM-8nw" firstAttribute="leading" secondItem="V33-Ba-hOd" secondAttribute="leading" id="G86-gf-3dM"/>
+                                                    <constraint firstAttribute="trailing" secondItem="GyY-bM-8nw" secondAttribute="trailing" id="L7x-9O-0ky"/>
+                                                    <constraint firstItem="6JK-oc-H1c" firstAttribute="leading" secondItem="V33-Ba-hOd" secondAttribute="leading" constant="20" id="Tb6-SM-ZCP"/>
+                                                    <constraint firstAttribute="height" constant="150" id="fC8-EJ-uSx"/>
+                                                    <constraint firstAttribute="bottom" secondItem="GyY-bM-8nw" secondAttribute="bottom" constant="15" id="vD2-g3-ADB"/>
+                                                    <constraint firstAttribute="trailing" secondItem="6JK-oc-H1c" secondAttribute="trailing" constant="20" id="vVq-3F-VCm"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Connect Now" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLZ-eH-4nc" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="677" width="353" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="XWY-Py-0aS"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="14"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Hws-3d-bYr">
+                                                <rect key="frame" x="20" y="712" width="353" height="472"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gqJ-NW-OxD" customClass="PekoFloatingTextFieldView" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="62"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="62" id="efG-JM-Q3N"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Full Name"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kWj-BH-5Qc" customClass="PekoFloatingTextFieldView" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="82" width="353" height="62"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="62" id="r0h-yy-tyD"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Mobile Number"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textFieldTypeName" value="Mobile"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sAP-hc-x55" customClass="PekoFloatingTextFieldView" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="164" width="353" height="62"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="62" id="MQc-yV-icd"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="E-mail"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textFieldTypeName" value="Email"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V14-J5-Ush" customClass="PekoFloatingTextFieldView" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="246" width="353" height="62"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="62" id="qZA-Wu-5Un"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Preferred mode of communication"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textFieldTypeName" value="DropDown"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uvZ-cu-7Ew" customClass="PekoFloatingTextFieldView" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="328" width="353" height="62"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="62" id="TXr-WT-vNE"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Requirement "/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Umd-mY-weY" customClass="PekoFloatingTextFieldView" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="410" width="353" height="62"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="62" id="rVV-cJ-GQg"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Description"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" clipsSubviews="YES" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3LM-F9-hBb" customClass="PekoButton" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="1204" width="353" height="55"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="55" id="z1i-TB-lSp"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="16"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Connect Now">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonStyleName" value="Submit"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="connectNowButtonClick:" destination="t5U-hk-acu" eventType="touchUpInside" id="tNZ-Cp-OPG"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="XUW-44-J16" firstAttribute="leading" secondItem="9fd-qB-S3J" secondAttribute="leading" constant="20" id="BeU-Pw-aea"/>
+                                            <constraint firstItem="Hws-3d-bYr" firstAttribute="leading" secondItem="9fd-qB-S3J" secondAttribute="leading" constant="20" id="Fn1-QI-tbh"/>
+                                            <constraint firstItem="xLZ-eH-4nc" firstAttribute="top" secondItem="V33-Ba-hOd" secondAttribute="bottom" constant="15" id="Kb7-z0-bhc"/>
+                                            <constraint firstItem="XUW-44-J16" firstAttribute="top" secondItem="vXb-FW-VIL" secondAttribute="bottom" id="MAt-fl-FER"/>
+                                            <constraint firstAttribute="trailing" secondItem="3LM-F9-hBb" secondAttribute="trailing" constant="20" id="NYq-Yr-FLd"/>
+                                            <constraint firstItem="vXb-FW-VIL" firstAttribute="leading" secondItem="9fd-qB-S3J" secondAttribute="leading" id="OMH-xI-U2b"/>
+                                            <constraint firstAttribute="trailing" secondItem="Hws-3d-bYr" secondAttribute="trailing" constant="20" id="R4w-59-VL8"/>
+                                            <constraint firstItem="3LM-F9-hBb" firstAttribute="top" secondItem="Hws-3d-bYr" secondAttribute="bottom" constant="20" id="RZM-WJ-CqL"/>
+                                            <constraint firstAttribute="trailing" secondItem="V33-Ba-hOd" secondAttribute="trailing" id="SIF-TT-Iim"/>
+                                            <constraint firstAttribute="trailing" secondItem="XUW-44-J16" secondAttribute="trailing" constant="20" id="T1j-N0-N2S"/>
+                                            <constraint firstItem="V33-Ba-hOd" firstAttribute="top" secondItem="XUW-44-J16" secondAttribute="bottom" constant="15" id="g6R-lI-Gwd"/>
+                                            <constraint firstAttribute="bottom" secondItem="3LM-F9-hBb" secondAttribute="bottom" constant="20" id="hSH-3Q-v03"/>
+                                            <constraint firstItem="V33-Ba-hOd" firstAttribute="leading" secondItem="9fd-qB-S3J" secondAttribute="leading" id="hr0-hb-rEc"/>
+                                            <constraint firstItem="Hws-3d-bYr" firstAttribute="top" secondItem="xLZ-eH-4nc" secondAttribute="bottom" constant="15" id="m7l-pm-mM4"/>
+                                            <constraint firstAttribute="trailing" secondItem="xLZ-eH-4nc" secondAttribute="trailing" constant="20" id="naw-wr-76k"/>
+                                            <constraint firstItem="vXb-FW-VIL" firstAttribute="top" secondItem="9fd-qB-S3J" secondAttribute="top" id="uAd-n6-wg6"/>
+                                            <constraint firstItem="xLZ-eH-4nc" firstAttribute="leading" secondItem="9fd-qB-S3J" secondAttribute="leading" constant="20" id="zGa-2g-I29"/>
+                                            <constraint firstItem="3LM-F9-hBb" firstAttribute="leading" secondItem="9fd-qB-S3J" secondAttribute="leading" constant="20" id="zen-n2-Kga"/>
+                                            <constraint firstAttribute="trailing" secondItem="vXb-FW-VIL" secondAttribute="trailing" id="zm6-LV-uwI"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="9fd-qB-S3J" firstAttribute="top" secondItem="9EU-ZG-9tn" secondAttribute="top" id="9z4-5z-6vN"/>
+                                    <constraint firstItem="9fd-qB-S3J" firstAttribute="width" secondItem="9EU-ZG-9tn" secondAttribute="width" id="JEN-gL-H4w"/>
+                                    <constraint firstAttribute="trailing" secondItem="9fd-qB-S3J" secondAttribute="trailing" id="PiY-TO-ykh"/>
+                                    <constraint firstAttribute="bottom" secondItem="9fd-qB-S3J" secondAttribute="bottom" id="Unc-f2-m6U"/>
+                                    <constraint firstItem="9fd-qB-S3J" firstAttribute="leading" secondItem="9EU-ZG-9tn" secondAttribute="leading" id="YQL-VB-fvR"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dAR-DY-bYR"/>
+                        <color key="backgroundColor" name="BackgroundThemeColor"/>
+                        <constraints>
+                            <constraint firstItem="dAR-DY-bYR" firstAttribute="bottom" secondItem="9EU-ZG-9tn" secondAttribute="bottom" id="DIt-5y-GA1"/>
+                            <constraint firstItem="dAR-DY-bYR" firstAttribute="trailing" secondItem="9EU-ZG-9tn" secondAttribute="trailing" id="KwX-Yh-pG7"/>
+                            <constraint firstItem="9EU-ZG-9tn" firstAttribute="leading" secondItem="dAR-DY-bYR" secondAttribute="leading" id="mQl-Ot-K8A"/>
+                            <constraint firstItem="9EU-ZG-9tn" firstAttribute="top" secondItem="dAR-DY-bYR" secondAttribute="top" constant="60" id="yrw-8V-8N4"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="393" height="1552"/>
+                    <connections>
+                        <outlet property="aboutLabel" destination="Egb-yU-Ibh" id="HtS-MZ-gcu"/>
+                        <outlet property="descriptionView" destination="Umd-mY-weY" id="zZ8-hp-gdx"/>
+                        <outlet property="emailView" destination="sAP-hc-x55" id="FYl-hW-cod"/>
+                        <outlet property="fullNameView" destination="gqJ-NW-OxD" id="9os-Xn-TOM"/>
+                        <outlet property="mobileNumberView" destination="kWj-BH-5Qc" id="MUb-Xi-ae9"/>
+                        <outlet property="offeringLabel" destination="QPV-A1-cqY" id="kyC-XO-Efj"/>
+                        <outlet property="prefereedView" destination="V14-J5-Ush" id="DVw-hK-ca3"/>
+                        <outlet property="requirementView" destination="uvZ-cu-7Ew" id="EEt-7U-seL"/>
+                        <outlet property="scrollView" destination="9EU-ZG-9tn" id="M0i-Dp-Ukm"/>
+                        <outlet property="serviceCollectionView" destination="GyY-bM-8nw" id="lgJ-Af-KuD"/>
+                        <outlet property="storeAddressLabel" destination="7VQ-Te-S9u" id="EKV-ar-rJ9"/>
+                        <outlet property="storeImgView" destination="tcC-ui-3rd" id="fWf-Qi-0Qf"/>
+                        <outlet property="storeNamelabel" destination="hhO-43-yXz" id="ajn-Mb-5TK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D7K-gk-uPF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="715" y="-23"/>
+        </scene>
+        <!--Peko Connect Success View Controller-->
+        <scene sceneID="PYw-Gd-3y5">
+            <objects>
+                <viewController storyboardIdentifier="PekoConnectSuccessViewController" id="c67-pK-cEa" customClass="PekoConnectSuccessViewController" customModule="Peko" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RNH-6g-9jL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jj3-rU-6WL" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="106.66666666666669" y="190.66666666666663" width="180" height="180"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="FuZ-jz-LZ2"/>
+                                    <constraint firstAttribute="width" constant="180" id="OeM-km-UML"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="Success_Animation"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for your enquiry" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6WB-WF-e87" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                <rect key="frame" x="20" y="380.66666666666669" width="353" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="121212"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Thank you for your enquiry"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBq-rH-pnR">
+                                <rect key="frame" x="20" y="416" width="353" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihv-VC-xkQ">
+                                <rect key="frame" x="20" y="777.66666666666663" width="353" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="620-xf-dcm">
+                                <rect key="frame" x="20" y="768" width="353" height="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <connections>
+                                    <action selector="supportMailButtonClick:" destination="c67-pK-cEa" eventType="touchUpInside" id="L48-ek-Z8y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSy-uT-tFW" customClass="PekoButton" customModule="Peko" customModuleProvider="target">
+                                <rect key="frame" x="116.66666666666669" y="476.33333333333331" width="160" height="41.999999999999943"/>
+                                <color key="backgroundColor" name="RedButtonColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="7DV-C4-M1q"/>
+                                    <constraint firstAttribute="width" constant="160" id="mGe-KM-Nus"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="14"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Go to Peko Connect"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Submit"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonStyleName" value="Bold"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="backToVCButtonClick:" destination="c67-pK-cEa" eventType="touchUpInside" id="HHR-Hv-l8q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ebs-oK-NRu"/>
+                        <color key="backgroundColor" name="BackgroundThemeColor"/>
+                        <constraints>
+                            <constraint firstItem="nBq-rH-pnR" firstAttribute="centerX" secondItem="RNH-6g-9jL" secondAttribute="centerX" id="0g1-Fb-sgA"/>
+                            <constraint firstItem="620-xf-dcm" firstAttribute="leading" secondItem="ebs-oK-NRu" secondAttribute="leading" constant="20" id="2Cv-Od-W6l"/>
+                            <constraint firstItem="ebs-oK-NRu" firstAttribute="trailing" secondItem="620-xf-dcm" secondAttribute="trailing" constant="20" id="31m-ZM-Rnb"/>
+                            <constraint firstItem="nBq-rH-pnR" firstAttribute="centerY" secondItem="RNH-6g-9jL" secondAttribute="centerY" id="5vy-AP-tqj"/>
+                            <constraint firstItem="ebs-oK-NRu" firstAttribute="trailing" secondItem="6WB-WF-e87" secondAttribute="trailing" constant="20" id="C9h-3d-Tam"/>
+                            <constraint firstItem="ihv-VC-xkQ" firstAttribute="leading" secondItem="ebs-oK-NRu" secondAttribute="leading" constant="20" id="EMD-4h-Pwa"/>
+                            <constraint firstItem="nBq-rH-pnR" firstAttribute="top" secondItem="6WB-WF-e87" secondAttribute="bottom" constant="15" id="J0B-rX-Ftz"/>
+                            <constraint firstItem="6WB-WF-e87" firstAttribute="top" secondItem="jj3-rU-6WL" secondAttribute="bottom" constant="10" id="LFU-sa-oI6"/>
+                            <constraint firstItem="nBq-rH-pnR" firstAttribute="leading" secondItem="ebs-oK-NRu" secondAttribute="leading" constant="20" id="Loe-bF-wVJ"/>
+                            <constraint firstItem="6WB-WF-e87" firstAttribute="leading" secondItem="ebs-oK-NRu" secondAttribute="leading" constant="20" id="MQt-y0-seU"/>
+                            <constraint firstItem="dSy-uT-tFW" firstAttribute="top" secondItem="nBq-rH-pnR" secondAttribute="bottom" constant="40" id="NBZ-N2-oxj"/>
+                            <constraint firstItem="6WB-WF-e87" firstAttribute="top" secondItem="jj3-rU-6WL" secondAttribute="bottom" constant="10" id="Ti9-02-aXx"/>
+                            <constraint firstItem="ebs-oK-NRu" firstAttribute="trailing" secondItem="nBq-rH-pnR" secondAttribute="trailing" constant="20" id="cAN-ao-nIB"/>
+                            <constraint firstItem="ebs-oK-NRu" firstAttribute="bottom" secondItem="620-xf-dcm" secondAttribute="bottom" constant="20" id="icq-hL-bzI"/>
+                            <constraint firstItem="ebs-oK-NRu" firstAttribute="bottom" secondItem="ihv-VC-xkQ" secondAttribute="bottom" constant="20" id="ivp-x2-rtl"/>
+                            <constraint firstItem="jj3-rU-6WL" firstAttribute="centerX" secondItem="RNH-6g-9jL" secondAttribute="centerX" id="lQ1-Uy-uK6"/>
+                            <constraint firstItem="620-xf-dcm" firstAttribute="height" secondItem="ihv-VC-xkQ" secondAttribute="height" multiplier="1.47541" id="qlM-z5-xe0"/>
+                            <constraint firstItem="ebs-oK-NRu" firstAttribute="trailing" secondItem="ihv-VC-xkQ" secondAttribute="trailing" constant="20" id="rDg-aq-ygF"/>
+                            <constraint firstItem="dSy-uT-tFW" firstAttribute="centerX" secondItem="RNH-6g-9jL" secondAttribute="centerX" id="uwD-IZ-l0T"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="jj3-rU-6WL" id="VG7-AK-ObG"/>
+                        <outlet property="detailLabel" destination="nBq-rH-pnR" id="CJe-w3-pH0"/>
+                        <outlet property="supportLabel" destination="ihv-VC-xkQ" id="YbE-Lg-QpQ"/>
+                        <outlet property="titleLabel" destination="6WB-WF-e87" id="BJR-XV-48t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sh6-Ck-yFW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1424" y="-23"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="3LM-F9-hBb">
+            <size key="intrinsicContentSize" width="103" height="32"/>
+        </designable>
+        <designable name="6JK-oc-H1c">
+            <size key="intrinsicContentSize" width="58" height="17"/>
+        </designable>
+        <designable name="6WB-WF-e87">
+            <size key="intrinsicContentSize" width="203.66666666666666" height="20.333333333333332"/>
+        </designable>
+        <designable name="7VQ-Te-S9u">
+            <size key="intrinsicContentSize" width="1767" height="14.666666666666666"/>
+        </designable>
+        <designable name="Egb-yU-Ibh">
+            <size key="intrinsicContentSize" width="1767" height="14.666666666666666"/>
+        </designable>
+        <designable name="Gve-UK-wLO">
+            <size key="intrinsicContentSize" width="97.666666666666671" height="17"/>
+        </designable>
+        <designable name="QPV-A1-cqY">
+            <size key="intrinsicContentSize" width="1767" height="14.666666666666666"/>
+        </designable>
+        <designable name="dSy-uT-tFW">
+            <size key="intrinsicContentSize" width="135" height="29"/>
+        </designable>
+        <designable name="hhO-43-yXz">
+            <size key="intrinsicContentSize" width="113.33333333333333" height="19.666666666666668"/>
+        </designable>
+        <designable name="oat-aK-tGo">
+            <size key="intrinsicContentSize" width="58" height="17"/>
+        </designable>
+        <designable name="olw-gX-PwP">
+            <size key="intrinsicContentSize" width="62.666666666666664" height="17"/>
+        </designable>
+        <designable name="uHm-IQ-R1j">
+            <size key="intrinsicContentSize" width="63" height="16.666666666666668"/>
+        </designable>
+        <designable name="xLZ-eH-4nc">
+            <size key="intrinsicContentSize" width="91" height="17"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="121212">
+            <color red="0.071000002324581146" green="0.071000002324581146" blue="0.071000002324581146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BackgroundThemeColor">
+            <color red="0.96100002527236938" green="0.96899998188018799" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="RedButtonColor">
+            <color red="1" green="0.31000000238418579" blue="0.31000000238418579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

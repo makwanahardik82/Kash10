@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Add Beneficiary View Controller-->
+        <scene sceneID="0wG-Hu-Zeg">
+            <objects>
+                <viewController storyboardIdentifier="AddBeneficiaryViewController" id="9MH-jL-O6B" customClass="AddBeneficiaryViewController" customModule="Peko" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i0t-fG-euA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pr5-pL-StF">
+                                <rect key="frame" x="10" y="830" width="373" height="488"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9XF-zI-nZx">
+                                        <rect key="frame" x="24" y="20" width="325" height="34"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVs-DH-3rn">
+                                                <rect key="frame" x="291" y="0.0" width="34" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="34" id="WMl-0H-Ja0"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" backgroundImage="icon_close_rounded_red"/>
+                                                <connections>
+                                                    <action selector="cancelButtonClick:" destination="9MH-jL-O6B" eventType="touchUpInside" id="kB1-lQ-bZA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adD-dG-qPv">
+                                                <rect key="frame" x="0.0" y="0.0" width="34" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="34" id="gY4-Js-c1f"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" backgroundImage="icon_bookmark"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="rVs-DH-3rn" firstAttribute="top" secondItem="9XF-zI-nZx" secondAttribute="top" id="0kW-e3-aYC"/>
+                                            <constraint firstAttribute="bottom" secondItem="rVs-DH-3rn" secondAttribute="bottom" id="JMD-w4-RRe"/>
+                                            <constraint firstItem="adD-dG-qPv" firstAttribute="leading" secondItem="9XF-zI-nZx" secondAttribute="leading" id="PnI-3x-eQl"/>
+                                            <constraint firstAttribute="bottom" secondItem="adD-dG-qPv" secondAttribute="bottom" id="Ypz-4H-o1H"/>
+                                            <constraint firstAttribute="height" constant="34" id="Zuh-3i-DDt"/>
+                                            <constraint firstAttribute="trailing" secondItem="rVs-DH-3rn" secondAttribute="trailing" id="cr7-AY-Z5C"/>
+                                            <constraint firstItem="adD-dG-qPv" firstAttribute="top" secondItem="9XF-zI-nZx" secondAttribute="top" id="wbc-gE-5ic"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Beneficiary Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IwP-Xh-xxM" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="24" y="79" width="325" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="iaT-WY-8SA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
+                                        <color key="textColor" name="BlackThemeColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Add Beneficiary Details"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="18"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This will help you to process the payment quickly " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yhq-Dn-F6l" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="114" width="333" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="kP5-uc-Fm7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                        <color key="textColor" red="0.40000000000000002" green="0.43921568630000002" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="This will help you to process the payment quickly "/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="shV-HG-WlB">
+                                        <rect key="frame" x="24" y="159" width="325" height="216"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ad9-1d-RdQ" customClass="PekoFloatingTextFieldView" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="325" height="62"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="62" id="ghl-SK-HOv"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Beneficiary Name"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dMX-GQ-yYe" customClass="PekoFloatingTextFieldView" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="77" width="325" height="62"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="62" id="Log-e2-zDo"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Phone Number"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textFieldTypeName" value="Mobile"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fli-1i-mL8" customClass="PekoFloatingTextFieldView" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="154" width="325" height="62"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="62" id="xpB-7m-LV6"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="OTP"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textFieldTypeName" value="Number"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iOv-Ur-rcW">
+                                        <rect key="frame" x="0.0" y="400" width="373" height="88"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="IyJ-oV-Wim">
+                                                <rect key="frame" x="24" y="16" width="325" height="56"/>
+                                                <subviews>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ExX-gk-RIk" customClass="PekoButton" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="150.66666666666666" height="56"/>
+                                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Cancel">
+                                                            <color key="titleColor" name="RedButtonColor"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                <real key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" name="RedButtonColor"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="18"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Cancel"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="cancelButtonClick:" destination="9MH-jL-O6B" eventType="touchUpInside" id="fvj-Bk-pgi"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSU-zZ-22f" customClass="PekoButton" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="174.66666666666663" y="0.0" width="150.33333333333337" height="56"/>
+                                                        <color key="backgroundColor" name="RedButtonColor"/>
+                                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Send OTP">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                <real key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" name="RedButtonColor"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="18"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Send OTP"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="saveButtonClick:" destination="9MH-jL-O6B" eventType="touchUpInside" id="hiM-GT-dhF"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="56" id="oV4-ff-3uN"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="IyJ-oV-Wim" firstAttribute="centerY" secondItem="iOv-Ur-rcW" secondAttribute="centerY" id="9YI-Hy-xvs"/>
+                                            <constraint firstItem="IyJ-oV-Wim" firstAttribute="leading" secondItem="iOv-Ur-rcW" secondAttribute="leading" constant="24" id="IDp-0t-Tms"/>
+                                            <constraint firstAttribute="trailing" secondItem="IyJ-oV-Wim" secondAttribute="trailing" constant="24" id="US5-Rc-V5h"/>
+                                            <constraint firstAttribute="height" constant="88" id="fo8-Qb-c6B"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="0.0" height="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="9XF-zI-nZx" secondAttribute="trailing" constant="24" id="25d-x6-5Nj"/>
+                                    <constraint firstAttribute="bottom" secondItem="iOv-Ur-rcW" secondAttribute="bottom" id="4kT-pj-sda"/>
+                                    <constraint firstItem="Yhq-Dn-F6l" firstAttribute="top" secondItem="9XF-zI-nZx" secondAttribute="bottom" constant="60" id="8Hl-lh-QYe"/>
+                                    <constraint firstItem="Yhq-Dn-F6l" firstAttribute="leading" secondItem="Pr5-pL-StF" secondAttribute="leading" constant="20" id="F4V-5x-Ysb"/>
+                                    <constraint firstAttribute="trailing" secondItem="Yhq-Dn-F6l" secondAttribute="trailing" constant="20" id="GYT-Id-YOH"/>
+                                    <constraint firstItem="IwP-Xh-xxM" firstAttribute="leading" secondItem="Pr5-pL-StF" secondAttribute="leading" constant="24" id="ShD-Mp-hZW"/>
+                                    <constraint firstItem="iOv-Ur-rcW" firstAttribute="leading" secondItem="Pr5-pL-StF" secondAttribute="leading" id="VqC-US-dnQ"/>
+                                    <constraint firstItem="IwP-Xh-xxM" firstAttribute="top" secondItem="9XF-zI-nZx" secondAttribute="bottom" constant="25" id="YFk-zG-Cgv"/>
+                                    <constraint firstAttribute="trailing" secondItem="iOv-Ur-rcW" secondAttribute="trailing" id="ZnK-lP-lK3"/>
+                                    <constraint firstAttribute="trailing" secondItem="shV-HG-WlB" secondAttribute="trailing" constant="24" id="eE5-cd-sbE"/>
+                                    <constraint firstItem="shV-HG-WlB" firstAttribute="top" secondItem="Yhq-Dn-F6l" secondAttribute="bottom" constant="20" id="fjj-fG-oOA"/>
+                                    <constraint firstItem="iOv-Ur-rcW" firstAttribute="top" secondItem="shV-HG-WlB" secondAttribute="bottom" constant="25" id="jAc-qN-SZc"/>
+                                    <constraint firstItem="9XF-zI-nZx" firstAttribute="leading" secondItem="Pr5-pL-StF" secondAttribute="leading" constant="24" id="jCR-qH-RA7"/>
+                                    <constraint firstItem="9XF-zI-nZx" firstAttribute="top" secondItem="Pr5-pL-StF" secondAttribute="top" constant="20" id="m5H-h4-4FN"/>
+                                    <constraint firstItem="shV-HG-WlB" firstAttribute="leading" secondItem="Pr5-pL-StF" secondAttribute="leading" constant="24" id="q6L-W8-KlC"/>
+                                    <constraint firstAttribute="trailing" secondItem="IwP-Xh-xxM" secondAttribute="trailing" constant="24" id="wwE-of-VdL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="865-5t-3pF"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="865-5t-3pF" firstAttribute="bottom" secondItem="Pr5-pL-StF" secondAttribute="bottom" constant="-500" id="C2T-0b-YvX"/>
+                            <constraint firstItem="865-5t-3pF" firstAttribute="trailing" secondItem="Pr5-pL-StF" secondAttribute="trailing" constant="10" id="WHo-dl-etb"/>
+                            <constraint firstItem="Pr5-pL-StF" firstAttribute="leading" secondItem="865-5t-3pF" secondAttribute="leading" constant="10" id="dUR-Mu-HAC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomConstraint" destination="C2T-0b-YvX" id="5VT-B9-VNz"/>
+                        <outlet property="cancelButton" destination="ExX-gk-RIk" id="Ki0-dJ-OiU"/>
+                        <outlet property="nameView" destination="ad9-1d-RdQ" id="Jsh-M5-Omx"/>
+                        <outlet property="numberView" destination="dMX-GQ-yYe" id="eCs-YI-mNc"/>
+                        <outlet property="otpView" destination="fli-1i-mL8" id="o3T-6O-3si"/>
+                        <outlet property="saveButton" destination="iSU-zZ-22f" id="fT3-7u-vC7"/>
+                        <outlet property="titleLabel" destination="IwP-Xh-xxM" id="zIY-OK-1Dx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2c6-AP-74F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1525" y="-798"/>
+        </scene>
+        <!--Beneficiary Action View Controller-->
+        <scene sceneID="9Zr-Mw-1zI">
+            <objects>
+                <viewController storyboardIdentifier="BeneficiaryActionViewController" id="4jd-4y-CRy" customClass="BeneficiaryActionViewController" customModule="Peko" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cMe-qI-qs3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qzy-4w-C9k">
+                                <rect key="frame" x="10" y="906" width="373" height="162"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kql-dp-JL1">
+                                        <rect key="frame" x="24" y="20" width="325" height="34"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delete or Edit Beneficiary Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaW-hc-HDS" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="265" height="34"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
+                                                <color key="textColor" name="BlackThemeColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Delete or Edit Beneficiary Details"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="18"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vaL-6q-ZXh">
+                                                <rect key="frame" x="291" y="0.0" width="34" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="34" id="BSn-YV-AHb"/>
+                                                </constraints>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" backgroundImage="icon_close_rounded_red"/>
+                                                <connections>
+                                                    <action selector="cancelButtonClick:" destination="4jd-4y-CRy" eventType="touchUpInside" id="0PO-th-sfK"/>
+                                                    <action selector="cancelButtonClick:" destination="9MH-jL-O6B" eventType="touchUpInside" id="pri-Ij-tai"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="vaL-6q-ZXh" secondAttribute="bottom" id="LDE-9l-kib"/>
+                                            <constraint firstItem="TaW-hc-HDS" firstAttribute="leading" secondItem="Kql-dp-JL1" secondAttribute="leading" id="Rsz-GV-V4G"/>
+                                            <constraint firstItem="TaW-hc-HDS" firstAttribute="top" secondItem="Kql-dp-JL1" secondAttribute="top" id="XTC-eO-U69"/>
+                                            <constraint firstAttribute="height" constant="34" id="XkL-Np-ASj"/>
+                                            <constraint firstAttribute="trailing" secondItem="vaL-6q-ZXh" secondAttribute="trailing" id="k2M-qe-6nx"/>
+                                            <constraint firstAttribute="bottom" secondItem="TaW-hc-HDS" secondAttribute="bottom" id="kMh-DH-Lq0"/>
+                                            <constraint firstItem="vaL-6q-ZXh" firstAttribute="top" secondItem="Kql-dp-JL1" secondAttribute="top" id="sJZ-Tb-D4s"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5q8-c3-6T5">
+                                        <rect key="frame" x="0.0" y="74" width="373" height="88"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="65c-w9-0bS">
+                                                <rect key="frame" x="24" y="16" width="325" height="56"/>
+                                                <subviews>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOD-K3-byJ" customClass="PekoButton" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="150.66666666666666" height="56"/>
+                                                        <color key="backgroundColor" name="RedButtonColor"/>
+                                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Edit">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                <real key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" name="RedButtonColor"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="18"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Edit"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="editButtonClick:" destination="4jd-4y-CRy" eventType="touchUpInside" id="vSn-Lt-537"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4eW-eZ-lWd" customClass="PekoButton" customModule="Peko" customModuleProvider="target">
+                                                        <rect key="frame" x="174.66666666666663" y="0.0" width="150.33333333333337" height="56"/>
+                                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Delete">
+                                                            <color key="titleColor" name="RedButtonColor"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                <real key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" name="RedButtonColor"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="18"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="Delete"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="deleteButtonClick:" destination="4jd-4y-CRy" eventType="touchUpInside" id="pWO-Ks-h6Y"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="56" id="Vop-zv-dYn"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="88" id="RFR-rM-ENz"/>
+                                            <constraint firstItem="65c-w9-0bS" firstAttribute="centerY" secondItem="5q8-c3-6T5" secondAttribute="centerY" id="T9D-PK-J0Z"/>
+                                            <constraint firstItem="65c-w9-0bS" firstAttribute="leading" secondItem="5q8-c3-6T5" secondAttribute="leading" constant="24" id="dZV-Ma-Pf1"/>
+                                            <constraint firstAttribute="trailing" secondItem="65c-w9-0bS" secondAttribute="trailing" constant="24" id="mGE-15-cbN"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="0.0" height="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="5q8-c3-6T5" firstAttribute="leading" secondItem="Qzy-4w-C9k" secondAttribute="leading" id="8Sc-XP-2Rn"/>
+                                    <constraint firstItem="Kql-dp-JL1" firstAttribute="leading" secondItem="Qzy-4w-C9k" secondAttribute="leading" constant="24" id="AK5-3p-rJH"/>
+                                    <constraint firstItem="Kql-dp-JL1" firstAttribute="top" secondItem="Qzy-4w-C9k" secondAttribute="top" constant="20" id="Flu-ss-rig"/>
+                                    <constraint firstAttribute="trailing" secondItem="5q8-c3-6T5" secondAttribute="trailing" id="Fuk-0h-39V"/>
+                                    <constraint firstAttribute="bottom" secondItem="5q8-c3-6T5" secondAttribute="bottom" id="NxW-EK-e0w"/>
+                                    <constraint firstItem="5q8-c3-6T5" firstAttribute="top" secondItem="Kql-dp-JL1" secondAttribute="bottom" constant="20" id="S35-4G-1QP"/>
+                                    <constraint firstAttribute="trailing" secondItem="Kql-dp-JL1" secondAttribute="trailing" constant="24" id="tgI-Eu-4tH"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="16z-Kg-8Mz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="16z-Kg-8Mz" firstAttribute="trailing" secondItem="Qzy-4w-C9k" secondAttribute="trailing" constant="10" id="Idv-fy-OXE"/>
+                            <constraint firstItem="Qzy-4w-C9k" firstAttribute="leading" secondItem="16z-Kg-8Mz" secondAttribute="leading" constant="10" id="ZTw-6U-seG"/>
+                            <constraint firstItem="16z-Kg-8Mz" firstAttribute="bottom" secondItem="Qzy-4w-C9k" secondAttribute="bottom" constant="-250" id="y4T-Uz-SVJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomConstraint" destination="y4T-Uz-SVJ" id="udu-A0-7M0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NTz-Rq-PVH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2240" y="-799"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="4eW-eZ-lWd">
+            <size key="intrinsicContentSize" width="58" height="34"/>
+        </designable>
+        <designable name="ExX-gk-RIk">
+            <size key="intrinsicContentSize" width="62" height="34"/>
+        </designable>
+        <designable name="IwP-Xh-xxM">
+            <size key="intrinsicContentSize" width="189" height="21.333333333333332"/>
+        </designable>
+        <designable name="TaW-hc-HDS">
+            <size key="intrinsicContentSize" width="265" height="21.333333333333332"/>
+        </designable>
+        <designable name="Yhq-Dn-F6l">
+            <size key="intrinsicContentSize" width="262.66666666666669" height="14.333333333333334"/>
+        </designable>
+        <designable name="iSU-zZ-22f">
+            <size key="intrinsicContentSize" width="87" height="34"/>
+        </designable>
+        <designable name="lOD-K3-byJ">
+            <size key="intrinsicContentSize" width="35" height="34"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="icon_bookmark" width="102" height="102"/>
+        <image name="icon_close_rounded_red" width="136" height="136"/>
+        <namedColor name="BlackThemeColor">
+            <color red="0.086000002920627594" green="0.086000002920627594" blue="0.086000002920627594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="RedButtonColor">
+            <color red="1" green="0.31000000238418579" blue="0.31000000238418579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

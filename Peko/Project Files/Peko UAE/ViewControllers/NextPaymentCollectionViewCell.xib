@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+        <array key="Inter-SemiBold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NextPaymentCollectionViewCell" id="gTV-IL-0wX" customClass="NextPaymentCollectionViewCell" customModule="Peko" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="190"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="190"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pRa-iG-LfL">
+                        <rect key="frame" x="15" y="20" width="360" height="165"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="55g-Q2-eMC">
+                                <rect key="frame" x="0.0" y="0.0" width="360" height="165"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ajV-zg-i4O">
+                                        <rect key="frame" x="0.0" y="0.0" width="179.66666666666666" height="165"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VAT Payments" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dz-5k-7Ux">
+                                                <rect key="frame" x="10" y="15.000000000000002" width="159.66666666666666" height="22.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="12"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5A9-lv-unm">
+                                                <rect key="frame" x="52.333333333333329" y="42.666666666666657" width="75" height="70"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnV-Eb-xy8">
+                                                        <rect key="frame" x="10" y="5.0000000000000071" width="55" height="40"/>
+                                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="30"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="March" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1Y-cN-ngj">
+                                                        <rect key="frame" x="10" y="45.000000000000007" width="55" height="15"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="15" id="j7d-of-Dg1"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="10"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="fnV-Eb-xy8" secondAttribute="trailing" constant="10" id="3uP-DK-ArB"/>
+                                                    <constraint firstItem="N1Y-cN-ngj" firstAttribute="leading" secondItem="5A9-lv-unm" secondAttribute="leading" constant="10" id="6au-Kc-wRT"/>
+                                                    <constraint firstAttribute="width" constant="75" id="C82-fv-rvc"/>
+                                                    <constraint firstItem="N1Y-cN-ngj" firstAttribute="top" secondItem="fnV-Eb-xy8" secondAttribute="bottom" id="N9a-Fi-RiO"/>
+                                                    <constraint firstItem="fnV-Eb-xy8" firstAttribute="top" secondItem="5A9-lv-unm" secondAttribute="top" constant="5" id="cEU-pX-WKN"/>
+                                                    <constraint firstItem="fnV-Eb-xy8" firstAttribute="leading" secondItem="5A9-lv-unm" secondAttribute="leading" constant="10" id="d6S-hf-gmf"/>
+                                                    <constraint firstAttribute="bottom" secondItem="N1Y-cN-ngj" secondAttribute="bottom" constant="10" id="gRC-HD-bXo"/>
+                                                    <constraint firstAttribute="height" constant="70" id="hBS-HV-qif"/>
+                                                    <constraint firstAttribute="trailing" secondItem="N1Y-cN-ngj" secondAttribute="trailing" constant="10" id="tX2-wp-dAC"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEXT PAYMENT DATE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJh-RE-O6E">
+                                                <rect key="frame" x="10" y="122.66666666666666" width="159.66666666666666" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="15" id="nGK-js-EYT"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="10"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 March, 2023" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQC-n3-z1b">
+                                                <rect key="frame" x="10" y="137.66666666666666" width="159.66666666666666" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="15" id="uO3-eU-2sT"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="10"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.16078431372549018" green="0.16078431372549018" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="8dz-5k-7Ux" firstAttribute="top" secondItem="ajV-zg-i4O" secondAttribute="top" constant="15" id="47J-Ej-CCF"/>
+                                            <constraint firstAttribute="trailing" secondItem="8dz-5k-7Ux" secondAttribute="trailing" constant="10" id="AA3-rx-lNn"/>
+                                            <constraint firstItem="5A9-lv-unm" firstAttribute="top" secondItem="8dz-5k-7Ux" secondAttribute="bottom" constant="5" id="Ctk-a0-qpJ"/>
+                                            <constraint firstItem="pQC-n3-z1b" firstAttribute="top" secondItem="lJh-RE-O6E" secondAttribute="bottom" id="Muo-Kv-Ei7"/>
+                                            <constraint firstItem="lJh-RE-O6E" firstAttribute="top" secondItem="5A9-lv-unm" secondAttribute="bottom" constant="10" id="OfP-o0-xGR"/>
+                                            <constraint firstItem="lJh-RE-O6E" firstAttribute="leading" secondItem="ajV-zg-i4O" secondAttribute="leading" constant="10" id="Vje-Em-wUQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="lJh-RE-O6E" secondAttribute="trailing" constant="10" id="X7B-rH-5al"/>
+                                            <constraint firstItem="5A9-lv-unm" firstAttribute="centerY" secondItem="ajV-zg-i4O" secondAttribute="centerY" constant="-5" id="XCL-Pf-vcO"/>
+                                            <constraint firstItem="pQC-n3-z1b" firstAttribute="leading" secondItem="ajV-zg-i4O" secondAttribute="leading" constant="10" id="bxv-5E-Xee"/>
+                                            <constraint firstItem="5A9-lv-unm" firstAttribute="centerX" secondItem="ajV-zg-i4O" secondAttribute="centerX" id="eBT-aG-DWz"/>
+                                            <constraint firstAttribute="trailing" secondItem="pQC-n3-z1b" secondAttribute="trailing" constant="10" id="hjb-mT-Dww"/>
+                                            <constraint firstItem="8dz-5k-7Ux" firstAttribute="leading" secondItem="ajV-zg-i4O" secondAttribute="leading" constant="10" id="uQf-rx-0VE"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hHr-25-sdJ">
+                                        <rect key="frame" x="180.66666666666663" y="0.0" width="179.33333333333337" height="165"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="License Renewal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJo-9O-kEz">
+                                                <rect key="frame" x="10" y="15.000000000000002" width="159.33333333333334" height="22.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="12"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fBy-KC-scu">
+                                                <rect key="frame" x="52" y="42.666666666666657" width="75" height="70"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0l-Kt-dFE">
+                                                        <rect key="frame" x="10.000000000000028" y="5.0000000000000071" width="55" height="40"/>
+                                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="30"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Days left" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmd-zv-OoX">
+                                                        <rect key="frame" x="10.000000000000028" y="45.000000000000007" width="55" height="15"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="15" id="mbL-ly-Hn7"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="10"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="O0l-Kt-dFE" firstAttribute="top" secondItem="fBy-KC-scu" secondAttribute="top" constant="5" id="2Db-zw-Cay"/>
+                                                    <constraint firstAttribute="trailing" secondItem="fmd-zv-OoX" secondAttribute="trailing" constant="10" id="4Ru-Lc-Arz"/>
+                                                    <constraint firstItem="fmd-zv-OoX" firstAttribute="top" secondItem="O0l-Kt-dFE" secondAttribute="bottom" id="5eY-K2-Plm"/>
+                                                    <constraint firstItem="fmd-zv-OoX" firstAttribute="leading" secondItem="fBy-KC-scu" secondAttribute="leading" constant="10" id="ONX-sf-Nh7"/>
+                                                    <constraint firstAttribute="trailing" secondItem="O0l-Kt-dFE" secondAttribute="trailing" constant="10" id="RJ0-A3-fcj"/>
+                                                    <constraint firstAttribute="width" constant="75" id="UFr-D6-Oc8"/>
+                                                    <constraint firstItem="O0l-Kt-dFE" firstAttribute="leading" secondItem="fBy-KC-scu" secondAttribute="leading" constant="10" id="Vbi-Dm-J83"/>
+                                                    <constraint firstAttribute="height" constant="70" id="ioz-Au-V4K"/>
+                                                    <constraint firstAttribute="bottom" secondItem="fmd-zv-OoX" secondAttribute="bottom" constant="10" id="jgw-8C-MfE"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEXT PAYMENT DATE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oy6-Vz-AJQ">
+                                                <rect key="frame" x="10" y="122.66666666666666" width="159.33333333333334" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="15" id="x1l-6f-hGb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="10"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 March, 2023" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SRP-AW-cdw">
+                                                <rect key="frame" x="10" y="137.66666666666666" width="159.33333333333334" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="15" id="DNR-s6-Thz"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="10"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.16078431372549018" green="0.16078431372549018" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="oy6-Vz-AJQ" firstAttribute="leading" secondItem="hHr-25-sdJ" secondAttribute="leading" constant="10" id="2TQ-Nd-Ai7"/>
+                                            <constraint firstItem="SRP-AW-cdw" firstAttribute="leading" secondItem="hHr-25-sdJ" secondAttribute="leading" constant="10" id="5DJ-XC-gjo"/>
+                                            <constraint firstAttribute="trailing" secondItem="oy6-Vz-AJQ" secondAttribute="trailing" constant="10" id="Byh-vB-b0Z"/>
+                                            <constraint firstAttribute="trailing" secondItem="SRP-AW-cdw" secondAttribute="trailing" constant="10" id="F6I-8x-I3W"/>
+                                            <constraint firstItem="fBy-KC-scu" firstAttribute="top" secondItem="zJo-9O-kEz" secondAttribute="bottom" constant="5" id="LPY-dg-WDY"/>
+                                            <constraint firstItem="fBy-KC-scu" firstAttribute="centerY" secondItem="hHr-25-sdJ" secondAttribute="centerY" constant="-5" id="OOe-cv-7ke"/>
+                                            <constraint firstItem="fBy-KC-scu" firstAttribute="centerX" secondItem="hHr-25-sdJ" secondAttribute="centerX" id="Oon-ka-7RY"/>
+                                            <constraint firstItem="SRP-AW-cdw" firstAttribute="top" secondItem="oy6-Vz-AJQ" secondAttribute="bottom" id="ahY-P5-akZ"/>
+                                            <constraint firstItem="zJo-9O-kEz" firstAttribute="top" secondItem="hHr-25-sdJ" secondAttribute="top" constant="15" id="fD4-21-ZJn"/>
+                                            <constraint firstAttribute="trailing" secondItem="zJo-9O-kEz" secondAttribute="trailing" constant="10" id="itf-JO-dgD"/>
+                                            <constraint firstItem="oy6-Vz-AJQ" firstAttribute="top" secondItem="fBy-KC-scu" secondAttribute="bottom" constant="10" id="te5-PT-mJP"/>
+                                            <constraint firstItem="zJo-9O-kEz" firstAttribute="leading" secondItem="hHr-25-sdJ" secondAttribute="leading" constant="10" id="zLk-na-w0G"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="55g-Q2-eMC" secondAttribute="trailing" id="2uL-Lj-t6o"/>
+                            <constraint firstAttribute="bottom" secondItem="55g-Q2-eMC" secondAttribute="bottom" id="BiF-k9-axb"/>
+                            <constraint firstItem="55g-Q2-eMC" firstAttribute="top" secondItem="pRa-iG-LfL" secondAttribute="top" id="fxi-A2-zFC"/>
+                            <constraint firstItem="55g-Q2-eMC" firstAttribute="leading" secondItem="pRa-iG-LfL" secondAttribute="leading" id="wYv-JW-EWV"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="17"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="pRa-iG-LfL" secondAttribute="bottom" constant="5" id="8U9-gY-yUO"/>
+                <constraint firstItem="pRa-iG-LfL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="Iny-ue-4QB"/>
+                <constraint firstItem="pRa-iG-LfL" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="oTM-e3-Ae8"/>
+                <constraint firstAttribute="trailing" secondItem="pRa-iG-LfL" secondAttribute="trailing" constant="15" id="scC-E7-W5g"/>
+            </constraints>
+            <connections>
+                <outlet property="daysRemainingForLicenseRenewalLabel" destination="O0l-Kt-dFE" id="1dS-WZ-v2N"/>
+                <outlet property="licensePaymentDateLabel" destination="SRP-AW-cdw" id="O6j-rd-DTn"/>
+            </connections>
+            <point key="canvasLocation" x="76.92307692307692" y="20.616113744075829"/>
+        </collectionViewCell>
+    </objects>
+</document>

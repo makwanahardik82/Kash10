@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BackNavigationView" customModule="Peko" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="vzK-a2-RbU" id="SNq-cw-dY7"/>
+                <outlet property="titleLabel" destination="nQi-cf-Z1m" id="iAO-gc-Xuc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzK-a2-RbU">
+                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="PSe-eJ-gl8"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="icon_back_arrow"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQi-cf-Z1m">
+                    <rect key="frame" x="50" y="0.0" width="314" height="50"/>
+                    <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="20"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vzK-a2-RbU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="7rp-6o-CXm"/>
+                <constraint firstItem="vzK-a2-RbU" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="CTm-Zg-EgY"/>
+                <constraint firstAttribute="trailing" secondItem="nQi-cf-Z1m" secondAttribute="trailing" constant="50" id="Dz9-T1-Do0"/>
+                <constraint firstItem="nQi-cf-Z1m" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="QFp-YI-XcI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="nQi-cf-Z1m" secondAttribute="bottom" id="UcV-Qm-2eL"/>
+                <constraint firstItem="vzK-a2-RbU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="icR-dz-chF"/>
+                <constraint firstItem="nQi-cf-Z1m" firstAttribute="leading" secondItem="vzK-a2-RbU" secondAttribute="trailing" id="sdx-Gq-OQA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="367" y="50"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_back_arrow" width="12.5" height="23"/>
+    </resources>
+</document>

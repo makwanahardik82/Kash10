@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="UpcomingPaymentCollectionViewCell" id="gTV-IL-0wX" customClass="UpcomingPaymentCollectionViewCell" customModule="Peko" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="180"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="3aM-I5-OcB">
+                        <rect key="frame" x="0.0" y="10" width="390" height="134.33333333333334"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="duf-eq-g7k">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="2qY-Ba-no9">
+                        <rect key="frame" x="0.0" y="144.33333333333334" width="390" height="25.666666666666657"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25.670000000000002" id="d8n-R4-UDB"/>
+                        </constraints>
+                        <color key="pageIndicatorTintColor" name="999999"/>
+                        <color key="currentPageIndicatorTintColor" name="BlackThemeColor"/>
+                    </pageControl>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3aM-I5-OcB" secondAttribute="trailing" id="8f8-Mu-Ft1"/>
+                <constraint firstItem="3aM-I5-OcB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="UfG-Nz-d97"/>
+                <constraint firstItem="3aM-I5-OcB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="eHe-eA-Qsh"/>
+                <constraint firstItem="2qY-Ba-no9" firstAttribute="top" secondItem="3aM-I5-OcB" secondAttribute="bottom" id="hJU-J9-igc"/>
+                <constraint firstItem="2qY-Ba-no9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="naq-jR-yBz"/>
+                <constraint firstAttribute="bottom" secondItem="2qY-Ba-no9" secondAttribute="bottom" constant="10" id="p9e-Ia-0cu"/>
+                <constraint firstAttribute="trailing" secondItem="2qY-Ba-no9" secondAttribute="trailing" id="tJA-Ic-bKG"/>
+            </constraints>
+            <size key="customSize" width="150" height="177"/>
+            <connections>
+                <outlet property="paymentCollectionView" destination="3aM-I5-OcB" id="9yq-1K-kjA"/>
+            </connections>
+            <point key="canvasLocation" x="144.61538461538461" y="-73.578199052132703"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="999999">
+            <color red="0.60000002384185791" green="0.60000002384185791" blue="0.60000002384185791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BlackThemeColor">
+            <color red="0.086000002920627594" green="0.086000002920627594" blue="0.086000002920627594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

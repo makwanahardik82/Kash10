@@ -1,0 +1,7001 @@
+[
+ {
+  "airline_code": "K5",
+  "airline_name": "Aban Air",
+  "icao_no": "ABE",
+  "platting_no": 0,
+  "country": "Iran",
+  "airline_base": "Tehran (THR)"
+ },
+ {
+  "airline_code": "GB",
+  "airline_name": "ABX Air - Airborne Express",
+  "icao_no": "ABX",
+  "platting_no": 832,
+  "country": "USA",
+  "airline_base": "Wilminhgton, OH"
+ },
+ {
+  "airline_code": "9B",
+  "airline_name": "Acces Rail",
+  "icao_no": "2BB",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Quebec"
+ },
+ {
+  "airline_code": "JP",
+  "airline_name": "Adria Airways",
+  "icao_no": "ADR",
+  "platting_no": 165,
+  "country": "Slovenia",
+  "airline_base": "Lubljana (LJU)"
+ },
+ {
+  "airline_code": "A3",
+  "airline_name": "Aegean airlines s.a.",
+  "icao_no": "AEE",
+  "platting_no": 390,
+  "country": "Greece",
+  "airline_base": "Thessaloniki"
+ },
+ {
+  "airline_code": "RE",
+  "airline_name": "Aer arann express",
+  "icao_no": "REA",
+  "platting_no": 0,
+  "country": "Ireland",
+  "airline_base": "Dublin (DUB)"
+ },
+ {
+  "airline_code": "EI",
+  "airline_name": "Aer Lingus",
+  "icao_no": "EIN",
+  "platting_no": 53,
+  "country": "Ireland",
+  "airline_base": "Dublin (DUB)"
+ },
+ {
+  "airline_code": "EM",
+  "airline_name": "Aero Benin",
+  "icao_no": "AEB",
+  "platting_no": 0,
+  "country": "Benin",
+  "airline_base": "Cotonou"
+ },
+ {
+  "airline_code": "7L",
+  "airline_name": "Aero Caribbean",
+  "icao_no": "CRN",
+  "platting_no": 164,
+  "country": "Cuba",
+  "airline_base": "Havana"
+ },
+ {
+  "airline_code": "DW",
+  "airline_name": "Aero-Charter Ukraine",
+  "icao_no": "UCR",
+  "platting_no": 187,
+  "country": "Ukraine",
+  "airline_base": "Boryspil"
+ },
+ {
+  "airline_code": "Q6",
+  "airline_name": "Aero Condor Peru",
+  "icao_no": "CDP",
+  "platting_no": 0,
+  "country": "Peru",
+  "airline_base": "Lima"
+ },
+ {
+  "airline_code": "AJ",
+  "airline_name": "AeroContractors",
+  "icao_no": "NIG",
+  "platting_no": 0,
+  "country": "Nigeria",
+  "airline_base": "Lagos (LOS)"
+ },
+ {
+  "airline_code": "SU",
+  "airline_name": "Aeroflot",
+  "icao_no": "AFL",
+  "platting_no": 555,
+  "country": "Russia",
+  "airline_base": "Moscow"
+ },
+ {
+  "airline_code": "5N",
+  "airline_name": "Aeroflot-Nord",
+  "icao_no": "AUL",
+  "platting_no": 316,
+  "country": "Russia",
+  "airline_base": "Arckhangelsk"
+ },
+ {
+  "airline_code": "2K",
+  "airline_name": "Aerogal - Aerolineas Galapagos",
+  "icao_no": "GLG",
+  "platting_no": 547,
+  "country": "Ecuador",
+  "airline_base": "Quito"
+ },
+ {
+  "airline_code": "KG",
+  "airline_name": "Aerogaviota",
+  "icao_no": "GTV",
+  "platting_no": 854,
+  "country": "Cuba",
+  "airline_base": "Havana"
+ },
+ {
+  "airline_code": "QL",
+  "airline_name": "Aero Lanka \/ Serendib Express",
+  "icao_no": "RNL",
+  "platting_no": 383,
+  "country": "Sri Lanka",
+  "airline_base": "Colombo"
+ },
+ {
+  "airline_code": "AR",
+  "airline_name": "Aerolineas Argentinas",
+  "icao_no": "ARG",
+  "platting_no": 44,
+  "country": "Argentina",
+  "airline_base": "Buenos Aires"
+ },
+ {
+  "airline_code": "DF",
+  "airline_name": "Aerolineas Baleares",
+  "icao_no": "ABH",
+  "platting_no": 59,
+  "country": "Spain",
+  "airline_base": "Palma (PMI)"
+ },
+ {
+  "airline_code": "P4",
+  "airline_name": "Aerolineas Sosa",
+  "icao_no": "NSO",
+  "platting_no": 0,
+  "country": "Honduras",
+  "airline_base": "La Ceiba (LCE)"
+ },
+ {
+  "airline_code": "VW",
+  "airline_name": "Aeromar Airlines",
+  "icao_no": "TAO",
+  "platting_no": 0,
+  "country": "Mexico",
+  "airline_base": "Mexico City (MEX)"
+ },
+ {
+  "airline_code": "AM",
+  "airline_name": "Aeromexico-aerovias de mexico s.a.",
+  "icao_no": "AMX",
+  "platting_no": 139,
+  "country": "Mexico",
+  "airline_base": "Mexico City (MEX)"
+ },
+ {
+  "airline_code": "M0",
+  "airline_name": "Aero Mongolia",
+  "icao_no": "MNG",
+  "platting_no": 0,
+  "country": "Mongolia",
+  "airline_base": "Ulaan Baatar (ULN)"
+ },
+ {
+  "airline_code": "5D",
+  "airline_name": "Aeromxico Connect",
+  "icao_no": "SLI",
+  "platting_no": 642,
+  "country": "Mexico",
+  "airline_base": "Monterrey (MTY)"
+ },
+ {
+  "airline_code": "OT",
+  "airline_name": "Aeropelican Air Services",
+  "icao_no": "PEL",
+  "platting_no": 0,
+  "country": "Australia",
+  "airline_base": "Newcastle (NTL)"
+ },
+ {
+  "airline_code": "WL",
+  "airline_name": "Aeroperlas",
+  "icao_no": "APP",
+  "platting_no": 0,
+  "country": "Panama",
+  "airline_base": "Panama City"
+ },
+ {
+  "airline_code": "VH",
+  "airline_name": "Aeropostal alas de venezuela",
+  "icao_no": "LAV",
+  "platting_no": 152,
+  "country": "Venezuela",
+  "airline_base": "Caracas"
+ },
+ {
+  "airline_code": "P5",
+  "airline_name": "Aerorepublica",
+  "icao_no": "RPB",
+  "platting_no": 845,
+  "country": "Colombia",
+  "airline_base": "Bogot (BOG)"
+ },
+ {
+  "airline_code": "W4",
+  "airline_name": "Aero Services Executive",
+  "icao_no": "BES",
+  "platting_no": 0,
+  "country": "France",
+  "airline_base": "Le Bourget"
+ },
+ {
+  "airline_code": "5L",
+  "airline_name": "AeroSur",
+  "icao_no": "RSU",
+  "platting_no": 275,
+  "country": "Bolivia",
+  "airline_base": "Viru Viru (VVI)"
+ },
+ {
+  "airline_code": "VV",
+  "airline_name": "AeroSvit Airlines",
+  "icao_no": "AEW",
+  "platting_no": 870,
+  "country": "Ukraine",
+  "airline_base": "Kiev Borispol (KBP)"
+ },
+ {
+  "airline_code": "HC",
+  "airline_name": "Aero-Tropics Air Services",
+  "icao_no": "ATI",
+  "platting_no": 0,
+  "country": "Australia",
+  "airline_base": "Cairns (CNS)"
+ },
+ {
+  "airline_code": "6R",
+  "airline_name": "AeroUnion",
+  "icao_no": "TNO",
+  "platting_no": 0,
+  "country": "Mexico",
+  "airline_base": "Mexico City (MEX)"
+ },
+ {
+  "airline_code": "X8",
+  "airline_name": "Aerovias DAP",
+  "icao_no": "DAP",
+  "platting_no": 0,
+  "country": "Chile",
+  "airline_base": "Punta Arenas"
+ },
+ {
+  "airline_code": "Z9",
+  "airline_name": "Aero zambia",
+  "icao_no": "DCP",
+  "platting_no": 0,
+  "country": "Kenya",
+  "airline_base": "Nairobi"
+ },
+ {
+  "airline_code": "XU",
+  "airline_name": "African Express Airways",
+  "icao_no": "AXK",
+  "platting_no": 0,
+  "country": "Kenya",
+  "airline_base": "Nairobi"
+ },
+ {
+  "airline_code": "Y2",
+  "airline_name": "Africaone",
+  "icao_no": "RDA",
+  "platting_no": 0,
+  "country": "Uganda",
+  "airline_base": "Entebbe (EBB)"
+ },
+ {
+  "airline_code": "FK",
+  "airline_name": "Africa West Airlines",
+  "icao_no": "WTA",
+  "platting_no": 858,
+  "country": "Togo",
+  "airline_base": "Lom"
+ },
+ {
+  "airline_code": "6F",
+  "airline_name": "Afrijet Airlines",
+  "icao_no": "FRJ",
+  "platting_no": 0,
+  "country": "Nigeria",
+  "airline_base": "Lagos (LOS)"
+ },
+ {
+  "airline_code": "8U",
+  "airline_name": "Afriqiyah Airways",
+  "icao_no": "AAW",
+  "platting_no": 546,
+  "country": "Libya",
+  "airline_base": "Tripoli"
+ },
+ {
+  "airline_code": "LD",
+  "airline_name": "Ahk airhongkong ltd",
+  "icao_no": "AHK",
+  "platting_no": 288,
+  "country": "Hong Kong",
+  "airline_base": "Hong Kong (HKG)"
+ },
+ {
+  "airline_code": "ZI",
+  "airline_name": "Aigle azur",
+  "icao_no": "AAF",
+  "platting_no": 439,
+  "country": "France",
+  "airline_base": "Paris Orly (ORY)"
+ },
+ {
+  "airline_code": "AH",
+  "airline_name": "Air algerie",
+  "icao_no": "DAH",
+  "platting_no": 124,
+  "country": "Algeria",
+  "airline_base": "Algiers"
+ },
+ {
+  "airline_code": "A6",
+  "airline_name": "Air alps aviation",
+  "icao_no": "LPV",
+  "platting_no": 527,
+  "country": "Austria",
+  "airline_base": "Innsbruck"
+ },
+ {
+  "airline_code": "3S",
+  "airline_name": "Air Antilles Express",
+  "icao_no": "GUY",
+  "platting_no": 0,
+  "country": "Guadeloupe",
+  "airline_base": "Pointe-a-Pitre"
+ },
+ {
+  "airline_code": "G9",
+  "airline_name": "Air Arabia",
+  "icao_no": "ABY",
+  "platting_no": 514,
+  "country": "United Arab Emirates",
+  "airline_base": "Sharjah (SHJ)"
+ },
+ {
+  "airline_code": "3L",
+  "airline_name": "Air Arabia Abu Dhabi",
+  "icao_no": "ABY",
+  "platting_no": 222,
+  "country": "United Arab Emirates",
+  "airline_base": "Abu Dhabi (AUH)"
+ },
+ {
+  "airline_code": 2,
+  "airline_name": "Air Arabia Bus Service",
+  "icao_no": "ABY",
+  "platting_no": 0,
+  "country": "United Arab Emirates",
+  "airline_base": "Sharjah (SHJ)"
+ },
+ {
+  "airline_code": "E5",
+  "airline_name": "Air Arabia Egypt",
+  "icao_no": "BRZ",
+  "platting_no": 906,
+  "country": "Russian Federation",
+  "airline_base": "Samara"
+ },
+ {
+  "airline_code": "3O",
+  "airline_name": "Air Arabia Maroc",
+  "icao_no": "JUB",
+  "platting_no": 0,
+  "country": "Somalia",
+  "airline_base": "Mogadishu"
+ },
+ {
+  "airline_code": "AK",
+  "airline_name": "Air Asia",
+  "icao_no": "AXM",
+  "platting_no": 807,
+  "country": "Malaysia",
+  "airline_base": "Kuala Lumpur"
+ },
+ {
+  "airline_code": "I5",
+  "airline_name": "Air Asia",
+  "icao_no": "IAD",
+  "platting_no": 0,
+  "country": "India",
+  "airline_base": "Bangalore"
+ },
+ {
+  "airline_code": "D7",
+  "airline_name": "AirAsiaX",
+  "icao_no": "XAX",
+  "platting_no": 0,
+  "country": "Malaysia",
+  "airline_base": "Kuala Lumpur"
+ },
+ {
+  "airline_code": "4L",
+  "airline_name": "Air astana",
+  "icao_no": "MJX",
+  "platting_no": 0,
+  "country": "Georgia",
+  "airline_base": "Batumi"
+ },
+ {
+  "airline_code": "KC",
+  "airline_name": "Air astana",
+  "icao_no": "KZR",
+  "platting_no": 465,
+  "country": "Kazakhstan",
+  "airline_base": "Altmaty"
+ },
+ {
+  "airline_code": "CC",
+  "airline_name": "Air Atlanta Icelandic",
+  "icao_no": "ABD",
+  "platting_no": 318,
+  "country": "Iceland",
+  "airline_base": "Keflavik (KEF)"
+ },
+ {
+  "airline_code": "7M",
+  "airline_name": "Air Atlantique",
+  "icao_no": "AAG",
+  "platting_no": 0,
+  "country": "United Kingdom",
+  "airline_base": "Coventry (CVT)"
+ },
+ {
+  "airline_code": "UU",
+  "airline_name": "Air Austral",
+  "icao_no": "REU",
+  "platting_no": 760,
+  "country": "Reunion",
+  "airline_base": "St Denis"
+ },
+ {
+  "airline_code": "W9",
+  "airline_name": "Air Bagan",
+  "icao_no": "JAB",
+  "platting_no": 0,
+  "country": "Burma",
+  "airline_base": "Rangoon"
+ },
+ {
+  "airline_code": "BT",
+  "airline_name": "Air baltic corporation s\/a",
+  "icao_no": "BTI",
+  "platting_no": 657,
+  "country": "Latvia",
+  "airline_base": "Riga"
+ },
+ {
+  "airline_code": "AB",
+  "airline_name": "Air berlin gmbh and co luftverkehrs",
+  "icao_no": "BER",
+  "platting_no": 745,
+  "country": "Germany",
+  "airline_base": "Berlin"
+ },
+ {
+  "airline_code": "PA",
+  "airline_name": "Airblue",
+  "icao_no": "ABQ",
+  "platting_no": 84,
+  "country": "Pakistan",
+  "airline_base": "Karachi"
+ },
+ {
+  "airline_code": "JA",
+  "airline_name": "Air bosna",
+  "icao_no": "BON",
+  "platting_no": 995,
+  "country": "Bosnia & Herzegovina",
+  "airline_base": "Sarajevo"
+ },
+ {
+  "airline_code": "BP",
+  "airline_name": "Air botswana pty ltd",
+  "icao_no": "BOT",
+  "platting_no": 636,
+  "country": "Botswana",
+  "airline_base": "Gaborone"
+ },
+ {
+  "airline_code": "RU",
+  "airline_name": "AirBridge Cargo Airlines",
+  "icao_no": "ABW",
+  "platting_no": 580,
+  "country": "Russia",
+  "airline_base": "Moscow Sheremetyo"
+ },
+ {
+  "airline_code": "2J",
+  "airline_name": "Air Burkina",
+  "icao_no": "VBW",
+  "platting_no": 226,
+  "country": "Burkina Faso",
+  "airline_base": "Ouagadougou"
+ },
+ {
+  "airline_code": "MC",
+  "airline_name": "Air Cairo",
+  "icao_no": "MSC",
+  "platting_no": 0,
+  "country": "Egypt",
+  "airline_base": "Cairo (CAI)"
+ },
+ {
+  "airline_code": "TY",
+  "airline_name": "Air Caldonie",
+  "icao_no": "TPC",
+  "platting_no": 190,
+  "country": "New Caledonia",
+  "airline_base": "Nouma (NOU)"
+ },
+ {
+  "airline_code": "SB",
+  "airline_name": "Aircalin",
+  "icao_no": "ACI",
+  "platting_no": 63,
+  "country": "New Caledonia",
+  "airline_base": "Nouméa La Tontouta International (NOU \/ NWWW)"
+ },
+ {
+  "airline_code": "AC",
+  "airline_name": "Air Canada",
+  "icao_no": "ACA",
+  "platting_no": 14,
+  "country": "Canada",
+  "airline_base": "Montreal"
+ },
+ {
+  "airline_code": "QK",
+  "airline_name": "Air Canada Jazz",
+  "icao_no": "JZA",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Halifax, NS"
+ },
+ {
+  "airline_code": "TX",
+  "airline_name": "Air Caraibes",
+  "icao_no": "ISB",
+  "platting_no": 427,
+  "country": "Guadeloupe",
+  "airline_base": "Pointe-a-Pitre"
+ },
+ {
+  "airline_code": "2Q",
+  "airline_name": "Air Cargo Carriers",
+  "icao_no": "SNC",
+  "platting_no": 883,
+  "country": "USA",
+  "airline_base": "Milwaukee (MKE)"
+ },
+ {
+  "airline_code": "NV",
+  "airline_name": "Air Central",
+  "icao_no": "CRF",
+  "platting_no": 0,
+  "country": "Japan",
+  "airline_base": "Tokoname"
+ },
+ {
+  "airline_code": "CA",
+  "airline_name": "Air China",
+  "icao_no": "CCA",
+  "platting_no": 999,
+  "country": "China",
+  "airline_base": "Beijing"
+ },
+ {
+  "airline_code": "QD",
+  "airline_name": "Air Class Lineas Areas",
+  "icao_no": "QCL",
+  "platting_no": 0,
+  "country": "Uruguay",
+  "airline_base": "Montevideo (MVD)"
+ },
+ {
+  "airline_code": "A7",
+  "airline_name": "Air Comet",
+  "icao_no": "MPD",
+  "platting_no": 352,
+  "country": "Spain",
+  "airline_base": "Madrid (MAD)"
+ },
+ {
+  "airline_code": "3I",
+  "airline_name": "AirComet Chile",
+  "icao_no": "DLU",
+  "platting_no": 393,
+  "country": "Chile",
+  "airline_base": "Santiago (SCL)"
+ },
+ {
+  "airline_code": "OR",
+  "airline_name": "Air comoros",
+  "icao_no": "TFL",
+  "platting_no": 0,
+  "country": "Netherlands",
+  "airline_base": "Amsterdam (AMS)"
+ },
+ {
+  "airline_code": "AG",
+  "airline_name": "Air Contractors",
+  "icao_no": "ABR",
+  "platting_no": 912,
+  "country": "Ireland",
+  "airline_base": "Dublin (DUB)"
+ },
+ {
+  "airline_code": "LB",
+  "airline_name": "Air Costa",
+  "icao_no": "LEP",
+  "platting_no": 0,
+  "country": "India",
+  "airline_base": "Vijayawada"
+ },
+ {
+  "airline_code": "HF",
+  "airline_name": "AIR COTE DIVOIRE",
+  "icao_no": "VRE",
+  "platting_no": 0,
+  "country": "Cote d'Ivoire",
+  "airline_base": "Cote d'Ivoire"
+ },
+ {
+  "airline_code": "YN",
+  "airline_name": "Air Creebec",
+  "icao_no": "CRQ",
+  "platting_no": 219,
+  "country": "Canada",
+  "airline_base": "Val d'Or, QC"
+ },
+ {
+  "airline_code": "HD",
+  "airline_name": "Air Do",
+  "icao_no": "ADO",
+  "platting_no": 0,
+  "country": "Japan",
+  "airline_base": "Sapporo"
+ },
+ {
+  "airline_code": "EN",
+  "airline_name": "Air Dolomiti",
+  "icao_no": "DLA",
+  "platting_no": 101,
+  "country": "Italy",
+  "airline_base": "Trieste"
+ },
+ {
+  "airline_code": "4C",
+  "airline_name": "AIRES Aerovias de Integracion",
+  "icao_no": "ARE",
+  "platting_no": 35,
+  "country": "Colombia",
+  "airline_base": "Bogot (BOG)"
+ },
+ {
+  "airline_code": "UX",
+  "airline_name": "Air europa lineas aereas s.a.",
+  "icao_no": "AEA",
+  "platting_no": 996,
+  "country": "Spain",
+  "airline_base": "Palma (PMI)"
+ },
+ {
+  "airline_code": "ZG",
+  "airline_name": "Air Express Tanzania",
+  "icao_no": "AEJ",
+  "platting_no": 0,
+  "country": "Tanzania",
+  "airline_base": "Zanzibar"
+ },
+ {
+  "airline_code": "OF",
+  "airline_name": "Air Finland",
+  "icao_no": "FIF",
+  "platting_no": 442,
+  "country": "Finland",
+  "airline_base": "Helsinki"
+ },
+ {
+  "airline_code": "AF",
+  "airline_name": "Air France",
+  "icao_no": "AFR",
+  "platting_no": 57,
+  "country": "France",
+  "airline_base": "Paris (CDG)"
+ },
+ {
+  "airline_code": "GL",
+  "airline_name": "Air Greenland",
+  "icao_no": "GRL",
+  "platting_no": 631,
+  "country": "Greenland",
+  "airline_base": "Nuuk"
+ },
+ {
+  "airline_code": "NY",
+  "airline_name": "Air Iceland",
+  "icao_no": "FNA",
+  "platting_no": 882,
+  "country": "Iceland",
+  "airline_base": "Reykjavik"
+ },
+ {
+  "airline_code": "AI",
+  "airline_name": "Air India",
+  "icao_no": "AIC",
+  "platting_no": 98,
+  "country": "India",
+  "airline_base": "Mumbai"
+ },
+ {
+  "airline_code": "IX",
+  "airline_name": "Air India Express",
+  "icao_no": "AXB",
+  "platting_no": 887,
+  "country": "India",
+  "airline_base": "Delhi (DEL)"
+ },
+ {
+  "airline_code": "3H",
+  "airline_name": "Air Inuit",
+  "icao_no": "AIE",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Dorval, QC"
+ },
+ {
+  "airline_code": "I9",
+  "airline_name": "Air Italy",
+  "icao_no": "AEY",
+  "platting_no": 0,
+  "country": "Italy",
+  "airline_base": "Milan Malpensa (MXO)"
+ },
+ {
+  "airline_code": "VU",
+  "airline_name": "Air Ivoire",
+  "icao_no": "VUN",
+  "platting_no": 84,
+  "country": "Cte d'Ivoire",
+  "airline_base": "Abidjan"
+ },
+ {
+  "airline_code": "NQ",
+  "airline_name": "Air Japan",
+  "icao_no": "AJX",
+  "platting_no": 0,
+  "country": "Japan",
+  "airline_base": "Osaka"
+ },
+ {
+  "airline_code": "V6",
+  "airline_name": "Air jet",
+  "icao_no": "VOG",
+  "platting_no": 772,
+  "country": "Bangladesh",
+  "airline_base": "Dhaka"
+ },
+ {
+  "airline_code": "P2",
+  "airline_name": "Airkenya",
+  "icao_no": "XAK",
+  "platting_no": 853,
+  "country": "Kenya",
+  "airline_base": "Nairobi"
+ },
+ {
+  "airline_code": "4A",
+  "airline_name": "Air Kiribati",
+  "icao_no": "AKL",
+  "platting_no": 0,
+  "country": "Kiribati",
+  "airline_base": "Tarawa"
+ },
+ {
+  "airline_code": "0K",
+  "airline_name": "Air Kokshetau",
+  "icao_no": "KRT",
+  "platting_no": 0,
+  "country": "Kazakhstan",
+  "airline_base": "Kokshetau"
+ },
+ {
+  "airline_code": "JS",
+  "airline_name": "Air Koryo",
+  "icao_no": "KOR",
+  "platting_no": 120,
+  "country": "North Korea",
+  "airline_base": "Pyonyang"
+ },
+ {
+  "airline_code": "WJ",
+  "airline_name": "Air Labrador",
+  "icao_no": "LAL",
+  "platting_no": 927,
+  "country": "Canada",
+  "airline_base": "St John's"
+ },
+ {
+  "airline_code": "IJ",
+  "airline_name": "Air liberte",
+  "icao_no": "GWL",
+  "platting_no": 989,
+  "country": "China",
+  "airline_base": "Shanghai"
+ },
+ {
+  "airline_code": "7Q",
+  "airline_name": "Air Libya",
+  "icao_no": "TLR",
+  "platting_no": 0,
+  "country": "Libya",
+  "airline_base": "Benghazi"
+ },
+ {
+  "airline_code": "A5",
+  "airline_name": "Airlinair",
+  "icao_no": "RLA",
+  "platting_no": 163,
+  "country": "France",
+  "airline_base": "Paris"
+ },
+ {
+  "airline_code": "CG",
+  "airline_name": "Airlines of Papua New Guinea",
+  "icao_no": "TOK",
+  "platting_no": 0,
+  "country": "Papua New Guinea",
+  "airline_base": "Port Moresby"
+ },
+ {
+  "airline_code": "DR",
+  "airline_name": "Air Link",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "Australia",
+  "airline_base": "Dubbo, NSW 2830"
+ },
+ {
+  "airline_code": "NX",
+  "airline_name": "Air macau company limited",
+  "icao_no": "AMU",
+  "platting_no": 675,
+  "country": "Macau",
+  "airline_base": "Macau"
+ },
+ {
+  "airline_code": "MD",
+  "airline_name": "Air Madagascar",
+  "icao_no": "MDG",
+  "platting_no": 258,
+  "country": "Madagascar",
+  "airline_base": "Antananarivo"
+ },
+ {
+  "airline_code": "QM",
+  "airline_name": "Air Malawi",
+  "icao_no": "AML",
+  "platting_no": 167,
+  "country": "Malawi",
+  "airline_base": "Blantyre"
+ },
+ {
+  "airline_code": "KM",
+  "airline_name": "Air Malta",
+  "icao_no": "AMC",
+  "platting_no": 643,
+  "country": "Malta",
+  "airline_base": "Luqa (MLA)"
+ },
+ {
+  "airline_code": "CW",
+  "airline_name": "Air Marshall Islands",
+  "icao_no": "MRS",
+  "platting_no": 778,
+  "country": "Marshall Islands",
+  "airline_base": "Majuro"
+ },
+ {
+  "airline_code": "MR",
+  "airline_name": "Air Mauritanie",
+  "icao_no": "MRT",
+  "platting_no": 174,
+  "country": "Mauritania",
+  "airline_base": "Nouakachott"
+ },
+ {
+  "airline_code": "MK",
+  "airline_name": "Air Mauritius",
+  "icao_no": "MAU",
+  "platting_no": 239,
+  "country": "Mauritius",
+  "airline_base": "Mauritius"
+ },
+ {
+  "airline_code": "9U",
+  "airline_name": "Air Moldova",
+  "icao_no": "MLD",
+  "platting_no": 572,
+  "country": "Moldova",
+  "airline_base": "Chisinau (KIV)"
+ },
+ {
+  "airline_code": "SW",
+  "airline_name": "Air Namibia",
+  "icao_no": "NMB",
+  "platting_no": 186,
+  "country": "Namibia",
+  "airline_base": "Windhoek"
+ },
+ {
+  "airline_code": "NZ",
+  "airline_name": "Air new zealand limited",
+  "icao_no": "ANZ",
+  "platting_no": 86,
+  "country": "New Zealand",
+  "airline_base": "Auckland (AKL)"
+ },
+ {
+  "airline_code": "7A",
+  "airline_name": "Air Next",
+  "icao_no": "NXA",
+  "platting_no": 0,
+  "country": "Japan",
+  "airline_base": "Fukuoka"
+ },
+ {
+  "airline_code": "EL",
+  "airline_name": "Air Nippon",
+  "icao_no": "ANK",
+  "platting_no": 768,
+  "country": "Japan",
+  "airline_base": "Tokyo (HND)"
+ },
+ {
+  "airline_code": "PX",
+  "airline_name": "Air Niugini",
+  "icao_no": "ANG",
+  "platting_no": 656,
+  "country": "Papua New Guinea",
+  "airline_base": "Port Moresby"
+ },
+ {
+  "airline_code": "4N",
+  "airline_name": "Air north charter and training ltd",
+  "icao_no": "ANT",
+  "platting_no": 287,
+  "country": "Canada",
+  "airline_base": "Whitehorse, YT"
+ },
+ {
+  "airline_code": "M3",
+  "airline_name": "Air Norway",
+  "icao_no": "NFA",
+  "platting_no": 0,
+  "country": "Norway",
+  "airline_base": "Orland (OLA)"
+ },
+ {
+  "airline_code": "YW",
+  "airline_name": "Air Nostrum \/ Iberia Regional",
+  "icao_no": "ANE",
+  "platting_no": 694,
+  "country": "Spain",
+  "airline_base": "Valencia"
+ },
+ {
+  "airline_code": "6X",
+  "airline_name": "Air Odisha",
+  "platting_no": 0,
+  "country": "India",
+  "airline_base": "Bhubaneswar, Odisha"
+ },
+ {
+  "airline_code": "AP",
+  "airline_name": "Air One",
+  "icao_no": "ADH",
+  "platting_no": 867,
+  "country": "Italy",
+  "airline_base": "Milan"
+ },
+ {
+  "airline_code": "FJ",
+  "airline_name": "Air pacific limited",
+  "icao_no": "FJI",
+  "platting_no": 260,
+  "country": "Fiji",
+  "airline_base": "Suva"
+ },
+ {
+  "airline_code": "EB",
+  "airline_name": "Air Pullmantur",
+  "icao_no": "PLM",
+  "platting_no": 460,
+  "country": "Spain",
+  "airline_base": "Madrid (MAD)"
+ },
+ {
+  "airline_code": "GZ",
+  "airline_name": "Air Rarotonga",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "Cook Islands",
+  "airline_base": "Rarotonga (RAR)"
+ },
+ {
+  "airline_code": "RY",
+  "airline_name": "Air Rwanda",
+  "icao_no": "RWB",
+  "platting_no": 0,
+  "country": "Rwanda",
+  "airline_base": "Kigali"
+ },
+ {
+  "airline_code": "PJ",
+  "airline_name": "Air Saint Pierre",
+  "icao_no": "SPM",
+  "platting_no": 638,
+  "country": "St Pierre et Miquelon",
+  "airline_base": "St Pierre"
+ },
+ {
+  "airline_code": "EX",
+  "airline_name": "Air Santo Domingo",
+  "icao_no": "SDO",
+  "platting_no": 309,
+  "country": "Dominican Republic",
+  "airline_base": "Santo Domingo"
+ },
+ {
+  "airline_code": "6O",
+  "airline_name": "Air Satellite",
+  "icao_no": "ASJ",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Baie-Comeau (YBC)"
+ },
+ {
+  "airline_code": "V7",
+  "airline_name": "Air Senegal International",
+  "icao_no": "SNG",
+  "platting_no": 407,
+  "country": "Senegal",
+  "airline_base": "Dakar"
+ },
+ {
+  "airline_code": "HM",
+  "airline_name": "Air Seychelles",
+  "icao_no": "SEY",
+  "platting_no": 61,
+  "country": "Seychelles",
+  "airline_base": "Mah"
+ },
+ {
+  "airline_code": "4D",
+  "airline_name": "Air Sinai",
+  "icao_no": "ASD",
+  "platting_no": 903,
+  "country": "Egypt",
+  "airline_base": "Cairo (CAI)"
+ },
+ {
+  "airline_code": "GM",
+  "airline_name": "Air Slovakia",
+  "icao_no": "SVK",
+  "platting_no": 0,
+  "country": "Slovakia",
+  "airline_base": "Bratislava"
+ },
+ {
+  "airline_code": "YI",
+  "airline_name": "Air Sunshine",
+  "icao_no": "RSI",
+  "platting_no": 806,
+  "country": "USA",
+  "airline_base": "Ft Lauderdale (FLL)"
+ },
+ {
+  "airline_code": "VT",
+  "airline_name": "Air Tahiti",
+  "icao_no": "VTA",
+  "platting_no": 135,
+  "country": "French Polynesia",
+  "airline_base": "Papeete (PPT)"
+ },
+ {
+  "airline_code": "TN",
+  "airline_name": "Air Tahiti Nui",
+  "icao_no": "THT",
+  "platting_no": 244,
+  "country": "French Polynesia",
+  "airline_base": "Papeete (PPT)"
+ },
+ {
+  "airline_code": "5C",
+  "airline_name": "Air Tahoma",
+  "icao_no": "HMA",
+  "platting_no": 700,
+  "country": "USA",
+  "airline_base": "Columbus, OH"
+ },
+ {
+  "airline_code": "TC",
+  "airline_name": "Air Tanzania",
+  "icao_no": "ATC",
+  "platting_no": 197,
+  "country": "Tanzania",
+  "airline_base": "Dar es Salaam (DAR)"
+ },
+ {
+  "airline_code": "8T",
+  "airline_name": "Air Tindi",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Yellowknife, NT"
+ },
+ {
+  "airline_code": "FL",
+  "airline_name": "Airtran airways inc",
+  "icao_no": "TRS",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Atlanta, GA"
+ },
+ {
+  "airline_code": "TS",
+  "airline_name": "Air Transat",
+  "icao_no": "TSC",
+  "platting_no": 649,
+  "country": "Canada",
+  "airline_base": "Montreal"
+ },
+ {
+  "airline_code": "8C",
+  "airline_name": "Air Transport International",
+  "icao_no": "ATN",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Little Rock, AR"
+ },
+ {
+  "airline_code": "U7",
+  "airline_name": "Air Uganda",
+  "icao_no": "UGB",
+  "platting_no": 0,
+  "country": "Uganda",
+  "airline_base": "Entebbe (EBB)"
+ },
+ {
+  "airline_code": "3N",
+  "airline_name": "Air Urga",
+  "icao_no": "URG",
+  "platting_no": 746,
+  "country": "Ukraine",
+  "airline_base": "Kirovograd"
+ },
+ {
+  "airline_code": "DO",
+  "airline_name": "Air Vallee",
+  "icao_no": "RVL",
+  "platting_no": 965,
+  "country": "Italy",
+  "airline_base": "Aosta"
+ },
+ {
+  "airline_code": "NF",
+  "airline_name": "Air Vanuatu",
+  "icao_no": "AVN",
+  "platting_no": 218,
+  "country": "Vanuatu",
+  "airline_base": "Port Vila"
+ },
+ {
+  "airline_code": "VL",
+  "airline_name": "Air Via Bulgarian Airways",
+  "icao_no": "VIM",
+  "platting_no": 699,
+  "country": "Bulgaria",
+  "airline_base": "Sofia"
+ },
+ {
+  "airline_code": "ZW",
+  "airline_name": "Air Wisconsin",
+  "icao_no": "AWI",
+  "platting_no": 303,
+  "country": "USA",
+  "airline_base": "Appleton, WI"
+ },
+ {
+  "airline_code": "UM",
+  "airline_name": "Air Zimbabwe",
+  "icao_no": "AZW",
+  "platting_no": 168,
+  "country": "Zimbabwe",
+  "airline_base": "Harare"
+ },
+ {
+  "airline_code": "QP",
+  "airline_name": "Akasa Air",
+  "icao_no": "AKJ",
+  "platting_no": 0,
+  "country": "India",
+  "airline_base": "Mumbai"
+ },
+ {
+  "airline_code": "6L",
+  "airline_name": "Aklak Air",
+  "icao_no": "AKK",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Inuvik, NT"
+ },
+ {
+  "airline_code": "2D",
+  "airline_name": "Alania Airlines",
+  "icao_no": "OST",
+  "platting_no": 0,
+  "country": "Russian Federation",
+  "airline_base": "Vladikavkaz"
+ },
+ {
+  "airline_code": "AS",
+  "airline_name": "Alaska Airlines",
+  "icao_no": "ASA",
+  "platting_no": 27,
+  "country": "USA",
+  "airline_base": "Anchorage (ANC)"
+ },
+ {
+  "airline_code": "KO",
+  "airline_name": "Alaska Central Express",
+  "icao_no": "AER",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Anchorage (ANC)"
+ },
+ {
+  "airline_code": "LV",
+  "airline_name": "Albanian Airlines",
+  "icao_no": "LBC",
+  "platting_no": 639,
+  "country": "Albania",
+  "airline_base": "Tirana (TIA)"
+ },
+ {
+  "airline_code": "ZR",
+  "airline_name": "Alexandria Airlines",
+  "icao_no": "KHH",
+  "platting_no": 0,
+  "country": "Egypt",
+  "airline_base": "Cairo (CAI)"
+ },
+ {
+  "airline_code": "D4",
+  "airline_name": "Alidaunia",
+  "icao_no": "LID",
+  "platting_no": 0,
+  "country": "Italy",
+  "airline_base": "Foggia"
+ },
+ {
+  "airline_code": "AZ",
+  "airline_name": "Alitalia",
+  "icao_no": "AZA",
+  "platting_no": 55,
+  "country": "Italy",
+  "airline_base": "Rome"
+ },
+ {
+  "airline_code": "G4",
+  "airline_name": "Allegiant Air",
+  "icao_no": "AAY",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Fresno, CA"
+ },
+ {
+  "airline_code": "9I",
+  "airline_name": "Alliance Air",
+  "icao_no": "LLR",
+  "platting_no": 296,
+  "country": "India",
+  "airline_base": "New Delhi"
+ },
+ {
+  "airline_code": "NH",
+  "airline_name": "All nippon airways",
+  "icao_no": "ANA",
+  "platting_no": 205,
+  "country": "Japan",
+  "airline_base": "Tokyo (HND)"
+ },
+ {
+  "airline_code": "C4",
+  "airline_name": "ALMA de Mexico",
+  "icao_no": "MSO",
+  "platting_no": 0,
+  "country": "Mexico",
+  "airline_base": "Guadalajara"
+ },
+ {
+  "airline_code": "6T",
+  "airline_name": "Almaty Aviation",
+  "icao_no": "LMT",
+  "platting_no": 0,
+  "country": "Kazakhstan",
+  "airline_base": "Almaty"
+ },
+ {
+  "airline_code": "5A",
+  "airline_name": "Alpine Air Express",
+  "icao_no": "AIP",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Provo (PVU)"
+ },
+ {
+  "airline_code": "M9",
+  "airline_name": "Altyn air",
+  "icao_no": "MSI",
+  "platting_no": 11,
+  "country": "Ukraine",
+  "airline_base": "Zaporizza"
+ },
+ {
+  "airline_code": "QH",
+  "airline_name": "Altyn Air",
+  "icao_no": "LYN",
+  "platting_no": 0,
+  "country": "Kyrgyzstan",
+  "airline_base": "Bishkek (FRU)"
+ },
+ {
+  "airline_code": "AA",
+  "airline_name": "American Airlines",
+  "icao_no": "AAL",
+  "platting_no": 1,
+  "country": "USA",
+  "airline_base": "Dallas, TX"
+ },
+ {
+  "airline_code": "MQ",
+  "airline_name": "American Eagle Airlines",
+  "icao_no": "EGF",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Dallas \/ Ft Worth"
+ },
+ {
+  "airline_code": "M6",
+  "airline_name": "Amerijet International",
+  "icao_no": "AJT",
+  "platting_no": 810,
+  "country": "USA",
+  "airline_base": "Ft Lauderdale (FLL)"
+ },
+ {
+  "airline_code": "9N",
+  "airline_name": "ANA & JP Express",
+  "icao_no": "AJV",
+  "platting_no": 0,
+  "country": "Japan",
+  "airline_base": "Tokyo (NRT)"
+ },
+ {
+  "airline_code": "EH",
+  "airline_name": "A-Net Air Nippon Network",
+  "icao_no": "AKX",
+  "platting_no": 0,
+  "country": "Japan",
+  "airline_base": "Sapporo"
+ },
+ {
+  "airline_code": "7X",
+  "airline_name": "Angola Air Charter",
+  "icao_no": "AGO",
+  "platting_no": 0,
+  "country": "Angola",
+  "airline_base": "Luanda (LAD)"
+ },
+ {
+  "airline_code": "O4",
+  "airline_name": "Antrak Air Ghana",
+  "icao_no": "ABV",
+  "platting_no": 0,
+  "country": "Ghana",
+  "airline_base": "Accra (ACC)"
+ },
+ {
+  "airline_code": "IW",
+  "airline_name": "Aom french airlines",
+  "icao_no": "WON",
+  "platting_no": 0,
+  "country": "Indonesia",
+  "airline_base": "Jakarta"
+ },
+ {
+  "airline_code": "GP",
+  "airline_name": "APG Airlines",
+  "icao_no": "RIV",
+  "platting_no": 390,
+  "country": "France",
+  "airline_base": "Toulouse"
+ },
+ {
+  "airline_code": "ZE",
+  "airline_name": "Arcus-Air Logistic",
+  "icao_no": "AZE",
+  "platting_no": 0,
+  "country": "Germany",
+  "airline_base": "Troisdorf"
+ },
+ {
+  "airline_code": "FG",
+  "airline_name": "Ariana Afghan Airlines",
+  "icao_no": "AFG",
+  "platting_no": 255,
+  "country": "Afghanistan",
+  "airline_base": "Kabul (KBL)"
+ },
+ {
+  "airline_code": "W3",
+  "airline_name": "Arik Air",
+  "icao_no": "ARA",
+  "platting_no": 725,
+  "country": "Nigeria",
+  "airline_base": "Lagos (LOS)"
+ },
+ {
+  "airline_code": "IZ",
+  "airline_name": "ARKIA - ISRAELI AIRLINES LTD.",
+  "icao_no": "-",
+  "platting_no": 238
+ },
+ {
+  "airline_code": "U8",
+  "airline_name": "Armavia",
+  "icao_no": "RNV",
+  "platting_no": 669,
+  "country": "Armenia",
+  "airline_base": "Yerevan"
+ },
+ {
+  "airline_code": "R3",
+  "airline_name": "Armenian airlines",
+  "icao_no": "SYL",
+  "platting_no": 849,
+  "country": "Russia",
+  "airline_base": "Sakha"
+ },
+ {
+  "airline_code": "JW",
+  "airline_name": "Arrow Cargo",
+  "icao_no": "APW",
+  "platting_no": 404,
+  "country": "USA",
+  "airline_base": "Miami (MIA)"
+ },
+ {
+  "airline_code": "R7",
+  "airline_name": "ASERCA Airlines",
+  "icao_no": "OCA",
+  "platting_no": 717,
+  "country": "Venezuela",
+  "airline_base": "Valencia"
+ },
+ {
+  "airline_code": "OZ",
+  "airline_name": "Asiana Airlines",
+  "icao_no": "AAR",
+  "platting_no": 988,
+  "country": "Korea",
+  "airline_base": "Seoul Incheon"
+ },
+ {
+  "airline_code": "HJ",
+  "airline_name": "Asian Express Airlines",
+  "icao_no": "AXF",
+  "platting_no": 0,
+  "country": "Australia",
+  "airline_base": "Sydney Mascot"
+ },
+ {
+  "airline_code": "6K",
+  "airline_name": "Asian Spirit",
+  "icao_no": "RIT",
+  "platting_no": 0,
+  "country": "Philippines",
+  "airline_base": "Pasay City"
+ },
+ {
+  "airline_code": "KP",
+  "airline_name": "ASKY",
+  "icao_no": "SKK",
+  "platting_no": 538,
+  "country": "Africa",
+  "airline_base": "Lomé"
+ },
+ {
+  "airline_code": "OI",
+  "airline_name": "Aspiring Air",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "New Zealand",
+  "airline_base": "Wanaka (WKA)"
+ },
+ {
+  "airline_code": "8V",
+  "airline_name": "Astral Aviation",
+  "icao_no": "ACP",
+  "platting_no": 0,
+  "country": "Kenya",
+  "airline_base": "Nairobi"
+ },
+ {
+  "airline_code": "ZF",
+  "airline_name": "Atlantic Airline de Honduras",
+  "icao_no": "HHA",
+  "platting_no": 0,
+  "country": "Honduras",
+  "airline_base": "Tegucigalpa"
+ },
+ {
+  "airline_code": "RC",
+  "airline_name": "Atlantic Airways",
+  "icao_no": "FLI",
+  "platting_no": 767,
+  "country": "Faroe Islands",
+  "airline_base": "Faroe islands"
+ },
+ {
+  "airline_code": "EV",
+  "airline_name": "Atlantic Southeast Airlines - ASA",
+  "icao_no": "ASQ",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Hartsfield (ATL)"
+ },
+ {
+  "airline_code": "9V",
+  "airline_name": "Atlantis Airlines",
+  "icao_no": "ALS",
+  "platting_no": 0,
+  "country": "Senegal",
+  "airline_base": "Dakar"
+ },
+ {
+  "airline_code": "3G",
+  "airline_name": "Atlant-Soyuz Airlines",
+  "icao_no": "AYZ",
+  "platting_no": 411,
+  "country": "Russia",
+  "airline_base": "Moscow"
+ },
+ {
+  "airline_code": "5Y",
+  "airline_name": "Atlas Air",
+  "icao_no": "GTI",
+  "platting_no": 369,
+  "country": "USA",
+  "airline_base": "Purchase, NY"
+ },
+ {
+  "airline_code": "8A",
+  "airline_name": "Atlas Blue",
+  "icao_no": "BMM",
+  "platting_no": 0,
+  "country": "Morocco",
+  "airline_base": "Casablanca"
+ },
+ {
+  "airline_code": "KK",
+  "airline_name": "Atlasjet Airlines",
+  "icao_no": "KKK",
+  "platting_no": 610,
+  "country": "Turkey",
+  "airline_base": "Antalya"
+ },
+ {
+  "airline_code": "V8",
+  "airline_name": "ATRAN - Aviatrans Cargo Airlines",
+  "icao_no": "VAS",
+  "platting_no": 868,
+  "country": "Russia",
+  "airline_base": "Moscow Domodedovo"
+ },
+ {
+  "airline_code": "IP",
+  "airline_name": "Atyrau Airways",
+  "icao_no": "JOL",
+  "platting_no": 312,
+  "country": "Kazakhstan",
+  "airline_base": "Atyrau"
+ },
+ {
+  "airline_code": "IQ",
+  "airline_name": "Augsburg Airways",
+  "icao_no": "AUB",
+  "platting_no": 614,
+  "country": "Germany",
+  "airline_base": "Augsburg"
+ },
+ {
+  "airline_code": "AU",
+  "airline_name": "Austral Lineas Aereas",
+  "icao_no": "AUT",
+  "platting_no": 143,
+  "country": "Argentina",
+  "airline_base": "Buenos Aires"
+ },
+ {
+  "airline_code": "OS",
+  "airline_name": "Austrian Airlines",
+  "icao_no": "AUA",
+  "platting_no": 257,
+  "country": "Austria",
+  "airline_base": "Vienna (VIE)"
+ },
+ {
+  "airline_code": "2E",
+  "airline_name": "AVE.com",
+  "icao_no": "PHW",
+  "platting_no": 0,
+  "country": "United Arab Emirates",
+  "airline_base": "Sharjah (SHJ)"
+ },
+ {
+  "airline_code": "6A",
+  "airline_name": "Aviacsa",
+  "icao_no": "CHP",
+  "platting_no": 95,
+  "country": "Mexico",
+  "airline_base": "Mexico City (MEX)"
+ },
+ {
+  "airline_code": "7U",
+  "airline_name": "Aviaenergo",
+  "icao_no": "ERG",
+  "platting_no": 765,
+  "country": "Russian Federation",
+  "airline_base": "Moscow Vnukovo (VKO)"
+ },
+ {
+  "airline_code": "EC",
+  "airline_name": "Avialeasing",
+  "icao_no": "TWN",
+  "platting_no": 36,
+  "country": "Uzbekistan",
+  "airline_base": "Tashkent"
+ },
+ {
+  "airline_code": "AV",
+  "airline_name": "Avianca aerovias nacionales",
+  "icao_no": "AVA",
+  "platting_no": 134,
+  "country": "Colombia",
+  "airline_base": "Bogot (BOG)"
+ },
+ {
+  "airline_code": "RD",
+  "airline_name": "Avianova",
+  "icao_no": "NOV",
+  "platting_no": 0,
+  "country": "Sudan",
+  "airline_base": "Khartoum"
+ },
+ {
+  "airline_code": "WR",
+  "airline_name": "Aviaprad Airlines",
+  "icao_no": "VID",
+  "platting_no": 0,
+  "country": "Russia",
+  "airline_base": "Ekaterinburg"
+ },
+ {
+  "airline_code": "6I",
+  "airline_name": "Aviast",
+  "icao_no": "VVA",
+  "platting_no": 0,
+  "country": "Russian Federation",
+  "airline_base": "Moscow (VKO)"
+ },
+ {
+  "airline_code": "4B",
+  "airline_name": "Aviastar Airlines",
+  "icao_no": "TUP",
+  "platting_no": 210,
+  "country": "Russia",
+  "airline_base": "Ulyanovsk"
+ },
+ {
+  "airline_code": "U3",
+  "airline_name": "Avies Air Company",
+  "icao_no": "AIA",
+  "platting_no": 0,
+  "country": "Estonia",
+  "airline_base": "Tallinn (TLL)"
+ },
+ {
+  "airline_code": "G2",
+  "airline_name": "Avirex Gabon",
+  "icao_no": "VXG",
+  "platting_no": 0,
+  "country": "Gabon",
+  "airline_base": "Libreville"
+ },
+ {
+  "airline_code": "J2",
+  "airline_name": "Azerbaijan Airlines",
+  "icao_no": "AHY",
+  "platting_no": 771,
+  "country": "Azerbaijan",
+  "airline_base": "Baku"
+ },
+ {
+  "airline_code": "DV",
+  "airline_name": "Azmair air",
+  "icao_no": "VSV",
+  "platting_no": 0,
+  "country": "Kazakhstan",
+  "airline_base": "Shymkent"
+ },
+ {
+  "airline_code": "AD",
+  "airline_name": "Azul Brazilian Airlines",
+  "icao_no": "AZU",
+  "platting_no": 577,
+  "country": "Brazil",
+  "airline_base": "Campinas Viracopos (VCP \/ SBKP)"
+ },
+ {
+  "airline_code": "QU",
+  "airline_name": "Azur Air Ukraine LLC",
+  "icao_no": "UTN",
+  "platting_no": 0,
+  "country": "Ukraine",
+  "airline_base": "Boryspil"
+ },
+ {
+  "airline_code": "CJ",
+  "airline_name": "BA Cityflyer Express",
+  "icao_no": "CFE",
+  "platting_no": 0,
+  "country": "United Kingdom",
+  "airline_base": "London (LCY)"
+ },
+ {
+  "airline_code": "UP",
+  "airline_name": "Bahamas air",
+  "icao_no": "BHS",
+  "platting_no": 111,
+  "country": "Bahamas",
+  "airline_base": "Nassau"
+ },
+ {
+  "airline_code": "2B",
+  "airline_name": "Bahrain Air",
+  "icao_no": "BAB",
+  "platting_no": 0,
+  "country": "Bahrain",
+  "airline_base": "Manama"
+ },
+ {
+  "airline_code": "LZ",
+  "airline_name": "Balkan bulgarian airlines",
+  "icao_no": "LBY",
+  "platting_no": 0,
+  "country": "Albania",
+  "airline_base": "Tirana (TIA)"
+ },
+ {
+  "airline_code": "PG",
+  "airline_name": "Bangkok airways ltd",
+  "icao_no": "BKP",
+  "platting_no": 829,
+  "country": "Thailand",
+  "airline_base": "Bangkok"
+ },
+ {
+  "airline_code": "BG",
+  "airline_name": "Bangladesh biman",
+  "icao_no": "BBC",
+  "platting_no": 997,
+  "country": "Bangladesh",
+  "airline_base": "Dhaka"
+ },
+ {
+  "airline_code": "8N",
+  "airline_name": "Barents Airlink",
+  "icao_no": "NKF",
+  "platting_no": 0,
+  "country": "Sweden",
+  "airline_base": "Lulea (LLA)"
+ },
+ {
+  "airline_code": "7P",
+  "airline_name": "Batavia Air",
+  "icao_no": "BTV",
+  "platting_no": 761,
+  "country": "Indonesia",
+  "airline_base": "Jakarta"
+ },
+ {
+  "airline_code": "ID",
+  "airline_name": "BATIK AIR INDONESIA",
+  "icao_no": "BTK",
+  "platting_no": 0,
+  "country": "Indonesia",
+  "airline_base": "Jakarta"
+ },
+ {
+  "airline_code": "4T",
+  "airline_name": "Belair Airlines",
+  "icao_no": "BHP",
+  "platting_no": 0,
+  "country": "Switzerland",
+  "airline_base": "Zurich (ZRH)"
+ },
+ {
+  "airline_code": "B2",
+  "airline_name": "Belavia",
+  "icao_no": "BRU",
+  "platting_no": 628,
+  "country": "Belarus",
+  "airline_base": "Minsk (MSQ)"
+ },
+ {
+  "airline_code": "B3",
+  "airline_name": "Bellview airlines ltd",
+  "icao_no": "BLV",
+  "platting_no": 208,
+  "country": "Nigeria",
+  "airline_base": "Lagos (LOS)"
+ },
+ {
+  "airline_code": "CH",
+  "airline_name": "Bemidji Airlines",
+  "icao_no": "BMJ",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Bemidji, MN"
+ },
+ {
+  "airline_code": "8E",
+  "airline_name": "Bering Air",
+  "icao_no": "BRG",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Nome (OME)"
+ },
+ {
+  "airline_code": "J8",
+  "airline_name": "Berjaya Air",
+  "icao_no": "BVT",
+  "platting_no": 801,
+  "country": "Malaysia",
+  "airline_base": "Kuala Lumpur"
+ },
+ {
+  "airline_code": "5Q",
+  "airline_name": "Best Air",
+  "icao_no": "BEA",
+  "platting_no": 0,
+  "country": "Bangladesh",
+  "airline_base": "Dhaka"
+ },
+ {
+  "airline_code": "5F",
+  "airline_name": "Best Air",
+  "icao_no": "BST",
+  "platting_no": 0,
+  "country": "Turkey",
+  "airline_base": "Istanbul (IST)"
+ },
+ {
+  "airline_code": "1B",
+  "airline_name": "BH Air",
+  "icao_no": "BGH",
+  "platting_no": 0,
+  "country": "Bulgaria",
+  "airline_base": "Sofia"
+ },
+ {
+  "airline_code": "GQ",
+  "airline_name": "Big Sky Airlines",
+  "icao_no": "BSY",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Billings logan (BIL)"
+ },
+ {
+  "airline_code": "NT",
+  "airline_name": "Binter Canarias",
+  "icao_no": "IBB",
+  "platting_no": 474,
+  "country": "Spain",
+  "airline_base": "Gran Canaria"
+ },
+ {
+  "airline_code": "KF",
+  "airline_name": "Blue1",
+  "icao_no": "KFB",
+  "platting_no": 142,
+  "country": "Finland",
+  "airline_base": "Helsinki - Vantaa"
+ },
+ {
+  "airline_code": "BF",
+  "airline_name": "Bluebird Cargo",
+  "icao_no": "BBD",
+  "platting_no": 290,
+  "country": "Iceland",
+  "airline_base": "Keflavik (KEF)"
+ },
+ {
+  "airline_code": "BZ",
+  "airline_name": "Blue Dart Aviation",
+  "icao_no": "BDA",
+  "platting_no": 620,
+  "country": "India",
+  "airline_base": "Chennai"
+ },
+ {
+  "airline_code": "4Y",
+  "airline_name": "Blue Line",
+  "icao_no": "BLE",
+  "platting_no": 0,
+  "country": "France",
+  "airline_base": "Paris"
+ },
+ {
+  "airline_code": "BV",
+  "airline_name": "Blue Panorama Airlines",
+  "icao_no": "BPA",
+  "platting_no": 4,
+  "country": "Italy",
+  "airline_base": "Rome FCO"
+ },
+ {
+  "airline_code": "QW",
+  "airline_name": "Blue Wings",
+  "icao_no": "BWG",
+  "platting_no": 49,
+  "country": "Germany",
+  "airline_base": "Dusseldorf"
+ },
+ {
+  "airline_code": "BM",
+  "airline_name": "bmi Regional",
+  "icao_no": "BMR",
+  "platting_no": 480,
+  "country": "United Kingdom",
+  "airline_base": "Aberdeen Dyce (ABZ \/ EGPD)"
+ },
+ {
+  "airline_code": "OB",
+  "airline_name": "Boliviana de Aviación - BoA",
+  "icao_no": "BOV",
+  "platting_no": 930,
+  "country": "Bolivia",
+  "airline_base": "Cochabamba Jorge Wilsterman (CBB \/ SLCB)"
+ },
+ {
+  "airline_code": "E9",
+  "airline_name": "Boston-Maine Airways",
+  "icao_no": "CXS",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Portsmouth (PSM)"
+ },
+ {
+  "airline_code": "BQ",
+  "airline_name": "Bravo Airlines",
+  "icao_no": "BBV",
+  "platting_no": 586,
+  "country": "Spain",
+  "airline_base": "Madrid (MAD)"
+ },
+ {
+  "airline_code": "FQ",
+  "airline_name": "Brindabella Airlines",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "Australia",
+  "airline_base": "Canberra (CBR)"
+ },
+ {
+  "airline_code": "DB",
+  "airline_name": "Brit Air",
+  "icao_no": "BZH",
+  "platting_no": 750,
+  "country": "France",
+  "airline_base": "Morlaix"
+ },
+ {
+  "airline_code": "BA",
+  "airline_name": "British Airways",
+  "icao_no": "BAW",
+  "platting_no": 125,
+  "country": "United Kingdom",
+  "airline_base": "London (LHR)"
+ },
+ {
+  "airline_code": "JY",
+  "airline_name": "British european",
+  "icao_no": "IWY",
+  "platting_no": 0,
+  "country": "Turks & Caicos Is.",
+  "airline_base": "Providenciales (PLS)"
+ },
+ {
+  "airline_code": "BD",
+  "airline_name": "British midland",
+  "icao_no": "BMA",
+  "platting_no": 236,
+  "country": "United Kingdom",
+  "airline_base": "London"
+ },
+ {
+  "airline_code": "TH",
+  "airline_name": "British regional airlines",
+  "icao_no": "TSE",
+  "platting_no": 539,
+  "country": "Malaysia",
+  "airline_base": "Kuala Lumpur"
+ },
+ {
+  "airline_code": "TV",
+  "airline_name": "Brussels Airlines",
+  "icao_no": "VEX",
+  "platting_no": 665,
+  "country": "Belgium",
+  "airline_base": "Brussels (BRU)"
+ },
+ {
+  "airline_code": "SN",
+  "airline_name": "Brussels Airlines",
+  "icao_no": "BEL",
+  "platting_no": 82,
+  "country": "Belgium",
+  "airline_base": "Zaventem"
+ },
+ {
+  "airline_code": "U4",
+  "airline_name": "BUDDHA AIR",
+  "icao_no": "BHA",
+  "platting_no": 0,
+  "country": "Nepal",
+  "airline_base": "Jawalakhel, Lalitpur"
+ },
+ {
+  "airline_code": "J4",
+  "airline_name": "Buffalo Airways",
+  "icao_no": "BFL",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Fort Smith"
+ },
+ {
+  "airline_code": "FB",
+  "airline_name": "Bulgaria Air",
+  "icao_no": "LZB",
+  "platting_no": 623,
+  "country": "Bulgaria",
+  "airline_base": "Sofia"
+ },
+ {
+  "airline_code": "1T",
+  "airline_name": "Bulgarian Air Charter",
+  "icao_no": "BUC",
+  "platting_no": 0,
+  "country": "Bulgaria",
+  "airline_base": "Sofia"
+ },
+ {
+  "airline_code": "UZ",
+  "airline_name": "Buraq Air",
+  "icao_no": "BRQ",
+  "platting_no": 0,
+  "country": "Libya",
+  "airline_base": "Tripoli"
+ },
+ {
+  "airline_code": "MO",
+  "airline_name": "Calm Air International",
+  "icao_no": "CAV",
+  "platting_no": 622,
+  "country": "Canada",
+  "airline_base": "Thompson, MB"
+ },
+ {
+  "airline_code": "K6",
+  "airline_name": "Cambodia angkor air",
+  "icao_no": "BRV",
+  "platting_no": 0,
+  "country": "Congo, DR",
+  "airline_base": "Kinshasa"
+ },
+ {
+  "airline_code": "5T",
+  "airline_name": "Canadian North",
+  "icao_no": "ANX",
+  "platting_no": 518,
+  "country": "Canada",
+  "airline_base": "Yellowknife, NT"
+ },
+ {
+  "airline_code": "CP",
+  "airline_name": "Canadian pacific",
+  "icao_no": "CPZ",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Washington (IAD)"
+ },
+ {
+  "airline_code": "C6",
+  "airline_name": "CanJet Airlines",
+  "icao_no": "CJA",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Enfield, NS"
+ },
+ {
+  "airline_code": "9K",
+  "airline_name": "Cape Air",
+  "icao_no": "KAP",
+  "platting_no": 306,
+  "country": "USA",
+  "airline_base": "Hyannis, MA"
+ },
+ {
+  "airline_code": "PT",
+  "airline_name": "Capital Cargo International Airlines",
+  "icao_no": "CCI",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Orlando (MCO)"
+ },
+ {
+  "airline_code": "2G",
+  "airline_name": "Cargo Italia",
+  "icao_no": "CRG",
+  "platting_no": 0,
+  "country": "Italy",
+  "airline_base": "Milan"
+ },
+ {
+  "airline_code": "W8",
+  "airline_name": "CargoJet Airways",
+  "icao_no": "CJT",
+  "platting_no": 489,
+  "country": "Canada",
+  "airline_base": "Toronto, ON"
+ },
+ {
+  "airline_code": "CV",
+  "airline_name": "Cargo lux",
+  "icao_no": "CVA",
+  "platting_no": 172,
+  "country": "New Zealand",
+  "airline_base": "Chatham Islands"
+ },
+ {
+  "airline_code": "V3",
+  "airline_name": "Carpatair",
+  "icao_no": "KRP",
+  "platting_no": 21,
+  "country": "Romania",
+  "airline_base": "Bucharest"
+ },
+ {
+  "airline_code": "RV",
+  "airline_name": "Caspian Air Lines",
+  "icao_no": "CPN",
+  "platting_no": 879,
+  "country": "Iran",
+  "airline_base": "Tehran (THR)"
+ },
+ {
+  "airline_code": "CX",
+  "airline_name": "Cathay pacific",
+  "icao_no": "CPA",
+  "platting_no": 160,
+  "country": "Hong Kong",
+  "airline_base": "Hong Kong (HKG)"
+ },
+ {
+  "airline_code": "KX",
+  "airline_name": "Cayman airways ltd",
+  "icao_no": "CAY",
+  "platting_no": 378,
+  "country": "Cayman Islands",
+  "airline_base": "Georgetown"
+ },
+ {
+  "airline_code": "XK",
+  "airline_name": "Ccm airlines",
+  "icao_no": "CCM",
+  "platting_no": 146,
+  "country": "France",
+  "airline_base": "Ajaccio"
+ },
+ {
+  "airline_code": "5J",
+  "airline_name": "CEBU Pacific Air",
+  "icao_no": "CEB",
+  "platting_no": 203,
+  "country": "Philippines",
+  "airline_base": "Manila (MNL)"
+ },
+ {
+  "airline_code": "9M",
+  "airline_name": "Central mountain air ltd.",
+  "icao_no": "GLR",
+  "platting_no": 634,
+  "country": "Canada",
+  "airline_base": "Smithers, BC"
+ },
+ {
+  "airline_code": "C0",
+  "airline_name": "Centralwings",
+  "icao_no": "CLW",
+  "platting_no": 0,
+  "country": "Poland",
+  "airline_base": "Warsaw"
+ },
+ {
+  "airline_code": "OP",
+  "airline_name": "Chalk's International Airlines",
+  "icao_no": "CHK",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Ft Lauderdale, FL"
+ },
+ {
+  "airline_code": "5U",
+  "airline_name": "Challenge Aero",
+  "icao_no": "CHG",
+  "platting_no": 0,
+  "country": "Ukraine",
+  "airline_base": "Kiev"
+ },
+ {
+  "airline_code": "6Q",
+  "airline_name": "Cham Wings Airlines",
+  "icao_no": "SAW",
+  "platting_no": 0,
+  "country": "Syria",
+  "airline_base": "Damascus"
+ },
+ {
+  "airline_code": "2Z",
+  "airline_name": "Changan Airlines",
+  "icao_no": "CGN",
+  "platting_no": 0,
+  "country": "China",
+  "airline_base": "Xi'an, Shaanxi"
+ },
+ {
+  "airline_code": "RP",
+  "airline_name": "Chautauqua Airlines",
+  "icao_no": "CHQ",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Indianapolis, IN"
+ },
+ {
+  "airline_code": "AW",
+  "airline_name": "CHC Airways",
+  "icao_no": "SCH",
+  "platting_no": 405,
+  "country": "Netherlands",
+  "airline_base": "Rotterdam"
+ },
+ {
+  "airline_code": "CI",
+  "airline_name": "China Airlines",
+  "icao_no": "CAL",
+  "platting_no": 297,
+  "country": "Taiwan",
+  "airline_base": "Taipei"
+ },
+ {
+  "airline_code": "CK",
+  "airline_name": "China Cargo Airlines",
+  "icao_no": "CKK",
+  "platting_no": 112,
+  "country": "China",
+  "airline_base": "Shanghai"
+ },
+ {
+  "airline_code": "MU",
+  "airline_name": "China Eastern Airlines",
+  "icao_no": "CES",
+  "platting_no": 781,
+  "country": "China",
+  "airline_base": "Shanghai"
+ },
+ {
+  "airline_code": "G5",
+  "airline_name": "China Express Airlines",
+  "icao_no": "HXA",
+  "platting_no": 0,
+  "country": "China",
+  "airline_base": "Guiyang"
+ },
+ {
+  "airline_code": "8Y",
+  "airline_name": "China Postal Airlines",
+  "icao_no": "CYZ",
+  "platting_no": 804,
+  "country": "China",
+  "airline_base": "Tianjin"
+ },
+ {
+  "airline_code": "CZ",
+  "airline_name": "China southern",
+  "icao_no": "CSN",
+  "platting_no": 784,
+  "country": "China",
+  "airline_base": "Guangzhou"
+ },
+ {
+  "airline_code": "PN",
+  "airline_name": "China West Airlines",
+  "icao_no": "CHB",
+  "platting_no": 0,
+  "country": "China",
+  "airline_base": "Chongqing (CKG)"
+ },
+ {
+  "airline_code": "X2",
+  "airline_name": "China Xinhua Airlines",
+  "icao_no": "CXH",
+  "platting_no": 0,
+  "country": "China",
+  "airline_base": "Beijing"
+ },
+ {
+  "airline_code": "9L",
+  "airline_name": "Chola",
+  "icao_no": "CJC",
+  "platting_no": 426,
+  "country": "USA",
+  "airline_base": "Manassas, VA"
+ },
+ {
+  "airline_code": "0Q",
+  "airline_name": "Chongqing Airlines",
+  "icao_no": "CQN",
+  "platting_no": 0,
+  "country": "China",
+  "airline_base": "Chongqing"
+ },
+ {
+  "airline_code": "QI",
+  "airline_name": "Cimber Air",
+  "icao_no": "CIM",
+  "platting_no": 647,
+  "country": "Denmark",
+  "airline_base": "Sonderbork"
+ },
+ {
+  "airline_code": "C9",
+  "airline_name": "Cirrus luftfahrtges ells",
+  "icao_no": "RUS",
+  "platting_no": 251,
+  "country": "Germany",
+  "airline_base": "Saarbrcken"
+ },
+ {
+  "airline_code": "CF",
+  "airline_name": "City Airline",
+  "icao_no": "SDR",
+  "platting_no": 0,
+  "country": "Sweden",
+  "airline_base": "Gothenburg"
+ },
+ {
+  "airline_code": "WX",
+  "airline_name": "CityJet",
+  "icao_no": "BCY",
+  "platting_no": 689,
+  "country": "Ireland",
+  "airline_base": "Dublin (DUB)"
+ },
+ {
+  "airline_code": "ZM",
+  "airline_name": "CityLine Hungary",
+  "icao_no": "CNB",
+  "platting_no": 0,
+  "country": "Hungary",
+  "airline_base": "Budapest"
+ },
+ {
+  "airline_code": "QG",
+  "airline_name": "Citylink",
+  "icao_no": "CTV",
+  "platting_no": 0,
+  "country": "Indonesia",
+  "airline_base": "Jakarta"
+ },
+ {
+  "airline_code": "QA",
+  "airline_name": "Click Mexicana",
+  "icao_no": "CBE",
+  "platting_no": 723,
+  "country": "Mexico",
+  "airline_base": "Cancun (CUN)"
+ },
+ {
+  "airline_code": "OH",
+  "airline_name": "Comair - Delta Connection",
+  "icao_no": "COM",
+  "platting_no": 886,
+  "country": "USA",
+  "airline_base": "Cinncinnati, OH"
+ },
+ {
+  "airline_code": "C5",
+  "airline_name": "CommutAir",
+  "icao_no": "UCA",
+  "platting_no": 841,
+  "country": "USA",
+  "airline_base": "Cleveland, OH"
+ },
+ {
+  "airline_code": "DE",
+  "airline_name": "Condor flugdienst gmbh",
+  "icao_no": "CFG",
+  "platting_no": 881,
+  "country": "Germany",
+  "airline_base": "Frankfurt (FRA)"
+ },
+ {
+  "airline_code": "C3",
+  "airline_name": "Contact Air Flugdienst",
+  "icao_no": "KIS",
+  "platting_no": 0,
+  "country": "Germany",
+  "airline_base": "Stuttgart"
+ },
+ {
+  "airline_code": "CO",
+  "airline_name": "Continental",
+  "icao_no": "COA",
+  "platting_no": 5,
+  "country": "USA",
+  "airline_base": "Houston, TX"
+ },
+ {
+  "airline_code": "CS",
+  "airline_name": "Continental Micronesia",
+  "icao_no": "CMI",
+  "platting_no": 596,
+  "country": "Guam",
+  "airline_base": "Guam"
+ },
+ {
+  "airline_code": "V0",
+  "airline_name": "ConViasa",
+  "icao_no": "VCV",
+  "platting_no": 0,
+  "country": "Venezuela",
+  "airline_base": "Caracas"
+ },
+ {
+  "airline_code": "CM",
+  "airline_name": "Copa airline",
+  "icao_no": "CMP",
+  "platting_no": 230,
+  "country": "Panama",
+  "airline_base": "Panama City"
+ },
+ {
+  "airline_code": "7H",
+  "airline_name": "Corendon Airlines",
+  "icao_no": "CAI",
+  "platting_no": 0,
+  "country": "Turkey",
+  "airline_base": "Istanbul (IST)"
+ },
+ {
+  "airline_code": "XC",
+  "airline_name": "Corendon Airlines",
+  "icao_no": "CAI",
+  "platting_no": 395,
+  "country": "Turkey",
+  "airline_base": "Antalya (AYT \/ LTAI)"
+ },
+ {
+  "airline_code": "F5",
+  "airline_name": "Cosmic Air",
+  "icao_no": "COZ",
+  "platting_no": 447,
+  "country": "Nepal",
+  "airline_base": "Kathmandu (KTM)"
+ },
+ {
+  "airline_code": "OU",
+  "airline_name": "Croatia Airlines",
+  "icao_no": "CTN",
+  "platting_no": 831,
+  "country": "Croatia",
+  "airline_base": "Zagreb"
+ },
+ {
+  "airline_code": "J6",
+  "airline_name": "Cruiser Linhas Aereas",
+  "icao_no": "VCR",
+  "platting_no": 0,
+  "country": "Brazil",
+  "airline_base": "Curitiba (BFH)"
+ },
+ {
+  "airline_code": "CU",
+  "airline_name": "Cubana",
+  "icao_no": "CUB",
+  "platting_no": 136,
+  "country": "Cuba",
+  "airline_base": "Havana"
+ },
+ {
+  "airline_code": "CY",
+  "airline_name": "Cyprus airlines",
+  "icao_no": "CYP",
+  "platting_no": 48,
+  "country": "Cyprus",
+  "airline_base": "Larnaca"
+ },
+ {
+  "airline_code": "OK",
+  "airline_name": "Czech airlines",
+  "icao_no": "CSA",
+  "platting_no": 64,
+  "country": "Czech Republic",
+  "airline_base": "Prague"
+ },
+ {
+  "airline_code": "D3",
+  "airline_name": "Daallo Airlines",
+  "icao_no": "DAO",
+  "platting_no": 991,
+  "country": "United Arab Emirates",
+  "airline_base": "Dubai (DXB)"
+ },
+ {
+  "airline_code": "H8",
+  "airline_name": "Dalavia Far East airways",
+  "icao_no": "KHB",
+  "platting_no": 560,
+  "country": "Russia",
+  "airline_base": "Khabarovsk"
+ },
+ {
+  "airline_code": "0D",
+  "airline_name": "Darwin Airline",
+  "icao_no": "DWT",
+  "platting_no": 0,
+  "country": "Switzerland",
+  "airline_base": "Lugano"
+ },
+ {
+  "airline_code": "F7",
+  "airline_name": "Darwin airline sa",
+  "icao_no": "VRE",
+  "platting_no": 0,
+  "country": "Ukraine",
+  "airline_base": "Nikolayev"
+ },
+ {
+  "airline_code": "SE",
+  "airline_name": "Das air cargo",
+  "icao_no": "XLF",
+  "platting_no": 473,
+  "country": "France",
+  "airline_base": "Paris (CDG)"
+ },
+ {
+  "airline_code": "DX",
+  "airline_name": "DAT - Danish Air Transport",
+  "icao_no": "DTR",
+  "platting_no": 0,
+  "country": "Denmark",
+  "airline_base": "Vamdrup"
+ },
+ {
+  "airline_code": "DL",
+  "airline_name": "Delta airlines inc",
+  "icao_no": "DAL",
+  "platting_no": 6,
+  "country": "USA",
+  "airline_base": "Atlanta"
+ },
+ {
+  "airline_code": "3D",
+  "airline_name": "Denim Air",
+  "icao_no": "DNM",
+  "platting_no": 973,
+  "country": "Netherlands",
+  "airline_base": "Amsterdam (AMS)"
+ },
+ {
+  "airline_code": "SS",
+  "airline_name": "Dhl",
+  "icao_no": "CRL",
+  "platting_no": 923,
+  "country": "France",
+  "airline_base": "Paris Orly (ORY)"
+ },
+ {
+  "airline_code": "D5",
+  "airline_name": "DHL Aero Express",
+  "icao_no": "DAE",
+  "platting_no": 992,
+  "country": "Panama",
+  "airline_base": "Panama City"
+ },
+ {
+  "airline_code": "D0",
+  "airline_name": "DHL Air",
+  "icao_no": "DHK",
+  "platting_no": 936,
+  "country": "United Kingdom",
+  "airline_base": "Nottingham East Midlands (EMA \/ EGNX)"
+ },
+ {
+  "airline_code": "L3",
+  "airline_name": "DHL de Guatemala",
+  "icao_no": "JOS",
+  "platting_no": 947,
+  "country": "Guatemala",
+  "airline_base": "Guatemala City"
+ },
+ {
+  "airline_code": "ES",
+  "airline_name": "DHL \/ SNAS Worldwide Express",
+  "icao_no": "DHX",
+  "platting_no": 155,
+  "country": "Bahrain",
+  "airline_base": "Bahrain"
+ },
+ {
+  "airline_code": "D6",
+  "airline_name": "Djibouti airlines",
+  "icao_no": "ILN",
+  "platting_no": 625,
+  "country": "South Africa",
+  "airline_base": "Johannesburg (JNB)"
+ },
+ {
+  "airline_code": "D8",
+  "airline_name": "Djibouti arilines",
+  "icao_no": "DJB",
+  "platting_no": 0,
+  "country": "Djibouti",
+  "airline_base": "Djibouti"
+ },
+ {
+  "airline_code": "Z6",
+  "airline_name": "Dniproavia",
+  "icao_no": "UDN",
+  "platting_no": 181,
+  "country": "Ukraine",
+  "airline_base": "Dnipropetrovsk"
+ },
+ {
+  "airline_code": "ZD",
+  "airline_name": "Dolphin Air",
+  "icao_no": "FDN",
+  "platting_no": 338,
+  "country": "United Arab Emirates",
+  "airline_base": "Sharjah (SHJ)"
+ },
+ {
+  "airline_code": "E3",
+  "airline_name": "Domodedovo Airlines",
+  "icao_no": "DMO",
+  "platting_no": 497,
+  "country": "Russia",
+  "airline_base": "Moscow"
+ },
+ {
+  "airline_code": "D9",
+  "airline_name": "Donavia airlines",
+  "icao_no": "DNV",
+  "platting_no": 733,
+  "country": "Russia",
+  "airline_base": "Rostov-on-Don"
+ },
+ {
+  "airline_code": "7D",
+  "airline_name": "Donbassaero airlines llc",
+  "icao_no": "UDC",
+  "platting_no": 897,
+  "country": "Ukraine",
+  "airline_base": "Donetsk"
+ },
+ {
+  "airline_code": "R6",
+  "airline_name": "DOT - Danu Oro Transportas",
+  "icao_no": "DNU",
+  "platting_no": 0,
+  "country": "Lithuania",
+  "airline_base": "Kaunas (KUN)"
+ },
+ {
+  "airline_code": "KB",
+  "airline_name": "Druk Air",
+  "icao_no": "DRK",
+  "platting_no": 787,
+  "country": "Bhutan",
+  "airline_base": "Paro"
+ },
+ {
+  "airline_code": "H7",
+  "airline_name": "Eagle Air",
+  "icao_no": "EGU",
+  "platting_no": 0,
+  "country": "Uganda",
+  "airline_base": "Entebbe (EBB)"
+ },
+ {
+  "airline_code": "S9",
+  "airline_name": "East African Safari Air",
+  "icao_no": "HSA",
+  "platting_no": 895,
+  "country": "Kenya",
+  "airline_base": "Nairobi"
+ },
+ {
+  "airline_code": "T3",
+  "airline_name": "Eastern airways ltd",
+  "icao_no": "EZE",
+  "platting_no": 467,
+  "country": "United Kingdom",
+  "airline_base": "Humberside"
+ },
+ {
+  "airline_code": "U2",
+  "airline_name": "easyJet",
+  "icao_no": "EZY",
+  "platting_no": 0,
+  "country": "United Kingdom",
+  "airline_base": "London (LTN)"
+ },
+ {
+  "airline_code": "DS",
+  "airline_name": "easyJet Switzerland",
+  "icao_no": "EZS",
+  "platting_no": 0,
+  "country": "Switzerland",
+  "airline_base": "Geneva (GVA)"
+ },
+ {
+  "airline_code": "8R",
+  "airline_name": "Edelweiss Air",
+  "icao_no": "EDW",
+  "platting_no": 945,
+  "country": "Switzerland",
+  "airline_base": "Zurich (ZRH)"
+ },
+ {
+  "airline_code": "MS",
+  "airline_name": "Egypt air",
+  "icao_no": "MSR",
+  "platting_no": 77,
+  "country": "Egypt",
+  "airline_base": "Cairo (CAI)"
+ },
+ {
+  "airline_code": "LY",
+  "airline_name": "El Al Israel Airlines",
+  "icao_no": "ELY",
+  "platting_no": 114,
+  "country": "Israel",
+  "airline_base": "Israel"
+ },
+ {
+  "airline_code": "EK",
+  "airline_name": "Emirates",
+  "icao_no": "UAE",
+  "platting_no": 176,
+  "country": "United Arab Emirates",
+  "airline_base": "Dubai (DXB)"
+ },
+ {
+  "airline_code": "5E",
+  "airline_name": "Equaflight Service",
+  "icao_no": "EKA",
+  "platting_no": 0,
+  "country": "Congo, PR",
+  "airline_base": "Brazzaville"
+ },
+ {
+  "airline_code": "YE",
+  "airline_name": "Eram Air",
+  "icao_no": "ERV",
+  "platting_no": 0,
+  "country": "Iran",
+  "airline_base": "Tabriz"
+ },
+ {
+  "airline_code": "B8",
+  "airline_name": "Eritrean Airlines",
+  "icao_no": "ERT",
+  "platting_no": 0,
+  "country": "Eritrea",
+  "airline_base": "Asmara"
+ },
+ {
+  "airline_code": "K9",
+  "airline_name": "Esen Air",
+  "icao_no": "ESD",
+  "platting_no": 0,
+  "country": "Kyrgyzstan",
+  "airline_base": "Osh (OSS)"
+ },
+ {
+  "airline_code": "E7",
+  "airline_name": "Estafeta Carga Aerea",
+  "icao_no": "ESF",
+  "platting_no": 355,
+  "country": "Mexico",
+  "airline_base": "Mexico City (MEX)"
+ },
+ {
+  "airline_code": "ET",
+  "airline_name": "Ethiopian Airlines",
+  "icao_no": "ETH",
+  "platting_no": 71,
+  "country": "Ethiopia",
+  "airline_base": "Addis Ababa"
+ },
+ {
+  "airline_code": "EY",
+  "airline_name": "Etihad Airways",
+  "icao_no": "ETD",
+  "platting_no": 607,
+  "country": "United Arab Emirates",
+  "airline_base": "Abu Dhabi (AUH)"
+ },
+ {
+  "airline_code": "6M",
+  "airline_name": "EuroAir",
+  "icao_no": "EUP",
+  "platting_no": 0,
+  "country": "Greece",
+  "airline_base": "Athens (ATH)"
+ },
+ {
+  "airline_code": "5B",
+  "airline_name": "Euro-Asia Air International",
+  "icao_no": "EAK",
+  "platting_no": 0,
+  "country": "Kazakhstan",
+  "airline_base": "Almaty"
+ },
+ {
+  "airline_code": "YU",
+  "airline_name": "Euroatlantic Airways",
+  "icao_no": "MMZ",
+  "platting_no": 551,
+  "country": "Portugal",
+  "airline_base": "Lisbon Portela (LIS \/ LPPT)"
+ },
+ {
+  "airline_code": "UI",
+  "airline_name": "Eurocypria Airlines",
+  "icao_no": "ECA",
+  "platting_no": 475,
+  "country": "Cyprus",
+  "airline_base": "Larnaca"
+ },
+ {
+  "airline_code": "GJ",
+  "airline_name": "Eurofly",
+  "icao_no": "EEZ",
+  "platting_no": 0,
+  "country": "Italy",
+  "airline_base": "Milan"
+ },
+ {
+  "airline_code": "K2",
+  "airline_name": "EuroLOT",
+  "icao_no": "ELO",
+  "platting_no": 0,
+  "country": "Poland",
+  "airline_base": "Warsaw"
+ },
+ {
+  "airline_code": "5O",
+  "airline_name": "Europe Airpost",
+  "icao_no": "FPO",
+  "platting_no": 0,
+  "country": "France",
+  "airline_base": "Paris"
+ },
+ {
+  "airline_code": "QY",
+  "airline_name": "European Air Transport",
+  "icao_no": "BCS",
+  "platting_no": 615,
+  "country": "Belgium",
+  "airline_base": "Brussels (BRU)"
+ },
+ {
+  "airline_code": "EW",
+  "airline_name": "Eurowing ag",
+  "icao_no": "EWG",
+  "platting_no": 104,
+  "country": "Germany",
+  "airline_base": "Nuremberg"
+ },
+ {
+  "airline_code": "BR",
+  "airline_name": "EVA Air",
+  "icao_no": "EVA",
+  "platting_no": 695,
+  "country": "Taiwan",
+  "airline_base": "Taipei"
+ },
+ {
+  "airline_code": "8D",
+  "airline_name": "Expo Aviation",
+  "icao_no": "EXV",
+  "platting_no": 319,
+  "country": "Sri Lanka",
+  "airline_base": "Colombo"
+ },
+ {
+  "airline_code": "XE",
+  "airline_name": "ExpressJet Airlines",
+  "icao_no": "BTA",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Newark (EWR)"
+ },
+ {
+  "airline_code": "A8",
+  "airline_name": "Fars qeshm air",
+  "icao_no": "BGL",
+  "platting_no": 719,
+  "country": "Benin",
+  "airline_base": "Cotonou"
+ },
+ {
+  "airline_code": "FC",
+  "airline_name": "Fc 216 finnish commuter airlines",
+  "icao_no": "WBA",
+  "platting_no": 0,
+  "country": "Finland",
+  "airline_base": "Helsinki"
+ },
+ {
+  "airline_code": "FX",
+  "airline_name": "FedEx Express",
+  "icao_no": "FDX",
+  "platting_no": 23,
+  "country": "USA",
+  "airline_base": "Memphis, TN"
+ },
+ {
+  "airline_code": "FO",
+  "airline_name": "Felix Airways",
+  "icao_no": "FXX",
+  "platting_no": 0,
+  "country": "Yemen",
+  "airline_base": "Sana'a"
+ },
+ {
+  "airline_code": "AY",
+  "airline_name": "Finnair",
+  "icao_no": "FIN",
+  "platting_no": 105,
+  "country": "Finland",
+  "airline_base": "Helsinki"
+ },
+ {
+  "airline_code": "7E",
+  "airline_name": "Firefly",
+  "icao_no": "FFM",
+  "platting_no": 0,
+  "country": "Malaysia",
+  "airline_base": "Penang"
+ },
+ {
+  "airline_code": "7F",
+  "airline_name": "First Air",
+  "icao_no": "FAB",
+  "platting_no": 245,
+  "country": "Canada",
+  "airline_base": "Kanatta, ON"
+ },
+ {
+  "airline_code": "DP",
+  "airline_name": "First Choice Airways",
+  "icao_no": "FCA",
+  "platting_no": 91,
+  "country": "United Kingdom",
+  "airline_base": "Crawley"
+ },
+ {
+  "airline_code": "W2",
+  "airline_name": "Flexflights",
+  "icao_no": "WEA",
+  "platting_no": 0,
+  "country": "Poland",
+  "airline_base": "Warsaw"
+ },
+ {
+  "airline_code": "JH",
+  "airline_name": "Flex Linhas Areas",
+  "icao_no": "FFX",
+  "platting_no": 0,
+  "country": "Brazil",
+  "airline_base": "Salvador de Bahia"
+ },
+ {
+  "airline_code": "B5",
+  "airline_name": "Flightline",
+  "icao_no": "FLT",
+  "platting_no": 0,
+  "country": "United Kingdom",
+  "airline_base": "Southend"
+ },
+ {
+  "airline_code": "RF",
+  "airline_name": "Florida West International Airways",
+  "icao_no": "FWL",
+  "platting_no": 330,
+  "country": "USA",
+  "airline_base": "Miami (MIA)"
+ },
+ {
+  "airline_code": "5H",
+  "airline_name": "Fly540",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "Kenya",
+  "airline_base": "Nairobi (NBO)"
+ },
+ {
+  "airline_code": "F3",
+  "airline_name": "Flyadeal",
+  "icao_no": "SGB",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Sacramento, CA"
+ },
+ {
+  "airline_code": "BE",
+  "airline_name": "Flybe limited",
+  "icao_no": "BEE",
+  "platting_no": 267,
+  "country": "United Kingdom",
+  "airline_base": "Exeter"
+ },
+ {
+  "airline_code": "FZ",
+  "airline_name": "Fly Dubai",
+  "icao_no": "FDP",
+  "platting_no": 141,
+  "country": "India",
+  "airline_base": "Mumbai"
+ },
+ {
+  "airline_code": "XY",
+  "airline_name": "FLYNAS",
+  "icao_no": "KNE",
+  "platting_no": 593,
+  "country": "Saudi Arabia",
+  "airline_base": "Jeddah"
+ },
+ {
+  "airline_code": "FA",
+  "airline_name": "FlySafair",
+  "icao_no": "SFR",
+  "platting_no": 640,
+  "country": "South Africa",
+  "airline_base": "Johannesburg (JNB)"
+ },
+ {
+  "airline_code": "F9",
+  "airline_name": "Frontier Airlines",
+  "icao_no": "FFT",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Denver, CO"
+ },
+ {
+  "airline_code": "GY",
+  "airline_name": "Gabon Airlines",
+  "icao_no": "GBK",
+  "platting_no": 13,
+  "country": "Gabon",
+  "airline_base": "Librevill;e"
+ },
+ {
+  "airline_code": "7O",
+  "airline_name": "Galaxy Air",
+  "icao_no": "GAL",
+  "platting_no": 0,
+  "country": "Kyrgyzstan",
+  "airline_base": "Bishkek (FRU)"
+ },
+ {
+  "airline_code": "GC",
+  "airline_name": "Gambia International Airlines",
+  "icao_no": "GNR",
+  "platting_no": 34,
+  "country": "Gambia",
+  "airline_base": "Banjul"
+ },
+ {
+  "airline_code": "GA",
+  "airline_name": "Garuda (GA)",
+  "icao_no": "GIA",
+  "platting_no": 126,
+  "country": "Indonesia",
+  "airline_base": "Jakarta"
+ },
+ {
+  "airline_code": "4G",
+  "airline_name": "Gazpromavia Aviation Company",
+  "icao_no": "GZP",
+  "platting_no": 0,
+  "country": "Russia",
+  "airline_base": "Moscow Vnukovo (VKO)"
+ },
+ {
+  "airline_code": "3P",
+  "airline_name": "Georgian airlines",
+  "icao_no": "TNM",
+  "platting_no": 0,
+  "country": "Aruba",
+  "airline_base": "Aruba"
+ },
+ {
+  "airline_code": "A9",
+  "airline_name": "Georgian Airways",
+  "icao_no": "TGZ",
+  "platting_no": 606,
+  "country": "Georgia",
+  "airline_base": "Tbilisi (TBS)"
+ },
+ {
+  "airline_code": "4U",
+  "airline_name": "Germanwings",
+  "icao_no": "GWI",
+  "platting_no": 0,
+  "country": "Germany",
+  "airline_base": "Cologne"
+ },
+ {
+  "airline_code": "0G",
+  "airline_name": "Ghadames Air Transport",
+  "icao_no": "GHT",
+  "platting_no": 0,
+  "country": "Libya",
+  "airline_base": "Tripoli"
+ },
+ {
+  "airline_code": "GO",
+  "airline_name": "Ghana International Airlines",
+  "icao_no": "GHB",
+  "platting_no": 0,
+  "country": "Ghana",
+  "airline_base": "Accra (ACC)"
+ },
+ {
+  "airline_code": "Z5",
+  "airline_name": "GMG Airlines",
+  "icao_no": "GMG",
+  "platting_no": 9,
+  "country": "Bangladesh",
+  "airline_base": "Dhaka"
+ },
+ {
+  "airline_code": "G8",
+  "airline_name": "Goair",
+  "icao_no": "GOW",
+  "platting_no": 0,
+  "country": "India",
+  "airline_base": "Mumbai"
+ },
+ {
+  "airline_code": "DC",
+  "airline_name": "Golden Air",
+  "icao_no": "GAO",
+  "platting_no": 0,
+  "country": "Sweden",
+  "airline_base": "Trollhttan"
+ },
+ {
+  "airline_code": "G3",
+  "airline_name": "Gol\/varig airlines",
+  "icao_no": "SEH",
+  "platting_no": 127,
+  "country": "Greece",
+  "airline_base": "Heraklion"
+ },
+ {
+  "airline_code": "G1",
+  "airline_name": "Gorkha Airlines",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "Nepal",
+  "airline_base": "Pokhara (PKR)"
+ },
+ {
+  "airline_code": "CN",
+  "airline_name": "Grand China Airlines",
+  "icao_no": "GDC",
+  "platting_no": 0,
+  "country": "China",
+  "airline_base": "Beijing"
+ },
+ {
+  "airline_code": "GS",
+  "airline_name": "Grand China Express Air",
+  "icao_no": "GCR",
+  "platting_no": 826,
+  "country": "China",
+  "airline_base": "Tianjin"
+ },
+ {
+  "airline_code": "GD",
+  "airline_name": "Grandstar Cargo International",
+  "icao_no": "GSC",
+  "platting_no": 0,
+  "country": "China",
+  "airline_base": "Tianjin"
+ },
+ {
+  "airline_code": "ZK",
+  "airline_name": "Great lakes aviation ltd.",
+  "icao_no": "GLA",
+  "platting_no": 846,
+  "country": "USA",
+  "airline_base": "Cheyenne (CYS)"
+ },
+ {
+  "airline_code": "GF",
+  "airline_name": "Gulf Air",
+  "icao_no": "GFA",
+  "platting_no": 72,
+  "country": "Bahrain",
+  "airline_base": "Bahrain"
+ },
+ {
+  "airline_code": "3M",
+  "airline_name": "Gulfstream International Airlines",
+  "icao_no": "GFT",
+  "platting_no": 449,
+  "country": "USA",
+  "airline_base": "Ft Lauderdale (FLL)"
+ },
+ {
+  "airline_code": "G0",
+  "airline_name": "Guna Airlines",
+  "icao_no": "GUA",
+  "platting_no": 0,
+  "country": "Nepal",
+  "airline_base": "Baneshwor, Kathmandu"
+ },
+ {
+  "airline_code": "H6",
+  "airline_name": "Hageland Aviation Services",
+  "icao_no": "HAG",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Anchorage (ANC)"
+ },
+ {
+  "airline_code": "H1",
+  "airline_name": "Hahn Air",
+  "icao_no": "HHN",
+  "platting_no": 169,
+  "country": "Germany",
+  "airline_base": "Germany"
+ },
+ {
+  "airline_code": "X1",
+  "airline_name": "Hahn Air",
+  "icao_no": "HHN",
+  "platting_no": 169,
+  "country": "Germany",
+  "airline_base": "Germany"
+ },
+ {
+  "airline_code": "HR",
+  "airline_name": "Hahn air lines gmbh",
+  "icao_no": "HHN",
+  "platting_no": 169,
+  "country": "Germany",
+  "airline_base": "Frankfurt (FRA)"
+ },
+ {
+  "airline_code": "HU",
+  "airline_name": "Hainan airlines company ltd",
+  "icao_no": "CHH",
+  "platting_no": 880,
+  "country": "China",
+  "airline_base": "Haikau"
+ },
+ {
+  "airline_code": "H3",
+  "airline_name": "Harbour Air Seaplanes",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Vancouver (YVR)"
+ },
+ {
+  "airline_code": "HA",
+  "airline_name": "Hawiian airlines",
+  "icao_no": "HAL",
+  "platting_no": 173,
+  "country": "USA",
+  "airline_base": "Honolulu, HI"
+ },
+ {
+  "airline_code": "YO",
+  "airline_name": "Heli air monaco",
+  "icao_no": "EMJ",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Fort Lauderdale, Florida"
+ },
+ {
+  "airline_code": "HT",
+  "airline_name": "Hellenic imperial airways",
+  "icao_no": "AHW",
+  "platting_no": 730,
+  "country": "Ukraine",
+  "airline_base": "Kharkov"
+ },
+ {
+  "airline_code": "2L",
+  "airline_name": "Helvetic Airways",
+  "icao_no": "OAW",
+  "platting_no": 0,
+  "country": "Switzerland",
+  "airline_base": "Zurich (ZRH)"
+ },
+ {
+  "airline_code": "DU",
+  "airline_name": "Hemus Air",
+  "icao_no": "HMS",
+  "platting_no": 748,
+  "country": "Bulgaria",
+  "airline_base": "Sofia"
+ },
+ {
+  "airline_code": "EO",
+  "airline_name": "Hewa bora airways",
+  "icao_no": "LHN",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Orlando (MCO)"
+ },
+ {
+  "airline_code": "UD",
+  "airline_name": "Hex'Air",
+  "icao_no": "HER",
+  "platting_no": 848,
+  "country": "France",
+  "airline_base": "Le Puy"
+ },
+ {
+  "airline_code": "8H",
+  "airline_name": "Highland Airways",
+  "icao_no": "HWY",
+  "platting_no": 366,
+  "country": "United Kingdom",
+  "airline_base": "Inverness"
+ },
+ {
+  "airline_code": "H9",
+  "airline_name": "Himalaya Airlines",
+  "icao_no": "HIM",
+  "platting_no": 769,
+  "country": "Nepal"
+ },
+ {
+  "airline_code": "H5",
+  "airline_name": "Hola Airlines",
+  "icao_no": "HOA",
+  "platting_no": 0,
+  "country": "Spain",
+  "airline_base": "Palma (PMI)"
+ },
+ {
+  "airline_code": "HX",
+  "airline_name": "Hong Kong Airlines",
+  "icao_no": "CRK",
+  "platting_no": 851,
+  "country": "Hong Kong",
+  "airline_base": "Hong Kong (HKG)"
+ },
+ {
+  "airline_code": "KA",
+  "airline_name": "Hong kong dragon airlines",
+  "icao_no": "HDA",
+  "platting_no": 43,
+  "country": "Hong Kong",
+  "airline_base": "Hong Kong (HKG)"
+ },
+ {
+  "airline_code": "UO",
+  "airline_name": "Hong Kong Express Airways",
+  "icao_no": "HKE",
+  "platting_no": 128,
+  "country": "Hong Kong",
+  "airline_base": "Hong Kong (HKG)"
+ },
+ {
+  "airline_code": "QX",
+  "airline_name": "Horizon Airlines",
+  "icao_no": "QXE",
+  "platting_no": 481,
+  "country": "USA",
+  "airline_base": "Seattle, WA"
+ },
+ {
+  "airline_code": "II",
+  "airline_name": "IBC Airways",
+  "icao_no": "CSQ",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Miami (MIA)"
+ },
+ {
+  "airline_code": "I2",
+  "airline_name": "Iberia Express",
+  "icao_no": "IBS",
+  "platting_no": 0,
+  "country": "Spain",
+  "airline_base": "Madrid"
+ },
+ {
+  "airline_code": "IB",
+  "airline_name": "Iberia (lineas aereas de espana)",
+  "icao_no": "IBE",
+  "platting_no": 75,
+  "country": "Spain",
+  "airline_base": "Madrid (MAD)"
+ },
+ {
+  "airline_code": "FW",
+  "airline_name": "Ibex Airlines",
+  "icao_no": "IBX",
+  "platting_no": 0,
+  "country": "Japan",
+  "airline_base": "Sendai"
+ },
+ {
+  "airline_code": "FI",
+  "airline_name": "Icelandair",
+  "icao_no": "ICE",
+  "platting_no": 108,
+  "country": "Iceland",
+  "airline_base": "Reykjavik"
+ },
+ {
+  "airline_code": "IK",
+  "airline_name": "Imair Airline",
+  "icao_no": "ITX",
+  "platting_no": 166,
+  "country": "Azerbaijan",
+  "airline_base": "Baku"
+ },
+ {
+  "airline_code": "IC",
+  "airline_name": "Indian Airlines",
+  "icao_no": "IAC",
+  "platting_no": 58,
+  "country": "India",
+  "airline_base": "Delhi (DEL)"
+ },
+ {
+  "airline_code": "6E",
+  "airline_name": "Indigo",
+  "icao_no": "IGO",
+  "platting_no": 312,
+  "country": "India",
+  "airline_base": "Delhi (DEL)"
+ },
+ {
+  "airline_code": "QZ",
+  "airline_name": "Indonesia AirAsia",
+  "icao_no": "AWQ",
+  "platting_no": 0,
+  "country": "Indonesia",
+  "airline_base": "Tangerang, Banten"
+ },
+ {
+  "airline_code": "7I",
+  "airline_name": "Insel Air",
+  "icao_no": "INC",
+  "platting_no": 0,
+  "country": "Netherlands Antilles",
+  "airline_base": "Curacao"
+ },
+ {
+  "airline_code": "4O",
+  "airline_name": "Interjet",
+  "icao_no": "IJT",
+  "platting_no": 837,
+  "country": "Mexico",
+  "airline_base": "Toluca"
+ },
+ {
+  "airline_code": "I4",
+  "airline_name": "Interstate Airlines",
+  "icao_no": "FWA",
+  "platting_no": 0,
+  "country": "Netherlands",
+  "airline_base": "Maastricht (MST)"
+ },
+ {
+  "airline_code": "IR",
+  "airline_name": "Iran Air",
+  "icao_no": "IRA",
+  "platting_no": 96,
+  "country": "Iran",
+  "airline_base": "Tehran (THR)"
+ },
+ {
+  "airline_code": "B9",
+  "airline_name": "Iran-air tours",
+  "icao_no": "CBC",
+  "platting_no": 0,
+  "country": "Dominican Republic",
+  "airline_base": "Santo Domingo"
+ },
+ {
+  "airline_code": "EP",
+  "airline_name": "Iran aseeman airlines",
+  "icao_no": "IRC",
+  "platting_no": 815,
+  "country": "Iran",
+  "airline_base": "Tehran (THR)"
+ },
+ {
+  "airline_code": "Y4",
+  "airline_name": "Iran asseman airlines",
+  "icao_no": "VOI",
+  "platting_no": 36,
+  "country": "Mexico",
+  "airline_base": "Toluca"
+ },
+ {
+  "airline_code": "IA",
+  "airline_name": "Iraqi Airways",
+  "icao_no": "IAW",
+  "platting_no": 73,
+  "country": "Iraq",
+  "airline_base": "Baghdad"
+ },
+ {
+  "airline_code": "WP",
+  "airline_name": "Island Air",
+  "icao_no": "MKU",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Honolulu, HI"
+ },
+ {
+  "airline_code": "HH",
+  "airline_name": "Islandsflug",
+  "icao_no": "ICB",
+  "platting_no": 652,
+  "country": "Iceland",
+  "airline_base": "Reykjavik"
+ },
+ {
+  "airline_code": "IF",
+  "airline_name": "Islas Airways",
+  "icao_no": "ISW",
+  "platting_no": 0,
+  "country": "Spain",
+  "airline_base": "Tenerife North (TFN)"
+ },
+ {
+  "airline_code": "WC",
+  "airline_name": "Islena Airlines",
+  "icao_no": "ISV",
+  "platting_no": 282,
+  "country": "Honduras",
+  "airline_base": "La Ceiba (LCE)"
+ },
+ {
+  "airline_code": "6H",
+  "airline_name": "Israir",
+  "icao_no": "-",
+  "platting_no": 818
+ },
+ {
+  "airline_code": "GI",
+  "airline_name": "Itek Air",
+  "icao_no": "IKA",
+  "platting_no": 420,
+  "country": "Kyrgyzstan",
+  "airline_base": "Bishkek (FRU)"
+ },
+ {
+  "airline_code": "4I",
+  "airline_name": "IzAir",
+  "icao_no": "IZM",
+  "platting_no": 0,
+  "country": "Turkey",
+  "airline_base": "Izmir"
+ },
+ {
+  "airline_code": "JI",
+  "airline_name": "Jade Cargo International",
+  "icao_no": "JAE",
+  "platting_no": 189,
+  "country": "China",
+  "airline_base": "Shenzhen"
+ },
+ {
+  "airline_code": "JC",
+  "airline_name": "JAL Express",
+  "icao_no": "JEX",
+  "platting_no": 0,
+  "country": "Japan",
+  "airline_base": "Tokyo (HND)"
+ },
+ {
+  "airline_code": "JO",
+  "airline_name": "Jalways co ltd",
+  "icao_no": "JAZ",
+  "platting_no": 708,
+  "country": "Japan",
+  "airline_base": "Tokyo (HND)"
+ },
+ {
+  "airline_code": "3X",
+  "airline_name": "Japan Air Commuter",
+  "icao_no": "JAC",
+  "platting_no": 0,
+  "country": "Japan",
+  "airline_base": "Kagoshima"
+ },
+ {
+  "airline_code": "JL",
+  "airline_name": "Japan Airlines",
+  "icao_no": "JAL",
+  "platting_no": 131,
+  "country": "Japan",
+  "airline_base": "Tokyo (NRT)"
+ },
+ {
+  "airline_code": "NU",
+  "airline_name": "Japan TransOcean Air",
+  "icao_no": "JTA",
+  "platting_no": 353,
+  "country": "Japan",
+  "airline_base": "Okinawa"
+ },
+ {
+  "airline_code": "VJ",
+  "airline_name": "Jatayu Airlines",
+  "icao_no": "JTY",
+  "platting_no": 0,
+  "country": "Indonesia",
+  "airline_base": "Jakarta"
+ },
+ {
+  "airline_code": "J9",
+  "airline_name": "Jazeera Airways",
+  "icao_no": "JZR",
+  "platting_no": 486,
+  "country": "Kuwait",
+  "airline_base": "Kuwait (KWI)"
+ },
+ {
+  "airline_code": "7C",
+  "airline_name": "Jeju Air",
+  "icao_no": "JJA",
+  "platting_no": 0,
+  "country": "South Korea",
+  "airline_base": "Jeju"
+ },
+ {
+  "airline_code": "LS",
+  "airline_name": "Jet2.com",
+  "icao_no": "EXS",
+  "platting_no": 0,
+  "country": "United Kingdom",
+  "airline_base": "Leeds Bradford"
+ },
+ {
+  "airline_code": "8J",
+  "airline_name": "Jet4You",
+  "icao_no": "JFU",
+  "platting_no": 0,
+  "country": "Morocco",
+  "airline_base": "Casablanca"
+ },
+ {
+  "airline_code": "9W",
+  "airline_name": "Jet Airways",
+  "icao_no": "JAI",
+  "platting_no": 589,
+  "country": "India",
+  "airline_base": "Mumbai"
+ },
+ {
+  "airline_code": "PP",
+  "airline_name": "Jet Aviation Business Jets",
+  "icao_no": "PJS",
+  "platting_no": 0,
+  "country": "Switzerland",
+  "airline_base": "Zurich (ZRH)"
+ },
+ {
+  "airline_code": "B6",
+  "airline_name": "JetBlue Airways",
+  "icao_no": "JBU",
+  "platting_no": 279,
+  "country": "USA",
+  "airline_base": "New York"
+ },
+ {
+  "airline_code": "XM",
+  "airline_name": "JetEx",
+  "icao_no": "JTE",
+  "platting_no": 0,
+  "country": "Australia",
+  "airline_base": "Perth"
+ },
+ {
+  "airline_code": "J0",
+  "airline_name": "Jet link express ltd",
+  "icao_no": "JLK",
+  "platting_no": 0,
+  "country": "Kenya",
+  "airline_base": "Nairobi"
+ },
+ {
+  "airline_code": "JQ",
+  "airline_name": "Jetstar",
+  "icao_no": "JST",
+  "platting_no": 41,
+  "country": "Australia",
+  "airline_base": "Melbourne"
+ },
+ {
+  "airline_code": "3K",
+  "airline_name": "JetStar Asia",
+  "icao_no": "JSA",
+  "platting_no": 0,
+  "country": "Singapore",
+  "airline_base": "Singapore"
+ },
+ {
+  "airline_code": "GK",
+  "airline_name": "Jetstar Japan",
+  "icao_no": "JJP",
+  "platting_no": 0,
+  "airline_base": "Japan"
+ },
+ {
+  "airline_code": "BL",
+  "airline_name": "JetStar Pacific Airlines",
+  "icao_no": "PIC",
+  "platting_no": 550,
+  "country": "Vietnam",
+  "airline_base": "Ho Chi Minh City"
+ },
+ {
+  "airline_code": "GX",
+  "airline_name": "JetX",
+  "icao_no": "JXX",
+  "platting_no": 0,
+  "country": "Iceland",
+  "airline_base": "Keflavik (KEF)"
+ },
+ {
+  "airline_code": "JM",
+  "airline_name": "Jm ajm air jamaica",
+  "icao_no": "AJM",
+  "platting_no": 201,
+  "country": "Jamaica",
+  "airline_base": "Kingston"
+ },
+ {
+  "airline_code": "X7",
+  "airline_name": "Joint stock company chitaavia",
+  "icao_no": "AGB",
+  "platting_no": 0,
+  "country": "Gabon",
+  "airline_base": "Libreville (LBV)"
+ },
+ {
+  "airline_code": "JV",
+  "airline_name": "Jordan aviation",
+  "icao_no": "BLS",
+  "platting_no": 632,
+  "country": "Canada",
+  "airline_base": "Thunder Bay, ON"
+ },
+ {
+  "airline_code": "R5",
+  "airline_name": "Jordan Aviation",
+  "icao_no": "JAV",
+  "platting_no": 151,
+  "country": "jordan",
+  "airline_base": "Aqaba (AQJ)"
+ },
+ {
+  "airline_code": "JU",
+  "airline_name": "Jugoslovenski aerotransport",
+  "icao_no": "JAT",
+  "platting_no": 115,
+  "country": "Serbia",
+  "airline_base": "Belgrade"
+ },
+ {
+  "airline_code": "HO",
+  "airline_name": "Juneyao Airlines",
+  "icao_no": "DKH",
+  "platting_no": 18,
+  "country": "China",
+  "airline_base": "Shanghai"
+ },
+ {
+  "airline_code": "J7",
+  "airline_name": "Jupiter airlines",
+  "icao_no": "CVC",
+  "platting_no": 601,
+  "country": "Russia",
+  "airline_base": "Moscow Domodedovo"
+ },
+ {
+  "airline_code": "K4",
+  "airline_name": "Kalitta Air",
+  "icao_no": "CKS",
+  "platting_no": 272,
+  "country": "USA",
+  "airline_base": "Detroit, MI"
+ },
+ {
+  "airline_code": "RQ",
+  "airline_name": "Kam Air",
+  "icao_no": "KMR",
+  "platting_no": 0,
+  "country": "Afghanistan",
+  "airline_base": "Kabul (KBL)"
+ },
+ {
+  "airline_code": "V2",
+  "airline_name": "Karat Air",
+  "icao_no": "AKT",
+  "platting_no": 501,
+  "country": "Russia",
+  "airline_base": "Moscow"
+ },
+ {
+  "airline_code": "5R",
+  "airline_name": "Karthago Airlines",
+  "icao_no": "KAJ",
+  "platting_no": 0,
+  "country": "Tunisia",
+  "airline_base": "Djerba"
+ },
+ {
+  "airline_code": "3Y",
+  "airline_name": "Kartika Airlines",
+  "icao_no": "KAE",
+  "platting_no": 0,
+  "country": "Indonesia",
+  "airline_base": "Jakarta - Hatta"
+ },
+ {
+  "airline_code": "KD",
+  "airline_name": "KD Avia",
+  "icao_no": "KNI",
+  "platting_no": 0,
+  "country": "Russia",
+  "airline_base": "Kaliningrad (KGD)"
+ },
+ {
+  "airline_code": "4K",
+  "airline_name": "Kenn Borek Air",
+  "icao_no": "KBA",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Calgary (YYC)"
+ },
+ {
+  "airline_code": "KQ",
+  "airline_name": "Kenya Airways",
+  "icao_no": "KQA",
+  "platting_no": 706,
+  "country": "Kenya",
+  "airline_base": "Nairobi"
+ },
+ {
+  "airline_code": "X9",
+  "airline_name": "Khors Aircompany",
+  "icao_no": "KHO",
+  "platting_no": 852,
+  "country": "Ukraine",
+  "airline_base": "Kiev"
+ },
+ {
+  "airline_code": "YK",
+  "airline_name": "Kibris turk hava yollari",
+  "icao_no": "KYV",
+  "platting_no": 56,
+  "country": "Northern Cyprus",
+  "airline_base": "Ercan"
+ },
+ {
+  "airline_code": "GW",
+  "airline_name": "Kil air lines of kuban",
+  "icao_no": "KIL",
+  "platting_no": 113,
+  "country": "Russian Federation",
+  "airline_base": "Krasnodar"
+ },
+ {
+  "airline_code": "Y9",
+  "airline_name": "Kish air",
+  "icao_no": "TSG",
+  "platting_no": 780,
+  "country": "Congo",
+  "airline_base": "Brazzaville"
+ },
+ {
+  "airline_code": "XT",
+  "airline_name": "Klm exel",
+  "icao_no": "SKT",
+  "platting_no": 0,
+  "country": "Thailand",
+  "airline_base": "Bangkok"
+ },
+ {
+  "airline_code": "KV",
+  "airline_name": "KMV - Kavminvody Avia",
+  "icao_no": "MVD",
+  "platting_no": 0,
+  "country": "Russia",
+  "airline_base": "Mineralnye Vody"
+ },
+ {
+  "airline_code": "7K",
+  "airline_name": "Kolavia",
+  "icao_no": "KGL",
+  "platting_no": 0,
+  "country": "Russia",
+  "airline_base": "Tuyumen"
+ },
+ {
+  "airline_code": "KE",
+  "airline_name": "Korean Air",
+  "icao_no": "KAL",
+  "platting_no": 180,
+  "country": "South Korea",
+  "airline_base": "Seoul Incheon"
+ },
+ {
+  "airline_code": "7B",
+  "airline_name": "Krasnoyarsk airlines",
+  "icao_no": "KJC",
+  "platting_no": 499,
+  "country": "Russia",
+  "airline_base": "Ktasnoyarsk"
+ },
+ {
+  "airline_code": "VD",
+  "airline_name": "Kunpeng Airlines",
+  "icao_no": "KPA",
+  "platting_no": 0,
+  "country": "China",
+  "airline_base": "Xian"
+ },
+ {
+  "airline_code": "KU",
+  "airline_name": "Kuwait Airways",
+  "icao_no": "KAC",
+  "platting_no": 229,
+  "country": "Kuwait",
+  "airline_base": "Kuwait (KWI)"
+ },
+ {
+  "airline_code": "KR",
+  "airline_name": "Kyrgyz airways",
+  "icao_no": "KMZ",
+  "platting_no": 0,
+  "country": "Comoros Islands",
+  "airline_base": "Moroni"
+ },
+ {
+  "airline_code": "JF",
+  "airline_name": "L.A.B. Flying Service",
+  "icao_no": "LAB",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Haines (HNS)"
+ },
+ {
+  "airline_code": "4V",
+  "airline_name": "LAC - Lignes Aereas Congolaises",
+  "icao_no": "LCG",
+  "platting_no": 0,
+  "country": "Congo, DR",
+  "airline_base": "Kinshasa"
+ },
+ {
+  "airline_code": "N7",
+  "airline_name": "Lagun Air",
+  "icao_no": "JEV",
+  "platting_no": 504,
+  "country": "Spain",
+  "airline_base": "Leon"
+ },
+ {
+  "airline_code": "TM",
+  "airline_name": "Lam linhas aereas de mocambique",
+  "icao_no": "LAM",
+  "platting_no": 68,
+  "country": "Mozambique",
+  "airline_base": "Maputo"
+ },
+ {
+  "airline_code": "4M",
+  "airline_name": "LAN Argentina",
+  "icao_no": "DSM",
+  "platting_no": 469,
+  "country": "Argentina",
+  "airline_base": "Buenos Aires"
+ },
+ {
+  "airline_code": "UC",
+  "airline_name": "Lan Cargo",
+  "icao_no": "LCO",
+  "platting_no": 145,
+  "country": "Chile",
+  "airline_base": "Miami International (MIA \/ KMIA)"
+ },
+ {
+  "airline_code": "LA",
+  "airline_name": "Lan chiles",
+  "icao_no": "LAN",
+  "platting_no": 45,
+  "country": "Chile",
+  "airline_base": "Santiago (SCL)"
+ },
+ {
+  "airline_code": "XL",
+  "airline_name": "LAN Ecuador",
+  "icao_no": "LNE",
+  "platting_no": 462,
+  "country": "Ecuador",
+  "airline_base": "Quito"
+ },
+ {
+  "airline_code": "LP",
+  "airline_name": "Lan peru s.a",
+  "icao_no": "LPE",
+  "platting_no": 544,
+  "country": "Peru",
+  "airline_base": "Lima"
+ },
+ {
+  "airline_code": "QV",
+  "airline_name": "Lao airlines",
+  "icao_no": "LAO",
+  "platting_no": 627,
+  "country": "Laos",
+  "airline_base": "Vientiane"
+ },
+ {
+  "airline_code": "8Z",
+  "airline_name": "LASER Airlines",
+  "icao_no": "LER",
+  "platting_no": 722,
+  "country": "Venezuela",
+  "airline_base": "Caracas"
+ },
+ {
+  "airline_code": "NG",
+  "airline_name": "Lauda Air",
+  "icao_no": "LDA",
+  "platting_no": 231,
+  "country": "Austria",
+  "airline_base": "Vienna (VIE)"
+ },
+ {
+  "airline_code": "A0",
+  "airline_name": "L'Avion",
+  "icao_no": "AVI",
+  "platting_no": 0,
+  "country": "France",
+  "airline_base": "Paris Orly (ORY)"
+ },
+ {
+  "airline_code": "HE",
+  "airline_name": "LGW - Luftfahrtgesellschaft Walter",
+  "icao_no": "LGW",
+  "platting_no": 0,
+  "country": "Germany",
+  "airline_base": "Dortmund"
+ },
+ {
+  "airline_code": "LI",
+  "airline_name": "LIAT",
+  "icao_no": "LIA",
+  "platting_no": 140,
+  "country": "Antigua & Barbuda",
+  "airline_base": "St John's, Antigua"
+ },
+ {
+  "airline_code": "LN",
+  "airline_name": "Libyan airlines",
+  "icao_no": "LAA",
+  "platting_no": 148,
+  "country": "Libya",
+  "airline_base": "Tripoli"
+ },
+ {
+  "airline_code": "LR",
+  "airline_name": "Lineas aereas costarricenses s.a.",
+  "icao_no": "LRC",
+  "platting_no": 133,
+  "country": "Costa Rica",
+  "airline_base": "San Jos"
+ },
+ {
+  "airline_code": "JT",
+  "airline_name": "Lion Airlines",
+  "icao_no": "LNI",
+  "platting_no": 0,
+  "country": "Indonesia",
+  "airline_base": "Jakarta"
+ },
+ {
+  "airline_code": "TE",
+  "airline_name": "Lithuanian airlines",
+  "icao_no": "LIL",
+  "platting_no": 0,
+  "country": "Lithuania",
+  "airline_base": "Vilnius"
+ },
+ {
+  "airline_code": "LM",
+  "airline_name": "Livingston Airlines",
+  "icao_no": "LVG",
+  "platting_no": 0,
+  "country": "Italy",
+  "airline_base": "Milan (MXO)"
+ },
+ {
+  "airline_code": "N4",
+  "airline_name": "LLC \"NORD WIND\"",
+  "icao_no": "NWS",
+  "platting_no": 216,
+  "country": "RUSSIA",
+  "airline_base": "Moscow (SVO)"
+ },
+ {
+  "airline_code": "LC",
+  "airline_name": "Loganair",
+  "icao_no": "LOG",
+  "platting_no": 122,
+  "country": "United Kingdom",
+  "airline_base": "Glasgow"
+ },
+ {
+  "airline_code": "LO",
+  "airline_name": "Lot polish air",
+  "icao_no": "LOT",
+  "platting_no": 80,
+  "country": "Poland",
+  "airline_base": "Warsaw"
+ },
+ {
+  "airline_code": "T2",
+  "airline_name": "Lotus Air",
+  "icao_no": "TAS",
+  "platting_no": 0,
+  "country": "Egypt",
+  "airline_base": "Cairo (CAI)"
+ },
+ {
+  "airline_code": "LT",
+  "airline_name": "Ltu internatiional airways",
+  "icao_no": "LTU",
+  "platting_no": 266,
+  "country": "Germany",
+  "airline_base": "Dusseldorf"
+ },
+ {
+  "airline_code": "8L",
+  "airline_name": "Lucky Air",
+  "icao_no": "LKE",
+  "platting_no": 859,
+  "country": "China",
+  "airline_base": "Kunming, Yunnan"
+ },
+ {
+  "airline_code": "LH",
+  "airline_name": "Lufthansa",
+  "icao_no": "DLH",
+  "platting_no": 220,
+  "country": "Germany",
+  "airline_base": "Frankfurt (FRA)"
+ },
+ {
+  "airline_code": "CL",
+  "airline_name": "Lufthansa CityLine",
+  "icao_no": "CLH",
+  "platting_no": 683,
+  "country": "Germany",
+  "airline_base": "Frankfurt (FRA)"
+ },
+ {
+  "airline_code": "LE",
+  "airline_name": "Lugansk Airlines",
+  "icao_no": "LHS",
+  "platting_no": 0,
+  "country": "Ukraine",
+  "airline_base": "Lugansk (VSG)"
+ },
+ {
+  "airline_code": "LG",
+  "airline_name": "Luxair",
+  "icao_no": "LGL",
+  "platting_no": 149,
+  "country": "Luxembourg",
+  "airline_base": "Luxembourg"
+ },
+ {
+  "airline_code": "5V",
+  "airline_name": "Lviv Airlines",
+  "icao_no": "UKW",
+  "platting_no": 62,
+  "country": "Ukraine",
+  "airline_base": "Lviv (LWO)"
+ },
+ {
+  "airline_code": "L2",
+  "airline_name": "Lynden Air Cargo",
+  "icao_no": "LYC",
+  "platting_no": 344,
+  "country": "USA",
+  "airline_base": "Anchorage (ANC)"
+ },
+ {
+  "airline_code": "IN",
+  "airline_name": "Macedonian Airlines",
+  "icao_no": "MAK",
+  "platting_no": 367,
+  "country": "Macedonia",
+  "airline_base": "Skopje"
+ },
+ {
+  "airline_code": "VB",
+  "airline_name": "Maersk air ltd",
+  "icao_no": "VIV",
+  "platting_no": 0,
+  "country": "Mexico",
+  "airline_base": "Monterrey (MTY)"
+ },
+ {
+  "airline_code": "UJ",
+  "airline_name": "Magnicharters",
+  "icao_no": "GMT",
+  "platting_no": 110,
+  "country": "Mexico",
+  "airline_base": "Cancun (CUN)"
+ },
+ {
+  "airline_code": "IM",
+  "airline_name": "**mahan air",
+  "icao_no": "MNJ",
+  "platting_no": 0,
+  "country": "Lebanon",
+  "airline_base": "Beirut"
+ },
+ {
+  "airline_code": "W5",
+  "airline_name": "Mahan Air",
+  "icao_no": "IRM",
+  "platting_no": 537,
+  "country": "Iran",
+  "airline_base": "Tehran (THR)"
+ },
+ {
+  "airline_code": "M2",
+  "airline_name": "Mahfooz Aviation",
+  "icao_no": "MZS",
+  "platting_no": 0,
+  "country": "Gambia",
+  "airline_base": "Banjul"
+ },
+ {
+  "airline_code": "MH",
+  "airline_name": "Malaysia Airlines",
+  "icao_no": "MAS",
+  "platting_no": 232,
+  "country": "Malaysia",
+  "airline_base": "Kuala Lumpur"
+ },
+ {
+  "airline_code": "MA",
+  "airline_name": "Malev Hungarian Airlines",
+  "icao_no": "MAH",
+  "platting_no": 182,
+  "country": "Hungary",
+  "airline_base": "Budapest"
+ },
+ {
+  "airline_code": "OD",
+  "airline_name": "Malindo Air",
+  "icao_no": "MXD",
+  "platting_no": 816,
+  "country": "Malaysia",
+  "airline_base": "Petaling Jaya"
+ },
+ {
+  "airline_code": "TF",
+  "airline_name": "Malm Aviation",
+  "icao_no": "SCW",
+  "platting_no": 276,
+  "country": "sweden",
+  "airline_base": "Malmo"
+ },
+ {
+  "airline_code": "RI",
+  "airline_name": "Mandala Airlines",
+  "icao_no": "MDL",
+  "platting_no": 888,
+  "country": "Indonesia",
+  "airline_base": "Jakarta"
+ },
+ {
+  "airline_code": "AE",
+  "airline_name": "Mandarin airlines ltd",
+  "icao_no": "MDA",
+  "platting_no": 803,
+  "country": "Taiwan",
+  "airline_base": "Taipei"
+ },
+ {
+  "airline_code": "JE",
+  "airline_name": "Mango",
+  "icao_no": "MNO",
+  "platting_no": 0,
+  "country": "South Africa",
+  "airline_base": "Johannesburg (JNB)"
+ },
+ {
+  "airline_code": "MP",
+  "airline_name": "Martinair holland n.v.",
+  "icao_no": "MPH",
+  "platting_no": 129,
+  "country": "Netherlands",
+  "airline_base": "Amsterdam (AMS)"
+ },
+ {
+  "airline_code": "M7",
+  "airline_name": "Mas Air",
+  "icao_no": "MAA",
+  "platting_no": 865,
+  "country": "Mexico",
+  "airline_base": "Mexico City"
+ },
+ {
+  "airline_code": "YD",
+  "airline_name": "Mauritania Airways",
+  "icao_no": "MTW",
+  "platting_no": 0,
+  "country": "Mauritania",
+  "airline_base": "Nouakchott"
+ },
+ {
+  "airline_code": "MW",
+  "airline_name": "Maya Island Air",
+  "icao_no": "MYD",
+  "platting_no": 0,
+  "country": "Belize",
+  "airline_base": "Belize City"
+ },
+ {
+  "airline_code": "9H",
+  "airline_name": "MDLR Airlines",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "India",
+  "airline_base": "Gurgaon"
+ },
+ {
+  "airline_code": "N5",
+  "airline_name": "Medavia",
+  "icao_no": "MDM",
+  "platting_no": 0,
+  "country": "Malta",
+  "airline_base": "Luqa"
+ },
+ {
+  "airline_code": "IG",
+  "airline_name": "Meridiana",
+  "icao_no": "ISS",
+  "platting_no": 191,
+  "country": "Italy",
+  "airline_base": "Florence"
+ },
+ {
+  "airline_code": "MZ",
+  "airline_name": "Merpati nusantara airlines",
+  "icao_no": "MNA",
+  "platting_no": 621,
+  "country": "Indonesia",
+  "airline_base": "Jakarta"
+ },
+ {
+  "airline_code": "YV",
+  "airline_name": "Mesa Airlines",
+  "icao_no": "ASH",
+  "platting_no": 533,
+  "country": "USA",
+  "airline_base": "Farmington, NM"
+ },
+ {
+  "airline_code": "XJ",
+  "airline_name": "Mesaba Airlines",
+  "icao_no": "MES",
+  "platting_no": 582,
+  "country": "USA",
+  "airline_base": "Detroit, MI"
+ },
+ {
+  "airline_code": "MX",
+  "airline_name": "Mexicana de aviacion",
+  "icao_no": "MXA",
+  "platting_no": 132,
+  "country": "Mexico",
+  "airline_base": "Mexico City (MEX)"
+ },
+ {
+  "airline_code": "LL",
+  "airline_name": "Miami Air International",
+  "icao_no": "BSK",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Miami"
+ },
+ {
+  "airline_code": "OM",
+  "airline_name": "MIAT - Mongolian Airlines",
+  "icao_no": "MGL",
+  "platting_no": 289,
+  "country": "Mongolia",
+  "airline_base": "Ulaan Baatar (ULN)"
+ },
+ {
+  "airline_code": "7Y",
+  "airline_name": "Mid Airlines",
+  "icao_no": "NYL",
+  "platting_no": 368,
+  "country": "Sudan",
+  "airline_base": "Khartoum"
+ },
+ {
+  "airline_code": "ME",
+  "airline_name": "Middle East Airlines",
+  "icao_no": "MEA",
+  "platting_no": 76,
+  "country": "Lebanon",
+  "airline_base": "Beirut"
+ },
+ {
+  "airline_code": "YX",
+  "airline_name": "Mid west airlines",
+  "icao_no": "MEP",
+  "platting_no": 453,
+  "country": "USA",
+  "airline_base": "Wisconsin"
+ },
+ {
+  "airline_code": "MY",
+  "airline_name": "Midwest Airlines",
+  "icao_no": "MWA",
+  "platting_no": 0,
+  "country": "Egypt",
+  "airline_base": "Cairo"
+ },
+ {
+  "airline_code": "MJ",
+  "airline_name": "Mihin Lanka",
+  "icao_no": "MLR",
+  "platting_no": 0,
+  "country": "Sri Lanka",
+  "airline_base": "Colombo"
+ },
+ {
+  "airline_code": "7G",
+  "airline_name": "MK Airlines",
+  "icao_no": "MKA",
+  "platting_no": 513,
+  "country": "United Kingdom",
+  "airline_base": "Hartfield"
+ },
+ {
+  "airline_code": "MB",
+  "airline_name": "Mng airline cargo",
+  "icao_no": "MNB",
+  "platting_no": 716,
+  "country": "Turkey",
+  "airline_base": "Istanbul (IST)"
+ },
+ {
+  "airline_code": "5Z",
+  "airline_name": "Mokulele Airlines",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Kailua Kona, HI"
+ },
+ {
+  "airline_code": "2M",
+  "airline_name": "Moldavian Airlines",
+  "icao_no": "MDV",
+  "platting_no": 860,
+  "country": "Moldova",
+  "airline_base": "Chisinau (KIV)"
+ },
+ {
+  "airline_code": "ZB",
+  "airline_name": "Monarch Airlines",
+  "icao_no": "MON",
+  "platting_no": 974,
+  "country": "United Kingdom",
+  "airline_base": "London (LTN)"
+ },
+ {
+  "airline_code": "YM",
+  "airline_name": "Montenegro Airlines",
+  "icao_no": "MGX",
+  "platting_no": 409,
+  "country": "Montenegro",
+  "airline_base": "Podgorica (TGD)"
+ },
+ {
+  "airline_code": "3R",
+  "airline_name": "Moskovia Airlines",
+  "icao_no": "GAI",
+  "platting_no": 0,
+  "country": "Russia",
+  "airline_base": "Moscow"
+ },
+ {
+  "airline_code": "NM",
+  "airline_name": "Mount Cook Airlines",
+  "icao_no": "NZM",
+  "platting_no": 445,
+  "country": "New Zealand",
+  "airline_base": "Christchurch"
+ },
+ {
+  "airline_code": "8I",
+  "airline_name": "MyAir",
+  "icao_no": "MYW",
+  "platting_no": 0,
+  "country": "Italy",
+  "airline_base": "Bergamo"
+ },
+ {
+  "airline_code": "8M",
+  "airline_name": "Myanmar Airways International",
+  "icao_no": "MMA",
+  "platting_no": 599,
+  "country": "Myanmar",
+  "airline_base": "Yangon"
+ },
+ {
+  "airline_code": "UE",
+  "airline_name": "Nasair",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "Eritrea",
+  "airline_base": "Asmara"
+ },
+ {
+  "airline_code": "X4",
+  "airline_name": "NAS Air",
+  "icao_no": "KNE",
+  "platting_no": 0,
+  "country": "Saudi Arabia",
+  "airline_base": "Jeddah \/ Dammam"
+ },
+ {
+  "airline_code": "N8",
+  "airline_name": "National Airlines",
+  "icao_no": "NCR",
+  "platting_no": 416,
+  "country": "USA",
+  "airline_base": "Detroit, MI"
+ },
+ {
+  "airline_code": "YJ",
+  "airline_name": "National Airways",
+  "icao_no": "NTN",
+  "platting_no": 0,
+  "country": "South Africa",
+  "airline_base": "Gauteng"
+ },
+ {
+  "airline_code": "9O",
+  "airline_name": "National Airways Cameroon",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "Cameroon",
+  "airline_base": "Yaound"
+ },
+ {
+  "airline_code": "ZN",
+  "airline_name": "NAYSA Aerotaxis",
+  "icao_no": "NAY",
+  "platting_no": 0,
+  "country": "Spain",
+  "airline_base": "Las Palmas"
+ },
+ {
+  "airline_code": "NO",
+  "airline_name": "NEOS",
+  "icao_no": "NOS",
+  "platting_no": 0,
+  "country": "Italy",
+  "airline_base": "Milan Malpensa (MXO)"
+ },
+ {
+  "airline_code": "6V",
+  "airline_name": "New Axis Airways",
+  "icao_no": "AXY",
+  "platting_no": 0,
+  "country": "France",
+  "airline_base": "Marseille"
+ },
+ {
+  "airline_code": "EJ",
+  "airline_name": "New England Airlines",
+  "icao_no": "NEA",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Rhode Island"
+ },
+ {
+  "airline_code": "2N",
+  "airline_name": "Next Jet",
+  "icao_no": "NTJ",
+  "platting_no": 0,
+  "country": "Sweden",
+  "airline_base": "Stockholm"
+ },
+ {
+  "airline_code": "JX",
+  "airline_name": "Nice helicopters",
+  "icao_no": "JEC",
+  "platting_no": 693,
+  "country": "Singapore",
+  "airline_base": "Singapore Changi"
+ },
+ {
+  "airline_code": "HG",
+  "airline_name": "Niki",
+  "icao_no": "NLY",
+  "platting_no": 0,
+  "country": "Austria",
+  "airline_base": "Vienna (VIE)"
+ },
+ {
+  "airline_code": "KZ",
+  "airline_name": "Nippon Cargo Airlines",
+  "icao_no": "NCA",
+  "platting_no": 933,
+  "country": "Japan",
+  "airline_base": "Tokyo (NRT)"
+ },
+ {
+  "airline_code": "DD",
+  "airline_name": "Nok Air",
+  "icao_no": "NOK",
+  "platting_no": 0,
+  "country": "Thailand",
+  "airline_base": "Bangkok"
+ },
+ {
+  "airline_code": "XW",
+  "airline_name": "Nokscoot",
+  "icao_no": "NCT",
+  "platting_no": 0,
+  "country": "Thailand",
+  "airline_base": "Bangkok"
+ },
+ {
+  "airline_code": "6N",
+  "airline_name": "Nordic Airways",
+  "icao_no": "NRD",
+  "platting_no": 0,
+  "country": "Sweden",
+  "airline_base": "Stockholm Arlanda (ARN)"
+ },
+ {
+  "airline_code": "XG",
+  "airline_name": "North American Airlines",
+  "icao_no": "NAO",
+  "platting_no": 455,
+  "country": "USA",
+  "airline_base": "New York (JFK)"
+ },
+ {
+  "airline_code": "NC",
+  "airline_name": "Northern Air Cargo",
+  "icao_no": "NAC",
+  "platting_no": 345,
+  "country": "USA",
+  "airline_base": "Anchorage (ANC)"
+ },
+ {
+  "airline_code": "NW",
+  "airline_name": "Northwest airlines inc.",
+  "icao_no": "NWA",
+  "platting_no": 12,
+  "country": "USA",
+  "airline_base": "Minneapolis-St Paul"
+ },
+ {
+  "airline_code": "J3",
+  "airline_name": "Northwestern Airways",
+  "icao_no": "PLR",
+  "platting_no": 325,
+  "country": "Canada",
+  "airline_base": "Fort Smith"
+ },
+ {
+  "airline_code": "HW",
+  "airline_name": "North Wright Airways",
+  "icao_no": "NWL",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Norman Wells"
+ },
+ {
+  "airline_code": "DY",
+  "airline_name": "Norwegian air shuttle a.s.",
+  "icao_no": "NAX",
+  "platting_no": 328,
+  "country": "Norway",
+  "airline_base": "Oslo"
+ },
+ {
+  "airline_code": "BJ",
+  "airline_name": "Nouvelair",
+  "icao_no": "LBT",
+  "platting_no": 796,
+  "country": "Tunisia",
+  "airline_base": "Monastir"
+ },
+ {
+  "airline_code": "1I",
+  "airline_name": "Novair",
+  "icao_no": "NVR",
+  "platting_no": 0,
+  "country": "Sweden",
+  "airline_base": "Stockholm Arlanda (ARN)"
+ },
+ {
+  "airline_code": "GR",
+  "airline_name": "Obit airlines",
+  "icao_no": "AUR",
+  "platting_no": 924,
+  "country": "United Kingdom",
+  "airline_base": "Guernsey"
+ },
+ {
+  "airline_code": "O6",
+  "airline_name": "OceanAir",
+  "icao_no": "ONE",
+  "platting_no": 247,
+  "country": "Brazil",
+  "airline_base": "Sao Paulo"
+ },
+ {
+  "airline_code": "5K",
+  "airline_name": "Odessa Airlines",
+  "icao_no": "ODS",
+  "platting_no": 654,
+  "country": "Ukraine",
+  "airline_base": "Odessa"
+ },
+ {
+  "airline_code": "BK",
+  "airline_name": "Okay Airways",
+  "icao_no": "OKA",
+  "platting_no": 0,
+  "country": "China",
+  "airline_base": "Tinajin"
+ },
+ {
+  "airline_code": "OL",
+  "airline_name": "Olt-ostfriesische lufttransport",
+  "icao_no": "OLT",
+  "platting_no": 704,
+  "country": "Germany",
+  "airline_base": "Emden"
+ },
+ {
+  "airline_code": "OA",
+  "airline_name": "Olympic airways",
+  "icao_no": "OAL",
+  "platting_no": 50,
+  "country": "Greece",
+  "airline_base": "Athens (ATH)"
+ },
+ {
+  "airline_code": "WY",
+  "airline_name": "Oman Air",
+  "icao_no": "OAS",
+  "platting_no": 910,
+  "country": "Oman",
+  "airline_base": "Muscat-Seeb"
+ },
+ {
+  "airline_code": "OY",
+  "airline_name": "Omni Air International",
+  "icao_no": "OAE",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Tulsa, OK"
+ },
+ {
+  "airline_code": "8Q",
+  "airline_name": "Onur Air",
+  "icao_no": "OHY",
+  "platting_no": 66,
+  "country": "Turkey",
+  "airline_base": "Istanbul (IST)"
+ },
+ {
+  "airline_code": "R2",
+  "airline_name": "Orenair",
+  "icao_no": "ORB",
+  "platting_no": 291,
+  "country": "Russian Federation",
+  "airline_base": "Orenburg"
+ },
+ {
+  "airline_code": "OX",
+  "airline_name": "Orient Thai Airlines",
+  "icao_no": "OEA",
+  "platting_no": 578,
+  "country": "Thailand",
+  "airline_base": "Bangkok"
+ },
+ {
+  "airline_code": "ON",
+  "airline_name": "Our Airline",
+  "icao_no": "RON",
+  "platting_no": 0,
+  "country": "Australia",
+  "airline_base": "Melbourne"
+ },
+ {
+  "airline_code": "OJ",
+  "airline_name": "Overland Airways",
+  "icao_no": "OLA",
+  "platting_no": 0,
+  "country": "Nigeria",
+  "airline_base": "Lagos"
+ },
+ {
+  "airline_code": "O7",
+  "airline_name": "OzJet Airlines",
+  "icao_no": "OZJ",
+  "platting_no": 0,
+  "country": "Australia",
+  "airline_base": "Melbourne"
+ },
+ {
+  "airline_code": "8P",
+  "airline_name": "Pacific Coastal Airlines",
+  "icao_no": "PCO",
+  "platting_no": 905,
+  "country": "Canada",
+  "airline_base": "Richmond, BC"
+ },
+ {
+  "airline_code": "LW",
+  "airline_name": "Pacific Wings",
+  "icao_no": "NMI",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Kahulul"
+ },
+ {
+  "airline_code": "PK",
+  "airline_name": "Pakistan international airline",
+  "icao_no": "PIA",
+  "platting_no": 214,
+  "country": "Pakistan",
+  "airline_base": "Karachi"
+ },
+ {
+  "airline_code": "PL",
+  "airline_name": "Palestinian airlines",
+  "icao_no": "ASE",
+  "platting_no": 0,
+  "country": "Russia",
+  "airline_base": "Moscow Domodedovo"
+ },
+ {
+  "airline_code": "PF",
+  "airline_name": "Palestinian Airlines",
+  "icao_no": "PNW",
+  "platting_no": 400,
+  "country": "Palestine",
+  "airline_base": "Gaza"
+ },
+ {
+  "airline_code": "2P",
+  "airline_name": "Pal express",
+  "icao_no": "GAP",
+  "platting_no": 211,
+  "country": "Philippines",
+  "airline_base": "Subic Bay"
+ },
+ {
+  "airline_code": "NR",
+  "airline_name": "Pamir air",
+  "icao_no": "PIR",
+  "platting_no": 0,
+  "country": "Afghanistan",
+  "airline_base": "Kabul (KBL)"
+ },
+ {
+  "airline_code": "P8",
+  "airline_name": "Pantanal Linhas Areas",
+  "icao_no": "PTN",
+  "platting_no": 0,
+  "country": "Brazil",
+  "airline_base": "Sao Paulo"
+ },
+ {
+  "airline_code": "I7",
+  "airline_name": "Paramount Airways",
+  "icao_no": "PMW",
+  "platting_no": 0,
+  "country": "India",
+  "airline_base": "Chennai"
+ },
+ {
+  "airline_code": "PQ",
+  "airline_name": "Pariz air",
+  "icao_no": "TFK",
+  "platting_no": 0,
+  "country": "Sao Tom et Principe",
+  "airline_base": "Luanda (LAD)"
+ },
+ {
+  "airline_code": "2F",
+  "airline_name": "Payam Aviation Services",
+  "icao_no": "IRP",
+  "platting_no": 10,
+  "country": "Iran",
+  "airline_base": "Tehran (THR)"
+ },
+ {
+  "airline_code": "9Q",
+  "airline_name": "PBair",
+  "icao_no": "PBA",
+  "platting_no": 543,
+  "country": "Thailand",
+  "airline_base": "Bangkok"
+ },
+ {
+  "airline_code": "PC",
+  "airline_name": "Pegasus hava tasimaciligi",
+  "icao_no": "PGT",
+  "platting_no": 624,
+  "country": "Turkey",
+  "airline_base": "Moscow"
+ },
+ {
+  "airline_code": "7V",
+  "airline_name": "Pelican Air Services",
+  "icao_no": "PDF",
+  "platting_no": 739,
+  "country": "South Africa",
+  "airline_base": "Johannesburg (JNB)"
+ },
+ {
+  "airline_code": "6D",
+  "airline_name": "Pelita Air Service",
+  "icao_no": "PAS",
+  "platting_no": 19,
+  "country": "Indonesia",
+  "airline_base": "Jakarta"
+ },
+ {
+  "airline_code": "KS",
+  "airline_name": "PenAir",
+  "icao_no": "PEN",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Anchorage (ANC)"
+ },
+ {
+  "airline_code": "5P",
+  "airline_name": "Penta Airlines",
+  "icao_no": "PEP",
+  "platting_no": 0,
+  "country": "Brazil",
+  "airline_base": "Santarem"
+ },
+ {
+  "airline_code": "9P",
+  "airline_name": "Petra Airlines",
+  "icao_no": "ABY",
+  "platting_no": 0,
+  "country": "United Arab Emirates",
+  "airline_base": "Sharjah (SHJ)"
+ },
+ {
+  "airline_code": "PR",
+  "airline_name": "Philippine Airlines",
+  "icao_no": "PAL",
+  "platting_no": 79,
+  "country": "Philippines",
+  "airline_base": "Manila (MNL)"
+ },
+ {
+  "airline_code": "Z2",
+  "airline_name": "Philippines AirAsia",
+  "icao_no": "APG",
+  "platting_no": 0,
+  "country": "Philippines",
+  "airline_base": "Metro Manila"
+ },
+ {
+  "airline_code": "9R",
+  "airline_name": "Phuket airliens",
+  "icao_no": "VAP",
+  "platting_no": 346,
+  "country": "Thailand",
+  "airline_base": "Bangkok"
+ },
+ {
+  "airline_code": "PU",
+  "airline_name": "Pluna lineas aereas uruguayas s.a.",
+  "icao_no": "PUA",
+  "platting_no": 286,
+  "country": "Uruguay",
+  "airline_base": "Montevideo (MVD)"
+ },
+ {
+  "airline_code": "PO",
+  "airline_name": "Polar Air Cargo",
+  "icao_no": "PAC",
+  "platting_no": 403,
+  "country": "USA",
+  "airline_base": "New York (JFK)"
+ },
+ {
+  "airline_code": "YQ",
+  "airline_name": "Polet Airlines",
+  "icao_no": "POT",
+  "platting_no": 342,
+  "country": "Russia",
+  "airline_base": "Ulyanovsk"
+ },
+ {
+  "airline_code": "PH",
+  "airline_name": "Polynesian Airlines",
+  "icao_no": "PAO",
+  "platting_no": 162,
+  "country": "Samoa",
+  "airline_base": "Apia"
+ },
+ {
+  "airline_code": "PD",
+  "airline_name": "Porter Airlines",
+  "icao_no": "POE",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Toronto"
+ },
+ {
+  "airline_code": "NI",
+  "airline_name": "Portugalia airlines",
+  "icao_no": "PGA",
+  "platting_no": 685,
+  "country": "Portugal",
+  "airline_base": "Lisbon"
+ },
+ {
+  "airline_code": "PW",
+  "airline_name": "Precision air services ltd",
+  "icao_no": "PRF",
+  "platting_no": 31,
+  "country": "Tanzania",
+  "airline_base": "Arusha"
+ },
+ {
+  "airline_code": "8W",
+  "airline_name": "Private Wings",
+  "icao_no": "PWF",
+  "platting_no": 116,
+  "country": "Germany",
+  "airline_base": "Berlin"
+ },
+ {
+  "airline_code": "P0",
+  "airline_name": "Proflight Zambia",
+  "icao_no": "PFZ",
+  "platting_no": 0,
+  "country": "Zambia",
+  "airline_base": "Lusaka"
+ },
+ {
+  "airline_code": "Z3",
+  "airline_name": "Promech Air",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Anchorage (ANC)"
+ },
+ {
+  "airline_code": "PB",
+  "airline_name": "Provincial Airlines",
+  "icao_no": "SPR",
+  "platting_no": 967,
+  "country": "Canada",
+  "airline_base": "St Johns"
+ },
+ {
+  "airline_code": "FV",
+  "airline_name": "Pulkovo",
+  "icao_no": "-",
+  "platting_no": 195
+ },
+ {
+  "airline_code": "QF",
+  "airline_name": "Qantas",
+  "icao_no": "QFA",
+  "platting_no": 81,
+  "country": "Australia",
+  "airline_base": "Sydney (SYD)"
+ },
+ {
+  "airline_code": "QR",
+  "airline_name": "Qatar Airways",
+  "icao_no": "QTR",
+  "platting_no": 157,
+  "country": "Qatar",
+  "airline_base": "Doha"
+ },
+ {
+  "airline_code": "QN",
+  "airline_name": "Qeshmair",
+  "icao_no": "ARR",
+  "platting_no": 0,
+  "country": "Armenia",
+  "airline_base": "Yerevan"
+ },
+ {
+  "airline_code": "RT",
+  "airline_name": "RAK Airways",
+  "icao_no": "RKM",
+  "platting_no": 0,
+  "country": "United Arab Emirates",
+  "airline_base": "Ras-al-Khaimah"
+ },
+ {
+  "airline_code": "WZ",
+  "airline_name": "Red Wings Airlines",
+  "icao_no": "VAZ",
+  "platting_no": 0,
+  "country": "Russia",
+  "airline_base": "Moscow (VKO)"
+ },
+ {
+  "airline_code": "RX",
+  "airline_name": "Regent Airways",
+  "icao_no": "RGE",
+  "platting_no": 0,
+  "country": "Bangladesh",
+  "airline_base": "Dhaka"
+ },
+ {
+  "airline_code": "YS",
+  "airline_name": "Regional",
+  "icao_no": "RAE",
+  "platting_no": 982,
+  "country": "France",
+  "airline_base": "Nantes"
+ },
+ {
+  "airline_code": "FN",
+  "airline_name": "Regional Air Lines",
+  "icao_no": "RGL",
+  "platting_no": 0,
+  "country": "Morocco",
+  "airline_base": "Casablanca"
+ },
+ {
+  "airline_code": "ZL",
+  "airline_name": "Regional express",
+  "icao_no": "RXA",
+  "platting_no": 899,
+  "country": "Australia",
+  "airline_base": "Wagga Wagga, NSW"
+ },
+ {
+  "airline_code": "RW",
+  "airline_name": "Republic Airlines",
+  "icao_no": "RPA",
+  "platting_no": 52,
+  "country": "USA",
+  "airline_base": "Louisville, KY"
+ },
+ {
+  "airline_code": "C7",
+  "airline_name": "Rico Linhas Aereas",
+  "icao_no": "RLE",
+  "platting_no": 0,
+  "country": "Brazil",
+  "airline_base": "Manaus"
+ },
+ {
+  "airline_code": "WQ",
+  "airline_name": "Romavia",
+  "icao_no": "RMV",
+  "platting_no": 534,
+  "country": "Romania",
+  "airline_base": "Bucharest"
+ },
+ {
+  "airline_code": "4R",
+  "airline_name": "Rosat airlines",
+  "icao_no": "NTA",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Prince George, BC"
+ },
+ {
+  "airline_code": "R4",
+  "airline_name": "Rossiya Airlines",
+  "icao_no": "SDM",
+  "platting_no": 195,
+  "country": "Russia",
+  "airline_base": "Moscow (VKO)"
+ },
+ {
+  "airline_code": "AT",
+  "airline_name": "Royal Air Maroc",
+  "icao_no": "RAM",
+  "platting_no": 147,
+  "country": "Morocco",
+  "airline_base": "Casablanca"
+ },
+ {
+  "airline_code": "BI",
+  "airline_name": "Royal brunei",
+  "icao_no": "RBA",
+  "platting_no": 672,
+  "country": "Brunei",
+  "airline_base": "Bandar Seri Begawan"
+ },
+ {
+  "airline_code": "KL",
+  "airline_name": "Royal dutch airlines",
+  "icao_no": "KLM",
+  "platting_no": 74,
+  "country": "Netherlands",
+  "airline_base": "Amsterdam (AMS)"
+ },
+ {
+  "airline_code": "RL",
+  "airline_name": "Royal falcon",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "Russia",
+  "airline_base": "Moscow"
+ },
+ {
+  "airline_code": "RJ",
+  "airline_name": "Royal Jordanian",
+  "icao_no": "RJA",
+  "platting_no": 512,
+  "country": "jordan",
+  "airline_base": "Amman"
+ },
+ {
+  "airline_code": "RA",
+  "airline_name": "Royal nepal airways",
+  "icao_no": "RNA",
+  "platting_no": 285,
+  "country": "Nepal",
+  "airline_base": "Kathmandu (KTM)"
+ },
+ {
+  "airline_code": "RH",
+  "airline_name": "RPX Airlines",
+  "icao_no": "RPH",
+  "platting_no": 0,
+  "country": "Indonesia",
+  "airline_base": "Jakarta"
+ },
+ {
+  "airline_code": "P7",
+  "airline_name": "Russian Sky Airlines",
+  "icao_no": "ESL",
+  "platting_no": 215,
+  "country": "Russia",
+  "airline_base": "Moscow Domodedovo"
+ },
+ {
+  "airline_code": "WB",
+  "airline_name": "RwandAir",
+  "icao_no": "RWD",
+  "platting_no": 459,
+  "country": "Rwanda",
+  "airline_base": "Kigali"
+ },
+ {
+  "airline_code": "HS",
+  "airline_name": "Ryan International Airlines",
+  "icao_no": "RYN",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Ropckford, IL"
+ },
+ {
+  "airline_code": "4Q",
+  "airline_name": "Safi airways",
+  "icao_no": "SFW",
+  "platting_no": 741,
+  "country": "Afghanistan",
+  "airline_base": "Kabul (KBL)"
+ },
+ {
+  "airline_code": "S2",
+  "airline_name": "Sahara airlines limited",
+  "icao_no": "RSH",
+  "platting_no": 705,
+  "country": "India",
+  "airline_base": "Delhi (DEL)"
+ },
+ {
+  "airline_code": "OV",
+  "airline_name": "Salam Air",
+  "icao_no": "OMS",
+  "platting_no": 960,
+  "country": "Oman",
+  "airline_base": "Muscat"
+ },
+ {
+  "airline_code": "ZS",
+  "airline_name": "Sama Airlines",
+  "icao_no": "SMY",
+  "platting_no": 0,
+  "country": "Saudi Arabia",
+  "airline_base": "Jeddah \/ Dammam"
+ },
+ {
+  "airline_code": "MM",
+  "airline_name": "SAM Colombia",
+  "icao_no": "SAM",
+  "platting_no": 334,
+  "country": "Colombia",
+  "airline_base": "Medellin"
+ },
+ {
+  "airline_code": "RZ",
+  "airline_name": "SANSA",
+  "icao_no": "LRS",
+  "platting_no": 503,
+  "country": "Costa Rica",
+  "airline_base": "San Jos"
+ },
+ {
+  "airline_code": "S3",
+  "airline_name": "Santa Barbara Airlines Cargo",
+  "icao_no": "BBR",
+  "platting_no": 249,
+  "country": "Venezuela",
+  "airline_base": "Maracaibo"
+ },
+ {
+  "airline_code": "6W",
+  "airline_name": "Saravia Airlines",
+  "icao_no": "SOV",
+  "platting_no": 26,
+  "country": "Russian Federation",
+  "airline_base": "Saratov"
+ },
+ {
+  "airline_code": "SP",
+  "airline_name": "SATA - Air Aores",
+  "icao_no": "SAT",
+  "platting_no": 737,
+  "country": "Azores",
+  "airline_base": "Ponta Delgado"
+ },
+ {
+  "airline_code": "HZ",
+  "airline_name": "SAT Airlines",
+  "icao_no": "SHU",
+  "platting_no": 598,
+  "country": "Russia",
+  "airline_base": "Yuzhno"
+ },
+ {
+  "airline_code": "SV",
+  "airline_name": "Saudia",
+  "icao_no": "SVA",
+  "platting_no": 65,
+  "country": "Saudi Arabia",
+  "airline_base": "Jeddah"
+ },
+ {
+  "airline_code": "6S",
+  "airline_name": "SaudiGulf Airlines",
+  "icao_no": "SGQ",
+  "platting_no": 571,
+  "country": "Saudi Arabia",
+  "airline_base": "Dammam (DMM)"
+ },
+ {
+  "airline_code": "S1",
+  "airline_name": "Saurya Airlines",
+  "icao_no": "SAU",
+  "platting_no": 0,
+  "country": "Nepal",
+  "airline_base": "Sinamangal, Kathmandu"
+ },
+ {
+  "airline_code": "W7",
+  "airline_name": "Sayakhat Air Company",
+  "icao_no": "SAH",
+  "platting_no": 271,
+  "country": "Kazakhstan",
+  "airline_base": "Almaty"
+ },
+ {
+  "airline_code": "SK",
+  "airline_name": "Scandinavian airlines",
+  "icao_no": "SAS",
+  "platting_no": 117,
+  "country": "Sweden",
+  "airline_base": "Stockholm"
+ },
+ {
+  "airline_code": "YR",
+  "airline_name": "Scenic Airlines",
+  "icao_no": "EGJ",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Las Vegas, NV"
+ },
+ {
+  "airline_code": "TZ",
+  "airline_name": "Scoot",
+  "icao_no": "TGW",
+  "platting_no": 0,
+  "country": "Singapore",
+  "airline_base": "Changi Airport"
+ },
+ {
+  "airline_code": "CB",
+  "airline_name": "ScotAirways",
+  "icao_no": "SAY",
+  "platting_no": 969,
+  "country": "United Kingdom",
+  "airline_base": "Cambridge"
+ },
+ {
+  "airline_code": "BB",
+  "airline_name": "Seaborne Airlines",
+  "icao_no": "SBS",
+  "platting_no": 0,
+  "country": "US Virgin Islands",
+  "airline_base": "St Croix"
+ },
+ {
+  "airline_code": "DG",
+  "airline_name": "Seair",
+  "icao_no": "SRQ",
+  "platting_no": 0,
+  "country": "Philippines",
+  "airline_base": "Manila (MNL)"
+ },
+ {
+  "airline_code": "DN",
+  "airline_name": "Senegal airlines",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "Thailand",
+  "airline_base": "Phuket"
+ },
+ {
+  "airline_code": "ER",
+  "airline_name": "Serene Air",
+  "icao_no": "SEP",
+  "platting_no": 92,
+  "country": "Pakistan",
+  "airline_base": "Islamabad"
+ },
+ {
+  "airline_code": "UG",
+  "airline_name": "Sevenair",
+  "icao_no": "SEN",
+  "platting_no": 150,
+  "country": "Tunisia",
+  "airline_base": "Tunis"
+ },
+ {
+  "airline_code": "D2",
+  "airline_name": "Severstal Air Company",
+  "icao_no": "SSF",
+  "platting_no": 0,
+  "country": "Russia",
+  "airline_base": "Cherevopets"
+ },
+ {
+  "airline_code": "NL",
+  "airline_name": "Shaheen Air International",
+  "icao_no": "SAI",
+  "platting_no": 740,
+  "country": "Pakistan",
+  "airline_base": "Lahore"
+ },
+ {
+  "airline_code": "SC",
+  "airline_name": "Shandong Airlines",
+  "icao_no": "CDG",
+  "platting_no": 324,
+  "country": "China",
+  "airline_base": "Jinan"
+ },
+ {
+  "airline_code": "F4",
+  "airline_name": "Shanghai Airlines Cargo",
+  "icao_no": "SHQ",
+  "platting_no": 825,
+  "country": "China",
+  "airline_base": "Shanghai"
+ },
+ {
+  "airline_code": "FM",
+  "airline_name": "Shanghai airlines co ltd",
+  "icao_no": "CSH",
+  "platting_no": 774,
+  "country": "China",
+  "airline_base": "Shanghai"
+ },
+ {
+  "airline_code": "ZH",
+  "airline_name": "Shenzhen Airlines",
+  "icao_no": "CSZ",
+  "platting_no": 479,
+  "country": "China",
+  "airline_base": "Shenzhen"
+ },
+ {
+  "airline_code": "S8",
+  "airline_name": "Shovkoviy Shlay Airlines",
+  "icao_no": "SWW",
+  "platting_no": 0,
+  "country": "Ukraine",
+  "airline_base": "Kiev"
+ },
+ {
+  "airline_code": "N9",
+  "airline_name": "Shree Airlines",
+  "icao_no": "SHA",
+  "platting_no": 0,
+  "country": "Nepal",
+  "airline_base": "Sinamangal, Kathmandu"
+ },
+ {
+  "airline_code": "S5",
+  "airline_name": "Shuttle America",
+  "icao_no": "TCF",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Indianapolis (IND)"
+ },
+ {
+  "airline_code": "S7",
+  "airline_name": "Siberia airlines",
+  "icao_no": "SBI",
+  "platting_no": 421,
+  "country": "Russia",
+  "airline_base": "Novosibirsk"
+ },
+ {
+  "airline_code": "3U",
+  "airline_name": "Sichuan Airlines",
+  "icao_no": "CSC",
+  "platting_no": 876,
+  "country": "China",
+  "airline_base": "Chengdu, Sichuan"
+ },
+ {
+  "airline_code": "FT",
+  "airline_name": "Siem Reap Airways International",
+  "icao_no": "SRH",
+  "platting_no": 0,
+  "country": "Cambodia",
+  "airline_base": "Siem Reap (REP)"
+ },
+ {
+  "airline_code": "LJ",
+  "airline_name": "Sierra National Airlines",
+  "icao_no": "SLA",
+  "platting_no": 690,
+  "country": "Sierra Leone",
+  "airline_base": "Freetown"
+ },
+ {
+  "airline_code": "SI",
+  "airline_name": "Sierra Pacific Airlines",
+  "icao_no": "SPA",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Tucson, AZ"
+ },
+ {
+  "airline_code": "MI",
+  "airline_name": "Silk air ptd ltd.",
+  "icao_no": "SLK",
+  "platting_no": 629,
+  "country": "Singapore",
+  "airline_base": "Singapore"
+ },
+ {
+  "airline_code": "ZP",
+  "airline_name": "Silk Way Airlines",
+  "icao_no": "AZQ",
+  "platting_no": 463,
+  "country": "Azerbaijan",
+  "airline_base": "Baku"
+ },
+ {
+  "airline_code": "SQ",
+  "airline_name": "Singapore Airlines",
+  "icao_no": "SIA",
+  "platting_no": 618,
+  "country": "Singapore",
+  "airline_base": "Singapore Changi"
+ },
+ {
+  "airline_code": "ST",
+  "airline_name": "Sita Air",
+  "icao_no": "STA",
+  "platting_no": 0,
+  "country": "Nepal",
+  "airline_base": "Sinamangal, Kathmandu"
+ },
+ {
+  "airline_code": "6P",
+  "airline_name": "Six Cargo",
+  "icao_no": "ISG",
+  "platting_no": 0,
+  "country": "Italy",
+  "airline_base": "Brescia"
+ },
+ {
+  "airline_code": "H2",
+  "airline_name": "Sky Airline",
+  "icao_no": "SKU",
+  "platting_no": 605,
+  "country": "Chile",
+  "airline_base": "Santiago"
+ },
+ {
+  "airline_code": "NE",
+  "airline_name": "SkyEurope Airlines",
+  "icao_no": "ESK",
+  "platting_no": 477,
+  "country": "Slovakia",
+  "airline_base": "Bratislava"
+ },
+ {
+  "airline_code": "QB",
+  "airline_name": "Sky Georgia",
+  "icao_no": "GFG",
+  "platting_no": 0,
+  "country": "Gerogia",
+  "airline_base": "Tbilisi (TBS)"
+ },
+ {
+  "airline_code": "BC",
+  "airline_name": "Skymark Airlines",
+  "icao_no": "SKY",
+  "platting_no": 0,
+  "country": "Japan",
+  "airline_base": "Tokyo"
+ },
+ {
+  "airline_code": "6J",
+  "airline_name": "Skynet Asia Airlines",
+  "icao_no": "SNJ",
+  "platting_no": 0,
+  "country": "Japan",
+  "airline_base": "Miyazaki"
+ },
+ {
+  "airline_code": "5G",
+  "airline_name": "Sky Service Airlines",
+  "icao_no": "SSV",
+  "platting_no": 884,
+  "country": "Canada",
+  "airline_base": "Etobikoke, ON"
+ },
+ {
+  "airline_code": "NP",
+  "airline_name": "Skytrans regional",
+  "icao_no": "-",
+  "platting_no": 325,
+  "country": "Australia",
+  "airline_base": "Stratford, QLD"
+ },
+ {
+  "airline_code": "JZ",
+  "airline_name": "Skyways ab",
+  "icao_no": "SKX",
+  "platting_no": 752,
+  "country": "Sweden",
+  "airline_base": "Stockholm"
+ },
+ {
+  "airline_code": "XR",
+  "airline_name": "Skywest Airlines",
+  "icao_no": "OZW",
+  "platting_no": 674,
+  "country": "Australia",
+  "airline_base": "Perth, WA"
+ },
+ {
+  "airline_code": "OO",
+  "airline_name": "SkyWest Airlines",
+  "icao_no": "SKW",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "St George, UT"
+ },
+ {
+  "airline_code": "6Y",
+  "airline_name": "SmartLynx Airlines",
+  "icao_no": "LTC",
+  "platting_no": 0,
+  "country": "Latvia",
+  "airline_base": "Riga"
+ },
+ {
+  "airline_code": "QS",
+  "airline_name": "Smart Wings",
+  "icao_no": "TVS",
+  "platting_no": 0,
+  "country": "Czech Republic",
+  "airline_base": "Prague"
+ },
+ {
+  "airline_code": "J5",
+  "airline_name": "Sochi airlines aviaprima",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Juneau (JNU)"
+ },
+ {
+  "airline_code": "IE",
+  "airline_name": "Solomon Airlines",
+  "icao_no": "SOL",
+  "platting_no": 193,
+  "country": "Solomon Islands",
+  "airline_base": "Honiara"
+ },
+ {
+  "airline_code": "4J",
+  "airline_name": "Somon Air",
+  "icao_no": "SMR",
+  "platting_no": 0,
+  "country": "Tajikistan",
+  "airline_base": "Dushanbe (DYU)"
+ },
+ {
+  "airline_code": "4Z",
+  "airline_name": "South African AirLink",
+  "icao_no": "LNK",
+  "platting_no": 749,
+  "country": "South Africa",
+  "airline_base": "Gauteng"
+ },
+ {
+  "airline_code": "SA",
+  "airline_name": "South African Airways",
+  "icao_no": "SAA",
+  "platting_no": 83,
+  "country": "South Africa",
+  "airline_base": "Johannesburg (JNB)"
+ },
+ {
+  "airline_code": "XZ",
+  "airline_name": "South African Express Airways",
+  "icao_no": "EXY",
+  "platting_no": 29,
+  "country": "South Africa",
+  "airline_base": "Johannesburg (JNB)"
+ },
+ {
+  "airline_code": "YG",
+  "airline_name": "South Airlines",
+  "icao_no": "OTL",
+  "platting_no": 0,
+  "country": "Ukraine",
+  "airline_base": "Odessa"
+ },
+ {
+  "airline_code": "A2",
+  "airline_name": "South Asian Airlines",
+  "icao_no": "BDS",
+  "platting_no": 0,
+  "country": "Bangladesh",
+  "airline_base": "Dhaka"
+ },
+ {
+  "airline_code": "WN",
+  "airline_name": "Southwest Airlines",
+  "icao_no": "SWA",
+  "platting_no": 526,
+  "country": "USA",
+  "airline_base": "Dallas, TX"
+ },
+ {
+  "airline_code": "S4",
+  "airline_name": "Spair airlines",
+  "icao_no": "RZO",
+  "platting_no": 331,
+  "country": "Portugal",
+  "airline_base": "Lisbon"
+ },
+ {
+  "airline_code": "JK",
+  "airline_name": "Spanair",
+  "icao_no": "JKK",
+  "platting_no": 680,
+  "country": "Spain",
+  "airline_base": "Palma (PMI)"
+ },
+ {
+  "airline_code": "SG",
+  "airline_name": "Spicejet",
+  "icao_no": "SEG",
+  "platting_no": 775,
+  "country": "India",
+  "airline_base": "Delhi (DEL)"
+ },
+ {
+  "airline_code": "NK",
+  "airline_name": "Spirit Airlines",
+  "icao_no": "NKS",
+  "platting_no": 487,
+  "country": "USA",
+  "airline_base": "Ft Lauderdale (FLL)"
+ },
+ {
+  "airline_code": "9S",
+  "airline_name": "Spring Airlines",
+  "icao_no": "CQH",
+  "platting_no": 89,
+  "country": "China",
+  "airline_base": "Shanghai"
+ },
+ {
+  "airline_code": "Q2",
+  "airline_name": "Sprint prepaid calling card",
+  "icao_no": "DQA",
+  "platting_no": 0,
+  "country": "Maldives",
+  "airline_base": "Mal�� (MLE)"
+ },
+ {
+  "airline_code": "UL",
+  "airline_name": "SriLankan Airlines",
+  "icao_no": "ALK",
+  "platting_no": 603,
+  "country": "Sri Lanka",
+  "airline_base": "Colombo"
+ },
+ {
+  "airline_code": "SJ",
+  "airline_name": "Sriwijaya Air",
+  "icao_no": "CGL",
+  "platting_no": 0,
+  "country": "Slovakia",
+  "airline_base": "Bratislava"
+ },
+ {
+  "airline_code": "S6",
+  "airline_name": "Star Air",
+  "icao_no": "SRR",
+  "platting_no": 0,
+  "country": "Denmark",
+  "airline_base": "Copenhagen"
+ },
+ {
+  "airline_code": "2I",
+  "airline_name": "Star Peru",
+  "icao_no": "SRU",
+  "platting_no": 156,
+  "country": "Peru",
+  "airline_base": "Lima"
+ },
+ {
+  "airline_code": "SD",
+  "airline_name": "Sudan Airways",
+  "icao_no": "SUD",
+  "platting_no": 200,
+  "country": "Sudan",
+  "airline_base": "Khartoum"
+ },
+ {
+  "airline_code": "EZ",
+  "airline_name": "Sun-Air of Scandinavia",
+  "icao_no": "SUS",
+  "platting_no": 0,
+  "country": "Denmark",
+  "airline_base": "Billund"
+ },
+ {
+  "airline_code": "SY",
+  "airline_name": "Sun Country Airlines",
+  "icao_no": "SCX",
+  "platting_no": 337,
+  "country": "USA",
+  "airline_base": "Minneapolis-St Paul"
+ },
+ {
+  "airline_code": "XQ",
+  "airline_name": "Sunexpress Air",
+  "icao_no": "SXS",
+  "platting_no": 564,
+  "country": "Turkey",
+  "airline_base": "Antalya"
+ },
+ {
+  "airline_code": "PY",
+  "airline_name": "Surinam Airways",
+  "icao_no": "SLM",
+  "platting_no": 192,
+  "country": "Suriname",
+  "airline_base": "Paramaribo (ORG)"
+ },
+ {
+  "airline_code": "LX",
+  "airline_name": "Swiss intl airlines ltd",
+  "icao_no": "SWR",
+  "platting_no": 724,
+  "country": "Switzerland",
+  "airline_base": "Zurich (ZRH)"
+ },
+ {
+  "airline_code": "FS",
+  "airline_name": "SYPHAX AIRLINES",
+  "icao_no": "SYA",
+  "platting_no": 393,
+  "country": "Tunisia",
+  "airline_base": "Sfax Thyna International (SFA \/ DTTX)"
+ },
+ {
+  "airline_code": "RB",
+  "airline_name": "Syrian Arab Airlines",
+  "icao_no": "SYR",
+  "platting_no": 70,
+  "country": "Syria",
+  "airline_base": "Damascus"
+ },
+ {
+  "airline_code": "DT",
+  "airline_name": "Taag-linhas aereas de angola",
+  "icao_no": "DTA",
+  "platting_no": 118,
+  "country": "Angola",
+  "airline_base": "Luanda (LAD)"
+ },
+ {
+  "airline_code": "TA",
+  "airline_name": "Taca intl airline",
+  "icao_no": "TAI",
+  "platting_no": 202,
+  "country": "El Salvador",
+  "airline_base": "San Salvador"
+ },
+ {
+  "airline_code": "T0",
+  "airline_name": "TACA Peru",
+  "icao_no": "TPU",
+  "platting_no": 530,
+  "country": "Peru",
+  "airline_base": "Lima (LIM)"
+ },
+ {
+  "airline_code": "R9",
+  "airline_name": "TAF Linhas Aeras",
+  "icao_no": "TSD",
+  "platting_no": 0,
+  "country": "Brazil",
+  "airline_base": "Fortaleza (FOR)"
+ },
+ {
+  "airline_code": "7J",
+  "airline_name": "Tajik Air",
+  "icao_no": "TZK",
+  "platting_no": 0,
+  "country": "Tajikistan",
+  "airline_base": "Dushanbe (DYU)"
+ },
+ {
+  "airline_code": "EQ",
+  "airline_name": "TAME - Linea Aerea del Ecuador",
+  "icao_no": "TAE",
+  "platting_no": 269,
+  "country": "Ecuador",
+  "airline_base": "Quito"
+ },
+ {
+  "airline_code": "JJ",
+  "airline_name": "Tam - linhas aereas",
+  "icao_no": "TAM",
+  "platting_no": 957,
+  "country": "Brazil",
+  "airline_base": "Sao Paulo"
+ },
+ {
+  "airline_code": "QT",
+  "airline_name": "TAMPA Columbia",
+  "icao_no": "TPA",
+  "platting_no": 729,
+  "country": "Columbia",
+  "airline_base": "Medellin"
+ },
+ {
+  "airline_code": "PZ",
+  "airline_name": "Tam-transportes aereos del mercosur s.a.",
+  "icao_no": "LAP",
+  "platting_no": 692,
+  "country": "Paraguay",
+  "airline_base": "Asuncion"
+ },
+ {
+  "airline_code": "TQ",
+  "airline_name": "Tandem Aero",
+  "icao_no": "TDM",
+  "platting_no": 38,
+  "country": "Moldova",
+  "airline_base": "Chisinau (KIV)"
+ },
+ {
+  "airline_code": "TP",
+  "airline_name": "Tap air portugal",
+  "icao_no": "TAP",
+  "platting_no": 47,
+  "country": "Portugal",
+  "airline_base": "Lisbon"
+ },
+ {
+  "airline_code": "RO",
+  "airline_name": "Tarom romanian air",
+  "icao_no": "ROT",
+  "platting_no": 281,
+  "country": "Romania",
+  "airline_base": "Bucharest"
+ },
+ {
+  "airline_code": "SF",
+  "airline_name": "Tassili Airlines",
+  "icao_no": "DTH",
+  "platting_no": 515,
+  "country": "Algeria",
+  "airline_base": "Algiers"
+ },
+ {
+  "airline_code": "U9",
+  "airline_name": "Tatarstan Airlines",
+  "icao_no": "KAZ",
+  "platting_no": 0,
+  "country": "Russia",
+  "airline_base": "Kazan (KZN)"
+ },
+ {
+  "airline_code": "T6",
+  "airline_name": "Tavrey aircompany",
+  "icao_no": "TVR",
+  "platting_no": 204,
+  "country": "Ukraine",
+  "airline_base": "Odessa"
+ },
+ {
+  "airline_code": "NA",
+  "airline_name": "Teebah Airlines",
+  "icao_no": "TBA",
+  "platting_no": 0,
+  "country": "Jordan",
+  "airline_base": "Amman"
+ },
+ {
+  "airline_code": "MN",
+  "airline_name": "Test 29 nov05",
+  "icao_no": "CAW",
+  "platting_no": 161,
+  "country": "South Africa",
+  "airline_base": "Johannesburg (JNB)"
+ },
+ {
+  "airline_code": "0B",
+  "airline_name": "Test airline",
+  "icao_no": "JOR",
+  "platting_no": 0,
+  "country": "Romania",
+  "airline_base": "Bucharest"
+ },
+ {
+  "airline_code": "QQ",
+  "airline_name": "Test airline",
+  "icao_no": "UTY",
+  "platting_no": 0,
+  "country": "Australia",
+  "airline_base": "Brisbane, QLD"
+ },
+ {
+  "airline_code": "9X",
+  "airline_name": "Test airline22",
+  "icao_no": "AXY",
+  "platting_no": 0,
+  "country": "France",
+  "airline_base": "Marseille"
+ },
+ {
+  "airline_code": "ZY",
+  "airline_name": "Test_airline_sa",
+  "icao_no": "EZA",
+  "platting_no": 0,
+  "country": "Mongolia",
+  "airline_base": "Ulan Bator (ULN)"
+ },
+ {
+  "airline_code": "Z8",
+  "airline_name": "Test airlines at",
+  "icao_no": "AZN",
+  "platting_no": 0,
+  "country": "Bolivia",
+  "airline_base": "La Paz (LPB)"
+ },
+ {
+  "airline_code": "ZX",
+  "airline_name": "Test_airline_saudi",
+  "icao_no": "GGN",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Toronto (YYZ)"
+ },
+ {
+  "airline_code": "FD",
+  "airline_name": "Thai AirAsia",
+  "icao_no": "AIQ",
+  "platting_no": 0,
+  "country": "Thailand",
+  "airline_base": "Bangkok (BKK)"
+ },
+ {
+  "airline_code": "TG",
+  "airline_name": "Thai airways",
+  "icao_no": "THA",
+  "platting_no": 217,
+  "country": "Thailand",
+  "airline_base": "Bangkok"
+ },
+ {
+  "airline_code": "SL",
+  "airline_name": "Thai Lion air",
+  "icao_no": "TLM",
+  "platting_no": 293,
+  "country": "Thailand",
+  "airline_base": "Bangkok"
+ },
+ {
+  "airline_code": "WE",
+  "airline_name": "THAI Smile Airways",
+  "icao_no": "THD",
+  "platting_no": 313,
+  "country": "Thailand",
+  "airline_base": "Bangkok"
+ },
+ {
+  "airline_code": "DK",
+  "airline_name": "Thomas Cook Airlines Scandinavia",
+  "icao_no": "VKG",
+  "platting_no": 630,
+  "country": "Denmark",
+  "airline_base": "Copenhagen"
+ },
+ {
+  "airline_code": "BY",
+  "airline_name": "Thomsonfly",
+  "icao_no": "TOM",
+  "platting_no": 754,
+  "country": "United Kingdom",
+  "airline_base": "Manchester"
+ },
+ {
+  "airline_code": "IT",
+  "airline_name": "Tiger Air Taiwan",
+  "icao_no": "TTW",
+  "platting_no": 0,
+  "country": "Taiwan",
+  "airline_base": "Taipei"
+ },
+ {
+  "airline_code": "TR",
+  "airline_name": "Tiger Airways",
+  "icao_no": "TGW",
+  "platting_no": 0,
+  "country": "Singapore",
+  "airline_base": "Singapore Changi"
+ },
+ {
+  "airline_code": "TT",
+  "airline_name": "Tiger Airways Australia",
+  "icao_no": "TGW",
+  "platting_no": 0,
+  "country": "Australia",
+  "airline_base": "Melbourne (MEL)"
+ },
+ {
+  "airline_code": "HK",
+  "airline_name": "Time air sweden",
+  "icao_no": "-",
+  "platting_no": 0,
+  "country": "Burma",
+  "airline_base": "Rangoon"
+ },
+ {
+  "airline_code": "ZT",
+  "airline_name": "Titan Airways",
+  "icao_no": "AWC",
+  "platting_no": 0,
+  "country": "United Kingdom",
+  "airline_base": "London (STN)"
+ },
+ {
+  "airline_code": "3V",
+  "airline_name": "TNT Airways",
+  "icao_no": "TAY",
+  "platting_no": 756,
+  "country": "Belgium",
+  "airline_base": "Li��ge"
+ },
+ {
+  "airline_code": "TI",
+  "airline_name": "Tol- Air Services",
+  "icao_no": "TOL",
+  "platting_no": 0,
+  "country": "Puerto Rico",
+  "airline_base": "San Juan"
+ },
+ {
+  "airline_code": "9D",
+  "airline_name": "Toumai Air Chad",
+  "icao_no": "THE",
+  "platting_no": 371,
+  "country": "Chad",
+  "airline_base": "N'djamena"
+ },
+ {
+  "airline_code": "WI",
+  "airline_name": "TradeWinds Airlines",
+  "icao_no": "TDX",
+  "platting_no": 97,
+  "country": "USA",
+  "airline_base": "Greensboro, NC"
+ },
+ {
+  "airline_code": "VR",
+  "airline_name": "Tranportes aereos de caba verde",
+  "icao_no": "TCV",
+  "platting_no": 696,
+  "country": "Cape Verde",
+  "airline_base": "Cape Verde"
+ },
+ {
+  "airline_code": "UN",
+  "airline_name": "Transaero Airlines",
+  "icao_no": "TSO",
+  "platting_no": 670,
+  "country": "Russia",
+  "airline_base": "Moscow Sheremetyevo"
+ },
+ {
+  "airline_code": "Q8",
+  "airline_name": "Trans air congo (tac)",
+  "icao_no": "PEC",
+  "platting_no": 0,
+  "country": "Philippines",
+  "airline_base": "Manila (MNL)"
+ },
+ {
+  "airline_code": "7T",
+  "airline_name": "Trans Am Aero Express Del Ecuador",
+  "icao_no": "RTM",
+  "platting_no": 144,
+  "country": "Ecuador",
+  "airline_base": "Guayaquil"
+ },
+ {
+  "airline_code": "GE",
+  "airline_name": "Transasia Airways",
+  "icao_no": "TNA",
+  "platting_no": 170,
+  "country": "Taiwan",
+  "airline_base": "Taipei"
+ },
+ {
+  "airline_code": "ML",
+  "airline_name": "Trans Attico",
+  "icao_no": "ETC",
+  "platting_no": 0,
+  "country": "Sudan",
+  "airline_base": "Khartoum"
+ },
+ {
+  "airline_code": "HV",
+  "airline_name": "Transavia Airlines",
+  "icao_no": "TRA",
+  "platting_no": 979,
+  "country": "Netherlands",
+  "airline_base": "Amsterdam (AMS)"
+ },
+ {
+  "airline_code": "AL",
+  "airline_name": "Transaviaexport Airlines",
+  "icao_no": "TXC",
+  "platting_no": 221,
+  "country": "Belarus",
+  "airline_base": "Minsk (MSQ)"
+ },
+ {
+  "airline_code": "TO",
+  "airline_name": "Transavia France",
+  "icao_no": "TVF",
+  "platting_no": 0,
+  "country": "France",
+  "airline_base": "Paris Orly (ORY)"
+ },
+ {
+  "airline_code": "MT",
+  "airline_name": "Transmed airline",
+  "icao_no": "TCX",
+  "platting_no": 885,
+  "country": "United Kingdom",
+  "airline_base": "Manchester"
+ },
+ {
+  "airline_code": "TL",
+  "airline_name": "Trans mediterranean airways",
+  "icao_no": "ANO",
+  "platting_no": 935,
+  "country": "Australia",
+  "airline_base": "Darwin"
+ },
+ {
+  "airline_code": "AX",
+  "airline_name": "Trans states",
+  "icao_no": "LOF",
+  "platting_no": 414,
+  "country": "USA",
+  "airline_base": "St Louis, MO"
+ },
+ {
+  "airline_code": "9T",
+  "airline_name": "Transwest Air",
+  "icao_no": "ABS",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Prince Albert (YPA)"
+ },
+ {
+  "airline_code": "T4",
+  "airline_name": "Trip linhas aereas",
+  "icao_no": "HEJ",
+  "platting_no": 681,
+  "country": "Greece",
+  "airline_base": "Athens (ATH)"
+ },
+ {
+  "airline_code": "2T",
+  "airline_name": "TruJet",
+  "icao_no": "TRJ",
+  "platting_no": 0,
+  "country": "India",
+  "airline_base": "Hyderabad"
+ },
+ {
+  "airline_code": "X3",
+  "airline_name": "Tuifly.com",
+  "icao_no": "HLX",
+  "platting_no": 617,
+  "country": "Germany",
+  "airline_base": "Cologne"
+ },
+ {
+  "airline_code": "6B",
+  "airline_name": "TUIfly Nordic",
+  "icao_no": "BLX",
+  "platting_no": 951,
+  "country": "Sweden",
+  "airline_base": "Stockholm"
+ },
+ {
+  "airline_code": "TU",
+  "airline_name": "Tunis air",
+  "icao_no": "TAR",
+  "platting_no": 199,
+  "country": "Tunisia",
+  "airline_base": "Tunis"
+ },
+ {
+  "airline_code": "3T",
+  "airline_name": "Turan Air",
+  "icao_no": "URN",
+  "platting_no": 359,
+  "country": "Azerbaijan",
+  "airline_base": "Baku"
+ },
+ {
+  "airline_code": "TK",
+  "airline_name": "Turkish Airlines",
+  "icao_no": "THY",
+  "platting_no": 235,
+  "country": "Turkey",
+  "airline_base": "Istanbul (IST)"
+ },
+ {
+  "airline_code": "T5",
+  "airline_name": "Turkmenistan Airlines",
+  "icao_no": "TUA",
+  "platting_no": 542,
+  "country": "Turkmenistan",
+  "airline_base": "Ashkabad"
+ },
+ {
+  "airline_code": "T7",
+  "airline_name": "Twin Jet",
+  "icao_no": "TJT",
+  "platting_no": 0,
+  "country": "France",
+  "airline_base": "Marseille (MRS)"
+ },
+ {
+  "airline_code": "VO",
+  "airline_name": "Tyrolean",
+  "icao_no": "TYR",
+  "platting_no": 734,
+  "country": "Austria",
+  "airline_base": "Innsbruck"
+ },
+ {
+  "airline_code": "UR",
+  "airline_name": "Uganda Airlines",
+  "icao_no": "UGD",
+  "platting_no": 109,
+  "country": "Uganda",
+  "airline_base": "Entebbe, Wakiso District"
+ },
+ {
+  "airline_code": "PS",
+  "airline_name": "Ukraine International Airlines",
+  "icao_no": "AUI",
+  "platting_no": 566,
+  "country": "Ukraine",
+  "airline_base": "Kiev"
+ },
+ {
+  "airline_code": "6Z",
+  "airline_name": "Ukrainian Cargo Airways",
+  "icao_no": "UKS",
+  "platting_no": 516,
+  "country": "Ukraine",
+  "airline_base": "Kiev"
+ },
+ {
+  "airline_code": "UF",
+  "airline_name": "Ukrainian mediterranean airlines ltd.",
+  "icao_no": "UKM",
+  "platting_no": 828,
+  "country": "Ukraine",
+  "airline_base": "Kiev"
+ },
+ {
+  "airline_code": "B7",
+  "airline_name": "Uni Air",
+  "icao_no": "UIA",
+  "platting_no": 525,
+  "country": "Taiwan",
+  "airline_base": "Kaoshiung"
+ },
+ {
+  "airline_code": "UA",
+  "airline_name": "United Airlines",
+  "icao_no": "UAL",
+  "platting_no": 16,
+  "country": "USA",
+  "airline_base": "Chicago"
+ },
+ {
+  "airline_code": "4H",
+  "airline_name": "United Airways",
+  "icao_no": "UBD",
+  "platting_no": 0,
+  "country": "Bangladesh",
+  "airline_base": "Dhaka (DAC)"
+ },
+ {
+  "airline_code": "EU",
+  "airline_name": "United Eagle Airlines",
+  "icao_no": "UEA",
+  "platting_no": 0,
+  "country": "China",
+  "airline_base": "Chengdu"
+ },
+ {
+  "airline_code": "5X",
+  "airline_name": "UPS Airlines",
+  "icao_no": "UPS",
+  "platting_no": 406,
+  "country": "USA",
+  "airline_base": "Louisville, KY"
+ },
+ {
+  "airline_code": "U6",
+  "airline_name": "Ural Airlines",
+  "icao_no": "SVR",
+  "platting_no": 262,
+  "country": "Russia",
+  "airline_base": "Ekaterinburg"
+ },
+ {
+  "airline_code": "U5",
+  "airline_name": "USA 3000 Airlines",
+  "icao_no": "GWY",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "Newtown Square, PA"
+ },
+ {
+  "airline_code": "US",
+  "airline_name": "Us airways inc.",
+  "icao_no": "USA",
+  "platting_no": 37,
+  "country": "USA",
+  "airline_base": "Pittsburgh, PA"
+ },
+ {
+  "airline_code": "BS",
+  "airline_name": "US-Bangla Airlines",
+  "icao_no": "UBG",
+  "platting_no": 779,
+  "country": "Bangladesh",
+  "airline_base": "Dhaka"
+ },
+ {
+  "airline_code": "UT",
+  "airline_name": "Utair aviation",
+  "icao_no": "TMN",
+  "platting_no": 298,
+  "country": "Russia",
+  "airline_base": "Surgut"
+ },
+ {
+  "airline_code": "HY",
+  "airline_name": "Uzbekistan Airways",
+  "icao_no": "UZB",
+  "platting_no": 250,
+  "country": "Uzbekistan",
+  "airline_base": "Tashkent"
+ },
+ {
+  "airline_code": "VF",
+  "airline_name": "Valuair",
+  "icao_no": "VLU",
+  "platting_no": 0,
+  "country": "Singapore",
+  "airline_base": "Singapore"
+ },
+ {
+  "airline_code": "RG",
+  "airline_name": "VARIG",
+  "icao_no": "VRN",
+  "platting_no": 42,
+  "country": "Brazil",
+  "airline_base": "Sao Paulo"
+ },
+ {
+  "airline_code": "V4",
+  "airline_name": "Venescar Internacional",
+  "icao_no": "VEC",
+  "platting_no": 946,
+  "country": "Venezuela",
+  "airline_base": "Caracas"
+ },
+ {
+  "airline_code": "VM",
+  "airline_name": "Viaggio Air",
+  "icao_no": "VOA",
+  "platting_no": 424,
+  "country": "Bulgaria",
+  "airline_base": "Sofia"
+ },
+ {
+  "airline_code": "VI",
+  "airline_name": "Vieques Air Link",
+  "icao_no": "VES",
+  "platting_no": 412,
+  "country": "Puerto Rico",
+  "airline_base": "Vieques"
+ },
+ {
+  "airline_code": "VN",
+  "airline_name": "Vietnam Airlines",
+  "icao_no": "HVN",
+  "platting_no": 738,
+  "country": "Vietnam",
+  "airline_base": "Hanoi"
+ },
+ {
+  "airline_code": "0V",
+  "airline_name": "Vietnam Air Service VASCO",
+  "icao_no": "VFC",
+  "platting_no": 0,
+  "country": "Vietnam",
+  "airline_base": "Ho Chi Minh City"
+ },
+ {
+  "airline_code": "4P",
+  "airline_name": "Viking Airlines",
+  "icao_no": "VIK",
+  "platting_no": 0,
+  "country": "Sweden",
+  "airline_base": "Stockholm"
+ },
+ {
+  "airline_code": "NN",
+  "airline_name": "Vim Airlines",
+  "icao_no": "MOV",
+  "platting_no": 823,
+  "country": "Russia",
+  "airline_base": "Moscow Domodedovo"
+ },
+ {
+  "airline_code": "VX",
+  "airline_name": "Virgin America",
+  "icao_no": "VRD",
+  "platting_no": 0,
+  "country": "USA",
+  "airline_base": "San Francisco, CA"
+ },
+ {
+  "airline_code": "VS",
+  "airline_name": "Virgin Atlantic",
+  "icao_no": "VIR",
+  "platting_no": 932,
+  "country": "United Kingdom",
+  "airline_base": "London (LHR)"
+ },
+ {
+  "airline_code": "VA",
+  "airline_name": "Virgin Australia",
+  "icao_no": "VOZ",
+  "platting_no": 795,
+  "country": "Australia",
+  "airline_base": "Brisbane International (BNE \/ YBBN)"
+ },
+ {
+  "airline_code": "DJ",
+  "airline_name": "Virgin Blue",
+  "icao_no": "VOZ",
+  "platting_no": 856,
+  "country": "Australia",
+  "airline_base": "Brisbane, QLD"
+ },
+ {
+  "airline_code": "VK",
+  "airline_name": "Virgin Nigeria Airways",
+  "icao_no": "VGN",
+  "platting_no": 786,
+  "country": "Nigeria",
+  "airline_base": "Lagos (LOS)"
+ },
+ {
+  "airline_code": "UK",
+  "airline_name": "Vistara",
+  "icao_no": "VTI",
+  "platting_no": 130,
+  "country": "India",
+  "airline_base": "Gurgaon"
+ },
+ {
+  "airline_code": "XF",
+  "airline_name": "Vladivostok Air",
+  "icao_no": "VLK",
+  "platting_no": 277,
+  "country": "Russia",
+  "airline_base": "Valdivostok"
+ },
+ {
+  "airline_code": "VG",
+  "airline_name": "VLM Airlines",
+  "icao_no": "VLM",
+  "platting_no": 978,
+  "country": "Belgium",
+  "airline_base": "Antwerp"
+ },
+ {
+  "airline_code": "V5",
+  "airline_name": "Vnuvoko airlines",
+  "icao_no": "VLI",
+  "platting_no": 0,
+  "country": "Mexico",
+  "airline_base": "Tijuana"
+ },
+ {
+  "airline_code": "VC",
+  "airline_name": "Voyageur Airways",
+  "icao_no": "VAL",
+  "platting_no": 908,
+  "country": "Canada",
+  "airline_base": "North Bay, ON"
+ },
+ {
+  "airline_code": "VY",
+  "airline_name": "Vueling Airlines",
+  "icao_no": "VLG",
+  "platting_no": 0,
+  "country": "Spain",
+  "airline_base": "Barcelona (BCN)"
+ },
+ {
+  "airline_code": "WG",
+  "airline_name": "Wasaya Airways",
+  "icao_no": "WSG",
+  "platting_no": 93,
+  "country": "Canada",
+  "airline_base": "Pickle Lake, ON"
+ },
+ {
+  "airline_code": "KW",
+  "airline_name": "Wataniya airlines",
+  "icao_no": "KFA",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Kelowna (YLW)"
+ },
+ {
+  "airline_code": "W1",
+  "airline_name": "WDL Aviation",
+  "icao_no": "WDL",
+  "platting_no": 0,
+  "country": "Germany",
+  "airline_base": "Cologne"
+ },
+ {
+  "airline_code": "2W",
+  "airline_name": "Welcome Air",
+  "icao_no": "WLC",
+  "platting_no": 0,
+  "country": "Austria",
+  "airline_base": "Innsbruck"
+ },
+ {
+  "airline_code": "1W",
+  "airline_name": "West African Link",
+  "icao_no": "WAZ",
+  "platting_no": 0,
+  "country": "Gambia",
+  "airline_base": "Banjul"
+ },
+ {
+  "airline_code": "BW",
+  "airline_name": "West indies airlines",
+  "icao_no": "BWA",
+  "platting_no": 106,
+  "country": "Trinidad & Tobago",
+  "airline_base": "Piarco"
+ },
+ {
+  "airline_code": "WS",
+  "airline_name": "Westjet Airlines",
+  "icao_no": "WJA",
+  "platting_no": 0,
+  "country": "Canada",
+  "airline_base": "Calgary (YYC)"
+ },
+ {
+  "airline_code": "WF",
+  "airline_name": "Wideroes flyveselskap",
+  "icao_no": "WIF",
+  "platting_no": 701,
+  "country": "Norway",
+  "airline_base": "Oslo"
+ },
+ {
+  "airline_code": "9C",
+  "airline_name": "Wimbi Dira Airways",
+  "icao_no": "WDA",
+  "platting_no": 357,
+  "country": "Congo, DR",
+  "airline_base": "Kinshasa"
+ },
+ {
+  "airline_code": "IV",
+  "airline_name": "Wind Jet",
+  "icao_no": "JET",
+  "platting_no": 0,
+  "country": "Italy",
+  "airline_base": "Catania"
+ },
+ {
+  "airline_code": "7W",
+  "airline_name": "Wind Rose Aviation Company",
+  "icao_no": "WRC",
+  "platting_no": 0,
+  "country": "Ukraine",
+  "airline_base": "Kiev"
+ },
+ {
+  "airline_code": "WM",
+  "airline_name": "Windward Islands Airways",
+  "icao_no": "WIA",
+  "platting_no": 295,
+  "country": "Netherlands Antilles",
+  "airline_base": "St Maarten"
+ },
+ {
+  "airline_code": "5W",
+  "airline_name": "WIZZ AIR ABU DHABI",
+  "icao_no": "WAZ",
+  "platting_no": 0,
+  "country": "Abu Dhabi",
+  "airline_base": "Abu Dhabi, UAE"
+ },
+ {
+  "airline_code": "W6",
+  "airline_name": "WIZZ AIR HUNGARY",
+  "icao_no": "WZZ",
+  "platting_no": 0,
+  "country": "Hungary",
+  "airline_base": "Budapest"
+ },
+ {
+  "airline_code": "WO",
+  "airline_name": "World Airways",
+  "icao_no": "WOA",
+  "platting_no": 468,
+  "country": "USA",
+  "airline_base": "Oakland, CA"
+ },
+ {
+  "airline_code": "WW",
+  "airline_name": "Wowair",
+  "icao_no": "WOW",
+  "platting_no": 0,
+  "country": "Iceland",
+  "airline_base": "Reykjavik"
+ },
+ {
+  "airline_code": "MF",
+  "airline_name": "Xiamen Airlines",
+  "icao_no": "CXA",
+  "platting_no": 731,
+  "country": "China",
+  "airline_base": "Xiamen"
+ },
+ {
+  "airline_code": "9E",
+  "airline_name": "XL Airways Germany",
+  "icao_no": "GXL",
+  "platting_no": 0,
+  "country": "Germany",
+  "airline_base": "Dusseldorf"
+ },
+ {
+  "airline_code": "XN",
+  "airline_name": "Xpress Air",
+  "icao_no": "XAR",
+  "platting_no": 0,
+  "country": "Indonesia",
+  "airline_base": "Ujung Pangdang (UPG)"
+ },
+ {
+  "airline_code": "YL",
+  "airline_name": "Yamal Airlines",
+  "icao_no": "LLM",
+  "platting_no": 511,
+  "country": "Russia",
+  "airline_base": "Salekhard"
+ },
+ {
+  "airline_code": "Y8",
+  "airline_name": "Yangtze River Express Airlines",
+  "icao_no": "YZR",
+  "platting_no": 0,
+  "country": "China",
+  "airline_base": "Shanghai"
+ },
+ {
+  "airline_code": "IY",
+  "airline_name": "Yemenia yemen airway",
+  "icao_no": "IYE",
+  "platting_no": 635,
+  "country": "Yemen",
+  "airline_base": "Sana'a"
+ },
+ {
+  "airline_code": "YT",
+  "airline_name": "Yeti Airlines",
+  "icao_no": "NYT",
+  "platting_no": 0,
+  "country": "Nepal",
+  "airline_base": "Kathmandu"
+ },
+ {
+  "airline_code": "Q3",
+  "airline_name": "Zambian Airways",
+  "icao_no": "MBN",
+  "platting_no": 391,
+  "country": "Zambia",
+  "airline_base": "Lusaka"
+ },
+ {
+  "airline_code": "K8",
+  "airline_name": "Zambia Skyways",
+  "icao_no": "ZAK",
+  "platting_no": 0,
+  "country": "Zambia",
+  "airline_base": "Lusaka"
+ },
+ {
+  "airline_code": "3Z",
+  "airline_name": "Zoom Airways",
+  "icao_no": "ZAW",
+  "platting_no": 0,
+  "country": "Bangladesh",
+  "airline_base": "Dhaka"
+ }
+]

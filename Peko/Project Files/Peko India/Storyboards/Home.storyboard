@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+        <array key="Inter-SemiBold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="Y6W-OH-hqX" customClass="HomeViewController" customModule="Peko_India" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="1044"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XUD-Tb-T5S">
+                                <rect key="frame" x="0.0" y="97" width="390" height="913"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oVQ-0h-6Vb">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="853"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="NCJ-uP-Dei">
+                                                <rect key="frame" x="0.0" y="0.0" width="390" height="833"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AhY-kX-Kqc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="390" height="183"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bM-z7-qxr">
+                                                                <rect key="frame" x="20" y="20" width="350" height="163"/>
+                                                                <subviews>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top_card_gradient_bg" translatesAutoresizingMaskIntoConstraints="NO" id="PaE-3X-TyK">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="350" height="163"/>
+                                                                    </imageView>
+                                                                    <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="6pi-df-VtG">
+                                                                        <rect key="frame" x="20.000000000000007" y="20.000000000000004" width="104.66666666666669" height="39.333333333333343"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Balance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0z-7k-IDS" customClass="PekoLabel" customModule="Peko_India" customModuleProvider="target">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="104.66666666666667" height="12.333333333333334"/>
+                                                                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="10"/>
+                                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <userDefinedRuntimeAttributes>
+                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                        <real key="value" value="10"/>
+                                                                                    </userDefinedRuntimeAttribute>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="TITLE_TOTAL_BALANCE"/>
+                                                                                </userDefinedRuntimeAttributes>
+                                                                            </label>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₹25,000.40" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dli-ih-UBn" customClass="PekoLabel" customModule="Peko_India" customModuleProvider="target">
+                                                                                <rect key="frame" x="0.0" y="17.333333333333343" width="104.66666666666667" height="22"/>
+                                                                                <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <userDefinedRuntimeAttributes>
+                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                        <real key="value" value="18"/>
+                                                                                    </userDefinedRuntimeAttribute>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                                                </userDefinedRuntimeAttributes>
+                                                                            </label>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Kyg-C7-RR2">
+                                                                        <rect key="frame" x="19.999999999999996" y="20" width="63.666666666666657" height="67.333333333333329"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Balance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cCk-mp-GbT" customClass="PekoLabel" customModule="Peko_India" customModuleProvider="target">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="63.666666666666664" height="12.333333333333334"/>
+                                                                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="10"/>
+                                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <userDefinedRuntimeAttributes>
+                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                        <real key="value" value="10"/>
+                                                                                    </userDefinedRuntimeAttribute>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="TITLE_MONTHLY_SPENDS"/>
+                                                                                </userDefinedRuntimeAttributes>
+                                                                            </label>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5T-Fi-Oo8" customClass="PekoLabel" customModule="Peko_India" customModuleProvider="target">
+                                                                                <rect key="frame" x="0.0" y="17.333333333333343" width="63.666666666666664" height="50"/>
+                                                                                <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <userDefinedRuntimeAttributes>
+                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                        <real key="value" value="18"/>
+                                                                                    </userDefinedRuntimeAttribute>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                                                </userDefinedRuntimeAttributes>
+                                                                            </label>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="mnz-TT-gjc">
+                                                                        <rect key="frame" x="19.999999999999996" y="75.666666666666657" width="63.666666666666657" height="67.333333333333343"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Balance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0el-Pp-3q8" customClass="PekoLabel" customModule="Peko_India" customModuleProvider="target">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="63.666666666666664" height="12.333333333333334"/>
+                                                                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="10"/>
+                                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <userDefinedRuntimeAttributes>
+                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                        <real key="value" value="10"/>
+                                                                                    </userDefinedRuntimeAttribute>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="TITLE_TOATAL_CASHBACK"/>
+                                                                                </userDefinedRuntimeAttributes>
+                                                                            </label>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61w-2B-nVV" customClass="PekoLabel" customModule="Peko_India" customModuleProvider="target">
+                                                                                <rect key="frame" x="0.0" y="17.333333333333343" width="63.666666666666664" height="50"/>
+                                                                                <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <userDefinedRuntimeAttributes>
+                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                        <real key="value" value="18"/>
+                                                                                    </userDefinedRuntimeAttribute>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                                                </userDefinedRuntimeAttributes>
+                                                                            </label>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ae-eV-uEW">
+                                                                        <rect key="frame" x="234.33333333333334" y="97.333333333333343" width="95.666666666666657" height="24"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Balance" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTC-T7-bD6" customClass="PekoLabel" customModule="Peko_India" customModuleProvider="target">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="63.666666666666664" height="24"/>
+                                                                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="10"/>
+                                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <userDefinedRuntimeAttributes>
+                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                        <real key="value" value="12"/>
+                                                                                    </userDefinedRuntimeAttribute>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="TITLE_MY_WALLET"/>
+                                                                                </userDefinedRuntimeAttributes>
+                                                                            </label>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_next_arrow_rounded" translatesAutoresizingMaskIntoConstraints="NO" id="BGM-Eo-7Xu">
+                                                                                <rect key="frame" x="71.666666666666657" y="0.0" width="24" height="24"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" constant="24" id="dmX-a1-9gF"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="24" id="1Yb-Ch-TwJ"/>
+                                                                            <constraint firstItem="BGM-Eo-7Xu" firstAttribute="top" secondItem="6ae-eV-uEW" secondAttribute="top" id="FsX-oN-oxf"/>
+                                                                            <constraint firstAttribute="bottom" secondItem="BGM-Eo-7Xu" secondAttribute="bottom" id="Owc-ef-K7h"/>
+                                                                            <constraint firstItem="mTC-T7-bD6" firstAttribute="leading" secondItem="6ae-eV-uEW" secondAttribute="leading" id="asy-qV-04s"/>
+                                                                            <constraint firstAttribute="bottom" secondItem="mTC-T7-bD6" secondAttribute="bottom" id="dtt-Wx-ydX"/>
+                                                                            <constraint firstItem="BGM-Eo-7Xu" firstAttribute="leading" secondItem="mTC-T7-bD6" secondAttribute="trailing" constant="8" id="fNW-8h-GSN"/>
+                                                                            <constraint firstAttribute="trailing" secondItem="BGM-Eo-7Xu" secondAttribute="trailing" id="g02-Hw-JPg"/>
+                                                                            <constraint firstItem="mTC-T7-bD6" firstAttribute="top" secondItem="6ae-eV-uEW" secondAttribute="top" id="yx0-V5-BAG"/>
+                                                                        </constraints>
+                                                                    </view>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="6pi-df-VtG" firstAttribute="leading" secondItem="8bM-z7-qxr" secondAttribute="leading" constant="20" id="2gX-fh-mm2"/>
+                                                                    <constraint firstItem="6ae-eV-uEW" firstAttribute="centerY" secondItem="mnz-TT-gjc" secondAttribute="centerY" id="HJy-80-BjI"/>
+                                                                    <constraint firstItem="PaE-3X-TyK" firstAttribute="leading" secondItem="8bM-z7-qxr" secondAttribute="leading" id="J2d-cA-1eg"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="PaE-3X-TyK" secondAttribute="bottom" id="OVh-ar-8ck"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="6ae-eV-uEW" secondAttribute="trailing" constant="20" id="SkE-En-FIu"/>
+                                                                    <constraint firstItem="PaE-3X-TyK" firstAttribute="top" secondItem="8bM-z7-qxr" secondAttribute="top" id="Twp-I1-hwI"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="mnz-TT-gjc" secondAttribute="bottom" constant="20" id="UY5-3O-E5m"/>
+                                                                    <constraint firstItem="6pi-df-VtG" firstAttribute="top" secondItem="8bM-z7-qxr" secondAttribute="top" constant="20" id="Xkp-Bp-xwT"/>
+                                                                    <constraint firstItem="Kyg-C7-RR2" firstAttribute="leading" secondItem="8bM-z7-qxr" secondAttribute="leading" constant="20" symbolic="YES" id="Yoi-lm-yeL"/>
+                                                                    <constraint firstItem="Kyg-C7-RR2" firstAttribute="top" secondItem="8bM-z7-qxr" secondAttribute="top" constant="20" symbolic="YES" id="eG2-QA-175"/>
+                                                                    <constraint firstItem="mnz-TT-gjc" firstAttribute="leading" secondItem="8bM-z7-qxr" secondAttribute="leading" constant="20" id="h2p-99-4rp"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="PaE-3X-TyK" secondAttribute="trailing" id="oo1-62-82N"/>
+                                                                </constraints>
+                                                            </view>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="8bM-z7-qxr" secondAttribute="trailing" constant="20" id="9WX-c0-gKP"/>
+                                                            <constraint firstAttribute="bottom" secondItem="8bM-z7-qxr" secondAttribute="bottom" id="LwA-SU-Ahy"/>
+                                                            <constraint firstAttribute="width" secondItem="AhY-kX-Kqc" secondAttribute="height" multiplier="130:61" id="ZXr-iA-UFJ"/>
+                                                            <constraint firstItem="8bM-z7-qxr" firstAttribute="leading" secondItem="AhY-kX-Kqc" secondAttribute="leading" constant="20" id="mzZ-QQ-COE"/>
+                                                            <constraint firstItem="8bM-z7-qxr" firstAttribute="top" secondItem="AhY-kX-Kqc" secondAttribute="top" constant="20" id="rM9-pN-aIa"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SIc-04-lC6">
+                                                        <rect key="frame" x="0.0" y="183" width="390" height="304"/>
+                                                        <subviews>
+                                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="WA7-WQ-geg">
+                                                                <rect key="frame" x="0.0" y="54" width="390" height="250"/>
+                                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="250" id="4Om-ER-9pt"/>
+                                                                </constraints>
+                                                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="LIa-Xf-iqw">
+                                                                    <size key="itemSize" width="128" height="128"/>
+                                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                                    <inset key="sectionInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                                                </collectionViewFlowLayout>
+                                                                <cells/>
+                                                            </collectionView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Balance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MCg-fN-qcm" customClass="PekoLabel" customModule="Peko_India" customModuleProvider="target">
+                                                                <rect key="frame" x="20" y="20" width="350" height="24"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="24" id="MPX-w2-UuE"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="10"/>
+                                                                <color key="textColor" name="BlackThemeColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                        <real key="value" value="18"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="TITLE_PAY_QUICK_PAYMENT"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="WA7-WQ-geg" secondAttribute="trailing" id="3vw-4r-2Q8"/>
+                                                            <constraint firstAttribute="trailing" secondItem="MCg-fN-qcm" secondAttribute="trailing" constant="20" id="AUU-AA-6Rg"/>
+                                                            <constraint firstItem="WA7-WQ-geg" firstAttribute="leading" secondItem="SIc-04-lC6" secondAttribute="leading" id="Ovz-Oo-1cm"/>
+                                                            <constraint firstItem="MCg-fN-qcm" firstAttribute="leading" secondItem="SIc-04-lC6" secondAttribute="leading" constant="20" id="j29-Cc-HSh"/>
+                                                            <constraint firstAttribute="bottom" secondItem="WA7-WQ-geg" secondAttribute="bottom" id="sVB-Sp-WV7"/>
+                                                            <constraint firstItem="MCg-fN-qcm" firstAttribute="top" secondItem="SIc-04-lC6" secondAttribute="top" constant="20" id="tZd-Oh-8rj"/>
+                                                            <constraint firstAttribute="height" constant="304" id="ueZ-D4-ORG"/>
+                                                            <constraint firstItem="WA7-WQ-geg" firstAttribute="top" secondItem="MCg-fN-qcm" secondAttribute="bottom" constant="10" id="xjv-Q3-5oJ"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uNh-bW-Nw0">
+                                                        <rect key="frame" x="0.0" y="487" width="390" height="180"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Balance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2f-j7-j5N" customClass="PekoLabel" customModule="Peko_India" customModuleProvider="target">
+                                                                <rect key="frame" x="20" y="20" width="350" height="24"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="24" id="R5Y-ZB-Bp2"/>
+                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="no1-47-R6H"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="10"/>
+                                                                <color key="textColor" name="BlackThemeColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                        <real key="value" value="18"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="TITLE_UPCOMING_PAYMENTS"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                            <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ftu-dX-rSs">
+                                                                <rect key="frame" x="0.0" y="53.999999999999993" width="390" height="90.333333333333314"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="TUR-SS-CrF">
+                                                                    <size key="itemSize" width="128" height="90"/>
+                                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                </collectionViewFlowLayout>
+                                                                <cells/>
+                                                            </collectionView>
+                                                            <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="3p2-KA-WNQ">
+                                                                <rect key="frame" x="0.0" y="144.33333333333337" width="390" height="25.666666666666657"/>
+                                                                <color key="pageIndicatorTintColor" name="999999"/>
+                                                                <color key="currentPageIndicatorTintColor" name="BlackThemeColor"/>
+                                                            </pageControl>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="180" id="5g1-z8-Smn"/>
+                                                            <constraint firstAttribute="bottom" secondItem="3p2-KA-WNQ" secondAttribute="bottom" constant="10" id="AzI-3r-SBc"/>
+                                                            <constraint firstItem="ftu-dX-rSs" firstAttribute="leading" secondItem="uNh-bW-Nw0" secondAttribute="leading" id="Bcs-mh-cyK"/>
+                                                            <constraint firstItem="3p2-KA-WNQ" firstAttribute="leading" secondItem="uNh-bW-Nw0" secondAttribute="leading" id="CGB-lV-O5k"/>
+                                                            <constraint firstAttribute="trailing" secondItem="3p2-KA-WNQ" secondAttribute="trailing" id="KDz-39-aqy"/>
+                                                            <constraint firstItem="ftu-dX-rSs" firstAttribute="top" secondItem="u2f-j7-j5N" secondAttribute="bottom" constant="10" id="NFI-Eq-Vb4"/>
+                                                            <constraint firstAttribute="trailing" secondItem="u2f-j7-j5N" secondAttribute="trailing" constant="20" id="P5e-Jf-NzM"/>
+                                                            <constraint firstAttribute="trailing" secondItem="ftu-dX-rSs" secondAttribute="trailing" id="PG3-XS-R2M"/>
+                                                            <constraint firstItem="3p2-KA-WNQ" firstAttribute="top" secondItem="ftu-dX-rSs" secondAttribute="bottom" id="PjU-Uv-QxO"/>
+                                                            <constraint firstItem="u2f-j7-j5N" firstAttribute="top" secondItem="uNh-bW-Nw0" secondAttribute="top" constant="20" id="lU4-Ui-1tS"/>
+                                                            <constraint firstItem="u2f-j7-j5N" firstAttribute="leading" secondItem="uNh-bW-Nw0" secondAttribute="leading" constant="20" id="xV3-b2-Llg"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5vY-k7-S5p">
+                                                        <rect key="frame" x="0.0" y="667" width="390" height="166"/>
+                                                        <subviews>
+                                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yn0-cO-TcI">
+                                                                <rect key="frame" x="20" y="20" width="350" height="146"/>
+                                                                <subviews>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_apply_card_bg" translatesAutoresizingMaskIntoConstraints="NO" id="91K-1W-pis">
+                                                                        <rect key="frame" x="190" y="0.0" width="160" height="146"/>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" secondItem="91K-1W-pis" secondAttribute="height" multiplier="80:73" id="FCO-1T-z0n"/>
+                                                                        </constraints>
+                                                                    </imageView>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="UvR-NC-VjX">
+                                                                        <rect key="frame" x="20" y="25" width="185" height="96"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peko Expense Card" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dq5-6Z-oVe" customClass="PekoLabel" customModule="Peko_India" customModuleProvider="target">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="185" height="19.666666666666668"/>
+                                                                                <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="16"/>
+                                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <userDefinedRuntimeAttributes>
+                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                        <real key="value" value="16"/>
+                                                                                    </userDefinedRuntimeAttribute>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                                                </userDefinedRuntimeAttributes>
+                                                                            </label>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acI-7a-cLp" customClass="PekoLabel" customModule="Peko_India" customModuleProvider="target">
+                                                                                <rect key="frame" x="0.0" y="27.666666666666632" width="185" height="36.333333333333343"/>
+                                                                                <string key="text">Make the most out of everyday, Peko Expense Card  is getting ready. 
+Be an earlier user.</string>
+                                                                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="10"/>
+                                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <userDefinedRuntimeAttributes>
+                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                                        <real key="value" value="10"/>
+                                                                                    </userDefinedRuntimeAttribute>
+                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                                                </userDefinedRuntimeAttributes>
+                                                                            </label>
+                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="szp-d5-zgB">
+                                                                                <rect key="frame" x="0.0" y="72" width="185" height="24"/>
+                                                                                <subviews>
+                                                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZ0-9e-6DJ">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="24"/>
+                                                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                        <constraints>
+                                                                                            <constraint firstAttribute="height" constant="24" id="IyB-hF-OdQ"/>
+                                                                                            <constraint firstAttribute="width" constant="75" id="XFL-Ke-9M2"/>
+                                                                                        </constraints>
+                                                                                        <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="12"/>
+                                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                                        <state key="normal" title="Apply">
+                                                                                            <color key="titleColor" name="BlackThemeColor"/>
+                                                                                        </state>
+                                                                                        <userDefinedRuntimeAttributes>
+                                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                                <real key="value" value="12"/>
+                                                                                            </userDefinedRuntimeAttribute>
+                                                                                        </userDefinedRuntimeAttributes>
+                                                                                    </button>
+                                                                                </subviews>
+                                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <constraints>
+                                                                                    <constraint firstItem="BZ0-9e-6DJ" firstAttribute="leading" secondItem="szp-d5-zgB" secondAttribute="leading" id="Ju7-Qp-ajG"/>
+                                                                                    <constraint firstAttribute="bottom" secondItem="BZ0-9e-6DJ" secondAttribute="bottom" id="MHR-7C-QwO"/>
+                                                                                    <constraint firstItem="BZ0-9e-6DJ" firstAttribute="top" secondItem="szp-d5-zgB" secondAttribute="top" id="Rgi-j5-Y8Y"/>
+                                                                                </constraints>
+                                                                            </view>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="91K-1W-pis" firstAttribute="top" secondItem="yn0-cO-TcI" secondAttribute="top" id="0jg-tR-P2q"/>
+                                                                    <constraint firstItem="UvR-NC-VjX" firstAttribute="centerY" secondItem="yn0-cO-TcI" secondAttribute="centerY" id="7lz-EX-k02"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="91K-1W-pis" secondAttribute="trailing" id="9J4-ZD-Prn"/>
+                                                                    <constraint firstItem="UvR-NC-VjX" firstAttribute="leading" secondItem="yn0-cO-TcI" secondAttribute="leading" constant="20" id="eN6-pH-mm9"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="91K-1W-pis" secondAttribute="bottom" id="lrF-87-g0M"/>
+                                                                    <constraint firstItem="91K-1W-pis" firstAttribute="leading" secondItem="UvR-NC-VjX" secondAttribute="trailing" constant="-15" id="pbs-e1-dd1"/>
+                                                                </constraints>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                                        <real key="value" value="20"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                                        <real key="value" value="1"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                                        <size key="value" width="0.0" height="1"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                                        <color key="value" red="0.67843137254901964" green="0.83137254901960778" blue="0.9882352941176471" alpha="0.1953125" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </view>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="5vY-k7-S5p" secondAttribute="height" multiplier="195:83" id="An8-pi-4Gz"/>
+                                                            <constraint firstAttribute="bottom" secondItem="yn0-cO-TcI" secondAttribute="bottom" id="HUB-nz-5Rk"/>
+                                                            <constraint firstItem="yn0-cO-TcI" firstAttribute="leading" secondItem="5vY-k7-S5p" secondAttribute="leading" constant="20" id="J0Q-TI-use"/>
+                                                            <constraint firstItem="yn0-cO-TcI" firstAttribute="top" secondItem="5vY-k7-S5p" secondAttribute="top" constant="20" id="XnA-ec-pCv"/>
+                                                            <constraint firstAttribute="trailing" secondItem="yn0-cO-TcI" secondAttribute="trailing" constant="20" id="Zl6-0u-w6n"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="NCJ-uP-Dei" secondAttribute="trailing" id="155-WU-Kej"/>
+                                            <constraint firstItem="NCJ-uP-Dei" firstAttribute="leading" secondItem="oVQ-0h-6Vb" secondAttribute="leading" id="93t-5t-teX"/>
+                                            <constraint firstAttribute="bottom" secondItem="NCJ-uP-Dei" secondAttribute="bottom" constant="20" id="gQ5-ua-jMI"/>
+                                            <constraint firstItem="NCJ-uP-Dei" firstAttribute="top" secondItem="oVQ-0h-6Vb" secondAttribute="top" id="hld-qi-j5B"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="oVQ-0h-6Vb" secondAttribute="bottom" id="08R-dx-OYz"/>
+                                    <constraint firstAttribute="trailing" secondItem="oVQ-0h-6Vb" secondAttribute="trailing" id="GBH-nl-mk4"/>
+                                    <constraint firstItem="oVQ-0h-6Vb" firstAttribute="leading" secondItem="XUD-Tb-T5S" secondAttribute="leading" id="Gdf-UN-fgL"/>
+                                    <constraint firstItem="oVQ-0h-6Vb" firstAttribute="top" secondItem="XUD-Tb-T5S" secondAttribute="top" id="hRh-jB-v8g"/>
+                                </constraints>
+                            </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FzG-nb-vGf">
+                                <rect key="frame" x="0.0" y="47" width="390" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_peko_login" translatesAutoresizingMaskIntoConstraints="NO" id="eld-8Q-6LP">
+                                        <rect key="frame" x="20" y="16" width="80" height="18"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="PJX-C7-UnA"/>
+                                            <constraint firstAttribute="height" constant="18" id="vrI-hf-PdM"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_search_gray" translatesAutoresizingMaskIntoConstraints="NO" id="glI-cm-hnW">
+                                        <rect key="frame" x="343" y="13" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="4Da-ez-AL7"/>
+                                            <constraint firstAttribute="height" constant="24" id="DVY-rt-nOY"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZB-tO-w8Y">
+                                        <rect key="frame" x="330" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="OiK-O3-IZX"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <connections>
+                                            <action selector="searchButtonClick:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Ww8-JX-v1d"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="RZB-tO-w8Y" secondAttribute="bottom" id="4dd-0H-4GS"/>
+                                    <constraint firstAttribute="trailing" secondItem="RZB-tO-w8Y" secondAttribute="trailing" constant="10" id="Jt2-5O-OaV"/>
+                                    <constraint firstItem="RZB-tO-w8Y" firstAttribute="top" secondItem="FzG-nb-vGf" secondAttribute="top" id="SR3-BZ-Wv7"/>
+                                    <constraint firstItem="eld-8Q-6LP" firstAttribute="centerY" secondItem="FzG-nb-vGf" secondAttribute="centerY" id="TEa-aq-TrB"/>
+                                    <constraint firstItem="glI-cm-hnW" firstAttribute="centerX" secondItem="RZB-tO-w8Y" secondAttribute="centerX" id="YWB-eS-XHA"/>
+                                    <constraint firstItem="eld-8Q-6LP" firstAttribute="leading" secondItem="FzG-nb-vGf" secondAttribute="leading" constant="20" id="cCs-ym-y0l"/>
+                                    <constraint firstItem="glI-cm-hnW" firstAttribute="centerY" secondItem="RZB-tO-w8Y" secondAttribute="centerY" id="xC1-zW-D0M"/>
+                                    <constraint firstAttribute="height" constant="50" id="z07-PB-WQO"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.67843137254901964" green="0.83137254901960778" blue="0.9882352941176471" alpha="0.1953125" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TlA-yY-Y2K">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="47"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="XUD-Tb-T5S" secondAttribute="trailing" id="7BJ-eZ-lsT"/>
+                            <constraint firstItem="FzG-nb-vGf" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="9d2-s1-M21"/>
+                            <constraint firstItem="FzG-nb-vGf" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="AbY-YH-caB"/>
+                            <constraint firstItem="TlA-yY-Y2K" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="Ee8-Vh-d0i"/>
+                            <constraint firstItem="TlA-yY-Y2K" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="Tqo-nQ-95r"/>
+                            <constraint firstItem="FzG-nb-vGf" firstAttribute="top" secondItem="TlA-yY-Y2K" secondAttribute="bottom" id="YWj-uC-wJp"/>
+                            <constraint firstItem="oVQ-0h-6Vb" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" id="Zxu-Ri-B5a"/>
+                            <constraint firstItem="XUD-Tb-T5S" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="g3K-xf-0df"/>
+                            <constraint firstItem="FzG-nb-vGf" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="lQy-TU-xQq"/>
+                            <constraint firstAttribute="trailing" secondItem="TlA-yY-Y2K" secondAttribute="trailing" id="pTN-TS-xMG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="XUD-Tb-T5S" secondAttribute="bottom" id="vGY-9o-eDn"/>
+                            <constraint firstItem="XUD-Tb-T5S" firstAttribute="top" secondItem="FzG-nb-vGf" secondAttribute="bottom" id="whG-mg-exn"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="390" height="1044"/>
+                    <connections>
+                        <outlet property="homeCollectionView" destination="WA7-WQ-geg" id="WL6-6c-O3f"/>
+                        <outlet property="monthlySpendLabel" destination="y5T-Fi-Oo8" id="Zvh-bh-RNG"/>
+                        <outlet property="totalBalanceLabel" destination="Dli-ih-UBn" id="aWC-jH-La6"/>
+                        <outlet property="totalCashbackLabel" destination="61w-2B-nVV" id="uxx-6O-nzO"/>
+                        <outlet property="upcomingPaymentCollectionView" destination="ftu-dX-rSs" id="PtR-vA-1uo"/>
+                        <outlet property="upcomingPaymentPageControl" destination="3p2-KA-WNQ" id="Alx-sj-rIo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-455.38461538461536" y="-218.24644549763033"/>
+        </scene>
+        <!--More Service View Controller-->
+        <scene sceneID="e1V-8J-XfJ">
+            <objects>
+                <viewController storyboardIdentifier="MoreServiceViewController" id="JLw-dj-Nly" customClass="MoreServiceViewController" customModule="Peko_India" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MMl-ta-b39">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y55-PM-XAf">
+                                <rect key="frame" x="20" y="112" width="350" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_search_gray" translatesAutoresizingMaskIntoConstraints="NO" id="n74-n3-kSh">
+                                        <rect key="frame" x="0.0" y="13" width="50" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="0hZ-KG-ZSd"/>
+                                            <constraint firstAttribute="width" constant="50" id="AKA-L1-gjB"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d8Y-8T-Sod">
+                                        <rect key="frame" x="50" y="0.0" width="285" height="50"/>
+                                        <color key="textColor" name="BlackThemeColor"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="8eu-oI-TGE"/>
+                                    <constraint firstAttribute="trailing" secondItem="d8Y-8T-Sod" secondAttribute="trailing" constant="15" id="949-WI-IvQ"/>
+                                    <constraint firstItem="d8Y-8T-Sod" firstAttribute="top" secondItem="Y55-PM-XAf" secondAttribute="top" id="Bjs-aB-dbj"/>
+                                    <constraint firstItem="d8Y-8T-Sod" firstAttribute="leading" secondItem="n74-n3-kSh" secondAttribute="trailing" id="YNP-tp-xvk"/>
+                                    <constraint firstItem="n74-n3-kSh" firstAttribute="leading" secondItem="Y55-PM-XAf" secondAttribute="leading" id="dOo-if-K0C"/>
+                                    <constraint firstItem="n74-n3-kSh" firstAttribute="centerY" secondItem="Y55-PM-XAf" secondAttribute="centerY" id="ijY-1I-16M"/>
+                                    <constraint firstAttribute="bottom" secondItem="d8Y-8T-Sod" secondAttribute="bottom" id="iu0-Er-GCy"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="100"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.27058823529411763" green="0.27058823529411763" blue="0.31372549019607843" alpha="0.054820365646258501" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MZJ-oa-URN">
+                                <rect key="frame" x="0.0" y="177" width="390" height="633"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="NlA-wE-TLa">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="50" height="50"/>
+                                    <size key="footerReferenceSize" width="50" height="166"/>
+                                    <inset key="sectionInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="HomeHeaderCollectionReusableView" id="XZu-Dv-7EP" customClass="HomeHeaderCollectionReusableView" customModule="Peko_India" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Office Bills &amp; Recharges" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Se7-HK-oA6" customClass="PekoLabel" customModule="Peko_India" customModuleProvider="target">
+                                            <rect key="frame" x="20" y="0.0" width="350" height="50"/>
+                                            <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                            <color key="textColor" name="BlackThemeColor"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                    <real key="value" value="18"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Se7-HK-oA6" firstAttribute="top" secondItem="XZu-Dv-7EP" secondAttribute="top" id="2Mx-07-luG"/>
+                                        <constraint firstAttribute="bottom" secondItem="Se7-HK-oA6" secondAttribute="bottom" id="9f2-L1-FlW"/>
+                                        <constraint firstItem="Se7-HK-oA6" firstAttribute="leading" secondItem="XZu-Dv-7EP" secondAttribute="leading" constant="20" id="BNQ-8e-jON"/>
+                                        <constraint firstAttribute="trailing" secondItem="Se7-HK-oA6" secondAttribute="trailing" constant="20" id="btT-ep-yCS"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="titleLabel" destination="Se7-HK-oA6" id="c73-Mr-Eox"/>
+                                    </connections>
+                                </collectionReusableView>
+                                <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="MoreFooterCollectionReusableView" id="OAx-ej-eU9" customClass="MoreFooterCollectionReusableView" customModule="Peko_India" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="50" width="390" height="166"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HD6-op-nt8">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="146"/>
+                                            <subviews>
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I3V-57-Bco">
+                                                    <rect key="frame" x="20" y="20" width="350" height="126"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_apply_card_bg" translatesAutoresizingMaskIntoConstraints="NO" id="sfQ-Vc-vZ7">
+                                                            <rect key="frame" x="212" y="0.0" width="138" height="126"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="sfQ-Vc-vZ7" secondAttribute="height" multiplier="80:73" id="NYu-1D-95a"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="tdq-lV-Xbf">
+                                                            <rect key="frame" x="20" y="15" width="207" height="96"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peko Expense Card" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHf-qW-Uoc" customClass="PekoLabel" customModule="Peko_India" customModuleProvider="target">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="207" height="19.666666666666668"/>
+                                                                    <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="16"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                            <real key="value" value="16"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Bold"/>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXJ-KM-GUf" customClass="PekoLabel" customModule="Peko_India" customModuleProvider="target">
+                                                                    <rect key="frame" x="0.0" y="27.666666666666661" width="207" height="36.333333333333343"/>
+                                                                    <string key="text">Make the most out of everyday, Peko Expense Card  is getting ready. 
+Be an earlier user.</string>
+                                                                    <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="10"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                            <real key="value" value="10"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Regular"/>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                </label>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PnW-ff-Rag">
+                                                                    <rect key="frame" x="0.0" y="72" width="207" height="24"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HuI-rF-ZA5">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="75" height="24"/>
+                                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="24" id="8j3-Qf-BA3"/>
+                                                                                <constraint firstAttribute="width" constant="75" id="utZ-Cy-W9Y"/>
+                                                                            </constraints>
+                                                                            <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="12"/>
+                                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                            <state key="normal" title="Apply">
+                                                                                <color key="titleColor" name="BlackThemeColor"/>
+                                                                            </state>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                    <real key="value" value="12"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                        </button>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <constraints>
+                                                                        <constraint firstItem="HuI-rF-ZA5" firstAttribute="top" secondItem="PnW-ff-Rag" secondAttribute="top" id="OkY-6Z-yJI"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="HuI-rF-ZA5" secondAttribute="bottom" id="SLe-hO-bsB"/>
+                                                                        <constraint firstItem="HuI-rF-ZA5" firstAttribute="leading" secondItem="PnW-ff-Rag" secondAttribute="leading" id="whw-Cf-hy8"/>
+                                                                    </constraints>
+                                                                </view>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="sfQ-Vc-vZ7" firstAttribute="leading" secondItem="tdq-lV-Xbf" secondAttribute="trailing" constant="-15" id="IcZ-1x-25t"/>
+                                                        <constraint firstAttribute="trailing" secondItem="sfQ-Vc-vZ7" secondAttribute="trailing" id="LXu-29-pQf"/>
+                                                        <constraint firstItem="tdq-lV-Xbf" firstAttribute="leading" secondItem="I3V-57-Bco" secondAttribute="leading" constant="20" id="kaQ-d0-rKI"/>
+                                                        <constraint firstItem="tdq-lV-Xbf" firstAttribute="centerY" secondItem="I3V-57-Bco" secondAttribute="centerY" id="lOa-Wn-1qu"/>
+                                                        <constraint firstItem="sfQ-Vc-vZ7" firstAttribute="top" secondItem="I3V-57-Bco" secondAttribute="top" id="mBK-w4-B7u"/>
+                                                        <constraint firstAttribute="bottom" secondItem="sfQ-Vc-vZ7" secondAttribute="bottom" id="zwY-73-uGn"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="I3V-57-Bco" firstAttribute="top" secondItem="HD6-op-nt8" secondAttribute="top" constant="20" id="8jp-hk-8Wv"/>
+                                                <constraint firstAttribute="trailing" secondItem="I3V-57-Bco" secondAttribute="trailing" constant="20" id="euP-bc-Zgj"/>
+                                                <constraint firstAttribute="bottom" secondItem="I3V-57-Bco" secondAttribute="bottom" id="gwE-sj-DoF"/>
+                                                <constraint firstItem="I3V-57-Bco" firstAttribute="leading" secondItem="HD6-op-nt8" secondAttribute="leading" constant="20" id="z2q-7n-chm"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="HD6-op-nt8" secondAttribute="bottom" constant="20" id="CRd-bh-NRt"/>
+                                        <constraint firstItem="HD6-op-nt8" firstAttribute="leading" secondItem="OAx-ej-eU9" secondAttribute="leading" id="iqV-Y7-ZPL"/>
+                                        <constraint firstAttribute="trailing" secondItem="HD6-op-nt8" secondAttribute="trailing" id="nhV-Yk-Ude"/>
+                                        <constraint firstItem="HD6-op-nt8" firstAttribute="top" secondItem="OAx-ej-eU9" secondAttribute="top" id="pJP-rF-CRF"/>
+                                    </constraints>
+                                </collectionReusableView>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="a0r-zs-TVm"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="MZJ-oa-URN" firstAttribute="leading" secondItem="a0r-zs-TVm" secondAttribute="leading" id="2nb-hP-JmU"/>
+                            <constraint firstItem="Y55-PM-XAf" firstAttribute="leading" secondItem="a0r-zs-TVm" secondAttribute="leading" constant="20" id="42h-H6-alE"/>
+                            <constraint firstItem="MZJ-oa-URN" firstAttribute="top" secondItem="Y55-PM-XAf" secondAttribute="bottom" constant="15" id="8gx-Vg-WOl"/>
+                            <constraint firstItem="Y55-PM-XAf" firstAttribute="top" secondItem="a0r-zs-TVm" secondAttribute="top" constant="65" id="Gdg-Hq-553"/>
+                            <constraint firstItem="MZJ-oa-URN" firstAttribute="trailing" secondItem="a0r-zs-TVm" secondAttribute="trailing" id="Hyq-xP-qgT"/>
+                            <constraint firstItem="a0r-zs-TVm" firstAttribute="bottom" secondItem="MZJ-oa-URN" secondAttribute="bottom" id="QCj-J2-7ar"/>
+                            <constraint firstItem="a0r-zs-TVm" firstAttribute="trailing" secondItem="Y55-PM-XAf" secondAttribute="trailing" constant="20" id="s6p-Qa-PV7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="serviceCollectionView" destination="MZJ-oa-URN" id="n4p-en-Dih"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Eq-y9-w8N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="284.61538461538458" y="-218.24644549763033"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="0el-Pp-3q8">
+            <size key="intrinsicContentSize" width="63.666666666666664" height="12.333333333333334"/>
+        </designable>
+        <designable name="61w-2B-nVV"/>
+        <designable name="Dli-ih-UBn">
+            <size key="intrinsicContentSize" width="104.66666666666667" height="22"/>
+        </designable>
+        <designable name="Dq5-6Z-oVe">
+            <size key="intrinsicContentSize" width="151" height="19.666666666666668"/>
+        </designable>
+        <designable name="IXJ-KM-GUf">
+            <size key="intrinsicContentSize" width="328.66666666666669" height="24.333333333333332"/>
+        </designable>
+        <designable name="MCg-fN-qcm">
+            <size key="intrinsicContentSize" width="63.666666666666664" height="12.333333333333334"/>
+        </designable>
+        <designable name="Se7-HK-oA6">
+            <size key="intrinsicContentSize" width="209.66666666666666" height="22"/>
+        </designable>
+        <designable name="ZHf-qW-Uoc">
+            <size key="intrinsicContentSize" width="151" height="19.666666666666668"/>
+        </designable>
+        <designable name="acI-7a-cLp">
+            <size key="intrinsicContentSize" width="328.66666666666669" height="24.333333333333332"/>
+        </designable>
+        <designable name="cCk-mp-GbT">
+            <size key="intrinsicContentSize" width="63.666666666666664" height="12.333333333333334"/>
+        </designable>
+        <designable name="k0z-7k-IDS">
+            <size key="intrinsicContentSize" width="63.666666666666664" height="12.333333333333334"/>
+        </designable>
+        <designable name="mTC-T7-bD6">
+            <size key="intrinsicContentSize" width="63.666666666666664" height="12.333333333333334"/>
+        </designable>
+        <designable name="u2f-j7-j5N">
+            <size key="intrinsicContentSize" width="63.666666666666664" height="12.333333333333334"/>
+        </designable>
+        <designable name="y5T-Fi-Oo8"/>
+    </designables>
+    <resources>
+        <image name="icon_apply_card_bg" width="512" height="468"/>
+        <image name="icon_next_arrow_rounded" width="512" height="512"/>
+        <image name="icon_search_gray" width="24" height="24"/>
+        <image name="logo_peko_login" width="393" height="96"/>
+        <image name="top_card_gradient_bg" width="1412" height="664"/>
+        <namedColor name="999999">
+            <color red="0.60000002384185791" green="0.60000002384185791" blue="0.60000002384185791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BlackThemeColor">
+            <color red="0.086000002920627594" green="0.086000002920627594" blue="0.086000002920627594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

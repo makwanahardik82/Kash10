@@ -1,0 +1,220 @@
+/* 
+  Localizable.strings
+  Peko
+
+  Created by Hardik Makwana on 25/11/23.
+  
+*/
+
+
+// MARK: - Validation
+
+
+// MARK: - COMMON
+
+"TITLE_CANCEL" = "Cancel";
+
+// MARK: - DASHBOARD
+
+"TITLE_WELCOME" = "Welcome";
+
+"TITLE_CASHBACK" = "Cashback";
+
+"TITLE_PAY_NOW" = "Pay Now";
+
+"TITLE_PAY_QUICK_PAYMENT" = "Quick Payments";
+
+"TITLE_UPCOMING_PAYMENTS" = "Upcoming Payments";
+
+"TITLE_TOTAL_BALANCE" = "Total Balance";
+
+"TITLE_TOATAL_CASHBACK" = "Total Cashback";
+
+"TITLE_MONTHLY_SPENDS" = "Monthly Spends";
+
+"TITLE_MY_WALLET" = "My Wallet";
+
+"TITLE_PEKO_ASSISTANT" = "Peko Assistant is always there to help you";
+
+"TITLE_CUSTOMER_SUPPORT" = "24/7 Customer Support";
+
+// MARK: - More Services
+
+"TITLE_ALL_BILLS_RECHARGES" = "All Bills & Recharges";
+
+
+// MARK: - TITLE_
+
+"TITLE_MOBILE_RECHARGE" = "Mobile Recharge";
+
+// MARK: - SIGN UP
+
+"TITLE_WELCOME_TEXT" = "Welcome to Peko\nLet’s create an account";
+
+"TITLE_VERIFY_ACCOUNT_TEXT" = "I verify that I am an authorized representative of this organization and have the right to act on its behalf in the creation and management of this account. The organization and I agree Privacy policy & Terms and conditions";
+
+
+// MARK: - SETTING
+
+
+"TITLE_SETTINGS" = "Settings";
+
+"TITLE_EDIT_PROFILE" = "Edit Profile";
+
+"TITLE_ABOUT" = "About";
+
+"TITLE_NOTIFICATION" = "Notification";
+
+"TITLE_MANAGE_ACCOUNT" = "Manage Account";
+
+"TITLE_HELP_DESK" = "Help & Support";
+
+"TITLE_RATE_APP" = "Rate App";
+
+"TITLE_MANAGE_BENEFICIARY" = "Manage Beneficiary";
+
+"TITLE_LOGOUT" = "Logout";
+
+"TITLE_APP_VERSION" = "App Version: Kash10 App";
+
+"MSG_LOGOUT_FROM_APP" = "Are you sure want to Log Out?";
+
+
+
+// MARK: - GIFT CARD
+
+"TITLE_BUY_GIFT_CARDS" = "Buy Gift Cards";
+
+"TITLE_PURCHASED" = "Purchased";
+
+
+
+"TITLE_GIFT_CARD_PURHCASE" = "Gift Card is Purchased";
+
+"TITLE_CONFIRMATION_EMAIL" = "You will receive a confirmation email once the payment process is completed.";
+
+"TITLE_THANK_YOU_USING_PEKO" = "Thank you for using Peko.";
+
+"TITLE_" = "";
+
+"TITLE_" = "";
+
+
+
+// MARK: - PHONE BILLS
+
+"TITLE_QUICK_PAY" = "Quick Pay";
+
+"TITLE_BENEFICIARY" = "Beneficiary";
+
+"TITLE_CONTINUE" = "Continue";
+
+// MARK: - Create Invoice
+
+"TITLE_CREATE_INVOICE" = "Create Invoice";
+
+"TITLE_CREATED" = "Created";
+
+"TITLE_ENTER_DETAILS" = "Enter Details";
+
+"TITLE_ADD" = "Add";
+
+"TITLE_ADD_BENEFICIARY_DETAILS" = "Add Beneficiary Details";
+
+"TITLE_UPDATE_BENEFICIARY_DETAILS" = "Update Beneficiary Details";
+
+// MARK: - ULITITY
+
+"TITLE_ALL_ULTILITY_BILLS" = "All Utility Bills";
+
+"TITLE_FETCH_BILL" = "Fetch Bill";
+
+
+// MARK: - Subscriptions
+
+"TITLE_BUY_SUBSCRIPTIONS" = "Buy Subscriptions";
+
+"TITLE_SUBSCRIBED" = "Subscribed";
+
+
+// MARK: -
+
+"TITLE_UPCOMING" = "Upcoming";
+
+"TITLE_PAST" = "Past";
+
+// MARK: -
+
+"TITLE_PREPARE_SHIPMENT" = "Prepare Shipment";
+
+"TITLE_MY_BOOKINGS" = "My Bookings";
+
+// MARK: -
+
+"TITLE_DESCRIPTION" = "Description";
+
+"TITLE_HIGHLIGHTS" = "Highlights";
+
+
+// MARK: - Office Supplies / PEKO STORE
+
+"TITLE_ITEMS" = "Items";
+
+"TITLE_PRODUCT" = "Product";
+
+"TITLE_QUANTITY" = "Quantity";
+
+"TITLE_PRICE" = "Price";
+
+"TITLE_DELIVERY_DETAILS" = "Delivery Details";
+
+"TITLE_ITEM_DELIVERED_2_4" = "This item will be delivered with 2 to 4 working days";
+
+
+// MARK: - Payment
+
+"TITLE_REVIEW_YOUR_PAYMENT" = "Review Your Payment";
+
+"TITLE_BILL_SUMMARY" = "Bill Summary";
+
+"TITLE_AMOUNT_SUMMARY" = "Amount Summary";
+
+"TITLE_SELECT_PAYMENT_METHOD" = "Select Payment Method";
+
+
+"TITLE_PAYMENT_SUCCESS" = "Payment Success!";
+
+"TITLE_YOUR_TXN_SUCCESS" = "Your transaction was successful";
+
+"TITLE_TOTAL_PAYMENT" = "Total Payment";
+
+"TITLE_TXN_ID" = "Transaction ID";
+
+"TITLE_DATE" = "Date";
+
+"TITLE_TIME" = "Time";
+
+"TITLE_SERVICE" = "Service";
+
+"TITLE_CONSUMER_NUMBER" = "Consumer Number";
+
+"TITLE_SERVICE_PROVIDER" = "Service Provider";
+
+"TITLE_TOTAL" = "Total";
+
+"TITLE_VOUCHER" = "Voucher";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+  
+

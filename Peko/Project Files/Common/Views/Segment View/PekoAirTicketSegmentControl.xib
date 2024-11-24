@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PekoAirTicketSegmentControl" customModule="Peko" customModuleProvider="target">
+            <connections>
+                <outlet property="firstButton" destination="Kzr-sh-Ix0" id="5ym-8G-8OV"/>
+                <outlet property="secondButton" destination="fxG-Xw-5NE" id="mRV-wh-12k"/>
+                <outlet property="segment1ArrowImgView" destination="eQo-zE-VxQ" id="Qkq-4K-XlB"/>
+                <outlet property="segment1Label1" destination="f4u-SY-dan" id="t5k-i1-Qj9"/>
+                <outlet property="segment1Label2" destination="s7d-lm-zDp" id="qvd-lP-AZy"/>
+                <outlet property="segment2ArrowImgView" destination="Rf8-pF-9PU" id="fYL-18-lUg"/>
+                <outlet property="segment2Label1" destination="AFC-NL-OiK" id="hjU-Xn-9af"/>
+                <outlet property="segment2Label2" destination="mRZ-RN-gpW" id="XzG-6b-YvY"/>
+                <outlet property="segmentLine1" destination="gqh-0X-w7Z" id="I96-4d-zSa"/>
+                <outlet property="segmentLine2" destination="ojw-Me-OeE" id="XpF-Uh-nui"/>
+                <outlet property="view_1" destination="Ft2-ib-k0N" id="G7h-ii-b8z"/>
+                <outlet property="view_2" destination="2PU-n7-L4x" id="5b7-gb-BpT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="l3Z-eu-ohu">
+                    <rect key="frame" x="30" y="0.0" width="333" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ft2-ib-k0N">
+                            <rect key="frame" x="0.0" y="0.0" width="146.66666666666666" height="50"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4u-SY-dan" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="56.333333333333336" height="50"/>
+                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
+                                    <color key="textColor" name="RedButtonColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                            <real key="value" value="18"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7d-lm-zDp" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                    <rect key="frame" x="90.333333333333329" y="0.0" width="56.333333333333329" height="50"/>
+                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
+                                    <color key="textColor" name="RedButtonColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                            <real key="value" value="18"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="eQo-zE-VxQ">
+                                    <rect key="frame" x="61.333333333333329" y="15.999999999999996" width="24" height="18.333333333333339"/>
+                                    <color key="tintColor" name="RedButtonColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="24" id="TTR-I2-Ifj"/>
+                                        <constraint firstAttribute="width" constant="24" id="ZWa-lr-9e1"/>
+                                    </constraints>
+                                </imageView>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kzr-sh-Ix0">
+                                    <rect key="frame" x="0.0" y="0.0" width="146.66666666666666" height="50"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <connections>
+                                        <action selector="segmentButtonClick:" destination="-1" eventType="touchUpInside" id="F1g-7c-vFI"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqh-0X-w7Z">
+                                    <rect key="frame" x="0.0" y="48" width="146.66666666666666" height="2"/>
+                                    <color key="backgroundColor" name="RedButtonColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="2" id="VN8-uv-2PY"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="gqh-0X-w7Z" secondAttribute="bottom" id="0S8-PN-Bto"/>
+                                <constraint firstItem="s7d-lm-zDp" firstAttribute="leading" secondItem="eQo-zE-VxQ" secondAttribute="trailing" constant="5" id="0yL-da-ElF"/>
+                                <constraint firstItem="eQo-zE-VxQ" firstAttribute="centerX" secondItem="Ft2-ib-k0N" secondAttribute="centerX" id="8EZ-kL-8Dd"/>
+                                <constraint firstItem="gqh-0X-w7Z" firstAttribute="leading" secondItem="Ft2-ib-k0N" secondAttribute="leading" id="8a7-bX-msT"/>
+                                <constraint firstAttribute="trailing" secondItem="s7d-lm-zDp" secondAttribute="trailing" id="973-It-7lE"/>
+                                <constraint firstItem="eQo-zE-VxQ" firstAttribute="centerY" secondItem="Ft2-ib-k0N" secondAttribute="centerY" id="A8g-F0-LcP"/>
+                                <constraint firstAttribute="trailing" secondItem="Kzr-sh-Ix0" secondAttribute="trailing" id="B9z-wd-N5n"/>
+                                <constraint firstItem="f4u-SY-dan" firstAttribute="top" secondItem="Ft2-ib-k0N" secondAttribute="top" id="Exc-4V-Tun"/>
+                                <constraint firstItem="Kzr-sh-Ix0" firstAttribute="leading" secondItem="Ft2-ib-k0N" secondAttribute="leading" id="H7R-Cd-FLc"/>
+                                <constraint firstItem="Kzr-sh-Ix0" firstAttribute="top" secondItem="Ft2-ib-k0N" secondAttribute="top" id="HdP-Jz-DCn"/>
+                                <constraint firstItem="f4u-SY-dan" firstAttribute="leading" secondItem="Ft2-ib-k0N" secondAttribute="leading" id="XPA-YR-QEc"/>
+                                <constraint firstAttribute="bottom" secondItem="f4u-SY-dan" secondAttribute="bottom" id="f5z-VK-Ray"/>
+                                <constraint firstItem="eQo-zE-VxQ" firstAttribute="leading" secondItem="f4u-SY-dan" secondAttribute="trailing" constant="5" id="gug-Jj-ygr"/>
+                                <constraint firstAttribute="trailing" secondItem="gqh-0X-w7Z" secondAttribute="trailing" id="inS-Cl-W4c"/>
+                                <constraint firstItem="s7d-lm-zDp" firstAttribute="top" secondItem="Ft2-ib-k0N" secondAttribute="top" id="kgB-l4-LgK"/>
+                                <constraint firstAttribute="bottom" secondItem="Kzr-sh-Ix0" secondAttribute="bottom" id="mYw-yO-mXW"/>
+                                <constraint firstAttribute="bottom" secondItem="s7d-lm-zDp" secondAttribute="bottom" id="xk5-28-Tr9"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2PU-n7-L4x">
+                            <rect key="frame" x="186.66666666666663" y="0.0" width="146.33333333333337" height="50"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFC-NL-OiK" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="56" height="50"/>
+                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
+                                    <color key="textColor" name="RedButtonColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                            <real key="value" value="18"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRZ-RN-gpW" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                    <rect key="frame" x="90.000000000000028" y="0.0" width="56.333333333333343" height="50"/>
+                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
+                                    <color key="textColor" name="RedButtonColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Medium"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                            <real key="value" value="18"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Rf8-pF-9PU">
+                                    <rect key="frame" x="61.000000000000028" y="15.999999999999996" width="24" height="18.333333333333339"/>
+                                    <color key="tintColor" name="RedButtonColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="24" id="jDY-Hm-ADS"/>
+                                        <constraint firstAttribute="width" constant="24" id="p3G-Vx-aBL"/>
+                                    </constraints>
+                                </imageView>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxG-Xw-5NE">
+                                    <rect key="frame" x="0.0" y="0.0" width="146.33333333333334" height="50"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <connections>
+                                        <action selector="segmentButtonClick:" destination="-1" eventType="touchUpInside" id="Eem-9s-bck"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojw-Me-OeE">
+                                    <rect key="frame" x="0.0" y="48" width="146.33333333333334" height="2"/>
+                                    <color key="backgroundColor" name="RedButtonColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="2" id="lQv-2w-AE8"/>
+                                        <constraint firstAttribute="height" constant="2" id="zL4-ZZ-i4L"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="ojw-Me-OeE" secondAttribute="trailing" id="135-oO-iWY"/>
+                                <constraint firstItem="Rf8-pF-9PU" firstAttribute="leading" secondItem="AFC-NL-OiK" secondAttribute="trailing" constant="5" id="7kJ-HP-CHW"/>
+                                <constraint firstAttribute="bottom" secondItem="mRZ-RN-gpW" secondAttribute="bottom" id="8Vm-Fz-dJM"/>
+                                <constraint firstItem="fxG-Xw-5NE" firstAttribute="leading" secondItem="2PU-n7-L4x" secondAttribute="leading" id="B2M-ID-mCO"/>
+                                <constraint firstAttribute="trailing" secondItem="mRZ-RN-gpW" secondAttribute="trailing" id="WTn-hb-Tmz"/>
+                                <constraint firstAttribute="trailing" secondItem="fxG-Xw-5NE" secondAttribute="trailing" id="WzJ-E1-TXS"/>
+                                <constraint firstItem="AFC-NL-OiK" firstAttribute="leading" secondItem="2PU-n7-L4x" secondAttribute="leading" id="ZL3-A2-zXG"/>
+                                <constraint firstItem="AFC-NL-OiK" firstAttribute="top" secondItem="2PU-n7-L4x" secondAttribute="top" id="bkR-WC-9dj"/>
+                                <constraint firstItem="mRZ-RN-gpW" firstAttribute="leading" secondItem="Rf8-pF-9PU" secondAttribute="trailing" constant="5" id="c36-cA-k08"/>
+                                <constraint firstItem="fxG-Xw-5NE" firstAttribute="top" secondItem="2PU-n7-L4x" secondAttribute="top" id="cpe-bP-hAk"/>
+                                <constraint firstItem="ojw-Me-OeE" firstAttribute="leading" secondItem="2PU-n7-L4x" secondAttribute="leading" id="dxr-uK-Slm"/>
+                                <constraint firstItem="Rf8-pF-9PU" firstAttribute="centerY" secondItem="2PU-n7-L4x" secondAttribute="centerY" id="efi-oH-ZsF"/>
+                                <constraint firstAttribute="bottom" secondItem="ojw-Me-OeE" secondAttribute="bottom" id="kMp-n8-aG5"/>
+                                <constraint firstAttribute="bottom" secondItem="AFC-NL-OiK" secondAttribute="bottom" id="llT-wV-hNT"/>
+                                <constraint firstItem="mRZ-RN-gpW" firstAttribute="top" secondItem="2PU-n7-L4x" secondAttribute="top" id="q5k-Or-rhk"/>
+                                <constraint firstAttribute="bottom" secondItem="fxG-Xw-5NE" secondAttribute="bottom" id="xGk-T5-DUn"/>
+                                <constraint firstItem="Rf8-pF-9PU" firstAttribute="centerX" secondItem="2PU-n7-L4x" secondAttribute="centerX" id="xp1-qR-kb1"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="l3Z-eu-ohu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="ScO-bq-lol"/>
+                <constraint firstItem="l3Z-eu-ohu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="b17-zz-zYM"/>
+                <constraint firstAttribute="bottom" secondItem="l3Z-eu-ohu" secondAttribute="bottom" id="dJH-Ao-PQA"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="l3Z-eu-ohu" secondAttribute="trailing" constant="30" id="eaG-sr-Z2j"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="35" y="0.0"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="AFC-NL-OiK">
+            <size key="intrinsicContentSize" width="44" height="21.333333333333332"/>
+        </designable>
+        <designable name="f4u-SY-dan">
+            <size key="intrinsicContentSize" width="44" height="21.333333333333332"/>
+        </designable>
+        <designable name="mRZ-RN-gpW">
+            <size key="intrinsicContentSize" width="44" height="21.333333333333332"/>
+        </designable>
+        <designable name="s7d-lm-zDp">
+            <size key="intrinsicContentSize" width="44" height="21.333333333333332"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="arrow.right" catalog="system" width="128" height="95"/>
+        <namedColor name="RedButtonColor">
+            <color red="1" green="0.31000000238418579" blue="0.31000000238418579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

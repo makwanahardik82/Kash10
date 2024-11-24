@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PaymentCollectionViewCell" id="gTV-IL-0wX" customClass="PaymentCollectionViewCell" customModule="Peko" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="102" height="124"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="102" height="124"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JLv-CI-9Gi">
+                        <rect key="frame" x="0.0" y="0.0" width="102" height="124"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zd8-Mc-Lkl">
+                                <rect key="frame" x="0.0" y="0.0" width="102" height="124"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="etisalat_logo" translatesAutoresizingMaskIntoConstraints="NO" id="M7H-RY-GE0">
+                                <rect key="frame" x="35.666666666666664" y="15.000000000000002" width="30.666666666666664" height="30.666666666666671"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="M7H-RY-GE0" secondAttribute="height" multiplier="1:1" id="pMH-6W-P2e"/>
+                                </constraints>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMi-ux-FqQ">
+                                <rect key="frame" x="0.0" y="61.666666666666664" width="102" height="1"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.8980392157" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="uvf-Co-PLp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AED 987" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYB-gW-zC0">
+                                <rect key="frame" x="10" y="62.666666666666657" width="82" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="ycT-6A-lHH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="14"/>
+                                <color key="textColor" name="BlackThemeColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TPL-z8-pad">
+                                <rect key="frame" x="20.000000000000004" y="88" width="62.333333333333343" height="16"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jg-Y9-db8" customClass="PekoLabel" customModule="Peko" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="BlackThemeColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="TITLE_PAY_NOW"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontStyleName" value="Light"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_arrow_right_rounded" translatesAutoresizingMaskIntoConstraints="NO" id="wgV-18-glB">
+                                        <rect key="frame" x="44.333333333333329" y="-1" width="18" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="18" id="plK-y2-AVv"/>
+                                            <constraint firstAttribute="height" constant="18" id="uwQ-eL-h53"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="wgV-18-glB" firstAttribute="leading" secondItem="6jg-Y9-db8" secondAttribute="trailing" constant="3" id="7vO-qs-EJf"/>
+                                    <constraint firstAttribute="height" constant="16" id="8QU-oX-wAh"/>
+                                    <constraint firstItem="6jg-Y9-db8" firstAttribute="leading" secondItem="TPL-z8-pad" secondAttribute="leading" id="9UE-eE-YoW"/>
+                                    <constraint firstItem="6jg-Y9-db8" firstAttribute="top" secondItem="TPL-z8-pad" secondAttribute="top" id="9ab-YH-V4I"/>
+                                    <constraint firstAttribute="bottom" secondItem="6jg-Y9-db8" secondAttribute="bottom" id="XjV-Tj-IrE"/>
+                                    <constraint firstAttribute="trailing" secondItem="wgV-18-glB" secondAttribute="trailing" id="q7q-hy-cty"/>
+                                    <constraint firstItem="wgV-18-glB" firstAttribute="centerY" secondItem="TPL-z8-pad" secondAttribute="centerY" id="yjb-St-NMO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WMi-ux-FqQ" firstAttribute="leading" secondItem="JLv-CI-9Gi" secondAttribute="leading" id="3ah-i3-6mT"/>
+                            <constraint firstAttribute="trailing" secondItem="Zd8-Mc-Lkl" secondAttribute="trailing" id="6eM-pa-3Mw"/>
+                            <constraint firstAttribute="trailing" secondItem="WMi-ux-FqQ" secondAttribute="trailing" id="A5N-Lv-Kow"/>
+                            <constraint firstItem="WMi-ux-FqQ" firstAttribute="top" secondItem="M7H-RY-GE0" secondAttribute="bottom" constant="16" id="BLW-bk-YJP"/>
+                            <constraint firstItem="M7H-RY-GE0" firstAttribute="centerX" secondItem="JLv-CI-9Gi" secondAttribute="centerX" id="Djn-SG-RAn"/>
+                            <constraint firstItem="Zd8-Mc-Lkl" firstAttribute="leading" secondItem="JLv-CI-9Gi" secondAttribute="leading" id="EZj-Ht-zkY"/>
+                            <constraint firstItem="TPL-z8-pad" firstAttribute="centerX" secondItem="JLv-CI-9Gi" secondAttribute="centerX" id="EeB-CJ-Fpv"/>
+                            <constraint firstItem="M7H-RY-GE0" firstAttribute="top" secondItem="JLv-CI-9Gi" secondAttribute="top" constant="15" id="M4b-RX-dr4"/>
+                            <constraint firstItem="oYB-gW-zC0" firstAttribute="leading" secondItem="JLv-CI-9Gi" secondAttribute="leading" constant="10" id="Nq1-gq-VkZ"/>
+                            <constraint firstItem="Zd8-Mc-Lkl" firstAttribute="top" secondItem="JLv-CI-9Gi" secondAttribute="top" id="U7n-dZ-0Cz"/>
+                            <constraint firstAttribute="bottom" secondItem="Zd8-Mc-Lkl" secondAttribute="bottom" id="aIy-0a-cqE"/>
+                            <constraint firstItem="WMi-ux-FqQ" firstAttribute="centerY" secondItem="JLv-CI-9Gi" secondAttribute="centerY" id="hF0-G3-y9l"/>
+                            <constraint firstAttribute="bottom" secondItem="TPL-z8-pad" secondAttribute="bottom" constant="20" id="j6H-X7-89J"/>
+                            <constraint firstItem="oYB-gW-zC0" firstAttribute="top" secondItem="WMi-ux-FqQ" secondAttribute="bottom" id="lc1-zL-w2U"/>
+                            <constraint firstAttribute="trailing" secondItem="oYB-gW-zC0" secondAttribute="trailing" constant="10" id="phb-Qn-a8Q"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="JLv-CI-9Gi" secondAttribute="trailing" id="EQr-e0-dgG"/>
+                <constraint firstItem="JLv-CI-9Gi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="axQ-M4-H1I"/>
+                <constraint firstAttribute="bottom" secondItem="JLv-CI-9Gi" secondAttribute="bottom" id="fT9-9o-GIk"/>
+                <constraint firstItem="JLv-CI-9Gi" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ny9-Gj-ZxI"/>
+            </constraints>
+            <size key="customSize" width="175" height="181"/>
+            <connections>
+                <outlet property="amountLabel" destination="oYB-gW-zC0" id="KDp-1V-PR7"/>
+                <outlet property="bgImgView" destination="Zd8-Mc-Lkl" id="cs9-tN-sQT"/>
+                <outlet property="logoImgView" destination="M7H-RY-GE0" id="phP-Td-l3l"/>
+            </connections>
+            <point key="canvasLocation" x="-36.92307692307692" y="27.72511848341232"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="6jg-Y9-db8">
+            <size key="intrinsicContentSize" width="41.333333333333336" height="20.333333333333332"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="etisalat_logo" width="512" height="512"/>
+        <image name="icon_arrow_right_rounded" width="22.333333969116211" height="22.333333969116211"/>
+        <namedColor name="BlackThemeColor">
+            <color red="0.086000002920627594" green="0.086000002920627594" blue="0.086000002920627594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ElectricityProviderTableViewCell" rowHeight="66" id="KGk-i7-Jjw" customClass="ElectricityProviderTableViewCell" customModule="Peko_India" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Frame 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="2o9-bx-rYv">
+                        <rect key="frame" x="20" y="13" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="2OX-Kh-IfR"/>
+                            <constraint firstAttribute="height" constant="40" id="AyN-zk-Lp5"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kerala State Electricity Board Ltd. (KSEBL)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3r2-Ii-ZBp">
+                        <rect key="frame" x="70" y="13" width="240" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="2e0-vA-B8t"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                        <color key="textColor" name="BlackThemeColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="3r2-Ii-ZBp" secondAttribute="trailing" constant="10" id="1pU-of-66k"/>
+                    <constraint firstItem="2o9-bx-rYv" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="5NO-xY-Rdk"/>
+                    <constraint firstItem="3r2-Ii-ZBp" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="5o8-kP-5iT"/>
+                    <constraint firstItem="2o9-bx-rYv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="pJP-ID-uSR"/>
+                    <constraint firstItem="3r2-Ii-ZBp" firstAttribute="leading" secondItem="2o9-bx-rYv" secondAttribute="trailing" constant="10" id="xtQ-K1-ety"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="logoImgView" destination="2o9-bx-rYv" id="yPT-41-7de"/>
+                <outlet property="nameLabel" destination="3r2-Ii-ZBp" id="SoV-IO-EWq"/>
+            </connections>
+            <point key="canvasLocation" x="111.45038167938931" y="-3.5211267605633805"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Frame 2.png" width="47.25" height="47.25"/>
+        <namedColor name="BlackThemeColor">
+            <color red="0.086000002920627594" green="0.086000002920627594" blue="0.086000002920627594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

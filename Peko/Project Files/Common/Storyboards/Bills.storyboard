@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Bills View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="BillsViewController" id="Y6W-OH-hqX" customClass="BillsViewController" customModule="Kash10" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aWV-ls-A0N">
+                                <rect key="frame" x="20" y="124" width="353" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_search_gray" translatesAutoresizingMaskIntoConstraints="NO" id="TaO-8R-pCB">
+                                        <rect key="frame" x="0.0" y="13" width="50" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="4FE-gY-Mjc"/>
+                                            <constraint firstAttribute="height" constant="24" id="Jq3-qc-tQT"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r3i-NX-8WV">
+                                        <rect key="frame" x="50" y="0.0" width="288" height="50"/>
+                                        <color key="textColor" name="BlackThemeColor"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="r3i-NX-8WV" secondAttribute="trailing" constant="15" id="58W-CE-WOv"/>
+                                    <constraint firstItem="r3i-NX-8WV" firstAttribute="leading" secondItem="TaO-8R-pCB" secondAttribute="trailing" id="Ltv-jm-eXW"/>
+                                    <constraint firstItem="r3i-NX-8WV" firstAttribute="top" secondItem="aWV-ls-A0N" secondAttribute="top" id="NFf-dR-cQb"/>
+                                    <constraint firstAttribute="height" constant="50" id="TLa-0J-igz"/>
+                                    <constraint firstAttribute="bottom" secondItem="r3i-NX-8WV" secondAttribute="bottom" id="Vjl-pA-cvh"/>
+                                    <constraint firstItem="TaO-8R-pCB" firstAttribute="leading" secondItem="aWV-ls-A0N" secondAttribute="leading" id="aMG-zv-E2S"/>
+                                    <constraint firstItem="TaO-8R-pCB" firstAttribute="centerY" secondItem="aWV-ls-A0N" secondAttribute="centerY" id="l8s-wK-Fhl"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="100"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.27058823529999998" green="0.27058823529999998" blue="0.31372549020000001" alpha="0.054820365650000001" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zXH-UR-aKr">
+                                <rect key="frame" x="0.0" y="189" width="393" height="629"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="qbk-0L-rR9">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="aWV-ls-A0N" secondAttribute="trailing" constant="20" id="Aoi-T1-mol"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="zXH-UR-aKr" secondAttribute="bottom" id="Q6j-mV-SOF"/>
+                            <constraint firstItem="zXH-UR-aKr" firstAttribute="top" secondItem="aWV-ls-A0N" secondAttribute="bottom" constant="15" id="Thp-sO-rya"/>
+                            <constraint firstItem="zXH-UR-aKr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Wbm-hk-R3n"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="zXH-UR-aKr" secondAttribute="trailing" id="dQy-TY-hd8"/>
+                            <constraint firstItem="aWV-ls-A0N" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="hqN-fw-hU5"/>
+                            <constraint firstItem="aWV-ls-A0N" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="65" id="nVT-TN-Xvq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="billCollectionView" destination="zXH-UR-aKr" id="oKA-kz-CzP"/>
+                        <outlet property="searchTxt" destination="r3i-NX-8WV" id="Dce-kj-rkE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51" y="-23"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_search_gray" width="24" height="24"/>
+        <namedColor name="BlackThemeColor">
+            <color red="0.086000002920627594" green="0.086000002920627594" blue="0.086000002920627594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

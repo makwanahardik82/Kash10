@@ -1,0 +1,142 @@
+PODS:
+  - Alamofire (5.9.1)
+  - Bolt (1.1.0)
+  - Cirque (1.0.3)
+  - CodableFirebase (0.2.1)
+  - DapiBanking (2.14.0)
+  - Fastis (3.2.0):
+    - JTAppleCalendar (~> 8.0.0)
+    - PrettyCards (~> 1.0.0)
+  - FSCalendar (2.8.4)
+  - IQKeyboardManagerSwift (7.1.1)
+  - JTAppleCalendar (8.0.5)
+  - KMPlaceholderTextView (1.4.0)
+  - lottie-ios (4.5.0)
+  - NISdk (5.1.7)
+  - ParallaxHeader (3.0.0)
+  - Phone-Country-Code-and-Flags (0.2.1)
+  - PhoneCountryCodePicker (0.2.0):
+    - Phone-Country-Code-and-Flags
+  - PrettyCards (1.0.5)
+  - PureLayout (3.1.9)
+  - ReachabilitySwift (5.2.3)
+  - SDWebImage (5.19.6):
+    - SDWebImage/Core (= 5.19.6)
+  - SDWebImage/Core (5.19.6)
+  - SkeletonView (1.30.4)
+  - StripeApplePay (23.29.2):
+    - StripeCore (= 23.29.2)
+  - StripeCore (23.29.2)
+  - StripePayments (23.29.2):
+    - StripeCore (= 23.29.2)
+    - StripePayments/Stripe3DS2 (= 23.29.2)
+  - StripePayments/Stripe3DS2 (23.29.2):
+    - StripeCore (= 23.29.2)
+  - StripePaymentSheet (23.29.2):
+    - StripeApplePay (= 23.29.2)
+    - StripeCore (= 23.29.2)
+    - StripePayments (= 23.29.2)
+    - StripePaymentsUI (= 23.29.2)
+  - StripePaymentsUI (23.29.2):
+    - StripeCore (= 23.29.2)
+    - StripePayments (= 23.29.2)
+    - StripeUICore (= 23.29.2)
+  - StripeUICore (23.29.2):
+    - StripeCore (= 23.29.2)
+  - SwiftyGif (5.4.5)
+  - SwiftyStarRatingView (1.0.4)
+  - WARangeSlider (1.2.0)
+  - WDScrollableSegmentedControl (0.1.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - Bolt
+  - Cirque
+  - CodableFirebase
+  - DapiBanking
+  - Fastis
+  - FSCalendar
+  - IQKeyboardManagerSwift
+  - KMPlaceholderTextView
+  - lottie-ios
+  - NISdk
+  - ParallaxHeader
+  - PhoneCountryCodePicker
+  - PureLayout
+  - ReachabilitySwift
+  - SDWebImage
+  - SkeletonView
+  - StripePaymentSheet
+  - SwiftyGif
+  - SwiftyStarRatingView
+  - WARangeSlider
+  - WDScrollableSegmentedControl
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Bolt
+    - Cirque
+    - CodableFirebase
+    - DapiBanking
+    - Fastis
+    - FSCalendar
+    - IQKeyboardManagerSwift
+    - JTAppleCalendar
+    - KMPlaceholderTextView
+    - lottie-ios
+    - NISdk
+    - ParallaxHeader
+    - Phone-Country-Code-and-Flags
+    - PhoneCountryCodePicker
+    - PrettyCards
+    - PureLayout
+    - ReachabilitySwift
+    - SDWebImage
+    - SkeletonView
+    - StripeApplePay
+    - StripeCore
+    - StripePayments
+    - StripePaymentSheet
+    - StripePaymentsUI
+    - StripeUICore
+    - SwiftyGif
+    - SwiftyStarRatingView
+    - WARangeSlider
+    - WDScrollableSegmentedControl
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  Bolt: 724145df1071255f33f0f892e4c30715dd50e933
+  Cirque: 1eb134f2180b33107106dc72e47340aefb054da3
+  CodableFirebase: 0bf201991eeec35eb9fcd987d271ea463cf34a80
+  DapiBanking: 636c6556f03bdef1fb0c4575408b0e526a7c20ea
+  Fastis: 498c1033c3a2313b01aac205115233543b6b6668
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  IQKeyboardManagerSwift: d7f3d3a562c237a0e7335e657cd598c452f57f1b
+  JTAppleCalendar: 16c6501b22cb27520372c28b0a2e0b12c8d0cd73
+  KMPlaceholderTextView: 2206c3df39979e9396e2d96fa9f427a8951121b0
+  lottie-ios: a881093fab623c467d3bce374367755c272bdd59
+  NISdk: b0ca021999cc777257f9381f2f897f12ad16fb16
+  ParallaxHeader: a343f55eb38f52a89c5820a77e14cf975b84e6aa
+  Phone-Country-Code-and-Flags: 19b303483d6e14091a1e3a404ec2aac8f08a985c
+  PhoneCountryCodePicker: 3d8a797562bbcd2309944e0b683eadaa824cacad
+  PrettyCards: 2b078f2396a42f7f0c4d6624b875149dcb49d3ed
+  PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
+  ReachabilitySwift: 7f151ff156cea1481a8411701195ac6a984f4979
+  SDWebImage: a79252b60f4678812d94316c91da69ec83089c9f
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  StripeApplePay: dff104aeee493627a649576a0014d76eadabceee
+  StripeCore: 9edec1b15faa6bb7f46def319cc689dc37a8d233
+  StripePayments: f1465ee56d5589630ffaf4ad873d400d8752f8f8
+  StripePaymentSheet: 3ac22717a234352d83e936d8b1fe8c5fdb9a9286
+  StripePaymentsUI: 6b182240135130d5d61cd8a9c48717264ac203ec
+  StripeUICore: 5f21b736a399dff66d6c8ca7e2ce3e4fd02c40fd
+  SwiftyGif: 706c60cf65fa2bc5ee0313beece843c8eb8194d4
+  SwiftyStarRatingView: a2b0057700e0adeb8e7442c55d99cb53b531d2f4
+  WARangeSlider: 03f195d4dc5419e6b0d9043cc94fdf418dfe804d
+  WDScrollableSegmentedControl: 6799710bc004f2c2e64905ca6a497d16e2e60030
+
+PODFILE CHECKSUM: 7b863745f66b98098cbbe8c729838106386d8836
+
+COCOAPODS: 1.15.2
