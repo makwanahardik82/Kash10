@@ -26,11 +26,21 @@ extension String {
         }.joined(separator: separator))
     }
     func dateFromISO8601()->Date? {
+       /*
         let strDate = self.replacingOccurrences(of: ".000Z", with: "Z")
         let localISOFormatter = ISO8601DateFormatter()
         localISOFormatter.timeZone = TimeZone.current
 
         return localISOFormatter.date(from: strDate)
+        */
+        let array = self.components(separatedBy: ".")
+        let strDate = array[0] + "Z"
+        let localISOFormatter = ISO8601DateFormatter()
+        localISOFormatter.timeZone = TimeZone.current
+
+        return localISOFormatter.date(from: strDate)
+        
+        
         /*
         let df = DateFormatter()
         df.calendar = Calendar(identifier: .iso8601)

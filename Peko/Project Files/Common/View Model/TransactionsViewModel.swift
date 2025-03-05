@@ -13,6 +13,7 @@ struct TransactionsViewModel {
       
         let url = ApiEnd().GET_TRANSACTION + "?from=\(fromDate.formate()) 00:00:00&to=\(toDate.formate()) 23:59:59&categoryName=\(categoryName)&searchText=\(searchText)&sort=\(sort)&page=\(offset)&itemsPerPage=\(limit)&filter=\(filter)"
       
+        print("Transaction => ", url)
         WSManager.getRequest(url: url, resultType: ResponseModel<TransactionResponseModel>.self) { result, error in
             response(result, error)
         }

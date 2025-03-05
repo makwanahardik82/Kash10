@@ -22,7 +22,7 @@ import UIKit
 //}
 
 struct LoginDataModel:Codable {
-    let id: Int?
+    let id: String?
     let corporateId: Int?
     
     let username:String?

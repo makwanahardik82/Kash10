@@ -32,8 +32,8 @@ class LoginViewController: UIViewController {
         }else{
             
             self.userNameTxt.text = "100000001"
-            self.passwordTxt.text = "Admin@123"
-////            
+            self.passwordTxt.text = "user@123" // Admin@123"
+////
 //            self.userNameTxt.text = "100000148"
 //            self.passwordTxt.text = "123456"
            
@@ -88,7 +88,7 @@ class LoginViewController: UIViewController {
                         
                         objUserSession.is_login = true
                         
-                        objUserSession.user_id = response?.data?.id ?? 0
+                        objUserSession.user_id = response?.data?.id ?? "0"
                         objUserSession.username = response?.data?.username ?? ""
                         objUserSession.token = response?.data?.token ?? ""
                         objUserSession.role = response?.data?.role ?? ""

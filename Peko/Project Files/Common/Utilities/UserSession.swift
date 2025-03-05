@@ -50,9 +50,9 @@ class UserSession: NSObject {
         }
     }
     
-    var user_id:Int {
+    var user_id:String {
         get{
-            return UserDefaults.standard.integer(forKey: UserSession.kUserID)
+            return UserDefaults.standard.string(forKey: UserSession.kUserID)  ?? ""
         }set{
             UserDefaults.standard.setValue(newValue, forKey: UserSession.kUserID)
             UserDefaults.standard.synchronize()
@@ -259,7 +259,7 @@ class UserSession: NSObject {
         
 //        LoginViewModel().logout { reeponse, error in
 //            print(reeponse)
-            self.user_id = 0
+            self.user_id = ""
             self.username = ""
             self.token = ""
             self.role = ""

@@ -36,7 +36,7 @@ class TransactionDetailViewController: MainViewController {
 
         self.view.backgroundColor = AppColors.blackThemeColor?.withAlphaComponent(0.8)
       
-        let bill_amount = transactionModel?.order?.amountInAed?.toDouble()
+        let bill_amount = transactionModel?.order?.amountInUsd?.value ?? 0.0
         let cashback_amount = (transactionModel?.corporateCashback ?? "0.0").toDouble()
       
         if cashback_amount == 0.0 {
@@ -45,7 +45,7 @@ class TransactionDetailViewController: MainViewController {
             self.cashbackStackView.isHidden = false
             self.totalCashbackLabel.text = objUserSession.currency + "+ " + (cashback_amount.decimalPoints())
         }
-        self.totalPaymentLabel.text = objUserSession.currency + (bill_amount?.withCommas() ?? "")
+        self.totalPaymentLabel.text = objUserSession.currency + (bill_amount.withCommas())
         
         self.transactionIdLabel.text = transactionModel?.corporateTxnId ?? ""
         self.dateLabel.text = transactionModel?.date.formate(format: "dd MMMM’yy")

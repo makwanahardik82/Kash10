@@ -37,7 +37,8 @@ class TransactionsViewController: MainViewController {
         "Office Address":"icon_office_space",
         "Softwares":"icon_subscription_payments",
         "Gift Cards/Vouchers":"icon_gift_cards",
-        "Others":"icon_bills"
+        "Others":"icon_bills",
+        "Mobile Topup":"icon_mobile_top_up"
     ]
     
     static func storyboardInstance() -> TransactionsViewController? {
@@ -63,12 +64,12 @@ class TransactionsViewController: MainViewController {
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.isNavigationBarHidden = true
         self.transactionTableView.reloadData()
-        var offset = 1
+        self.offset = 1
         self.getTransaction()
     }
     // MARK: - Get Transaction
     func getTransaction() {
-        TransactionsViewModel().getTransactionsDetails(fromDate: self.fromDate!, toDate: self.toDate, categoryName: self.categoryName, searchText: "", offset: self.offset) { response, error in
+        TransactionsViewModel().getTransactionsDetails(fromDate: self.fromDate!, toDate: self.toDate, categoryName: self.categoryName, searchText: "", offset: self.offset, limit: 30) { response, error in
             if error != nil {
                 
 #if DEBUG
@@ -85,8 +86,8 @@ class TransactionsViewController: MainViewController {
                     if self.offset == 1 {
                         self.transactionArray.removeAll()
                     }
-                    
-                    self.transactionArray.append(contentsOf: response?.data?.result ?? [TransactionModel]())
+                    let array = (response?.data?.result ?? [TransactionModel]()) //.reversed()
+                    self.transactionArray.append(contentsOf: array)
                     self.searchArray = self.transactionArray // .reversed()
                   //  self.transactionTableView.reloadData()
                     
@@ -171,14 +172,22 @@ extension TransactionsViewController:UITableViewDelegate, UITableViewDataSource 
             let transaction = self.searchArray[indexPath.row]
             
             cell.iconImgView.image = UIImage(named: self.iconArray[transaction.transactionCategory ?? ""] ?? "")
-            cell.dateLabel.text = transaction.date.formate(format: "MMMM dd, yyyy")
-            cell.paymentLabel.text = transaction.serviceOperator?.serviceProvider ?? ""
+            cell.dateLabel.text = transaction.date.formate(format: "MMMM dd, yyyy 'at' h:mm a") //formate(format: "MMMM dd, yyyy")
+            
+            let serviceProvider = transaction.serviceOperator?.serviceProvider ?? ""
+            
+            if serviceProvider.count == 0 {
+                cell.paymentLabel.text = transaction.transactionCategory ?? ""
+            }else{
+                cell.paymentLabel.text = serviceProvider
+            }
             
             
-            let bill_amount = transaction.order?.amountInAed?.toDouble()
+            
+            let bill_amount = (transaction.order?.amountInUsd?.value ?? 0.0) // ?? "0.0").toDouble()
             let cashback_amount = (transaction.corporateCashback ?? "0.0").toDouble()
             
-            cell.billAmountLabel.text = objUserSession.currency + (bill_amount?.decimalPoints(point: 2))!
+            cell.billAmountLabel.text = objUserSession.currency + (bill_amount.decimalPoints(point: 2))
             
             if cashback_amount == 0.0 {
                 cell.cashbackLabel.text = ""

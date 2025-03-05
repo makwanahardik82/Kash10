@@ -995,7 +995,9 @@ class PaymentReviewViewController: MainViewController {
         }else if self.paymentPayNow == .eSIM {
             parameters = eSimViewModel().getParametersForCreateOrder(amount: finalAmount)
         }
+        parameters["pgAmount"] = finalAmount
         
+        print(parameters.toJSON())
         
         CommonViewModel().createStripeOrder(param: parameters) { response, error in
             print(response)

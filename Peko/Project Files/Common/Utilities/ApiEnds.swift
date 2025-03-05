@@ -17,7 +17,7 @@ class ApiEnd {
             if is_live {
                 return "https://aeapi.peko.one/"
             }else{
-                return "https://api-gateway.salmonflower-b84cd6b0.westus2.azurecontainerapps.io/" //https://api-gateway.orangeocean-fa607906.uaenorth.azurecontainerapps.io/" // "https://sitae.peko.one/"
+                return "https://uatapi.kash10.com/" //https://api-gateway.orangeocean-fa607906.uaenorth.azurecontainerapps.io/" // "https://sitae.peko.one/"
             }
         }else if objShareManager.getAppTarget() == .PekoIndia {
             if is_live {
@@ -852,7 +852,7 @@ class ApiEnd {
     var UPDATE_PROFILE_DETAILS:String {
         get{
            // if objShareManager.appTarget == .PekoUAE {
-                return "/api/v1/\(objUserSession.role)/\(objUserSession.user_id)/others/profile"
+                return "api/v1/\(objUserSession.role)/\(objUserSession.user_id)/others/profile"
 //            }else{
 //                return "api/v1/profile/\(objUserSession.user_id)"
 //            }
@@ -869,7 +869,7 @@ class ApiEnd {
     var CHANGE_PASSWORD:String {
         get{
          //   if objShareManager.appTarget == .PekoUAE {
-                return "/api/v1/\(objUserSession.role)/\(objUserSession.user_id)/others/profile/changePassword"
+                return "api/v1/\(objUserSession.role)/\(objUserSession.user_id)/others/profile/changePassword"
 //            }else{
 //                return "api/v1/profile/changePassword/change"
 //            }
@@ -948,9 +948,9 @@ class ApiEnd {
     var GET_DASHBOARD_DETAILS:String {
         get{
             if objShareManager.appTarget == .PekoUAE {
-                return "/api/v1/\(objUserSession.role)/\(objUserSession.user_id)/others/dashboard/details"
+                return "api/v1/\(objUserSession.role)/\(objUserSession.user_id)/others/dashboard/details"
             }else{
-                return "/api/v1/\(objUserSession.role)/\(objUserSession.user_id)/others/dashboard/details" // "api/v1/dashboard/details/\(objUserSession.user_id)"
+                return "api/v1/\(objUserSession.role)/\(objUserSession.user_id)/others/dashboard/details" // "api/v1/dashboard/details/\(objUserSession.user_id)"
             }
         }
     }

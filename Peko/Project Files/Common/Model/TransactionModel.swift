@@ -34,7 +34,7 @@ struct TransactionModel: Codable {
     var bill_amount:Double {
         get {
             if objShareManager.appTarget == .PekoUAE {
-                return self.order?.amountInAed?.toDouble() ?? 0.0
+                return self.order?.amountInUsd?.value ?? 0.0
             }else{
                 return self.order?.amountInINR?.toDouble() ?? 0.0
             }
@@ -43,7 +43,7 @@ struct TransactionModel: Codable {
 }
 struct TransactionOrderModel: Codable {
     let id:Int?
-    let amountInAed:String?
+    let amountInUsd:CustomDouble?
     let amountInINR:String?
     let paymentMode:String?
     let status:String?

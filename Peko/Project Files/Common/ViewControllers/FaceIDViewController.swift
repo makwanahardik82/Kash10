@@ -99,7 +99,7 @@ class FaceIDViewController: MainViewController {
                    
                     objUserSession.is_login = true
                     
-                    objUserSession.user_id = response?.data?.id ?? 0
+                    objUserSession.user_id = response?.data?.id ?? "0"
                     objUserSession.username = response?.data?.username ?? ""
                     objUserSession.token = response?.data?.token ?? ""
                     objUserSession.role = response?.data?.role ?? ""

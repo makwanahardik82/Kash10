@@ -15,7 +15,7 @@ struct OTPViewModel {
             "mobileNo":objUserSession.mobileCountryCode + otpRequest.mobileNo!,
             "email":otpRequest.email!,
             "scope": Constants.OTP_SCOPE,
-            "resend":true
+         //   "resend":true
         ] as [String : Any]
         
         print("\n\n\nGENERATE OTP => ", parameter.toJSON())

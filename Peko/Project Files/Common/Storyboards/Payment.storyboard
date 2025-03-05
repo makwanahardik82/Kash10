@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -91,7 +91,7 @@
                             </userDefinedRuntimeAttributes>
                         </label>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="rWM-3E-sOA">
-                            <rect key="frame" x="20" y="65" width="350" height="255"/>
+                            <rect key="frame" x="20" y="65" width="350" height="165"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hih-vM-7W8" customClass="DashedView" customModule="Kash10" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="350" height="75"/>
@@ -288,8 +288,8 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAx-tf-aFa" customClass="DashedView" customModule="Kash10" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="180" width="350" height="75"/>
+                                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAx-tf-aFa" customClass="DashedView" customModule="Kash10" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="165" width="350" height="75"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_payment_bank" translatesAutoresizingMaskIntoConstraints="NO" id="U0N-Nw-Ats">
                                             <rect key="frame" x="15" y="14" width="47" height="47"/>
@@ -306,7 +306,7 @@
                                             </constraints>
                                         </imageView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="VB7-aJ-EO6">
-                                            <rect key="frame" x="77" y="15.666666666666682" width="225" height="43.666666666666657"/>
+                                            <rect key="frame" x="77" y="15.666666666666654" width="225" height="43.666666666666657"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bolt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRg-z8-ObM">
                                                     <rect key="frame" x="0.0" y="0.0" width="225" height="19.666666666666668"/>
@@ -315,7 +315,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T1g-0Q-aM3">
-                                                    <rect key="frame" x="0.0" y="27.666666666666629" width="225" height="16"/>
+                                                    <rect key="frame" x="0.0" y="27.666666666666657" width="225" height="16"/>
                                                     <subviews>
                                                         <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Axis Bank" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPA-3n-ZlC">
                                                             <rect key="frame" x="0.0" y="0.0" width="65.666666666666671" height="16"/>
@@ -387,7 +387,7 @@
                             </subviews>
                         </stackView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2f-bM-UkY" customClass="PekoButton" customModule="Kash10" customModuleProvider="target">
-                            <rect key="frame" x="20" y="350" width="350" height="56"/>
+                            <rect key="frame" x="20" y="260" width="350" height="56"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="56" id="HMn-WR-krd"/>
                             </constraints>
@@ -511,7 +511,7 @@
                                             <rect key="frame" x="0.0" y="54" width="323" height="27"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free cancellation before" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ko1-ue-yUJ" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
-                                                    <rect key="frame" x="0.0" y="0.0" width="150.33333333333334" height="27"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="149.66666666666666" height="27"/>
                                                     <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                     <color key="textColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -523,7 +523,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24 January 2024" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mtq-PB-RDE" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
-                                                    <rect key="frame" x="154.33333333333334" y="0.0" width="104.33333333333334" height="27"/>
+                                                    <rect key="frame" x="153.66666666666666" y="0.0" width="105.33333333333334" height="27"/>
                                                     <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
                                                     <color key="textColor" name="RedButtonColor"/>
                                                     <nil key="highlightedColor"/>
@@ -746,10 +746,10 @@
                                                         </constraints>
                                                     </stackView>
                                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="erU-Vd-rMq">
-                                                        <rect key="frame" x="99" y="152" width="195" height="38"/>
+                                                        <rect key="frame" x="100.66666666666669" y="152" width="192" height="38"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVH-ae-bdF" customClass="PekoButton" customModule="Kash10" customModuleProvider="target">
-                                                                <rect key="frame" x="20" y="0.0" width="155" height="38"/>
+                                                                <rect key="frame" x="20" y="0.0" width="152" height="38"/>
                                                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" title="Go to License Renewal">
@@ -801,10 +801,10 @@
                                                         <rect key="frame" x="20" y="30" width="313" height="50"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="dSL-lu-Xck">
-                                                                <rect key="frame" x="0.0" y="0.0" width="114" height="50"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="112.33333333333333" height="50"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Payment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nV-aP-dii" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="114" height="15.333333333333334"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="112.33333333333333" height="15.333333333333334"/>
                                                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                                         <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -817,7 +817,7 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AED 8,999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0BB-Zi-LfF" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="24.333333333333314" width="114" height="25.666666666666671"/>
+                                                                        <rect key="frame" x="0.0" y="24.333333333333314" width="112.33333333333333" height="25.666666666666671"/>
                                                                         <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="24"/>
                                                                         <color key="textColor" name="121212"/>
                                                                         <nil key="highlightedColor"/>
@@ -832,10 +832,10 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="twd-bD-z7a">
-                                                                <rect key="frame" x="233.33333333333329" y="11.666666666666686" width="79.666666666666657" height="38.333333333333336"/>
+                                                                <rect key="frame" x="235.33333333333329" y="11.333333333333314" width="77.666666666666657" height="38.666666666666664"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cashback Earned" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ze7-pm-d4Z" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="79.666666666666671" height="11.666666666666666"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="77.666666666666671" height="12"/>
                                                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
                                                                         <color key="textColor" name="Border_039800"/>
                                                                         <nil key="highlightedColor"/>
@@ -848,7 +848,7 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+ AED 09" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s06-Pi-4KL" customClass="PekoLabel" customModule="Kash10" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="20.666666666666629" width="79.666666666666671" height="17.666666666666671"/>
+                                                                        <rect key="frame" x="0.0" y="21" width="77.666666666666671" height="17.666666666666671"/>
                                                                         <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
                                                                         <color key="textColor" name="Border_039800"/>
                                                                         <nil key="highlightedColor"/>
@@ -1331,102 +1331,10 @@
             <point key="canvasLocation" x="2343" y="-23"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="0BB-Zi-LfF">
-            <size key="intrinsicContentSize" width="114" height="28"/>
-        </designable>
-        <designable name="5KO-sq-guW">
-            <size key="intrinsicContentSize" width="89.666666666666671" height="16.333333333333332"/>
-        </designable>
-        <designable name="7nV-aP-dii">
-            <size key="intrinsicContentSize" width="89" height="16.333333333333332"/>
-        </designable>
-        <designable name="BLc-Jd-gUw">
-            <size key="intrinsicContentSize" width="251.33333333333334" height="21"/>
-        </designable>
-        <designable name="Beg-DP-iBY">
-            <size key="intrinsicContentSize" width="89.666666666666671" height="16.333333333333332"/>
-        </designable>
-        <designable name="GBO-Un-c9B">
-            <size key="intrinsicContentSize" width="89.666666666666671" height="16.333333333333332"/>
-        </designable>
-        <designable name="IBo-Mj-TBf">
-            <size key="intrinsicContentSize" width="46" height="30"/>
-        </designable>
-        <designable name="KH8-AS-UFL">
-            <size key="intrinsicContentSize" width="102.66666666666667" height="16.333333333333332"/>
-        </designable>
-        <designable name="Ko1-ue-yUJ">
-            <size key="intrinsicContentSize" width="150.33333333333334" height="16.333333333333332"/>
-        </designable>
-        <designable name="Mtq-PB-RDE">
-            <size key="intrinsicContentSize" width="104.33333333333333" height="16.333333333333332"/>
-        </designable>
-        <designable name="Qnz-gm-KLH">
-            <size key="intrinsicContentSize" width="89.666666666666671" height="16.333333333333332"/>
-        </designable>
-        <designable name="QpR-Kc-d29">
-            <size key="intrinsicContentSize" width="720" height="168"/>
-        </designable>
-        <designable name="T82-km-4nB">
-            <size key="intrinsicContentSize" width="100.66666666666667" height="21"/>
-        </designable>
-        <designable name="V5I-fC-2s2">
-            <size key="intrinsicContentSize" width="41.666666666666664" height="20"/>
-        </designable>
-        <designable name="XdO-4B-00L">
-            <size key="intrinsicContentSize" width="186.66666666666666" height="15.333333333333334"/>
-        </designable>
-        <designable name="ZAd-88-bWM">
-            <size key="intrinsicContentSize" width="91.666666666666671" height="19"/>
-        </designable>
-        <designable name="Ze7-pm-d4Z">
-            <size key="intrinsicContentSize" width="79.666666666666671" height="11.666666666666666"/>
-        </designable>
-        <designable name="coF-aB-YXe">
-            <size key="intrinsicContentSize" width="30.666666666666668" height="16.333333333333332"/>
-        </designable>
-        <designable name="e2f-bM-UkY">
-            <size key="intrinsicContentSize" width="46" height="30"/>
-        </designable>
-        <designable name="gf9-dv-Gh1">
-            <size key="intrinsicContentSize" width="132.33333333333334" height="16.333333333333332"/>
-        </designable>
-        <designable name="oi5-QD-XSJ">
-            <size key="intrinsicContentSize" width="166" height="23.333333333333332"/>
-        </designable>
-        <designable name="ojA-83-0LU">
-            <size key="intrinsicContentSize" width="89.666666666666671" height="16.333333333333332"/>
-        </designable>
-        <designable name="s06-Pi-4KL">
-            <size key="intrinsicContentSize" width="63.666666666666664" height="17.666666666666668"/>
-        </designable>
-        <designable name="tgl-oa-ast">
-            <size key="intrinsicContentSize" width="89.666666666666671" height="16.333333333333332"/>
-        </designable>
-        <designable name="uM7-Zp-UDk">
-            <size key="intrinsicContentSize" width="41.666666666666664" height="20"/>
-        </designable>
-        <designable name="vcw-N7-74s">
-            <size key="intrinsicContentSize" width="29.333333333333332" height="16.333333333333332"/>
-        </designable>
-        <designable name="w3m-8w-gtS">
-            <size key="intrinsicContentSize" width="89.666666666666671" height="16.333333333333332"/>
-        </designable>
-        <designable name="wVH-ae-bdF">
-            <size key="intrinsicContentSize" width="155" height="30"/>
-        </designable>
-        <designable name="xnA-aB-kCd">
-            <size key="intrinsicContentSize" width="46.666666666666664" height="16.333333333333332"/>
-        </designable>
-        <designable name="xvE-4o-dVq">
-            <size key="intrinsicContentSize" width="115.66666666666667" height="15.333333333333334"/>
-        </designable>
-    </designables>
     <resources>
         <image name="icon_box_check" width="22" height="22"/>
         <image name="icon_box_uncheck" width="22" height="22"/>
-        <image name="icon_download_invoice" width="720" height="168"/>
+        <image name="icon_download_invoice" width="728" height="176"/>
         <image name="icon_payment_bank" width="47.333332061767578" height="47.333332061767578"/>
         <image name="icon_payment_bank_edit" width="15" height="15"/>
         <image name="icon_payment_card" width="47.333332061767578" height="47.333332061767578"/>
